@@ -194,6 +194,14 @@
               </router-link>
             </li>
             @endcan
+            @can('countries')
+            <li class="nav-item">
+              <router-link to="/countries" class="nav-link">
+                <i class="fa fa-users nav-icon"></i>
+                <p>{{ __('translation.Countries') }}</p>
+              </router-link>
+            </li>
+            @endcan
             {{-- SETTINGS --}}
             @canany(['roles','permissions','application', 'profile'])
             <li class="nav-item menu-close">

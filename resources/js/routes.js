@@ -1,4 +1,5 @@
 const routes = [
+    // Admin Routes
     {
         name: 'dashboard', path: '/dashboard', component: require('./admin/components/dashboard.vue').default
     },
@@ -17,6 +18,10 @@ const routes = [
     {
         name: 'profile', path: '/profile', component: require('./admin/components/profile.vue').default
     },
+    {
+        name: 'countries', path: '/countries', component: require('./admin/components/countries.vue').default
+    },
+    //  Web Routs
     {
         name: '/blogs', path: '/blogs', component: require('./web/components/blogs.vue').default
     },

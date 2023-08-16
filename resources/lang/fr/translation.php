@@ -10,5 +10,6 @@ return [
     "Application"=>"Application",
     "Logout"=>"Déconnexion",
     "Profile" => "Profil",
+    "Countries" => "Countries",
 ];
 ?>
