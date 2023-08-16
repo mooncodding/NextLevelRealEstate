@@ -22,7 +22,9 @@
   <link href="{{asset('web-assets/css/style.css')}}" rel="stylesheet">
   <link href="{{asset('web-assets/css/responsive.css')}}" rel="stylesheet">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
   <link rel="icon" href="images/icon.png">
+  
 </head>
 <body>
     <div class="boxed_wrapper">
