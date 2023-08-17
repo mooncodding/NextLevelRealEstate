@@ -73,10 +73,10 @@ class CountryController extends Controller
                 'state'=>'required|string',
             ]);
 
-            $country = new country();
+            $country = new Country();
             $country->name=$request->name;
             $country->state=$request->state;
-            $country->created_at= Auth::user()->id;
+            $country->created_by= Auth::user()->id;
             $country->created_at = Carbon::now();
             $country->save();
 
@@ -121,6 +121,11 @@ class CountryController extends Controller
         if (auth()->user()->can('edit_country')) {
 
             $country = Country::findOrFail($id);
+            $this->validate($request, [
+                'name'=>'required|string|max:64',
+                'state'=>'required|string',
+            ]);
+            $country->updated_by = Auth::user()->id;
             $country->update($request->all());
 
             return response()->json("Record updated successfully", 200);

@@ -1,18 +1,18 @@
 <template>
   <v-app>
     <div class="content-wrapper">
-      <div v-if="is('Super Admin') || can('users')">
+      <div v-if="is('Super Admin') || can('countries')">
         <!-- Content Header (Page header) -->
         <div class="content-header">
           <div class="container-fluid">
             <div class="row">
               <div class="col-6">
-                <h1 class="m-0 text-dark">{{ $t("message.USERS") }}</h1>
+                <h1 class="m-0 text-dark">{{ $t("message.COUNTRIES") }}</h1>
               </div>
               <!-- /.col -->
               <div class="col-6">
-                <button class="btn btn-success float-right" @click="addUser" v-if="(is('Super Admin') || can('create_user'))">
-                  {{ $t("message.CREATE_USER") }}
+                <button class="btn btn-success float-right" @click="addCountry" v-if="(is('Super Admin') || can('create_country'))">
+                  {{ $t("message.CREATE_COUNTRY") }}
                   <i class="fas fa-plus fa-fw"></i>
                 </button>
               </div>
@@ -48,8 +48,8 @@
                   <div class="card-body table-responsive p-0">
                     <v-data-table
                       :headers="headers"
-                      :items="users.data ? users.data : users"
-                      :server-items-length="users.total"
+                      :items="countries.data ? countries.data : countries"
+                      :server-items-length="countries.total"
                       class="elevation-1"
                       :loading="loading"
                       :options.sync="options"
@@ -64,7 +64,7 @@
                           color="green"
                           class="edit-icon mr-2"
                           small
-                          @click="viewUser(item)"
+                          @click="viewCountry(item)"
                         >
                           mdi-eye
                         </v-icon>
@@ -73,8 +73,8 @@
                           color="blue"
                           class="edit-icon mr-2"
                           small
-                          @click="editUser(item)"
-                          v-if="(is('Super Admin') || can('edit_user'))"
+                          @click="editCountry(item)"
+                          v-if="(is('Super Admin') || can('edit_country'))"
                         >
                           mdi-pencil
                         </v-icon>
@@ -83,8 +83,8 @@
                           color="red"
                           class="delete-icon"
                           small
-                          @click="deleteUser(item.id)"
-                          v-if="(is('Super Admin') || can('delete_user'))"
+                          @click="deleteCountry(item.id)"
+                          v-if="(is('Super Admin') || can('delete_country'))"
                         >
                           mdi-delete
                         </v-icon>
@@ -99,8 +99,8 @@
           </div>
         </div>
         <!-- /.content -->
-        <addEditUserModal></addEditUserModal>
-        <viewUserModal :userData="userInfo"></viewUserModal>
+        <addEditCountryModal></addEditCountryModal>
+        <viewCountryModal :countryData="countryInfo"></viewCountryModal>
       </div>
       <div class="unathorized-text" v-else>
         <div class="container-fluid">
@@ -121,13 +121,13 @@
 </template>
 
 <script>
-import addEditUserModal from "./modals/addEditUserModal.vue";
-import viewUserModal from "./modals/viewUserModal.vue";
+import addEditCountryModal from "./modals/addEditCountryModal.vue";
+import viewCountryModal from "./modals/viewCountryModal.vue";
 export default {
   data() {
     return {
       form: new form(),
-      users: [],
+      countries: [],
       curpage: 1,
       search: "",
       itemsPerPage: 10,
@@ -135,11 +135,11 @@ export default {
       options: {},
       sortBy: "",
       sortDesc: "",
-      userInfo: {},
+      countryInfo: {},
       headers: [
         { text: this.$t("message.NAME"), value: "name" },
-        { text: this.$t("message.ROLE"), value: "roles[0].name" },
-        { text: this.$t("message.EMAIL"), value: "email" },
+        { text: this.$t("message.STATE"), value: "state" },
+        { text: this.$t("message.CREATED_BY"), value: "created_by.name" },
         {
           text: this.$t("message.ACTIONS"),
           value: "actions",
@@ -149,8 +149,8 @@ export default {
     };
   },
   components: {
-    addEditUserModal,
-    viewUserModal
+    addEditCountryModal,
+    viewCountryModal
   },
   watch: {
     //DataTable watcher!
@@ -169,7 +169,7 @@ export default {
   },
   methods: {
     getResults(page = 1, rows = 10, sortBy = null, sortDesc = null) {
-      if (this.is('Super Admin') || this.can('users')) {
+      if (this.is('Super Admin') || this.can('countries')) {
         this.$Progress.start();
         this.loading = true;
         this.curpage = page;
@@ -185,7 +185,7 @@ export default {
         }
         axios
           .get(
-            "api/users?page=" +
+            "api/countries?page=" +
               page +
               "&search=" +
               this.search +
@@ -197,7 +197,7 @@ export default {
               this.sortDesc
           )
           .then((response) => {
-            this.users = response.data;
+            this.countries = response.data;
             this.$Progress.finish();
             this.loading = false;
           })
@@ -218,8 +218,8 @@ export default {
         this.loading = false;
       }
     },
-    deleteUser(id) {
-      if (this.is('Super Admin') || this.can('delete_user')) {
+    deleteCountry(id) {
+      if (this.is('Super Admin') || this.can('delete_country')) {
         swal
           .fire({
             title: this.$t("message.CONFIRM"),
@@ -235,10 +235,10 @@ export default {
             if (result.value) {
               // Send request to the server
               this.form
-                .delete("api/users/" + id)
+                .delete("api/countries/" + id)
                 .then(() => {
-                  this.users.total -= 1;
-                  Fire.$emit("reloadUsers");
+                  this.countries.total -= 1;
+                  Fire.$emit("reloadCountries");
                   this.$Progress.finish();
                   swal.fire(
                     this.$t("message.DELETED"),
@@ -263,9 +263,9 @@ export default {
         });
       }
     },
-    addUser() {
-      if (this.is('Super Admin') || this.can('create_user')) {
-        $("#addEditUserModal").modal("show");
+    addCountry() {
+      if (this.is('Super Admin') || this.can('create_country')) {
+        $("#addEditCountryModal").modal("show");
       }else{
         toast.fire({
           icon: "error",
@@ -273,10 +273,10 @@ export default {
         });
       }
     },
-    editUser(user) {
-      if (this.is('Super Admin') || this.can('edit_user')) {
-        this.userInfo = user;
-        $("#addEditUserModal").modal("show", user);
+    editCountry(country) {
+      if (this.is('Super Admin') || this.can('edit_country')) {
+        this.countryInfo = country;
+        $("#addEditCountryModal").modal("show", country);
       }else{
         toast.fire({
           icon: "error",
@@ -284,13 +284,13 @@ export default {
         });
       }
     },
-    viewUser(user) {
-      this.userInfo = user;
-      $("#viewUserModal").modal("show", user);
+    viewCountry(country) {
+      this.countryInfo = country;
+      $("#viewCountryModal").modal("show", country);
     },
   },
   created() {
-    Fire.$on("reloadUsers", () => {
+    Fire.$on("reloadCountries", () => {
       this.getResults(this.curpage);
     });
   },

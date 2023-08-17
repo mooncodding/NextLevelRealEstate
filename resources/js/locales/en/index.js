@@ -62,5 +62,16 @@ export default {
         EDIT_MESSAGE_SUCCESS: "Record updated Successfully!",
         EDIT_MESSAGE_ERROR: "Something went wrong!",
         SOMETHING_WENT_WRONG: "Something went wrong!",
+        // Counties
+        COUNTRIES:"Countries",
+        CREATE_COUNTRY:"Create Country",
+        EDIT_COUNTRY:"Edit Country",
+        VIEW_COUNTRY:"View Country",
+        STATE:"State",
+        CREATED_BY:"Created By",
+        UPDATED_BY:"Updated By",
+        CREATED_AT:"Created at",
+        UPDATED_AT:"Updated at",
+
     }
 }

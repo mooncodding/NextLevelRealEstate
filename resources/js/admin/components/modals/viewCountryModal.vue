@@ -3,9 +3,9 @@
     <!-- Modal -->
     <div
       class="modal fade"
-      id="viewUserModal"
+      id="viewCountryModal"
       role="dialog"
-      aria-labelledby="viewUser"
+      aria-labelledby="viewCountry"
       aria-hidden="true"
     >
       <div
@@ -14,9 +14,9 @@
       >
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="viewUserModal">
-              {{ $t("message.VIEW_USER") }}:
-              {{ userData.name }}
+            <h5 class="modal-title" id="viewCountryModal">
+              {{ $t("message.VIEW_COUNTRY") }}:
+              {{ countryData.name }}
             </h5>
             <button
               type="button"
@@ -33,23 +33,37 @@
               <div class="onlyForPrint">
                 <printHeader></printHeader>
                 <div class="printHeading">
-                  {{ $t("message.VIEW_USER") }}:
-                  {{ userData.name }}
+                  {{ $t("message.VIEW_COUNTRY") }}:
+                  {{ countryData.name }}
                 </div>
               </div>
               <table class="table table-bordered">
                 <tbody>
                     <tr>
                         <th>{{ $t("message.NAME") }}</th>
-                        <td>{{userData.name}}</td>
+                        <td>{{countryData.name}}</td>
                     </tr>
                     <tr>
-                        <th>{{ $t("message.EMAIL") }}</th>
-                        <td>{{userData.email}}</td>
+                        <th>{{ $t("message.STATE") }}</th>
+                        <td>{{countryData.state}}</td>
                     </tr>
                     <tr>
-                        <th>{{ $t("message.ROLE") }}</th>
-                        <td v-if="userData.roles && userData.roles.length>0">{{userData.roles[0].name}}</td>
+                        <th>{{ $t("message.CREATED_AT") }}</th>
+                        <td>{{countryData.created_at | formatDateTime}}</td>
+                    </tr>
+                    <tr>
+                        <th>{{ $t("message.UPDATED_AT") }}</th>
+                        <td>{{countryData.updated_at | formatDateTime}}</td>
+                    </tr>
+                    <tr>
+                        <th>{{ $t("message.CREATED_BY") }}</th>
+                        <td v-if="countryData.created_by">{{countryData.created_by.name}}</td>
+                        <td v-else>-</td>
+                    </tr>
+                    <tr>
+                        <th>{{ $t("message.UPDATED_BY") }}</th>
+                        <td v-if="countryData.updated_by">{{countryData.updated_by.name}}</td>
+                        <td v-else>-</td>
                     </tr>
                 </tbody>
                 </table>
@@ -71,8 +85,8 @@
 <script>
 import printHeader from "../includes/printHeader.vue";
 export default {
-  name: "viewUserModal",
-  props: ["userData"],
+  name: "viewCountryModal",
+  props: ["countryData"],
   data() {
     return {};
   },

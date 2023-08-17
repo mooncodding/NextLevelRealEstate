@@ -7,8 +7,7 @@
       role="dialog"
       aria-labelledby="addEditRoleModalLabel"
       aria-hidden="true"
-      data-keyboard="false"
-      data-backdrop="static"
+      data-keyboard="false" data-backdrop="static"
     >
       <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
         <div class="modal-content">

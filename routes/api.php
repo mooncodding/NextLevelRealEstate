@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\API\CountryController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\API\UserAuthController;
@@ -29,6 +30,7 @@ Route::group(['middleware'=>['auth:sanctum']], function () {
     Route::apiResources(['permissions' => PermissionController::class]);
     Route::apiResources(['settings'=> SettingController::class]);
     Route::apiResources(['profiles'=> ProfileController::class]);
+    Route::apiResources(['countries' => CountryController::class]);
 
     // GENERAL CONTROLLER ROUTES
     // Get All Permissions
