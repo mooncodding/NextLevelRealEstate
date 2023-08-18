@@ -123,7 +123,7 @@ export default {
   },
   methods: {
     addCountry() {
-      if (this.is("Super Admin") || this.can("create_user")) {
+      if (this.is("Super Admin") || this.can("create_country")) {
         if (!this.fileError) {
           this.$Progress.start();
           this.form
@@ -159,7 +159,7 @@ export default {
       }
     },
     editCountry() {
-      if (this.is("Super Admin") || this.can("edit_user")) {
+      if (this.is("Super Admin") || this.can("edit_country")) {
         if (!this.fileError) {
           this.$Progress.start();
           this.form

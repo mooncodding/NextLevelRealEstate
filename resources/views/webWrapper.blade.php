@@ -792,37 +792,37 @@
 
   </div>  
     <!-- jequery plugins -->
-    <script defer src="{{asset('web-assets/js/jquery.js')}}"></script>
-    <script defer src="{{asset('web-assets/js/popper.min.js')}}"></script>
-    <script defer src="{{asset('web-assets/js/bootstrap.min.js')}}"></script>
-    <script defer src="{{asset('web-assets/js/owl.js')}}"></script>
-    <script defer src="{{asset('web-assets/js/wow.js')}}"></script>
-    <script defer src="{{asset('web-assets/js/validation.js')}}"></script>
-    <script defer src="{{asset('web-assets/js/jquery.fancybox.js')}}"></script>
-    <script defer src="{{asset('web-assets/js/appear.js')}}"></script>
-    <script defer src="{{asset('web-assets/js/scrollbar.js')}}"></script>
-    <script defer src="{{asset('web-assets/js/isotope.js')}}"></script>
-    <script defer src="{{asset('web-assets/js/jquery.nice-select.min.js')}}"></script>
-    <script defer src="{{asset('web-assets/js/jQuery.style.switcher.min.js')}}"></script>
-    <script defer src="{{asset('web-assets/js/jquery-ui.js')}}"></script>
-    <script defer src="{{asset('web-assets/js/nav-tool.js')}}"></script>
-    <script defer src="{{asset('web-assets/js/developer.js')}}"></script>
-    <script defer src="{{asset('web-assets/js/bxSlider.js')}}"></script>
-    <script defer src="{{asset('web-assets/js/jquery.paroller.min.js')}}"></script>
-    {{-- <script defer src="{{asset('web-assets/js/timePicker.js')}}"></script> --}}
+    <script  src="{{asset('web-assets/js/jquery.js')}}"></script>
+    <script  src="{{asset('web-assets/js/popper.min.js')}}"></script>
+    <script  src="{{asset('web-assets/js/bootstrap.min.js')}}"></script>
+    <script  src="{{asset('web-assets/js/owl.js')}}"></script>
+    <script  src="{{asset('web-assets/js/wow.js')}}"></script>
+    <script  src="{{asset('web-assets/js/validation.js')}}"></script>
+    <script  src="{{asset('web-assets/js/jquery.fancybox.js')}}"></script>
+    <script  src="{{asset('web-assets/js/appear.js')}}"></script>
+    <script  src="{{asset('web-assets/js/scrollbar.js')}}"></script>
+    <script  src="{{asset('web-assets/js/isotope.js')}}"></script>
+    <script  src="{{asset('web-assets/js/jquery.nice-select.min.js')}}"></script>
+    <script  src="{{asset('web-assets/js/jQuery.style.switcher.min.js')}}"></script>
+    <script  src="{{asset('web-assets/js/jquery-ui.js')}}"></script>
+    <script  src="{{asset('web-assets/js/nav-tool.js')}}"></script>
+    <script  src="{{asset('web-assets/js/developer.js')}}"></script>
+    <script  src="{{asset('web-assets/js/bxSlider.js')}}"></script>
+    <script  src="{{asset('web-assets/js/jquery.paroller.min.js')}}"></script>
+    {{-- <script  src="{{asset('web-assets/js/timePicker.js')}}"></script> --}}
 
     <!-- main-js -->
-    <script defer src="{{asset('web-assets/js/script.js')}}"></script>
-    <script defer src="{{asset('web-assets/js/product-filter.js')}}"></script>
+    <script  src="{{asset('web-assets/js/script.js')}}"></script>
+    <script  src="{{asset('web-assets/js/product-filter.js')}}"></script>
 
     {{--  --}}
-    <script defer src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
-    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
-    <script defer src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script  src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script  src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+    <script  src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
     <!-- map script -->
-    <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA-CE0deH3Jhj6GN4YvdCFZS7DpbXexzGU"></script>
-    <script defer src="{{asset('web-assets/js/gmaps.js')}}"></script>
-    <script defer src="{{asset('web-assets/js/map-helper.js')}}"></script>
+    <script  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA-CE0deH3Jhj6GN4YvdCFZS7DpbXexzGU"></script>
+    <script  src="{{asset('web-assets/js/gmaps.js')}}"></script>
+    <script  src="{{asset('web-assets/js/map-helper.js')}}"></script>
 </body>
 </html>

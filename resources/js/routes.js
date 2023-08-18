@@ -21,6 +21,9 @@ const routes = [
     {
         name: 'countries', path: '/countries', component: require('./admin/components/countries.vue').default
     },
+    {
+        name: 'tags', path: '/tags', component: require('./admin/components/tags.vue').default
+    },
     //  Web Routs
     {
         name: '/blogs', path: '/blogs', component: require('./web/components/blogs.vue').default

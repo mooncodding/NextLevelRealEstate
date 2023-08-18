@@ -8,4 +8,23 @@ use Illuminate\Database\Eloquent\Model;
 class Tag extends Model
 {
     use HasFactory;
+
+    protected $primaryKey = 'id';
+
+    protected $table = 'tags';
+
+    protected $fillable = [
+        'name',
+        'created_by',
+        'updated_by',
+        'created_at',
+        'updated_at',
+    ];
+
+    public function createdBy(){
+        return $this->belongsTo(User::class,'created_by');  
+    }
+    public function updatedBy(){
+        return $this->belongsTo(User::class,'updated_by');  
+    }
 }

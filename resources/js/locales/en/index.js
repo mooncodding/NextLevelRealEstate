@@ -72,6 +72,11 @@ export default {
         UPDATED_BY:"Updated By",
         CREATED_AT:"Created at",
         UPDATED_AT:"Updated at",
+        // Tags
+        TAGS:"Tags",
+        CREATE_TAG:"Create Tag",
+        EDIT_TAG:"Edit Tag",
+        VIEW_TAG:"View Tag",
 
     }
 }

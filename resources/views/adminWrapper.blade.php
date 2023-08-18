@@ -197,8 +197,16 @@
             @can('countries')
             <li class="nav-item">
               <router-link to="/countries" class="nav-link">
-                <i class="fa fa-users nav-icon"></i>
+                <i class="fa fa-city nav-icon"></i>
                 <p>{{ __('translation.Countries') }}</p>
+              </router-link>
+            </li>
+            @endcan
+            @can('tags')
+            <li class="nav-item">
+              <router-link to="/tags" class="nav-link">
+                <i class="fa fa-cubes nav-icon"></i>
+                <p>{{ __('translation.Tags') }}</p>
               </router-link>
             </li>
             @endcan

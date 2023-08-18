@@ -11,5 +11,6 @@ return [
     "Logout"=>"Déconnexion",
     "Profile" => "Profil",
     "Countries" => "Countries",
+    "Tags" => "Tags",
 ];
 ?>

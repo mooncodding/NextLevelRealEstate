@@ -11,5 +11,6 @@ return [
     "Logout"=>"Logout",
     "Profile" => "Profile",
     "Countries" => "Countries",
+    "Tags" => "Tags",
 ];
 ?>
