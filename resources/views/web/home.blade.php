@@ -8,10 +8,10 @@
             </div>
             <div class="auto-container">
                 <div class="row">
-                    <div class="col-md-8">
+                    <div class="col-md-10">
                         <div class="content-box text-left">
-                            <h2>Palm Jebel Ali</h2>
-                            <h2>By Nakheel Developers</h2>
+                            <h2>Coral Reef is a luxury residential </h2>
+                            <h2>development in Dubai Maritime City</h2>
                             <div class="main-pattern">
                                 <div class="banner-style">
                                     <p><i class="bi bi-wallet2"></i></p>
@@ -36,8 +36,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="form-inner banner-form">
+                    <div class="col-md-2">
+                        {{-- <div class="form-inner banner-form">
                             <h3>Get a free Consultaion</h3>
                             <h4>Book your Dream in palm Jebel Ali</h4>
                             <form action="property-details.html" method="post" class="default-form">
@@ -54,7 +54,7 @@
                                     <button type="submit" class="theme-btn btn-one">Send Message</button>
                                 </div>
                             </form>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
             </div>
@@ -64,10 +64,10 @@
             </div>
             <div class="auto-container">
                 <div class="row">
-                    <div class="col-md-8">
+                    <div class="col-md-10">
                         <div class="content-box text-left">
-                            <h2>Palm Jebel Ali</h2>
-                            <h2>By Nakheel Developers</h2>
+                            <h2>Rixos Dubai Islands - embodies </h2>
+                            <h2>contemporary waterfront living</h2>
                             <div class="main-pattern">
                                 <div class="banner-style">
                                     <p>
@@ -94,8 +94,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="form-inner banner-form">
+                    <div class="col-md-2">
+                        {{-- <div class="form-inner banner-form">
                             <h3>Get a free Consultaion</h3>
                             <h4>Book your Dream in palm Jebel Ali</h4>
                             <form action="property-details.html" method="post" class="default-form">
@@ -112,7 +112,7 @@
                                     <button type="submit" class="theme-btn btn-one">Send Message</button>
                                 </div>
                             </form>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
             </div>
@@ -122,7 +122,7 @@
             </div>
             <div class="auto-container">
                 <div class="row">
-                    <div class="col-md-8">
+                    <div class="col-md-10">
                         <div class="content-box text-left">
                             <h2>Palm Jebel Ali</h2>
                             <h2>By Nakheel Developers</h2>
@@ -151,8 +151,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="form-inner banner-form">
+                    <div class="col-md-2">
+                        {{-- <div class="form-inner banner-form">
                             <h3>Get a free Consultaion</h3>
                             <h4>Book your Dream in palm Jebel Ali</h4>
                             <form action="property-details.html" method="post" class="default-form">
@@ -169,7 +169,7 @@
                                     <button type="submit" class="theme-btn btn-one">Send Message</button>
                                 </div>
                             </form>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
             </div>
@@ -746,7 +746,7 @@
                 <div class="col-md-4">
                     <div class="service-cards trusted">
                         <div class="text">
-                            <img src="{{asset('web-assets/images/footer-logo.png')}}" alt="">
+                            <img src="{{asset('web-assets/images/logo.png')}}" alt="">
                             <img src="{{asset('web-assets/images/icons/google-image.png')}}" alt="">
                         </div>
                     </div>
@@ -783,7 +783,7 @@
                 <div class="col-md-4">
                     <div class="service-cards trusted">
                         <div class="text">
-                            <img src="{{asset('web-assets/images/footer-logo.png')}}" alt="">
+                            <img src="{{asset('web-assets/images/logo.png')}}" alt="">
                             <img src="{{asset('web-assets/images/icons/google-image.png')}}" alt="">
                         </div>
                     </div>
@@ -2043,7 +2043,7 @@
             <div class="single-item">
                 <div class="row clearfix">
                     <div class="col-lg-12 col-md-12 col-sm-12 deals-block">
-                        <div class="image-box responsive" style="background-image: url({{asset('web-assets/images/resource/deals-1.png')}}); height:600px;
+                        <div class="image-box responsive" style="background-image: url({{asset('web-assets/images/resource/deals-1.webp')}}); height:600px;
                             background-repeat: no-repeat;
                             background-size: cover;">
                             <div class="img-box responsive">
@@ -2066,7 +2066,7 @@
             <div class="single-item">
                 <div class="row clearfix">
                     <div class="col-lg-12 col-md-12 col-sm-12 deals-block">
-                        <div class="image-box responsive" style="background-image: url({{asset('web-assets/images/resource/deals-2.png')}}); height:600px;
+                        <div class="image-box responsive" style="background-image: url({{asset('web-assets/images/resource/deals-2.jpg')}}); height:600px;
                             background-repeat: no-repeat;
                             background-size: cover;">
                             <div class="img-box responsive">
@@ -2088,7 +2088,7 @@
             <div class="single-item">
                 <div class="row clearfix">
                     <div class="col-lg-12 col-md-12 col-sm-12 deals-block">
-                        <div class="image-box responsive" style="background-image: url({{asset('web-assets/images/resource/deals-1.png')}}); height:600px;
+                        <div class="image-box responsive" style="background-image: url({{asset('web-assets/images/resource/deals-1.jpg')}}); height:600px;
                             background-repeat: no-repeat;
                             background-size: cover;">
                             <div class="img-box responsive">
