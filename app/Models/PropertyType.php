@@ -15,8 +15,8 @@ class PropertyType extends Model
 
     protected $fillable = [
         'name',
-        'banner_image',
         'description',
+        'banner_image',
         'created_by',
         'updated_by',
         'created_at',

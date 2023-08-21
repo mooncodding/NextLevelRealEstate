@@ -12,5 +12,7 @@ return [
     "Profile" => "Profile",
     "Countries" => "Countries",
     "Tags" => "Tags",
+    "Property Types" => "Property Types",
+    "Property Status" => "Property Status",
 ];
 ?>

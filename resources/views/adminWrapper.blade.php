@@ -210,6 +210,22 @@
               </router-link>
             </li>
             @endcan
+            @can('property_types')
+            <li class="nav-item">
+              <router-link to="/propertyTypes" class="nav-link">
+                <i class="fa fa-cubes nav-icon"></i>
+                <p>{{ __('translation.Property Types') }}</p>
+              </router-link>
+            </li>
+            @endcan
+            @can('property_status')
+            <li class="nav-item">
+              <router-link to="/propertyStatus" class="nav-link">
+                <i class="fa fa-cubes nav-icon"></i>
+                <p>{{ __('translation.Property Status') }}</p>
+              </router-link>
+            </li>
+            @endcan
             {{-- SETTINGS --}}
             @canany(['roles','permissions','application', 'profile'])
             <li class="nav-item menu-close">

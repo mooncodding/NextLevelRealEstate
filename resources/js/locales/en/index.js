@@ -77,6 +77,21 @@ export default {
         CREATE_TAG:"Create Tag",
         EDIT_TAG:"Edit Tag",
         VIEW_TAG:"View Tag",
+        // Property Types
+        PROPERTY_TYPES:"Property Type",
+        CREATE_PROPERTY_TYPE:"Create Property Type",
+        EDIT_PROPERTY_TYPE:"Edit Property Type",
+        VIEW_PROPERTY_TYPE:"View Property Type",
+        DESCRIPTION:"Description",
+        BANNER_IMAGE:"Banner Image",
+        // Property Status
+        PROPERTY_STATUS:"Property Status",
+        CREATE_PROPERTY_STATUS:"Create Property Status",
+        EDIT_PROPERTY_STATUS:"Edit Property Status",
+        VIEW_PROPERTY_STATUS:"View Property Status",
+        IMAGE:"Image",
+
+        
 
     }
 }

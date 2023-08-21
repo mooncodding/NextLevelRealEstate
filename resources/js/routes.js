@@ -24,6 +24,12 @@ const routes = [
     {
         name: 'tags', path: '/tags', component: require('./admin/components/tags.vue').default
     },
+    {
+        name: 'propertyTypes', path: '/propertyTypes', component: require('./admin/components/propertyTypes.vue').default
+    },
+    {
+        name: 'propertyStatus', path: '/propertyStatus', component: require('./admin/components/propertyStatus.vue').default
+    },
     //  Web Routs
     {
         name: '/blogs', path: '/blogs', component: require('./web/components/blogs.vue').default

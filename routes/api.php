@@ -10,6 +10,9 @@ use App\Http\Controllers\API\PermissionController;
 use App\Http\Controllers\API\SettingController;
 use App\Http\Controllers\API\GeneralController;
 use App\Http\Controllers\API\ProfileController;
+use App\Http\Controllers\API\PropertyStatusController;
+use App\Http\Controllers\API\PropertyTypeController;
+use App\Http\Controllers\API\StatusController;
 use App\Http\Controllers\API\TagController;
 
 /*
@@ -33,6 +36,8 @@ Route::group(['middleware'=>['auth:sanctum']], function () {
     Route::apiResources(['profiles'=> ProfileController::class]);
     Route::apiResources(['countries' => CountryController::class]);
     Route::apiResources(['tags' => TagController::class]);
+    Route::apiResources(['propertyTypes' => PropertyTypeController::class]);
+    Route::apiResources(['propertyStatus' => PropertyStatusController::class]);
 
     // GENERAL CONTROLLER ROUTES
     // Get All Permissions
