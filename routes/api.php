@@ -1,6 +1,8 @@
 <?php
 
+use App\Http\Controllers\API\AmenityController;
 use App\Http\Controllers\API\CountryController;
+use App\Http\Controllers\API\DeveloperController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\API\UserAuthController;
@@ -38,6 +40,8 @@ Route::group(['middleware'=>['auth:sanctum']], function () {
     Route::apiResources(['tags' => TagController::class]);
     Route::apiResources(['propertyTypes' => PropertyTypeController::class]);
     Route::apiResources(['propertyStatus' => PropertyStatusController::class]);
+    Route::apiResources(['developers' => DeveloperController::class]);
+    Route::apiResources(['amenities' => AmenityController::class]);
 
     // GENERAL CONTROLLER ROUTES
     // Get All Permissions

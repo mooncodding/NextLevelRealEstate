@@ -30,6 +30,12 @@ const routes = [
     {
         name: 'propertyStatus', path: '/propertyStatus', component: require('./admin/components/propertyStatus.vue').default
     },
+    {
+        name: 'developers', path: '/developers', component: require('./admin/components/developers.vue').default
+    },
+    {
+        name: 'amenities', path: '/amenities', component: require('./admin/components/amenities.vue').default
+    },
     //  Web Routs
     {
         name: '/blogs', path: '/blogs', component: require('./web/components/blogs.vue').default

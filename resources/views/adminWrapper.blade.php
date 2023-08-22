@@ -186,46 +186,68 @@
                 <p>{{ __('translation.Dashboard') }}</p>
               </router-link>
             </li>
-            @can('users')
-            <li class="nav-item">
-              <router-link to="/users" class="nav-link">
-                <i class="fa fa-users nav-icon"></i>
-                <p>{{ __('translation.Users') }}</p>
-              </router-link>
+            @canany(['countries','tags','property_types', 'property_status','developers'])
+            <li class="nav-item menu-close">
+              <a href="#" class="nav-link">
+                <i class="nav-icon fa fa-bars"></i>
+                <p>
+                  {{ __('translation.Menu') }}
+                  <i class="right fas fa-angle-left"></i>
+                </p>
+              </a>
+              <ul class="nav nav-treeview">
+                @can('countries')
+                <li class="nav-item">
+                  <router-link to="/countries" class="nav-link">
+                    <i class="fa fa-circle nav-icon"></i>
+                    <p>{{ __('translation.Countries') }}</p>
+                  </router-link>
+                </li>
+                @endcan
+                @can('tags')
+                <li class="nav-item">
+                  <router-link to="/tags" class="nav-link">
+                    <i class="fa fa-circle nav-icon"></i>
+                    <p>{{ __('translation.Tags') }}</p>
+                  </router-link>
+                </li>
+                @endcan
+                @can('property_types')
+                <li class="nav-item">
+                  <router-link to="/propertyTypes" class="nav-link">
+                    <i class="fa fa-circle nav-icon"></i>
+                    <p>{{ __('translation.Property Types') }}</p>
+                  </router-link>
+                </li>
+                @endcan
+                @can('property_status')
+                <li class="nav-item">
+                  <router-link to="/propertyStatus" class="nav-link">
+                    <i class="fa fa-circle nav-icon"></i>
+                    <p>{{ __('translation.Property Status') }}</p>
+                  </router-link>
+                </li>
+                @endcan
+                @can('developers')
+                <li class="nav-item">
+                  <router-link to="/developers" class="nav-link">
+                    <i class="fa fa-circle nav-icon"></i>
+                    <p>{{ __('translation.Developers') }}</p>
+                  </router-link>
+                </li>
+                @endcan
+                @can('amenities')
+                <li class="nav-item">
+                  <router-link to="/amenities" class="nav-link">
+                    <i class="fa fa-circle nav-icon"></i>
+                    <p>{{ __('translation.Amenities') }}</p>
+                  </router-link>
+                </li>
+                @endcan
+              </ul>
             </li>
-            @endcan
-            @can('countries')
-            <li class="nav-item">
-              <router-link to="/countries" class="nav-link">
-                <i class="fa fa-city nav-icon"></i>
-                <p>{{ __('translation.Countries') }}</p>
-              </router-link>
-            </li>
-            @endcan
-            @can('tags')
-            <li class="nav-item">
-              <router-link to="/tags" class="nav-link">
-                <i class="fa fa-cubes nav-icon"></i>
-                <p>{{ __('translation.Tags') }}</p>
-              </router-link>
-            </li>
-            @endcan
-            @can('property_types')
-            <li class="nav-item">
-              <router-link to="/propertyTypes" class="nav-link">
-                <i class="fa fa-cubes nav-icon"></i>
-                <p>{{ __('translation.Property Types') }}</p>
-              </router-link>
-            </li>
-            @endcan
-            @can('property_status')
-            <li class="nav-item">
-              <router-link to="/propertyStatus" class="nav-link">
-                <i class="fa fa-cubes nav-icon"></i>
-                <p>{{ __('translation.Property Status') }}</p>
-              </router-link>
-            </li>
-            @endcan
+            @endcanany
+            
             {{-- SETTINGS --}}
             @canany(['roles','permissions','application', 'profile'])
             <li class="nav-item menu-close">
@@ -237,6 +259,14 @@
                 </p>
               </a>
               <ul class="nav nav-treeview">
+                @can('users')
+                <li class="nav-item">
+                  <router-link to="/users" class="nav-link">
+                    <i class="fa fa-users nav-icon"></i>
+                    <p>{{ __('translation.Users') }}</p>
+                  </router-link>
+                </li>
+                @endcan
               {{-- Profile --}}
                 @can('profile')
                   <li class="nav-item">

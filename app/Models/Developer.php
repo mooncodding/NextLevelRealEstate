@@ -8,4 +8,31 @@ use Illuminate\Database\Eloquent\Model;
 class Developer extends Model
 {
     use HasFactory;
+
+    protected $primaryKey = 'id';
+
+    protected $table = 'developers';
+
+    protected $fillable = [
+        'name',
+        'email',
+        'image',
+        'latitude',
+        'longitude',
+        'address',
+        'phone_number',
+        'whatsapp_number',
+        'description',
+        'created_by',
+        'updated_by',
+        'created_at',
+        'updated_at',
+    ];
+
+    public function createdBy(){
+        return $this->belongsTo(User::class,'created_by');  
+    }
+    public function updatedBy(){
+        return $this->belongsTo(User::class,'updated_by');  
+    }
 }

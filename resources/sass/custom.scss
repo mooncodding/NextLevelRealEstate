@@ -210,5 +210,15 @@
     background-color: #007BFF !important;
 }
 .elevation-4{
-    background-color: black !important;
+    background-color: #004274 !important;
+}
+.elevation-3{
+    box-shadow: none !important ;
+}
+body:not(.layout-fixed) .main-sidebar .sidebar {
+    overflow-y: scroll ;
+    position: fixed ;
+}
+body:not(.layout-fixed) .main-sidebar {
+    position: fixed!important;
 }

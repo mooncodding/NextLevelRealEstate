@@ -14,5 +14,8 @@ return [
     "Tags" => "Tags",
     "Property Types" => "Property Types",
     "Property Status" => "Property Status",
+    "Developers" => "Developers",
+    "Menu" => "Menu",
+    "Amenities" => "Amenities",
 ];
 ?>

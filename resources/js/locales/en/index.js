@@ -90,8 +90,22 @@ export default {
         EDIT_PROPERTY_STATUS:"Edit Property Status",
         VIEW_PROPERTY_STATUS:"View Property Status",
         IMAGE:"Image",
-
-        
+        // Developers
+        DEVELOPERS:"Developers",
+        CREATE_DEVELOPER:"Create Developer",
+        EDIT_DEVELOPER:"Edit Developer",
+        VIEW_DEVELOPER:"View Developer",
+        LATITUDE:"Latitude",
+        LONGITUDE:"Longitude",
+        ADDRESS:"Address",
+        PHONE_NUMBER:"Phone Number",
+        WHATSAPP_NUMBER:"Whatsapp Number",
+        WHATSAPP_NUMBER:"Whatsapp Number",
+        // Amenities
+        AMENITIES:"Amenities",
+        CREATE_AMENITY:"Create Amenity",
+        EDIT_AMENITY:"Edit Amenity",
+        VIEW_AMENITY:"View Amenity",
 
     }
 }
