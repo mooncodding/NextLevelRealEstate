@@ -186,6 +186,14 @@
                 <p>{{ __('translation.Dashboard') }}</p>
               </router-link>
             </li>
+            @can('areas')
+            <li class="nav-item">
+              <router-link to="/areas" class="nav-link">
+                <i class="fa fa-circle nav-icon"></i>
+                <p>{{ __('translation.Areas') }}</p>
+              </router-link>
+            </li>
+            @endcan
             @canany(['countries','tags','property_types', 'property_status','developers'])
             <li class="nav-item menu-close">
               <a href="#" class="nav-link">

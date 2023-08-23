@@ -36,6 +36,9 @@ const routes = [
     {
         name: 'amenities', path: '/amenities', component: require('./admin/components/amenities.vue').default
     },
+    {
+        name: 'areas', path: '/areas', component: require('./admin/components/areas.vue').default
+    },
     //  Web Routs
     {
         name: '/blogs', path: '/blogs', component: require('./web/components/blogs.vue').default

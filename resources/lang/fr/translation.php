@@ -17,5 +17,6 @@ return [
     "Developers" => "Developers",
     "Menu" => "Menu",
     "Amenities" => "Amenities",
+    "Areas" => "Areas",
 ];
 ?>

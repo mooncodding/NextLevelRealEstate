@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\API\AmenityController;
+use App\Http\Controllers\API\AreaController;
 use App\Http\Controllers\API\CountryController;
 use App\Http\Controllers\API\DeveloperController;
 use Illuminate\Http\Request;
@@ -42,6 +43,7 @@ Route::group(['middleware'=>['auth:sanctum']], function () {
     Route::apiResources(['propertyStatus' => PropertyStatusController::class]);
     Route::apiResources(['developers' => DeveloperController::class]);
     Route::apiResources(['amenities' => AmenityController::class]);
+    Route::apiResources(['areas' => AreaController::class]);
 
     // GENERAL CONTROLLER ROUTES
     // Get All Permissions
