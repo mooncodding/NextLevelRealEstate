@@ -34,6 +34,9 @@ import en from 'vuetify/es5/locale/en';
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap-vue/dist/bootstrap-vue.css';
+import Multiselect from 'vue-multiselect';
+import VueUploadMultipleImage from 'vue-upload-multiple-image'
+
 
 //Vuex
 Vue.use(Vuex);
@@ -48,6 +51,11 @@ const lang = document.head.querySelector("[name~=locale][content]").content;
 Vue.use(BootstrapVue)
 // Optionally install the BootstrapVue icon components plugin
 Vue.use(IconsPlugin)
+
+// Multi Select
+Vue.component('multiselect', Multiselect)
+// Multi Select
+Vue.component('vue-upload-multiple-image', VueUploadMultipleImage)
 
 //Vuetify
 Vue.use(Vuetify);

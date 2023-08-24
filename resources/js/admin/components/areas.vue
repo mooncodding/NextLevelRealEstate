@@ -1,18 +1,18 @@
 <template>
   <v-app>
     <div class="content-wrapper">
-      <div v-if="is('Super Admin') || can('property_types')">
+      <div v-if="is('Super Admin') || can('areas')">
         <!-- Content Header (Page header) -->
         <div class="content-header">
           <div class="container-fluid">
             <div class="row">
               <div class="col-6">
-                <h1 class="m-0 text-dark">{{ $t("message.PROPERTY_TYPES") }}</h1>
+                <h1 class="m-0 text-dark">{{ $t("message.AREAS") }}</h1>
               </div>
               <!-- /.col -->
               <div class="col-6">
-                <button class="btn btn-success float-right" @click="addPropertyType" v-if="(is('Super Admin') || can('create_property_type'))">
-                  {{ $t("message.CREATE_PROPERTY_TYPE") }}
+                <button class="btn btn-success float-right" @click="addArea" v-if="(is('Super Admin') || can('create_area'))">
+                  {{ $t("message.CREATE_AREA") }}
                   <i class="fas fa-plus fa-fw"></i>
                 </button>
               </div>
@@ -48,8 +48,8 @@
                   <div class="card-body table-responsive p-0">
                     <v-data-table
                       :headers="headers"
-                      :items="propertyTypes.data ? propertyTypes.data : propertyTypes"
-                      :server-items-length="propertyTypes.total"
+                      :items="areas.data ? areas.data : areas"
+                      :server-items-length="areas.total"
                       class="elevation-1"
                       :loading="loading"
                       :options.sync="options"
@@ -64,7 +64,7 @@
                           color="green"
                           class="edit-icon mr-2"
                           small
-                          @click="viewPropertyType(item)"
+                          @click="viewArea(item)"
                         >
                           mdi-eye
                         </v-icon>
@@ -73,8 +73,8 @@
                           color="blue"
                           class="edit-icon mr-2"
                           small
-                          @click="editPropertyType(item)"
-                          v-if="(is('Super Admin') || can('edit_ property_type'))"
+                          @click="editArea(item)"
+                          v-if="(is('Super Admin') || can('edit_area'))"
                         >
                           mdi-pencil
                         </v-icon>
@@ -83,8 +83,8 @@
                           color="red"
                           class="delete-icon"
                           small
-                          @click="deletePropertyType(item.id)"
-                          v-if="(is('Super Admin') || can('delete_ property_type'))"
+                          @click="deleteArea(item.id)"
+                          v-if="(is('Super Admin') || can('delete_area'))"
                         >
                           mdi-delete
                         </v-icon>
@@ -99,8 +99,8 @@
           </div>
         </div>
         <!-- /.content -->
-        <addEditPropertyTypeModal></addEditPropertyTypeModal>
-        <viewPropertyTypeModal :propertyTypeData="propertyTypeDataInfo"></viewPropertyTypeModal>
+        <addEditAreaModal></addEditAreaModal>
+        <viewAreaModal :areaData="areaDataInfo"></viewAreaModal>
       </div>
       <div class="unathorized-text" v-else>
         <div class="container-fluid">
@@ -121,13 +121,13 @@
 </template>
 
 <script>
-import addEditPropertyTypeModal from "./modals/addEditPropertyTypeModal.vue";
-import viewPropertyTypeModal from "./modals/viewPropertyTypeModal.vue";
+import addEditAreaModal from "./modals/addEditAreaModal.vue";
+import viewAreaModal from "./modals/viewAreaModal.vue";
 export default {
   data() {
     return {
       form: new form(),
-      propertyTypes: [],
+      areas: [],
       curpage: 1,
       search: "",
       itemsPerPage: 10,
@@ -135,9 +135,9 @@ export default {
       options: {},
       sortBy: "",
       sortDesc: "",
-      propertyTypeDataInfo: {},
+      areaDataInfo: {},
       headers: [
-        { text: this.$t("message.NAME"), value: "name" },
+        { text: this.$t("message.NAME"), value: "title" },
         { text: this.$t("message.CREATED_BY"), value: "created_by.name" },
         {
           text: this.$t("message.ACTIONS"),
@@ -148,8 +148,8 @@ export default {
     };
   },
   components: {
-    addEditPropertyTypeModal,
-    viewPropertyTypeModal
+    addEditAreaModal,
+    viewAreaModal
   },
   watch: {
     //DataTable watcher!
@@ -168,7 +168,7 @@ export default {
   },
   methods: {
     getResults(page = 1, rows = 10, sortBy = null, sortDesc = null) {
-      if (this.is('Super Admin') || this.can('property_types')) {
+      if (this.is('Super Admin') || this.can('areas')) {
         this.$Progress.start();
         this.loading = true;
         this.curpage = page;
@@ -184,7 +184,7 @@ export default {
         }
         axios
           .get(
-            "api/propertyTypes?page=" +
+            "api/adminAreas?page=" +
               page +
               "&search=" +
               this.search +
@@ -196,7 +196,7 @@ export default {
               this.sortDesc
           )
           .then((response) => {
-            this.propertyTypes = response.data;
+            this.areas = response.data;
             this.$Progress.finish();
             this.loading = false;
           })
@@ -217,8 +217,8 @@ export default {
         this.loading = false;
       }
     },
-    deletePropertyType(id) {
-      if (this.is('Super Admin') || this.can('delete_property_type')) {
+    deleteArea(id) {
+      if (this.is('Super Admin') || this.can('delete_area')) {
         swal
           .fire({
             title: this.$t("message.CONFIRM"),
@@ -234,10 +234,10 @@ export default {
             if (result.value) {
               // Send request to the server
               this.form
-                .delete("api/propertyTypes/" + id)
+                .delete("api/adminAreas/" + id)
                 .then(() => {
-                  this.propertyTypes.total -= 1;
-                  Fire.$emit("reloadPropertyTypes");
+                  this.areas.total -= 1;
+                  Fire.$emit("reloadAreas");
                   this.$Progress.finish();
                   swal.fire(
                     this.$t("message.DELETED"),
@@ -262,9 +262,9 @@ export default {
         });
       }
     },
-    addPropertyType() {
-      if (this.is('Super Admin') || this.can('create_property_type')) {
-        $("#addEditPropertyTypeModal").modal("show");
+    addArea() {
+      if (this.is('Super Admin') || this.can('create_area')) {
+        $("#addEditAreaModal").modal("show");
       }else{
         toast.fire({
           icon: "error",
@@ -272,10 +272,10 @@ export default {
         });
       }
     },
-    editPropertyType(propertyTypeData) {
-      if (this.is('Super Admin') || this.can('edit_property_type')) {
-        this.propertyTypeDataInfo = propertyTypeData;
-        $("#addEditPropertyTypeModal").modal("show", propertyTypeData);
+    editArea(areaData) {
+      if (this.is('Super Admin') || this.can('edit_prarea')) {
+        this.areaDataInfo = areaData;
+        $("#addEditAreaModal").modal("show", areaData);
       }else{
         toast.fire({
           icon: "error",
@@ -283,13 +283,13 @@ export default {
         });
       }
     },
-    viewPropertyType(propertyTypeData) {
-      this.propertyTypeDataInfo = propertyTypeData;
-      $("#viewPropertyTypeModal").modal("show", propertyTypeData);
+    viewArea(areaData) {
+      this.areaDataInfo = areaData;
+      $("#viewAreaModal").modal("show", areaData);
     },
   },
   created() {
-    Fire.$on("reloadPropertyTypes", () => {
+    Fire.$on("reloadAreas", () => {
       this.getResults(this.curpage);
     });
   },

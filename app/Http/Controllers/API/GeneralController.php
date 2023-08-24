@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\API;
 
 use App\Http\Controllers\Controller;
+use App\Models\Developer;
 use Illuminate\Http\Request;
 use Spatie\Permission\Models\Role;
 use Spatie\Permission\Models\Permission;
@@ -66,6 +67,12 @@ class GeneralController extends Controller
     {
         //
         return Setting::first();
+    }
+
+    // Get All Developer Api's
+    function getAllDevelopers(Request $request)
+    {
+        return Developer::all();   
     }
 
 }

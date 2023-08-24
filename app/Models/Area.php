@@ -30,7 +30,11 @@ class Area extends Model
 
 
     public function areaDevelopers(){
-        return $this->hasManyThrough(Developer::class, AreaDeveloper::class);
+        return $this->hasManyThrough(Developer::class, AreaDeveloper::class,
+        'developer_id', // Foreign key on the types table...
+        'id', // Foreign key on the items table...
+        'id', // Local key on the users table...
+        'area_id'); // Local key on the categories table...);
     }
     
     public function areaDevelopersCopy(){

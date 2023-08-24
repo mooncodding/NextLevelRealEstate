@@ -56,11 +56,11 @@ class AreaController extends Controller
                 'description'=>'required',
                 'latitude'=>'nullable',
                 'longitude'=>'nullable',
-                'starting_price'=>'nullable',
+                'starting_price'=>'required',
                 'secondary_images'=>'nullable',
             ]);
             if($request['featured_image']){
-                $name=time().'.'.explode('/', explode(':', substr($request->featured_image,0,strpos($request->image, ';')))[1])[1];
+                $name=time().'.'.explode('/', explode(':', substr($request->featured_image,0,strpos($request->featured_image, ';')))[1])[1];
                 \Image::make($request->featured_image)->save(public_path('images/areas/').$name);
             }else{
                 $name="profile.png";
@@ -88,13 +88,14 @@ class AreaController extends Controller
                 // Save Multiple Images
                 if ($request->secondary_images) {
                     foreach ($request->secondary_images as $value) {
-                        if($value['image']){
-                            $secondaryImageName=time().'.'.explode('/', explode(':', substr($request->image,0,strpos($request->image, ';')))[1])[1];
-                            \Image::make($request->image)->save(public_path('images/areas/').$secondaryImageName);
+                        if($value){
+                            $secondaryImageName=time().'.'.explode('/', explode(':', substr($value,0,strpos($value, ';')))[1])[1];
+                            \Image::make($value)->save(public_path('images/areas/').$secondaryImageName);
                         }else{
                             $secondaryImageName="profile.png";
                         }
                         $areaImages = new AreaSecondaryImage();
+                        $areaImages->area_id = $areas->id;
                         $areaImages->image = $secondaryImageName;
                         $areaImages->created_at = Carbon::now();
                         $areaImages->save();
@@ -123,9 +124,9 @@ class AreaController extends Controller
                 'secondary_images'=>'nullable',
             ]);
             if($request['image']!=$areas->image){
-                $name=time().'.'.explode('/', explode(':', substr($request->image,0,strpos($request->image, ';')))[1])[1];
+                $name=time().'.'.explode('/', explode(':', substr($request['image'],0,strpos($request['image'], ';')))[1])[1];
                 $publicPath=public_path('images/areas/'.$name);
-                \Image::make($request->image)->save($publicPath);
+                \Image::make($request['image'])->save($publicPath);
                 if((file_exists(public_path('images/areas/'.$areas->image)))&&($areas->image!="profile.png")){
                     @unlink(public_path('images/areas/'.$areas->image));
                 }
@@ -150,13 +151,14 @@ class AreaController extends Controller
             // Save Multiple Images
             if ($request->secondary_images) {
                 foreach ($request->secondary_images as $value) {
-                    if($value['image']){
-                        $secondaryImageName=time().'.'.explode('/', explode(':', substr($request->image,0,strpos($request->image, ';')))[1])[1];
-                        \Image::make($request->image)->save(public_path('images/areas/').$secondaryImageName);
+                    if($value){
+                        $secondaryImageName=time().'.'.explode('/', explode(':', substr($value,0,strpos($value, ';')))[1])[1];
+                        \Image::make($value)->save(public_path('images/areas/').$secondaryImageName);
                     }else{
                         $secondaryImageName="profile.png";
                     }
                     $areaImages = new AreaSecondaryImage();
+                    $areaImages->area_id = $areas->id;
                     $areaImages->image = $secondaryImageName;
                     $areaImages->created_at = Carbon::now();
                     $areaImages->save();

@@ -106,6 +106,15 @@ export default {
         CREATE_AMENITY:"Create Amenity",
         EDIT_AMENITY:"Edit Amenity",
         VIEW_AMENITY:"View Amenity",
+        // Areas
+        AREAS:"Areas",
+        CREATE_AREA:"Create Area",
+        EDIT_AREA:"Edit Area",
+        VIEW_AREA:"View Area",
+        TITLE:"Title",
+        FEATURED_IMAGE:"Featured Image",
+        STARTING_PRICE:"Starting Price",
+        SECONDARY_IMAGES:"Secondary Images",
 
     }
 }

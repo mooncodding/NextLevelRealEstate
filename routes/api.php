@@ -43,7 +43,7 @@ Route::group(['middleware'=>['auth:sanctum']], function () {
     Route::apiResources(['propertyStatus' => PropertyStatusController::class]);
     Route::apiResources(['developers' => DeveloperController::class]);
     Route::apiResources(['amenities' => AmenityController::class]);
-    Route::apiResources(['areas' => AreaController::class]);
+    Route::apiResources(['adminAreas' => AreaController::class]);
 
     // GENERAL CONTROLLER ROUTES
     // Get All Permissions
@@ -54,6 +54,8 @@ Route::group(['middleware'=>['auth:sanctum']], function () {
     Route::get('/getSetting', [GeneralController::class, 'getSetting']);
     // Update Module In All Permissions
     Route::get('/updateModuleInAllPermissions', [PermissionController::class, 'updateModuleInAllPermissions']);
+    // Update Module In All Permissions
+    Route::get('/getAllDevelopers', [GeneralController::class, 'getAllDevelopers']);
 
 });
 

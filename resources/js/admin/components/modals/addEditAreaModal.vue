@@ -1,0 +1,370 @@
+<template>
+  <div>
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="addEditAreaModal"
+      role="dialog"
+      aria-labelledby="addEditAreaModalLabel"
+      aria-hidden="true"
+      data-keyboard="false" data-backdrop="static"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5
+              class="modal-title"
+              id="addEditAreaModalLabel"
+              v-if="editMode === false"
+            >
+              {{ $t("message.CREATE_AREA") }}
+            </h5>
+            <h5 class="modal-title" id="addEditAreaModalLabel" v-else>
+              {{ $t("message.EDIT_AREA") }}
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <form @submit.prevent="editMode ? editArea() : addArea()">
+            <input type="hidden" name="_token" :value="csrf" />
+            <div class="modal-body">
+              <div class="form-group">
+                <label
+                  >{{ $t("message.TITLE")
+                  }}<span class="required-star">*</span></label
+                >
+                <input
+                  v-model="form.title"
+                  v-bind:placeholder="$t('message.TITLE')"
+                  type="text"
+                  name="title"
+                  class="form-control"
+                  :class="{ 'is-invalid': form.errors.has('title') }"
+                />
+                <div
+                  class="error-message"
+                  v-if="form.errors.has('title')"
+                  v-html="form.errors.get('title')"
+                />
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label
+                      >{{ $t("message.LATITUDE")
+                      }}<span class="required-star"></span></label
+                    >
+                    <input
+                      v-model="form.latitude"
+                      v-bind:placeholder="$t('message.LATITUDE')"
+                      type="text"
+                      name="latitude"
+                      class="form-control"
+                      :class="{ 'is-invalid': form.errors.has('latitude') }"
+                    />
+                    <div
+                      class="error-message"
+                      v-if="form.errors.has('latitude')"
+                      v-html="form.errors.get('latitude')"
+                    />
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label
+                      >{{ $t("message.LONGITUDE")
+                      }}<span class="required-star"></span></label
+                    >
+                    <input
+                      v-model="form.longitude"
+                      v-bind:placeholder="$t('message.LONGITUDE')"
+                      type="text"
+                      name="longitude"
+                      class="form-control"
+                      :class="{ 'is-invalid': form.errors.has('longitude') }"
+                    />
+                    <div
+                      class="error-message"
+                      v-if="form.errors.has('longitude')"
+                      v-html="form.errors.get('longitude')"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label
+                      >{{ $t("message.STARTING_PRICE")
+                      }}<span class="required-star">*</span></label
+                    >
+                    <input
+                      v-model="form.starting_price"
+                      v-bind:placeholder="$t('message.STARTING_PRICE')"
+                      type="text"
+                      name="starting_price"
+                      class="form-control"
+                      :class="{ 'is-invalid': form.errors.has('starting_price') }"
+                    />
+                    <div
+                      class="error-message"
+                      v-if="form.errors.has('starting_price')"
+                      v-html="form.errors.get('starting_price')"
+                    />
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                      <label
+                          >{{ $t("message.DEVELOPERS")
+                          }}<span class="required-star">*</span></label
+                        >
+                      <multiselect v-model="form.developer_id" :options="options" :multiple="true" group-values="developers" group-label="language" :group-select="true" placeholder="Type to search" track-by="name" label="name"><span slot="noResult">Oops! No elements found. Consider changing the search query.</span></multiselect>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <label
+                  >{{ $t("message.DESCRIPTION")
+                  }}<span class="required-star">*</span></label
+                >
+                <textarea v-model="form.description" class="form-control"></textarea>
+                <div
+                  class="error-message"
+                  v-if="form.errors.has('description')"
+                  v-html="form.errors.get('description')"
+                />
+              </div>
+              <div class="form-group">
+                <label>{{ $t("message.FEATURED_IMAGE") }}*</label>
+                <input
+                  @change="addPhoto"
+                  type="file"
+                  name="featured_image"
+                  class="form-control"
+                  :class="{ 'is-invalid': form.errors.has('featured_image') }"
+                />
+                <div
+                  class="error-message"
+                  v-if="form.errors.has('featured_image')"
+                  v-html="form.errors.get('featured_image')"
+                />
+              </div>
+              <div class="form-group">
+                <label>{{ $t("message.SECONDARY_IMAGES") }}</label>
+                <vue-upload-multiple-image
+                @upload-success="uploadImageSuccess"
+                @before-remove="beforeRemove"
+                @edit-image="editImage"
+                :data-images="images"
+                idUpload="myIdUpload"
+                editUpload="myIdEdit"
+                ></vue-upload-multiple-image>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button
+                @click.prevent="addArea"
+                v-if="editMode === false"
+                type="submit"
+                class="btn btn-primary"
+              >
+                {{ $t("message.CREATE_AREA") }}
+              </button>
+              <button
+                @click.prevent="editArea"
+                v-else
+                type="submit"
+                class="btn btn-primary"
+              >
+                {{ $t("message.EDIT_AREA") }}
+              </button>
+
+              <button type="button" class="btn btn-danger" data-dismiss="modal">
+                {{ $t("message.CLOSE") }}
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+<script>
+export default {
+  name: "addEditAreaModal",
+  data() {
+    return {
+      csrf: document
+        .querySelector('meta[name="csrf-token"]')
+        .getAttribute("content"),
+      roles: [],
+      editMode: "",
+      fileError: 0,
+      options: [
+        {
+          language: 'Select All',
+          developers: []
+        }
+      ],
+      images:[],
+      // Create a new form instance
+      form: new form({
+        id: "",
+        title: "",
+        latitude:"",
+        longitude:"",
+        starting_price:"",
+        developer_id:[],
+        description: "",
+        featured_image: "",
+        secondary_images:[],
+      }),
+    };
+  },
+  methods: {
+    addArea() {
+      if (this.is("Super Admin") || this.can("create_area")) {
+        if (!this.fileError) {
+          this.$Progress.start();
+          this.form
+            .post("api/adminAreas")
+            .then(() => {
+              Fire.$emit("reloadAreas");
+              $("#addEditAreaModal").modal("hide");
+              toast.fire({
+                icon: "success",
+                title: this.$t("message.CREATED_MESSAGE_SUCCESS"),
+              });
+              this.$Progress.finish();
+            })
+            .catch(() => {
+              this.$Progress.fail();
+              toast.fire({
+                icon: "warning",
+                title: this.$t("message.CREATED_MESSAGE_ERROR"),
+              });
+            });
+        } else {
+          this.$Progress.fail();
+          toast.fire({
+            icon: "warning",
+            title: this.$t("message.FLIE_SIZE_ERROR"),
+          });
+        }
+      } else {
+        swal.fire({
+          text: this.$t("message.UNAUTHORIZED"),
+          icon: "warning",
+        });
+      }
+    },
+    editArea() {
+      if (this.is("Super Admin") || this.can("edit_area")) {
+        if (!this.fileError) {
+          this.$Progress.start();
+          this.form
+            .put("api/adminAreas/" + this.form.id)
+            .then(() => {
+              Fire.$emit("reloadAreas");
+              $("#addEditAreaModal").modal("hide");
+              toast.fire({
+                icon: "success",
+                title: this.$t("message.EDIT_MESSAGE_SUCCESS"),
+              });
+              this.$Progress.finish();
+            })
+            .catch(() => {
+              this.$Progress.fail();
+              toast.fire({
+                icon: "warning",
+                title: this.$t("message.EDIT_MESSAGE_ERROR"),
+              });
+            });
+        } else {
+          this.$Progress.fail();
+          toast.fire({
+            icon: "warning",
+            title: this.$t("message.FLIE_SIZE_ERROR"),
+          });
+        }
+      } else {
+        swal.fire({
+          text: this.$t("message.UNAUTHORIZED"),
+          icon: "warning",
+        });
+      }
+    },
+    addPhoto(e) {
+      let file = e.target.files[0];
+      let reader = new FileReader();
+      reader.onloadend = () => {
+        this.form.featured_image = reader.result;
+      };
+      reader.readAsDataURL(file);
+    },
+    // Secondary Images
+    uploadImageSuccess(formData, index, fileList) {
+      const images=[];
+      fileList.map((item=>{
+        images.push(item.path);
+      }));
+      this.form.secondary_images = images;
+    },
+    beforeRemove (index, done, fileList) {
+      'index', index, fileList
+      var r = confirm("remove image")
+      if (r == true) {
+        done()
+      } else {
+      }
+    },
+    editImage (formData, index, fileList) {
+      'edit data', formData, index, fileList
+    }
+  },
+  mounted() {
+    var form = this.form;
+    var that = this;
+    $("#addEditAreaModal").on("show.bs.modal", function (e) {
+      form.secondary_images = [];
+      that.images = [];
+      form.featured_image = "";
+      if (e.relatedTarget) {
+        that.editMode = true;
+        form.fill(e.relatedTarget);
+        // manually fill developers dropdown
+        const developers = [];
+        e.relatedTarget.area_developers.map((item=>{
+          developers.push(item)
+        }));
+        form.developer_id = developers;
+
+      } else {
+        form.reset();
+        that.editMode = false;
+      }
+      that.$Progress.start();
+      axios
+        .get("api/getAllDevelopers")
+        .then((response) => {
+          that.options[0].developers = response.data;
+          that.$Progress.finish();
+        })
+        .catch(() => {
+          that.$Progress.fail();
+          toast.fire({
+            icon: "error",
+            title: that.$t("message.SOMETHING_WENT_WRONG"),
+          });
+        });
+    });
+  },
+};
+</script>

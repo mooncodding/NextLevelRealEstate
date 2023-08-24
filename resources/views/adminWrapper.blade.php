@@ -7,8 +7,10 @@
   <meta name="csrf-token" content="{{ csrf_token() }}">
   <meta name='locale' content='{{app()->getLocale()}}' />
   <title>{{ App\Models\Setting::first()->company_name }}</title>
-
+  {{-- <style src="vue-multiselect/dist/vue-multiselect.min.css"></style> --}}
   <link rel="stylesheet" href="{{asset('css/app.css')}}">
+  <link rel="stylesheet" href="https://unpkg.com/vue-multiselect@2.1.6/dist/vue-multiselect.min.css">
+  
 </head>
 <body class="hold-transition sidebar-mini">
   <div class="wrapper" id="app">
@@ -188,7 +190,7 @@
             </li>
             @can('areas')
             <li class="nav-item">
-              <router-link to="/areas" class="nav-link">
+              <router-link to="/adminAreas" class="nav-link">
                 <i class="fa fa-circle nav-icon"></i>
                 <p>{{ __('translation.Areas') }}</p>
               </router-link>

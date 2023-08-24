@@ -11,7 +11,7 @@ class AreaDeveloper extends Model
 
     protected $primaryKey = 'id';
 
-    protected $table = 'areas';
+    protected $table = 'area_developers';
 
     protected $fillable = [
         'area_id',
