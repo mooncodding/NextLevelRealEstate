@@ -61,7 +61,7 @@
                       }}<span class="required-star"></span></label
                     >
                     <input
-                      v-model="form.latitude"
+                      v-model="coordinates.lat"
                       v-bind:placeholder="$t('message.LATITUDE')"
                       type="text"
                       name="latitude"
@@ -82,7 +82,7 @@
                       }}<span class="required-star"></span></label
                     >
                     <input
-                      v-model="form.longitude"
+                      v-model="coordinates.lng"
                       v-bind:placeholder="$t('message.LONGITUDE')"
                       type="text"
                       name="longitude"
@@ -97,6 +97,38 @@
                   </div>
                 </div>
               </div>
+              <!--Google Map -->
+              <div class="row">
+                <div class="col-lg-8 offset-lg-1 col-md-8 col-sm-12">
+                    <div class="form-group" align="center">
+                      <GmapAutocomplete @place_changed="setPlace" class="auto-complete form-control" placeholder="Search Location"/>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-2 col-sm-12 auto-complete-btn">
+                    <div class="form-group" align="center">
+                      <a  class="btn btn-success map-btn" @click="addMarker">Search</a>
+                    </div>
+                </div>
+
+              </div>
+              <div class="col-lg-12">
+                  <GmapMap
+                      :center="coordinates"
+                      ref="mapRef"
+                      :zoom="15"
+                      map-type-id="terrain"
+                      style="width: 100%; height: 250px;"
+                    >
+                      <GmapMarker
+                      :position="coordinates"
+                      :draggable="true"
+                      @dragend="getMarkerPosition($event)"
+                      ></GmapMarker>
+                  </GmapMap>
+              </div>
+              <br>
+              <!-- Google Map Ends -->
               <div class="row">
                 <div class="col-md-6">
                   <div class="form-group">
@@ -121,11 +153,20 @@
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
-                      <label
-                          >{{ $t("message.DEVELOPERS")
-                          }}<span class="required-star">*</span></label
-                        >
-                      <multiselect v-model="form.developer_id" :options="options" :multiple="true" group-values="developers" group-label="language" :group-select="true" placeholder="Type to search" track-by="name" label="name"><span slot="noResult">Oops! No elements found. Consider changing the search query.</span></multiselect>
+                    <label
+                        >{{ $t("message.DEVELOPERS")
+                        }}<span class="required-star">*</span></label
+                      >
+                    <multiselect v-model="form.developer_id" :options="options" :multiple="true" group-values="developers" group-label="language" :group-select="true" placeholder="Type to search" track-by="name" label="name"
+                    ><span slot="noResult"
+                    >Oops! No elements found. Consider changing the search query.</span>
+                    
+                    </multiselect>
+                    <div
+                      class="error-message"
+                      v-if="form.errors.has('developer_id')"
+                      v-html="form.errors.get('developer_id')"
+                    />
                   </div>
                 </div>
               </div>
@@ -134,7 +175,9 @@
                   >{{ $t("message.DESCRIPTION")
                   }}<span class="required-star">*</span></label
                 >
-                <textarea v-model="form.description" class="form-control"></textarea>
+                <textarea v-model="form.description" class="form-control"
+                :class="{ 'is-invalid': form.errors.has('description') }"
+                ></textarea>
                 <div
                   class="error-message"
                   v-if="form.errors.has('description')"
@@ -213,7 +256,12 @@ export default {
           developers: []
         }
       ],
+      coordinates:{
+          lat:0,
+          lng:0,
+      },
       images:[],
+      map:null,
       // Create a new form instance
       form: new form({
         id: "",
@@ -233,6 +281,8 @@ export default {
       if (this.is("Super Admin") || this.can("create_area")) {
         if (!this.fileError) {
           this.$Progress.start();
+          this.form.latitude = this.coordinates.lat;
+          this.form.longitude = this.coordinates.lng;
           this.form
             .post("api/adminAreas")
             .then(() => {
@@ -269,6 +319,8 @@ export default {
       if (this.is("Super Admin") || this.can("edit_area")) {
         if (!this.fileError) {
           this.$Progress.start();
+          this.form.latitude = this.coordinates.lat;
+          this.form.longitude = this.coordinates.lng;
           this.form
             .put("api/adminAreas/" + this.form.id)
             .then(() => {
@@ -327,7 +379,29 @@ export default {
     },
     editImage (formData, index, fileList) {
       'edit data', formData, index, fileList
-    }
+    },
+    //Get Latitude and Longitude 
+    getMarkerPosition (event) {
+        this.coordinates = {
+            lat: event.latLng.lat(),
+            lng: event.latLng.lng()
+        }
+    },
+    //Set Place On search 
+    setPlace(place) {
+      this.currentPlace = place;
+    },
+    // Set Marker On Search
+    addMarker() {
+      if (this.currentPlace) {
+        const marker = {
+          lat: this.currentPlace.geometry.location.lat(),
+          lng: this.currentPlace.geometry.location.lng(),
+        };
+        this.coordinates = marker;
+        this.currentPlace = null;
+      }
+    },
   },
   mounted() {
     var form = this.form;
@@ -345,10 +419,20 @@ export default {
           developers.push(item)
         }));
         form.developer_id = developers;
+        //Google map set on Edit
+        that.coordinates.lat =  parseFloat(e.relatedTarget.latitude)
+        that.coordinates.lng =  parseFloat(e.relatedTarget.longitude)
+        that.$refs.mapRef.$mapPromise.then((coordinates) => {
+          coordinates.panTo({lat: parseFloat(e.relatedTarget.latitude) , lng: parseFloat(e.relatedTarget.longitude)})
+        });
 
       } else {
         form.reset();
         that.editMode = false;
+        that.$getLocation({})
+        .then(coordinates => {
+          that.coordinates = coordinates
+        });
       }
       that.$Progress.start();
       axios
@@ -366,5 +450,11 @@ export default {
         });
     });
   },
+  created() {
+    this.$getLocation({})
+      .then(coordinates => {
+        this.coordinates = coordinates
+      });
+  }
 };
 </script>

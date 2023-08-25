@@ -35,8 +35,21 @@ import { BootstrapVue, IconsPlugin } from 'bootstrap-vue';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap-vue/dist/bootstrap-vue.css';
 import Multiselect from 'vue-multiselect';
-import VueUploadMultipleImage from 'vue-upload-multiple-image'
+import VueUploadMultipleImage from 'vue-upload-multiple-image';
 
+//Geo location
+import VueGeolocation from 'vue-browser-geolocation';
+Vue.use(VueGeolocation);
+//Google map
+import * as VueGoogleMaps from "vue2-google-maps";
+Vue.config.productionTip = false;
+// VueGoogleMaps
+Vue.use(VueGoogleMaps, {
+  load: {
+    key: "",
+    libraries: "places"
+  },
+});
 
 //Vuex
 Vue.use(Vuex);

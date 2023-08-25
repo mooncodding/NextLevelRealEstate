@@ -16,7 +16,7 @@
           <div class="modal-header">
             <h5 class="modal-title" id="viewAreaModal">
               {{ $t("message.VIEW_AREA") }}:
-              {{ areaData.name }}
+              {{ areaData.title }}
             </h5>
             <button
               type="button"
@@ -34,22 +34,50 @@
                 <printHeader></printHeader>
                 <div class="printHeading">
                   {{ $t("message.VIEW_AREA") }}:
-                  {{ areaData.name }}
+                  {{ areaData.title }}
                 </div>
               </div>
               <table class="table table-bordered">
                 <tbody>
                     <tr>
-                        <th>{{ $t("message.NAME") }}</th>
-                        <td>{{areaData.name}}</td>
+                        <th>{{ $t("message.TITLE") }}</th>
+                        <td>{{areaData.title}}</td>
+                    </tr>
+                    <tr>
+                        <th>{{ $t("message.LATITUDE") }}</th>
+                        <td>{{areaData.latitude}}</td>
+                    </tr>
+                    <tr>
+                        <th>{{ $t("message.LONGITUDE") }}</th>
+                        <td>{{areaData.longitude}}</td>
+                    </tr>
+                    <tr>
+                        <th>{{ $t("message.STARTING_PRICE") }}</th>
+                        <td>{{areaData.starting_price}}</td>
+                    </tr>
+                    <tr>
+                        <th>{{ $t("message.DEVELOPERS") }}</th>
+                        <td>
+                          <span v-for="data,index in areaData.area_developers" :key="index" class="badge badge-success">
+                            {{data.name}}
+                          </span>
+                        </td>
                     </tr>
                     <tr>
                         <th>{{ $t("message.DESCRIPTION") }}</th>
                         <td>{{areaData.description}}</td>
                     </tr>
                     <tr>
-                        <th>{{ $t("message.BANNER_IMAGE") }}</th>
-                        <td><img v-bind:src="'images/property-types/' + areaData.banner_image" width="100" alt="Banner not found"/></td>
+                        <th>{{ $t("message.FEATURED_IMAGE") }}</th>
+                        <td><img v-bind:src="'images/areas/' + areaData.featured_image" width="80" alt="Image not found"/></td>
+                    </tr>
+                    <tr v-if="areaData.secondary_images">
+                        <th>{{ $t("message.SECONDARY_IMAGES") }}</th>
+                        <td>
+                          <span v-for="data,index in areaData.secondary_images" :key="index">
+                             <img v-bind:src="'images/areas/' + data.image" width="80" alt="Image not found"/>
+                          </span>
+                        </td>
                     </tr>
                     <tr>
                         <th>{{ $t("message.CREATED_AT") }}</th>

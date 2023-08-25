@@ -71073,6 +71073,14 @@ body:not(.layout-fixed) .main-sidebar {
   position: fixed !important;
 }
 
+.map-btn {
+  color: white !important;
+}
+
+.pac-container {
+  z-index: 10000 !important;
+}
+
 .onlyForPrint {
   display: none;
 }

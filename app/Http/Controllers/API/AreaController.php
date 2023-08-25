@@ -123,30 +123,33 @@ class AreaController extends Controller
                 'starting_price'=>'nullable',
                 'secondary_images'=>'nullable',
             ]);
-            if($request['image']!=$areas->image){
-                $name=time().'.'.explode('/', explode(':', substr($request['image'],0,strpos($request['image'], ';')))[1])[1];
+            if($request['featured_image']!=$areas->featured_image){
+                $name=time().'.'.explode('/', explode(':', substr($request['featured_image'],0,strpos($request['featured_image'], ';')))[1])[1];
                 $publicPath=public_path('images/areas/'.$name);
-                \Image::make($request['image'])->save($publicPath);
-                if((file_exists(public_path('images/areas/'.$areas->image)))&&($areas->image!="profile.png")){
-                    @unlink(public_path('images/areas/'.$areas->image));
+                \Image::make($request['featured_image'])->save($publicPath);
+                if((file_exists(public_path('images/areas/'.$areas->featured_image)))&&($areas->featured_image!="profile.png")){
+                    @unlink(public_path('images/areas/'.$areas->featured_image));
                 }
-                $request->merge(['image'=>$name]);
+                $request->merge(['featured_image'=>$name]);
             }
             // Update Area Developer
-            foreach ($request->developer_id as $value) {
-                $areaDevelopers = AreaDeveloper::where('id',$value['id'])->first();
-                if ($areaDevelopers) {
-                    $areaDevelopers->update([
-                        'developer_id'=>$value['id'],
-                        'updated_at'=> Carbon::now(),
-                    ]);
-                }else{
-                    $areaDevelopers = new AreaDeveloper();
-                    $areaDevelopers->area_id = $areas->id;
-                    $areaDevelopers->developer_id = $value['id'];
-                    $areaDevelopers->created_at = Carbon::now();
-                    $areaDevelopers->save();
+            if ($areas) {
+                $areaDevelopersArray = [];
+                // update record in areaDevelopers table
+                if(isset($request['developer_id']) && $request['developer_id'] != '')
+                {
+                    // create array for developer_id
+                    foreach($request['developer_id'] as $developer_id){
+                        $areaDevelopersArray[] = $developer_id['id'];
+                    }
                 }
+                // sync the developer_id into areaDevelopers table
+                $ids = $areas->areaDevelopers()->allRelatedIds();
+                
+                //sync the record into areaDevelopers
+                $areas->areaDevelopers()->sync($areaDevelopersArray);
+                // delete the null record added by sync function
+                AreaDeveloper::where('developer_id', '=', NULL)->delete();
             }
             // Save Multiple Images
             if ($request->secondary_images) {
