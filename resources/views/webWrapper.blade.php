@@ -824,5 +824,19 @@
     <script  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA-CE0deH3Jhj6GN4YvdCFZS7DpbXexzGU"></script>
     <script  src="{{asset('web-assets/js/gmaps.js')}}"></script>
     <script  src="{{asset('web-assets/js/map-helper.js')}}"></script>
+    <script>
+        $(document).ready(function(){
+          $(".exterior-btn").click(function(){
+            $(".exterior").show();
+            $(".interior").hide();
+          });
+          $(".interior-btn").click(function(){
+            $(".interior").show();
+            $(".exterior").hide();
+          });
+          $(".exterior").css("display", "none");
+        });
+        </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 </body>
 </html>
