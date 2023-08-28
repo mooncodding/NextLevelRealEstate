@@ -186,6 +186,7 @@
               </div>
               <div class="form-group">
                 <label>{{ $t("message.FEATURED_IMAGE") }}*</label>
+                <span v-if="editMode === true"><img v-bind:src="'images/areas/'+form.featured_image" width="5%" alt=""></span>
                 <input
                   @change="addPhoto"
                   type="file"
@@ -201,14 +202,42 @@
               </div>
               <div class="form-group">
                 <label>{{ $t("message.SECONDARY_IMAGES") }}</label>
-                <vue-upload-multiple-image
-                @upload-success="uploadImageSuccess"
-                @before-remove="beforeRemove"
-                @edit-image="editImage"
-                :data-images="images"
-                idUpload="myIdUpload"
-                editUpload="myIdEdit"
-                ></vue-upload-multiple-image>
+                <span v-if="editMode"><span v-for="(data, i) in secondary_images" :key="i"><img  v-bind:src="'images/areas/'+data.image" width="10%" alt="">
+                <a class="btn-cross-icon btn-danger-2 mr-10 mb-40" href='#' v-on:click.stop="deleteSecondaryImages(i, data.id);">
+                <i class="fas fa-times-circle"></i>
+                </a>
+                </span>
+                </span>
+                <div v-if="!editMode">
+                <vue-upload-multiple-image 
+                  v-model="form.secondary_images"
+                  @upload-success="uploadImageSuccess"
+                  @before-remove="beforeRemove"
+                  @edit-image="editImage"
+                  idUpload="myIdUpload"
+                  editUpload="myIdEdit"
+                  ></vue-upload-multiple-image>
+                <div
+                  class="error-message"
+                  v-if="form.errors.has('secondary_images')"
+                  v-html="form.errors.get('secondary_images')"
+                />
+                </div>
+                <div v-else>
+                <vue-upload-multiple-image 
+                  v-model="form.secondary_images_copy"
+                  @upload-success="uploadImageSuccess"
+                  @before-remove="beforeRemove"
+                  @edit-image="editImage"
+                  idUpload="myIdUpload"
+                  editUpload="myIdEdit"
+                  ></vue-upload-multiple-image>
+                <div
+                  class="error-message"
+                  v-if="form.errors.has('secondary_images_copy')"
+                  v-html="form.errors.get('secondary_images_copy')"
+                />
+                </div>
               </div>
             </div>
             <div class="modal-footer">
@@ -262,6 +291,7 @@ export default {
       },
       images:[],
       map:null,
+      secondary_images:[],
       // Create a new form instance
       form: new form({
         id: "",
@@ -273,6 +303,7 @@ export default {
         description: "",
         featured_image: "",
         secondary_images:[],
+        secondary_images_copy:[],
       }),
     };
   },
@@ -324,6 +355,7 @@ export default {
           this.form
             .put("api/adminAreas/" + this.form.id)
             .then(() => {
+              this.form.secondary_images_copy = [];
               Fire.$emit("reloadAreas");
               $("#addEditAreaModal").modal("hide");
               toast.fire({
@@ -367,15 +399,14 @@ export default {
       fileList.map((item=>{
         images.push(item.path);
       }));
-      this.form.secondary_images = images;
+      if (this.editMode) {
+        this.form.secondary_images_copy = images;
+      }else{
+        this.form.secondary_images = images;
+      }
     },
     beforeRemove (index, done, fileList) {
-      'index', index, fileList
-      var r = confirm("remove image")
-      if (r == true) {
-        done()
-      } else {
-      }
+      done()
     },
     editImage (formData, index, fileList) {
       'edit data', formData, index, fileList
@@ -402,6 +433,59 @@ export default {
         this.currentPlace = null;
       }
     },
+        //Delete Sencondary Images
+    deleteSecondaryImages(i, id=null) {
+    if (this.is("Super Admin") || this.can("edit_area")){
+      if(this.editMode){
+          swal.fire({
+          text: this.$t("message.DELETE_MESSAGE_REVERT"),
+          type: "warning",
+          showCancelButton: true,
+          confirmButtonColor: "#3085D6",
+          cancelButtonColor: "#d33",
+          cancelButtonText: this.$t("message.CANCEL"),
+          confirmButtonText: this.$t("message.DELETE_BUTTON_TEXT")
+        }).then(result => {
+          if (result.value) {
+            // Send request to the server
+            if(id!=""){
+              this.form
+              .delete("api/removeEventSecondaryImages/" + id)
+              .then(() => {
+                this.form.secondary_image.splice(i, 1);
+                swal.fire(
+                  "Deleted!",
+                  this.$t("message.DELETE_MESSAGE_SUCCESS"),
+                  "success"
+                );
+              })
+              .catch(() => {
+                swal(
+                  "Failed!",
+                  this.$t("message.DELETE_MESSAGE_ERROR"),
+                  "warning"
+                );
+              });
+            }else{
+              this.form.secondary_image.splice(i, 1);
+                swal.fire(
+                  "Deleted!",
+                  this.$t("message.DELETE_MESSAGE_SUCCESS"),
+                  "success"
+                );
+            }
+          }
+        });
+      }else{
+        this.form.secondary_image.splice(i, 1);
+      }
+      }else{
+        swal.fire({
+          text: this.$t("message.unAuthorizedText"),
+          type: "warning",
+        })
+      }
+    },
   },
   mounted() {
     var form = this.form;
@@ -413,6 +497,8 @@ export default {
       if (e.relatedTarget) {
         that.editMode = true;
         form.fill(e.relatedTarget);
+        that.secondary_images = form.secondary_images;
+        form.secondary_images_copy = [];
         // manually fill developers dropdown
         const developers = [];
         e.relatedTarget.area_developers.map((item=>{
@@ -427,6 +513,7 @@ export default {
         });
 
       } else {
+        form.secondary_images_copy = [];
         form.reset();
         that.editMode = false;
         that.$getLocation({})
@@ -434,6 +521,7 @@ export default {
           that.coordinates = coordinates
         });
       }
+      // that.beforeRemove(0,1,0);
       that.$Progress.start();
       axios
         .get("api/getAllDevelopers")
@@ -450,6 +538,7 @@ export default {
         });
     });
   },
+  // Get Current Location Latitude and Longitude
   created() {
     this.$getLocation({})
       .then(coordinates => {

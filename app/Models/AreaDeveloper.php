@@ -21,7 +21,7 @@ class AreaDeveloper extends Model
         'updated_at',
     ];
 
-    public function area(){
-        return $this->belongsTo(Area::class,'area_id');  
-    }
+    // public function area(){
+    //     return $this->belongsTo(Area::class,'area_id');  
+    // }
 }

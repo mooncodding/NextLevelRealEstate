@@ -120,7 +120,7 @@ class AreaController extends Controller
                 'description'=>'required',
                 'latitude'=>'nullable',
                 'longitude'=>'nullable',
-                'starting_price'=>'nullable',
+                'starting_price'=>'required',
                 'secondary_images'=>'nullable',
             ]);
             if($request['featured_image']!=$areas->featured_image){
@@ -131,29 +131,34 @@ class AreaController extends Controller
                     @unlink(public_path('images/areas/'.$areas->featured_image));
                 }
                 $request->merge(['featured_image'=>$name]);
+            }else{
+                $name= $areas->featured_image;
             }
+            $areas->title=$request->title;
+            $areas->featured_image=$name;
+            $areas->description = $request->description;
+            $areas->latitude = $request->latitude;
+            $areas->longitude = $request->longitude;
+            $areas->starting_price = $request->starting_price;
+            $areas->updated_by = Auth::user()->id;
+            $areas->updated_at = Carbon::now();
+            $areas->save();
             // Update Area Developer
             if ($areas) {
-                $areaDevelopersArray = [];
+                $developerArray = [];
                 // update record in areaDevelopers table
-                if(isset($request['developer_id']) && $request['developer_id'] != '')
-                {
+                if(isset($request['developer_id']) && $request['developer_id'] != ''){
                     // create array for developer_id
                     foreach($request['developer_id'] as $developer_id){
-                        $areaDevelopersArray[] = $developer_id['id'];
+                        $developerArray[] = $developer_id['id'];
                     }
                 }
-                // sync the developer_id into areaDevelopers table
-                $ids = $areas->areaDevelopers()->allRelatedIds();
-                
-                //sync the record into areaDevelopers
-                $areas->areaDevelopers()->sync($areaDevelopersArray);
-                // delete the null record added by sync function
-                AreaDeveloper::where('developer_id', '=', NULL)->delete();
+                //Sync the record into areaDevelopers
+                $areas->updateAreaDevelopers()->sync($developerArray);
             }
             // Save Multiple Images
-            if ($request->secondary_images) {
-                foreach ($request->secondary_images as $value) {
+            if ($request->secondary_images_copy) {
+                foreach ($request->secondary_images_copy as $value) {
                     if($value){
                         $secondaryImageName=time().'.'.explode('/', explode(':', substr($value,0,strpos($value, ';')))[1])[1];
                         \Image::make($value)->save(public_path('images/areas/').$secondaryImageName);
@@ -167,9 +172,6 @@ class AreaController extends Controller
                     $areaImages->save();
                 }
             }
-            $areas->updated_by = Auth::user()->id;
-            $areas->updated_at = Carbon::now();
-            $areas->update($request->all());
             return response()->json("Record updated successfully", 200);
         }else{
             return response()->json("Unauthorized", 401);
@@ -185,7 +187,7 @@ class AreaController extends Controller
             if((file_exists(public_path('images/areas/'.$areas->image)))&&($areas->image!="profile.png")){
                 @unlink(public_path('images/areas/'.$areas->image));
             }
-            $areas->areaDevelopersCopy()->delete();
+            $areas->deleteAreaDevelopers()->delete();
             $areas->secondaryImages()->delete();
             $areas->delete();
             return response()->json("Record deleted successfully", 200);

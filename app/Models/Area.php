@@ -37,8 +37,11 @@ class Area extends Model
         'developer_id'); // Local key on the categories table...);
     }
     
-    public function areaDevelopersCopy(){
-        return $this->hasMany(AreaDeveloper::class,'id');  
+    public function updateAreaDevelopers(){
+        return $this->belongsToMany(Developer::class,'area_developers','area_id','developer_id');
+    }
+    public function deleteAreaDevelopers(){
+        return $this->hasMany(AreaDeveloper::class,'area_id');  
     }
 
     public function secondaryImages(){
