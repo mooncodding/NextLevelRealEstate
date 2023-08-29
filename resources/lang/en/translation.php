@@ -18,5 +18,7 @@ return [
     "Menu" => "Menu",
     "Amenities" => "Amenities",
     "Areas" => "Areas",
+    "Blogs" => "Blogs",
+    "Blog Categories" => "Blog Categories",
 ];
 ?>

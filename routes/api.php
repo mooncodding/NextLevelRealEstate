@@ -2,6 +2,8 @@
 
 use App\Http\Controllers\API\AmenityController;
 use App\Http\Controllers\API\AreaController;
+use App\Http\Controllers\API\BlogCategoryController;
+use App\Http\Controllers\API\BlogController;
 use App\Http\Controllers\API\CountryController;
 use App\Http\Controllers\API\DeveloperController;
 use Illuminate\Http\Request;
@@ -44,6 +46,8 @@ Route::group(['middleware'=>['auth:sanctum']], function () {
     Route::apiResources(['developers' => DeveloperController::class]);
     Route::apiResources(['amenities' => AmenityController::class]);
     Route::apiResources(['adminAreas' => AreaController::class]);
+    Route::apiResources(['adminBlogs' => BlogController::class]);
+    Route::apiResources(['blogCategories' => BlogCategoryController::class]);
 
     // GENERAL CONTROLLER ROUTES
     // Get All Permissions

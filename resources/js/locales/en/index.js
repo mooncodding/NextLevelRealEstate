@@ -115,6 +115,12 @@ export default {
         FEATURED_IMAGE:"Featured Image",
         STARTING_PRICE:"Starting Price",
         SECONDARY_IMAGES:"Secondary Images",
+        // Blog Categories
+        BLOG_CATEGORIES:"Blog Categories",
+        CREATE_BLOG_CATEGORY:"Create Blog Category",
+        EDIT_BLOG_CATEGORY:"Edit Blog Category",
+        VIEW_BLOG_CATEGORY:"View Blog Category",
+
 
     }
 }

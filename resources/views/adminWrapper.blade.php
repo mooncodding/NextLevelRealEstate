@@ -196,6 +196,14 @@
               </router-link>
             </li>
             @endcan
+            @can('blogs')
+            <li class="nav-item">
+              <router-link to="/adminBlogs" class="nav-link">
+                <i class="fa fa-circle nav-icon"></i>
+                <p>{{ __('translation.Blogs') }}</p>
+              </router-link>
+            </li>
+            @endcan
             @canany(['countries','tags','property_types', 'property_status','developers'])
             <li class="nav-item menu-close">
               <a href="#" class="nav-link">
@@ -251,6 +259,14 @@
                   <router-link to="/amenities" class="nav-link">
                     <i class="fa fa-circle nav-icon"></i>
                     <p>{{ __('translation.Amenities') }}</p>
+                  </router-link>
+                </li>
+                @endcan
+                @can('blog_categories')
+                <li class="nav-item">
+                  <router-link to="/blogCategories" class="nav-link">
+                    <i class="fa fa-circle nav-icon"></i>
+                    <p>{{ __('translation.Blog Categories') }}</p>
                   </router-link>
                 </li>
                 @endcan
