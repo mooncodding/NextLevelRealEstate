@@ -120,6 +120,13 @@ export default {
         CREATE_BLOG_CATEGORY:"Create Blog Category",
         EDIT_BLOG_CATEGORY:"Edit Blog Category",
         VIEW_BLOG_CATEGORY:"View Blog Category",
+        // Blogs
+        BLOGS:"Blogs",
+        CREATE_BLOG:"Create Blog",
+        EDIT_BLOG:"Edit Blog",
+        VIEW_BLOG:"View Blog",
+        DATE_TIME:"Date Time",
+        TAGS:"Tags",
 
 
     }

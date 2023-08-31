@@ -71081,6 +71081,14 @@ body:not(.layout-fixed) .main-sidebar {
   z-index: 10000 !important;
 }
 
+.v-application ol, .v-application ul {
+  padding-left: unset !important;
+}
+
+.vs__dropdown-toggle {
+  padding: 4px 0 4px 0 !important;
+}
+
 .onlyForPrint {
   display: none;
 }

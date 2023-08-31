@@ -16,7 +16,6 @@ class AreaDeveloper extends Model
     protected $fillable = [
         'area_id',
         'developer_id',
-        'description',
         'created_at',
         'updated_at',
     ];

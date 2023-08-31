@@ -5,6 +5,7 @@ namespace App\Http\Controllers\API;
 use App\Http\Controllers\Controller;
 use App\Models\Blog;
 use App\Models\BlogSecondaryImage;
+use App\Models\BlogTag;
 use App\Models\CategoryBlog;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
@@ -19,7 +20,7 @@ class BlogController extends Controller
     public function index(Request $request)
     {
         //Declare a global variable with relation orders!
-        $blogs=Blog::with(['categoryBlogs','secondaryImages','createdBy', 'updatedBy']);
+        $blogs=Blog::with(['categoryBlogs','blogTags','secondaryImages','createdBy', 'updatedBy']);
         //Check if there is any search value
         if($request->search!=""){
             $blogs->where( 'title', 'LIKE', '%' . $request->search . '%' )
@@ -52,11 +53,10 @@ class BlogController extends Controller
             $this->validate($request, [
                 'title'=>'required|string|max:64',
                 'blog_category_id'=>'required',
+                'tag_id'=>'required',
                 'featured_image'=>'required',
                 'description'=>'required',
-                'latitude'=>'nullable',
-                'longitude'=>'nullable',
-                'starting_price'=>'required',
+                'date_time'=>'required',
                 'secondary_images'=>'nullable',
             ]);
             if($request['featured_image']){
@@ -68,22 +68,33 @@ class BlogController extends Controller
 
             $blogs = new Blog();
             $blogs->title=$request->title;
+            $blogs->tag_id=$request->tag_id;
             $blogs->featured_image=$name;
             $blogs->description = $request->description;
-            $blogs->latitude = $request->latitude;
-            $blogs->longitude = $request->longitude;
-            $blogs->starting_price = $request->starting_price;
+            $blogs->date_time = $request->date_time;
             $blogs->created_by = Auth::user()->id;
             $blogs->created_at = Carbon::now();
             $blogs->save();
             if ($blogs) {
-                // Save Multiple Developer
-                foreach ($request->blog_category_id as  $value) {
-                    $categoryBlogs = new CategoryBlog();
-                    $categoryBlogs->blog_id = $blogs->id;
-                    $categoryBlogs->blog_category_id = $value['id'];
-                    $categoryBlogs->created_at = Carbon::now();
-                    $categoryBlogs->save();
+                // Save Multiple Blog Categories
+                if (count($request->blog_category_id) > 0) {
+                    foreach ($request->blog_category_id as  $value) {
+                        $categoryBlogs = new CategoryBlog();
+                        $categoryBlogs->blog_id = $blogs->id;
+                        $categoryBlogs->blog_category_id = $value['id'];
+                        $categoryBlogs->created_at = Carbon::now();
+                        $categoryBlogs->save();
+                    }
+                }
+                // Save Multiple Blog Tags
+                if (count($request->tag_id) > 0) {
+                    foreach ($request->tag_id as  $value) {
+                        $categoryBlogs = new BlogTag();
+                        $categoryBlogs->blog_id = $blogs->id;
+                        $categoryBlogs->tag_id = $value['id'];
+                        $categoryBlogs->created_at = Carbon::now();
+                        $categoryBlogs->save();
+                    }
                 }
                 // Save Multiple Images
                 if ($request->secondary_images) {
@@ -116,11 +127,10 @@ class BlogController extends Controller
             $this->validate($request, [
                 'title'=>'required|string|max:64',
                 'blog_category_id'=>'required',
+                'tag_id'=>'required',
                 'featured_image'=>'required',
                 'description'=>'required',
-                'latitude'=>'nullable',
-                'longitude'=>'nullable',
-                'starting_price'=>'required',
+                'date_time'=>'required',
                 'secondary_images'=>'nullable',
             ]);
             if($request['featured_image']!=$blogs->featured_image){
@@ -136,10 +146,9 @@ class BlogController extends Controller
             }
             $blogs->title=$request->title;
             $blogs->featured_image=$name;
+            $blogs->tag_id=$request->tag_id;
             $blogs->description = $request->description;
-            $blogs->latitude = $request->latitude;
-            $blogs->longitude = $request->longitude;
-            $blogs->starting_price = $request->starting_price;
+            $blogs->date_time = $request->date_time;
             $blogs->updated_by = Auth::user()->id;
             $blogs->updated_at = Carbon::now();
             $blogs->save();
@@ -155,6 +164,19 @@ class BlogController extends Controller
                 }
                 //Sync the record into categoryBlogs
                 $blogs->updateCategoryBlogs()->sync($blogArray);
+            }
+            // Update Blog Tag
+            if ($blogs) {
+                $tagArray = [];
+                // update record in categoryBlogs table
+                if(isset($request['tag_id']) && $request['tag_id'] != ''){
+                    // create array for tag_id
+                    foreach($request['tag_id'] as $tag_id){
+                        $tagArray[] = $tag_id['id'];
+                    }
+                }
+                //Sync the record into categoryBlogs
+                $blogs->updateBlogTags()->sync($tagArray);
             }
             // Save Multiple Images
             if ($request->secondary_images_copy) {
@@ -188,6 +210,7 @@ class BlogController extends Controller
                 @unlink(public_path('images/blogs/'.$blogs->image));
             }
             $blogs->deleteCategoryBlogs()->delete();
+            $blogs->deleteBlogTags()->delete();
             $blogs->secondaryImages()->delete();
             $blogs->delete();
             return response()->json("Record deleted successfully", 200);

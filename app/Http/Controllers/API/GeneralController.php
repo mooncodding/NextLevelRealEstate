@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\API;
 
 use App\Http\Controllers\Controller;
+use App\Models\BlogCategory;
 use App\Models\Developer;
 use Illuminate\Http\Request;
 use Spatie\Permission\Models\Role;
@@ -10,6 +11,7 @@ use Spatie\Permission\Models\Permission;
 use Carbon\Carbon;
 use Illuminate\Support\Facades\Auth;
 use App\Models\Setting;
+use App\Models\Tag;
 
 class GeneralController extends Controller
 {
@@ -73,6 +75,18 @@ class GeneralController extends Controller
     function getAllDevelopers(Request $request)
     {
         return Developer::all();   
+    }
+
+    // Get All Blog Categories Api's
+    function getAllBlogCategories(Request $request)
+    {
+        return BlogCategory::all();   
+    }
+
+    // Get All Tags Api's
+    function getAllTags(Request $request)
+    {
+        return Tag::all();   
     }
 
 }

@@ -15,12 +15,11 @@ class Blog extends Model
 
     protected $fillable = [
         'title',
-        'developer_id',
+        'blog_category_id',
+        'tag_id',
         'featured_image',
         'description',
-        'latitude',
-        'longitude',
-        'starting_price',
+        'date_time',
         'created_by',
         'updated_by',
         'created_at',
@@ -42,6 +41,22 @@ class Blog extends Model
     }
     public function deleteCategoryBlogs(){
         return $this->hasMany(CategoryBlog::class,'blog_id');  
+    }
+
+    public function blogTags(){
+        return $this->hasManyThrough(Tag::class, BlogTag::class,
+        'blog_id', // Foreign key on the types table...
+        'id', // Foreign key on the items table...
+        'id', // Local key on the users table...
+        'tag_id'); // Local key on the categories table...);
+    }
+    
+    public function updateBlogTags(){
+        return $this->belongsToMany(Tag::class,'blog_tags','blog_id','tag_id');
+    }
+    
+    public function deleteBlogTags(){
+        return $this->hasMany(BlogTag::class,'blog_id');  
     }
 
     public function secondaryImages(){

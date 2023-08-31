@@ -39,9 +39,9 @@ const routes = [
     {
         name: 'adminAreas', path: '/adminAreas', component: require('./admin/components/areas.vue').default
     },
-    // {
-    //     name: 'adminBlogs', path: '/adminBlogs', component: require('./admin/components/blogs.vue').default
-    // },
+    {
+        name: 'adminBlogs', path: '/adminBlogs', component: require('./admin/components/blogs.vue').default
+    },
     {
         name: 'blogCategories', path: '/blogCategories', component: require('./admin/components/blogCategories.vue').default
     },

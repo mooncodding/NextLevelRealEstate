@@ -60,6 +60,10 @@ Route::group(['middleware'=>['auth:sanctum']], function () {
     Route::get('/updateModuleInAllPermissions', [PermissionController::class, 'updateModuleInAllPermissions']);
     // Update Module In All Permissions
     Route::get('/getAllDevelopers', [GeneralController::class, 'getAllDevelopers']);
+    // Get All Blog Categories
+    Route::get('/getAllBlogCategories', [GeneralController::class, 'getAllBlogCategories']);
+    // Get All Tags
+    Route::get('/getAllTags', [GeneralController::class, 'getAllTags']);
 
 });
 
