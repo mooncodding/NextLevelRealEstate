@@ -119,9 +119,7 @@
                   >{{ $t("message.DESCRIPTION")
                   }}<span class="required-star">*</span></label
                 >
-                <textarea v-model="form.description" class="form-control"
-                :class="{ 'is-invalid': form.errors.has('description') }"
-                ></textarea>
+                <el-tiptap v-model="form.description" :extensions="extensions" />
                 <div
                   class="error-message"
                   v-if="form.errors.has('description')"
@@ -213,6 +211,24 @@
   </div>
 </template>
 <script>
+import {
+  // necessary extensions
+  Doc,
+  Text,
+  Paragraph,
+  Heading,
+  Bold,
+  Underline,
+  Italic,
+  Strike,
+  ListItem,
+  BulletList,
+  OrderedList,
+  Image,
+  Iframe,
+  CodeView,
+  Fullscreen
+} from 'element-tiptap';
 export default {
   name: "addEditBlogModal",
   data() {
@@ -238,6 +254,23 @@ export default {
       images:[],
       secondary_images:[],
       tags:[],
+      extensions: [
+        new Doc(),
+        new Text(),
+        new Paragraph(),
+        new Heading({ level: 5 }),
+        new Bold({ bubble: true }), // render command-button in bubble menu.
+        new Underline({ bubble: true, menubar: false }), // render command-button in bubble menu but not in menubar.
+        new Italic(),
+        new Strike(),
+        new ListItem(),
+        new BulletList(),
+        new OrderedList(),
+        new Iframe(),
+        new Image(),
+        new CodeView(),
+        new Fullscreen(),
+      ],
       // Create a new form instance
       form: new form({
         id: "",

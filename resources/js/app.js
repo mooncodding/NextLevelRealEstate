@@ -36,7 +36,15 @@ import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap-vue/dist/bootstrap-vue.css';
 import Multiselect from 'vue-multiselect';
 import VueUploadMultipleImage from 'vue-upload-multiple-image';
+import ElementUI from 'element-ui';
+import { ElementTiptapPlugin } from 'element-tiptap';
 
+Vue.use(ElementTiptapPlugin, {
+  lang: 'en'
+
+});
+// use ElementUI's plugin
+Vue.use(ElementUI);
 //Geo location
 import VueGeolocation from 'vue-browser-geolocation';
 Vue.use(VueGeolocation);

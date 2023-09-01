@@ -20,7 +20,10 @@ $fa-font-path: "../webfonts";
 @import "~vue-datetime/dist/vue-datetime.css";
 @import "~vue-select/src/scss/vue-select.scss";
 @import "~vuetify/dist/vuetify.min.css";
-
+// import ElementUI's styles
+@import 'element-ui/lib/theme-chalk/index.css';
+// import this package's styles
+@import 'element-tiptap/lib/index.css';
 
 // Variables
 @import 'custom';
