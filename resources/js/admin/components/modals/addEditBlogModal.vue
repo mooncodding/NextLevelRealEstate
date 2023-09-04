@@ -115,18 +115,6 @@
                 </div>
               </div>
               <div class="form-group">
-                <label
-                  >{{ $t("message.DESCRIPTION")
-                  }}<span class="required-star">*</span></label
-                >
-                <el-tiptap v-model="form.description" :extensions="extensions" />
-                <div
-                  class="error-message"
-                  v-if="form.errors.has('description')"
-                  v-html="form.errors.get('description')"
-                />
-              </div>
-              <div class="form-group">
                 <label>{{ $t("message.FEATURED_IMAGE") }}*</label>
                 <span v-if="editMode === true"><img v-bind:src="'images/areas/'+form.featured_image" width="5%" alt=""></span>
                 <input
@@ -140,6 +128,18 @@
                   class="error-message"
                   v-if="form.errors.has('featured_image')"
                   v-html="form.errors.get('featured_image')"
+                />
+              </div>
+              <div class="form-group">
+                <label
+                  >{{ $t("message.DESCRIPTION")
+                  }}<span class="required-star">*</span></label
+                >
+                <el-tiptap v-model="form.description" :extensions="extensions" />
+                <div
+                  class="error-message"
+                  v-if="form.errors.has('description')"
+                  v-html="form.errors.get('description')"
                 />
               </div>
               <div class="form-group">
@@ -278,7 +278,7 @@ export default {
         date_time: new Date().toISOString(),
         blog_category_id:[],
         tag_id:[],
-        description: "",
+        description: [],
         featured_image: "",
         secondary_images:[],
         secondary_images_copy:[],

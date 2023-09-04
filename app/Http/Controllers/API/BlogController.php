@@ -48,6 +48,7 @@ class BlogController extends Controller
 
     public function store(Request $request)
     {
+        // return $request->all();
         //
         if(auth()->user()->can('create_blog')){
             $this->validate($request, [
@@ -68,10 +69,9 @@ class BlogController extends Controller
 
             $blogs = new Blog();
             $blogs->title=$request->title;
-            $blogs->tag_id=$request->tag_id;
             $blogs->featured_image=$name;
             $blogs->description = $request->description;
-            $blogs->date_time = $request->date_time;
+            $blogs->date_time = Carbon::parse($request->date_time)->toDateTimeString();
             $blogs->created_by = Auth::user()->id;
             $blogs->created_at = Carbon::now();
             $blogs->save();
