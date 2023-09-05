@@ -1165,7 +1165,394 @@
   .areas-section {
   display: unset  !important;
 }
+.area-tick h2 {
+  font-size: 25px !important;
+  line-height: unset !important;
+}
 
+.area-items {
+  padding: 50px 0px 50px 0px !important;
+}
+
+.area-items p {
+  font-size: 12px !important;
+line-height: unset !important;
+}
+
+.area-items .areabanner-btn {
+  width: 85%!important;
+}
+
+.area-items .areabanner-btn a.theme-btn.btn-one {
+  font-size: 12px;
+  padding: 5px 30px 5px 30px !important;
+}
+
+.area-items .areabanner-btn a.theme-btn.btn-three.banner-btn {
+  font-size: 12px;
+  padding: 5px 30px 5px 30px !important;
+}
+
+.area-items .areamain-pattern {
+  width: 100% !important;
+}
+
+.area-items .areabanner-style p {
+font-size: 10px !Important;
+line-height:15px !Important;
+}
+.area-properties .sec-title h2 {
+  font-size: 25px !important;
+  line-height: unset !important;
+}
+
+section.feature-section.sec-pad.area-properties {
+  padding-top: 20px !important;
+}
+
+.why-area h2 {
+  padding-top: unset !important;
+}
+section.category-section.centred.property-overview.area-nearby {
+  padding: unset !important;
+}
+
+.category-block-one .inner-box h5, .category-block-two .inner-box h5 {
+  font-size: 20px !important;
+}
+
+.area-nearby .inner-box h6 {
+  font-size: 18px !important;
+}
+
+.area-nearby ul.category-list.clearfix.over li {
+  width: 50% !important;
+}
+
+.area-nearby .over .inner-box {
+  padding-bottom: UNSET !important;
+  margin-left: 2px;
+  
+}
+
+.areas-land {
+  padding-left: 20px!important;
+  margin-top: 20px !important;
+}
+.area-one {
+  margin-top: 20px !important;
+}
+.areas-land p.area-text {
+  width: 90% !important;
+  font-size: 15px !important;
+}
+.area-one {
+  margin-top: 20px !important;
+}
+
+section.cta-section.sec-pad.bg-color-2 {
+  margin-top: unset !important;
+}
+
+.cta-section .pull-right {
+  display: flex !important;
+  bottom: 20px;
+  top: unset !important;
+}
+
+
+.areas-land .inner-box {
+  padding: 20px !important;
+}
+
+.deals-block-one .inner-box .lower-content p {
+  font-size: 15px !important;
+}
+
+.download-brochure a.freebrochure {
+  font-size: 15px !important;
+}
+
+section.areas-slider .image-box img {
+  height: 400px !important;
+}
+
+section.section.about-location {
+  padding-top: unset !important;
+}
+
+.buy-guide {
+  padding-left: 20px !important;
+}
+
+.col-lg-6.property-content.property-location h2 {
+  font-size: 30px !important;
+}
+
+.col-lg-6.property-content.property-location h4 {
+  font-size: 20px !important;
+}
+
+.col-lg-6.property-content.property-location p {
+  font-size: 15px !important;
+  padding-right: 20px;
+}
+
+.buy-guide img {
+  margin-left: unset;
+  padding-right: 20px !important;
+  margin-top: 20px !important;
+  height: 400px;
+}
+.choose-area .col-lg-5.property-content p {
+  font-size: 15px;
+}
+.area-items i.bi.bi-wallet2 {
+  font-size: 25px !important;
+}
+
+.area-items .areabanner-pattern {
+font-size: 10px !Important;
+line-height:15px !Important;
+}
+
+.area-items  i.bi.bi-stars {
+font-size: 25px !important;
+}
+
+.area-items .areabanner-deve {
+font-size: 10px !Important;
+line-height:15px !Important;
+}
+.area-items .areabanner-deve i.bi.bi-house-down{
+font-size: 25px !important;
+
+}
+h2.home-banerheading {
+  font-size: 25px !important;
+  margin-top: -30px;
+}
+.col-lg-6.property-intro h1 {
+  font-size: 35px;
+  line-height: 35px;
+}
+
+.main-pattern.prop-price i.bi.bi-wallet2 {
+  font-size: 25px !important;
+}
+
+.main-pattern.prop-price p {
+  font-size: 12px !important;
+}
+
+.main-pattern.prop-price {
+  padding-top: 20px !important;
+}
+
+.banner-pattern.prop-plan i.bi.bi-tags {
+  font-size: 25px !important;
+}
+
+i.bi.bi-check2-circle {
+  font-size: 25px !important;
+}
+
+.banner-inquiry.prop-call {
+  font-size: 17px;
+  padding: 10px !important;
+}
+
+.banner-btn.prop-btn {
+  width: unset !important;
+}
+
+i.icon-17 {
+  font-size: 50px;
+}
+
+.inquiry-btnform {
+  margin-top: 10px !important;
+}
+
+section.property-details.property-details-four {
+  margin-top: 100px !important;
+}
+
+.right-column.pull-right.clearfix.sidebar-side {
+  position: unset !important;
+  left: unset !important;
+}
+
+.property-sidebar .author-widget .author-box {
+  padding-left: unset !important;
+}
+
+.top-details.clearfix {
+  padding: 20px 10px;
+}
+
+.property-details .top-details .left-column h3 {
+  font-size: 20px;
+}
+
+section.category-section.centred.property-overview {
+  padding-top: unset !important;
+}
+.col-lg-4.content-image {
+  padding-top: 30px !important;
+}
+.col-lg-4.content-image {
+  padding-top: 30px !important;
+}
+
+section.section.about-property .property-sidebar.profile-icon {
+  margin-left: 10px !important;
+  margin-top: -50px !important;
+  margin-right: 10px !important;
+}
+.col-lg-6.property-content.property-location {
+  padding-top: unset !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+.col-lg-6.content-image.location-name h2 {
+  padding-top: 30px !important;
+  font-size: 30px !important;
+  padding-left: 10px !important;
+  width: unset !important;
+}
+
+.col-lg-6.content-image.location-name img {
+  padding-top: 20px !important;
+}
+
+section.section.nearby-location h2 {
+  font-size: 30px !important;
+}
+section.section.about-location.about-developer {
+  padding-top: unset !important;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+.floorplan-heading h2 {
+  font-size: 30px !important;
+}
+
+section.gallery-style-one.sec-pad.centred.property-galler li.active.filter {
+  padding: 15px !important;
+  font-size: 17px;
+}
+
+li.filter.exterior-btn {
+  padding: 15px !important;
+  font-size: 20px !important;
+}
+
+.floorplan-bedroom {
+  padding-left: unset;
+}
+
+.floorplan-image img {
+  width: 100% !important;
+}
+
+.floorplan.interior {
+  display: unset !important;
+}
+
+section.gallery-style-two.centred.top-view h2 {
+  width: 100% !important;
+  font-size: 30px;
+}
+.col-lg-3.content-image.location-name.developer-name img {
+  padding-top: 20px !important;
+  width: 100% !important;
+}
+
+section.gallery-style-one.sec-pad.centred.property-galler .sec-title {
+  display: unset !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+
+.parent-type {
+  display: unset !important;
+}
+
+.property-type.nearby-name {
+  width: 100% !important;
+  margin-top: 10px !important;
+}
+
+section.section.nearby-location.cta-section.advantgaes.alternate-2.centred {
+  height: 1000px !important;
+}
+.amenity-title {
+  display: unset;
+}
+
+.amenityname h2 {
+  font-size: 30px;
+}
+
+.amenitybtn {
+  margin-top: 50px !important;
+}
+section.property-overview h2 {
+  width: unset !important;
+  font-size: 35px;
+}
+section.section.about-property {
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+
+.col-lg-5.property-content h2 {
+  font-size: 30px !important;
+  padding-top: 50px !important;
+  padding-bottom: 20px !important;
+}
+section.property-details.property-details-four {
+  padding-bottom: unset !important;
+}
+
+ul.category-list.clearfix.over li {
+  width: 100% !important;
+  margin-top: 10px !important;
+}
+
+
+.main-pattern {
+  width: 100% !important;
+}
+
+
+.banner-style p {
+  font-size: 15px !important;
+}
+
+.main-pattern {
+  padding-top: unset !important;
+}
+
+.banner-pattern p {
+  font-size: 15px !important;
+}
+
+.main-pattern {
+  justify-content: space-around;
+}
+
+
+.banner-inquiry a.theme-btn.btn-three.banner-btn {
+  font-size: 13px !important;
+  padding: 10px !important;
+}
+
+.banner-carousel .active .property-view a.theme-btn.btn-one {
+  font-size: 12px !important;
+  padding: 10px !important;
+}
 .beachfront {
   width: 100% !important;
   margin-left: 0% !important;

@@ -2,54 +2,58 @@
 @section('content')
 
     <section class="property-title"
-        style="background-image:url({{asset('web-assets/images/banner/the-farmhouses-at-damac-hills-2-banner.webp')}}) ">
-        <div class="container">
-            <div class="row content-box clearfix">
-                <div class="col-6 property-intro">
-                    <h1>The Farmhouses at Damac Hills 2</h1>
-                    <p>Lorem,
-                        ipsum dolor sit amet consectetur adipisicing elit. Nemo eaque dicta quam? Odio voluptatum dicta,
-                        quasi fugiat vero Lorem,
-                        ipsum dolor sit amet consectetur adipisicing elit. Nemo eaque dicta quam? Odio voluptatum dicta,
-                        quasi fugiat vero </p>
-                    <div class="main-pattern prop-price">
-                        <div class="banner-style">
-                            <p><i class="bi bi-wallet2"></i></p>
-                            <p><b>Starting Price</b><br>On Request</p>
+        style="background-image:url({{asset('web-assets/images/resource/propertybanner.jpg')}}) ">
+        <div class="overlay-property">
+       <div class="container">
+                <div class="row content-box clearfix">
+                    <div class="col-lg-6 col-md-6 col-sm-12 property-intro">
+                        <h1>The Farmhouses at Damac Hills 2</h1>
+                        <p>Lorem,
+                            ipsum dolor sit amet consectetur adipisicing elit. Nemo eaque dicta quam? Odio voluptatum dicta,
+                            quasi fugiat vero Lorem,
+                            ipsum dolor sit amet consectetur adipisicing elit. Nemo eaque dicta quam? Odio voluptatum dicta,
+                            quasi fugiat vero </p>
+                        <div class="main-pattern prop-price">
+                            <div class="banner-style">
+                                <p><i class="bi bi-wallet2"></i></p>
+                                <p><b>Starting Price</b><br>On Request</p>
+                            </div>
+                            <div class="banner-pattern prop-plan">
+                                <p><i class="bi bi-tags"></i></p>
+                                <p><b>Payment Plan </b><br>On Request</p>
+                            </div>
+                            <div class="banner-handover prop-handover">
+                                <p><i class="bi bi-check2-circle"></i></p>
+                                <p><b>Handover </b><br>On Request</p>
+                            </div>
                         </div>
-                        <div class="banner-pattern prop-plan">
-                            <p><i class="bi bi-tags"></i></p>
-                            <p><b>Payment Plan </b><br>On Request</p>
-                        </div>
-                        <div class="banner-handover prop-handover">
-                            <p><i class="bi bi-check2-circle"></i></p>
-                            <p><b>Handover </b><br>On Request</p>
+                        <div class="banner-btn prop-btn ">
+                            <div class="banner-inquiry prop-call"><a href="index-5.html" class="property-btn"><i
+                                        class="bi bi-arrow-right-circle">&nbsp;
+                                    </i>Request A Property Appraisal</a></div>
+                            <div class="video-btn"><a href="https://www.youtube.com/watch?v=Kn615acNlTw"
+                                    class="lightbox-image" data-caption=""><i class="icon-17"></i></a></div>
                         </div>
                     </div>
-                    <div class="banner-btn prop-btn">
-                        <div class="banner-inquiry prop-call"><a href="index-5.html" class="property-btn"><i
-                                    class="bi bi-arrow-right-circle">&nbsp;
-                                </i>Request A Property Appraisal</a></div>
-                        <div class="video-btn"><a href="https://www.youtube.com/watch?v=Kn615acNlTw"
-                                class="lightbox-image" data-caption=""><i class="icon-17"></i></a></div>
-                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12"></div>
+                    {{-- <div class="col-lg-3 col-md-3 col-sm-12 property-main">
+                        <div class="inquiry-btnform">
+                            <h3>Learn More About Project</h3>
+                            <div class="property-contact"><a href="index-5.html" class="property-btn"><i
+                                        class="bi bi-telephone-inbound">&nbsp;
+                                    </i>Contact Now</a></div>
+                            <div class="property-whatsapp"><a href="index-5.html" class="property-btn"><i
+                                        class="bi bi-whatsapp">&nbsp;
+                                    </i>Find out in whatsapp</a></div>
+                            <div class="Property-consultant"><a href="index-5.html" class="property-btn"><i
+                                        class="bi bi-person">&nbsp;
+                                    </i>Get a free consultation</a></div>
+                            <div></div>
+                        </div>
+                    </div> --}}
                 </div>
-                <div class="col-3"></div>
-                <div class="col-3 property-main">
-                    <div class="inquiry-btnform">
-                        <h3>Learn More About Project</h3>
-                        <div class="property-contact"><a href="index-5.html" class="property-btn"><i
-                                    class="bi bi-telephone-inbound">&nbsp;
-                                </i>Contact Now</a></div>
-                        <div class="property-whatsapp"><a href="index-5.html" class="property-btn"><i
-                                    class="bi bi-whatsapp">&nbsp;
-                                </i>Find out in whatsapp</a></div>
-                        <div class="Property-consultant"><a href="index-5.html" class="property-btn"><i
-                                    class="bi bi-person">&nbsp;
-                                </i>Get a free consultation</a></div>
-                        <div></div>
-                    </div>
-                </div>
+            </div>
+        </div>
     </section>
     <!--End Page Title-->
         <!-- property-details -->
@@ -100,6 +104,25 @@
                             </div>
                         </div>
                     </div>
+            </section>
+                <section class="property-brochure">
+                <div class="row">
+                    <div class="col-6 brochure-content">
+                        <h2>Get Free PDF Brochure</h2>
+                        <p>The Farmhouses is a new residential development in the family-oriented area of DAMAC Hills 2.
+                            It’s an exclusive project,
+                            offering 5-6 bedroom farmhouse villas. The development will be appreciated by those wishing
+                            to emerge into an eco-friendly living,
+                            grow fruits and vegetables on the territory of your home,
+                            as well as ride around the community on the horse</p>
+                        <div class="download-brochure"><a href="index-5.html" class="freebrochure"><i
+                                    class="bi bi-cloud-arrow-down">&nbsp;
+
+                                </i>Download Free PDF Brochure</a></div>
+                    </div>
+                    <div class="col-6 brochure-img"><img src="{{asset('web-assets/images/banner/brochure.png')}}"
+                            alt=""></div>
+                </div>
             </section>
             <section class="category-section centred property-overview">
                 <h2>Property Overview</h2>
@@ -184,9 +207,287 @@
                         </li>
                     </ul>
             </div>
+            
         </section>
 
-           
+        <section class="property-details property-details-two gallery-style-one sec-pad  centred property-galler">
+            <div class="sec-title">
+                <div class="gallery-heading">
+                    {{-- <h5>Style 3</h5> --}}
+                    <h2>Photo Gallery</h2>
+                </div>
+                <div class="sortable-masonry">
+                    <div class="filters">
+                        <ul class="filter-tabs filter-btns clearfix life-style">
+                            <li class="active filter interior-btn">Interior</li>
+                            <li class="filter exterior-btn">Exterior</li>
+                            {{-- <li class="filter" data-role="button" data-filter=".interior">Interior</li> --}}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="carousel-inner interior">
+                <div class="bxslider">
+                    <div class="slider-content">
+                        <div class="product-image">
+                            <figure class="image-box"><img src="{{asset('web-assets/images/resource/slider-1.webp')}}" alt=""></figure>
+                        </div>
+                        <div class="slider-pager">
+                            <ul class="thumb-box clearfix">
+                                <li>
+                                    <a class="active" data-slide-index="0" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-2.webp')}}" alt=""></figure></a>
+                                </li>
+                                <li>
+                                    <a data-slide-index="1" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-3.webp')}}" alt=""></figure></a>
+                                </li>
+                                <li>
+                                    <a data-slide-index="2" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-4.webp')}}" alt=""></figure></a>
+                                </li>
+                                <li>
+                                    <a data-slide-index="3" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-5.webp')}}" alt=""></figure></a>
+                                </li>
+                                <li>
+                                    <a data-slide-index="4" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-6.webp')}}" alt=""></figure></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="slider-content">
+                        <div class="product-image">
+                            <figure class="image-box"><img src="{{asset('web-assets/images/resource/slider-2.webp')}}" alt=""></figure>
+                        </div>
+                        <div class="slider-pager">
+                            <ul class="thumb-box clearfix">
+                                <li>
+                                    <a class="active" data-slide-index="0" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-3.webp')}}" alt=""></figure></a>
+                                </li>
+                                <li>
+                                    <a data-slide-index="1" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-4.webp')}}" alt=""></figure></a>
+                                </li>
+                                <li>
+                                    <a data-slide-index="2" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-5.webp')}}" alt=""></figure></a>
+                                </li>
+                                <li>
+                                    <a data-slide-index="3" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-6.webp')}}" alt=""></figure></a>
+                                </li>
+                                <li>
+                                    <a data-slide-index="4" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-1.webp')}}" alt=""></figure></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="slider-content">
+                        <div class="product-image">
+                            <figure class="image-box"><img src="{{asset('web-assets/images/resource/slider-3.webp')}}" alt=""></figure>
+                        </div>
+                        <div class="slider-pager">
+                            <ul class="thumb-box clearfix">
+                                <li>
+                                    <a class="active" data-slide-index="0" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-1.webp')}}" alt=""></figure></a>
+                                </li>
+                                <li>
+                                    <a data-slide-index="1" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-1.webp')}}" alt=""></figure></a>
+                                </li>
+                                <li>
+                                    <a data-slide-index="2" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-3.webp')}}" alt=""></figure></a>
+                                </li>
+                                <li>
+                                    <a data-slide-index="3" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-1.webp')}}" alt=""></figure></a>
+                                </li>
+                                <li>
+                                    <a data-slide-index="4" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-6.webp')}}" alt=""></figure></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="slider-content">
+                        <div class="product-image">
+                            <figure class="image-box"><img src="{{asset('web-assets/images/resource/property-details-5.jpg')}}" alt=""></figure>
+                        </div>
+                        <div class="slider-pager">
+                            <ul class="thumb-box clearfix">
+                                <li>
+                                    <a class="active" data-slide-index="0" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-1.webp')}}" alt=""></figure></a>
+                                </li>
+                                <li>
+                                    <a data-slide-index="1" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-1.webp')}}" alt=""></figure></a>
+                                </li>
+                                <li>
+                                    <a data-slide-index="2" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-3.webp')}}" alt=""></figure></a>
+                                </li>
+                                <li>
+                                    <a data-slide-index="3" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-1.webp')}}" alt=""></figure></a>
+                                </li>
+                                <li>
+                                    <a data-slide-index="4" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-6.webp')}}" alt=""></figure></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="slider-content">
+                        <div class="product-image">
+                            <figure class="image-box"><img src="{{asset('web-assets/images/resource/property-details-6.jpg')}}" alt=""></figure>
+                        </div>
+                        <div class="slider-pager">
+                            <ul class="thumb-box clearfix">
+                                <li>
+                                    <a class="active" data-slide-index="0" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-1.webp')}}" alt=""></figure></a>
+                                </li>
+                                <li>
+                                    <a data-slide-index="1" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-1.webp')}}" alt=""></figure></a>
+                                </li>
+                                <li>
+                                    <a data-slide-index="2" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-3.webp')}}" alt=""></figure></a>
+                                </li>
+                                <li>
+                                    <a data-slide-index="3" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-1.webp')}}" alt=""></figure></a>
+                                </li>
+                                <li>
+                                    <a data-slide-index="4" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-6.webp')}}" alt=""></figure></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-inner exterior">
+                <div class="bxslider">
+                    <div class="slider-content">
+                        <div class="product-image">
+                            <figure class="image-box"><img src="{{asset('web-assets/images/resource/slider-1.webp')}}" alt=""></figure>
+                        </div>
+                        <div class="slider-pager">
+                            <ul class="thumb-box clearfix">
+                                <li>
+                                    <a class="active" data-slide-index="0" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-1.webp')}}" alt=""></figure></a>
+                                </li>
+                                <li>
+                                    <a data-slide-index="1" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-2.webp')}}" alt=""></figure></a>
+                                </li>
+                                <li>
+                                    <a data-slide-index="2" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-3.webp')}}" alt=""></figure></a>
+                                </li>
+                                <li>
+                                    <a data-slide-index="3" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-4.webp')}}" alt=""></figure></a>
+                                </li>
+                                <li>
+                                    <a data-slide-index="4" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-6.webp')}}" alt=""></figure></a>
+                                </li>
+                                {{-- <li>
+                                    <a data-slide-index="5" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-6.webp')}}" alt=""></figure></a>
+                                </li> --}}
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="slider-content">
+                        <div class="product-image">
+                            <figure class="image-box"><img src="{{asset('web-assets/images/resource/slider-1.webp')}}" alt=""></figure>
+                        </div>
+                        <div class="slider-pager">
+                            <ul class="thumb-box clearfix">
+                                <li>
+                                    <a class="active" data-slide-index="0" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-1.webp')}}" alt=""></figure></a>
+                                </li>
+                                <li>
+                                    <a data-slide-index="1" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-1.webp')}}" alt=""></figure></a>
+                                </li>
+                                <li>
+                                    <a data-slide-index="2" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-3.webp')}}" alt=""></figure></a>
+                                </li>
+                                <li>
+                                    <a data-slide-index="3" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-1.webp')}}" alt=""></figure></a>
+                                </li>
+                                <li>
+                                    <a data-slide-index="4" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-6.webp')}}" alt=""></figure></a>
+                                </li>
+                                {{-- <li>
+                                    <a data-slide-index="5" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-6.webp')}}" alt=""></figure></a>
+                                </li> --}}
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="slider-content">
+                        <div class="product-image">
+                            <figure class="image-box"><img src="{{asset('web-assets/images/resource/slider-1.webp')}}" alt=""></figure>
+                        </div>
+                        <div class="slider-pager">
+                            <ul class="thumb-box clearfix">
+                                <li>
+                                    <a class="active" data-slide-index="0" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-1.webp')}}" alt=""></figure></a>
+                                </li>
+                                <li>
+                                    <a data-slide-index="1" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-1.webp')}}" alt=""></figure></a>
+                                </li>
+                                <li>
+                                    <a data-slide-index="2" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-3.webp')}}" alt=""></figure></a>
+                                </li>
+                                <li>
+                                    <a data-slide-index="3" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-1.webp')}}" alt=""></figure></a>
+                                </li>
+                                <li>
+                                    <a data-slide-index="4" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-6.webp')}}" alt=""></figure></a>
+                                </li>
+                                {{-- <li>
+                                    <a data-slide-index="5" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-6.webp')}}" alt=""></figure></a>
+                                </li> --}}
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="slider-content">
+                        <div class="product-image">
+                            <figure class="image-box"><img src="{{asset('web-assets/images/resource/slider-1.webp')}}" alt=""></figure>
+                        </div>
+                        <div class="slider-pager">
+                            <ul class="thumb-box clearfix">
+                                <li>
+                                    <a class="active" data-slide-index="0" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-1.webp')}}" alt=""></figure></a>
+                                </li>
+                                <li>
+                                    <a data-slide-index="1" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-1.webp')}}" alt=""></figure></a>
+                                </li>
+                                <li>
+                                    <a data-slide-index="2" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-3.webp')}}" alt=""></figure></a>
+                                </li>
+                                <li>
+                                    <a data-slide-index="3" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-1.webp')}}" alt=""></figure></a>
+                                </li>
+                                <li>
+                                    <a data-slide-index="4" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-6.webp')}}" alt=""></figure></a>
+                                </li>
+                                {{-- <li>
+                                    <a data-slide-index="5" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-6.webp')}}" alt=""></figure></a>
+                                </li> --}}
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="slider-content">
+                        <div class="product-image">
+                            <figure class="image-box"><img src="{{asset('web-assets/images/resource/slider-1.webp')}}" alt=""></figure>
+                        </div>
+                        <div class="slider-pager">
+                            <ul class="thumb-box clearfix">
+                                <li>
+                                    <a class="active" data-slide-index="0" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-1.webp')}}" alt=""></figure></a>
+                                </li>
+                                <li>
+                                    <a data-slide-index="1" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-1.webp')}}" alt=""></figure></a>
+                                </li>
+                                <li>
+                                    <a data-slide-index="2" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-3.webp')}}" alt=""></figure></a>
+                                </li>
+                                <li>
+                                    <a data-slide-index="3" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-1.webp')}}" alt=""></figure></a>
+                                </li>
+                                <li>
+                                    <a data-slide-index="4" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-6.webp')}}" alt=""></figure></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>  
          
             <section class="main-paymentplan">
                 <h2 class="paymentplan-h2">The Farmhouses at Damac Hills 2 <br>Payment plans.</h2>
@@ -222,82 +523,6 @@
                     </div>
                 </div>
             </section>
-            {{-- <section class="property-brochure">
-                <div class="row">
-                    <div class="col-6 brochure-content">
-                        <h2>Get Free PDF Brochure</h2>
-                        <p>The Farmhouses is a new residential development in the family-oriented area of DAMAC Hills 2.
-                            It’s an exclusive project,
-                            offering 5-6 bedroom farmhouse villas. The development will be appreciated by those wishing
-                            to emerge into an eco-friendly living,
-                            grow fruits and vegetables on the territory of your home,
-                            as well as ride around the community on the horse</p>
-                        <div class="download-brochure"><a href="index-5.html" class="freebrochure"><i
-                                    class="bi bi-cloud-arrow-down">&nbsp;
-
-                                </i>Download Free PDF Brochure</a></div>
-                    </div>
-                    <div class="col-6 brochure-img"><img src="{{asset('web-assets/images/banner/brochure.png')}}"
-                            alt=""></div>
-                </div>
-            </section> --}}
-            <section class="section about-property">
-                <div class="row">
-                    
-                    <div class="col-5 property-content">
-                        <h2>About The Farmhouses Villas in DAMAC Hills 2</h2>
-                        <p>The Farmhouses at Damac Hills 2 is a new development of 5 and 6-bedroom farmhouses
-                            located in the heart of Damac Hills 2,
-                            Dubai. The community offers a unique blend of luxury living and country charm,
-                            with spacious homes,
-                            world-class amenities,
-                            and stunning views of the surrounding landscape. The Farmhouses are available in two
-                            styles: European and North American. European-style farmhouses are inspired by the
-                            tranquil meadows of the Netherlands or Belgium,
-                            with traditional features such as thatched roofs and exposed beams. North American-style
-                            farmhouses are more spacious and suited to the frontier style,
-                            with large porches and plenty of room for entertaining. No matter which style you
-                            choose,
-                            you can be sure to enjoy a luxurious and comfortable lifestyle at The Farmhouses. The
-                            homes feature spacious living and dining areas,
-                            gourmet kitchens,
-                            and luxurious master suites. There is also plenty of space for entertaining,
-                            with private gardens and swimming pools.</p>
-                    </div>
-                    <div class="col-4 content-image"><figure class="image image-1 paroller"><img src="{{asset('web-assets/images/resource/653x685-EN (3).jpg')}}" alt=""></figure>
-                       </div>
-                        <div class="col-3 content-image">
-                            <div class="property-sidebar profile-icon">
-                                <div class="author-widget sidebar-widget">
-                                    <div class="author-box">
-                                        <figure class="author-thumb"><img
-                                                src="{{asset('web-assets/images/resource/author-1.jpg')}}" alt=""
-                                                width="70"></figure>
-                                        <div class="inner">
-                                            <h4>Get More About Property <br>From Property expert  </h4>
-                                            <div class="btn-box"><a href="property-details.html"
-                                                class="theme-btn btn-two">View Profile</a></div>
-                                            <div class="main-propertybtn">
-                                               
-                                                <div class="what-btn"><a href="property-details.html"
-                                                        class="theme-btn btn-two whatcall-btn"><i
-                                                            class="bi bi-whatsapp"></i></a></div>
-                                                <div class="call-btn"><a href="property-details.html"
-                                                        class="theme-btn btn-two directcall-btn"><i
-                                                            class="bi bi-telephone-inbound"></i></a></div>
-                                                <div class="email-btn"><a href="property-details.html"
-                                                        class="theme-btn btn-two mailinquiry-btn"><i
-                                                            class="bi bi-envelope-check"></i></a></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                </div>
-            
-        </section>
-       
             <section class="gallery-style-two  centred amenities ">
                 <div class="auto-container">
                     
@@ -403,6 +628,113 @@
                     </div>
                 </div>
             </section>
+            <section class="section about-property">
+                <div class="row">
+                    
+                    <div class="col-lg-5 property-content">
+                        <h2>About The Farmhouses Villas in DAMAC Hills 2</h2>
+                        <p>The Farmhouses at Damac Hills 2 is a new development of 5 and 6-bedroom farmhouses
+                            located in the heart of Damac Hills 2,
+                            Dubai. The community offers a unique blend of luxury living and country charm,
+                            with spacious homes,
+                            world-class amenities,
+                            and stunning views of the surrounding landscape. The Farmhouses are available in two
+                            styles: European and North American. European-style farmhouses are inspired by the
+                            tranquil meadows of the Netherlands or Belgium,
+                            with traditional features such as thatched roofs and exposed beams. North American-style
+                            farmhouses are more spacious and suited to the frontier style,
+                            with large porches and plenty of room for entertaining. No matter which style you
+                            choose,
+                            you can be sure to enjoy a luxurious and comfortable lifestyle at The Farmhouses. The
+                            homes feature spacious living and dining areas,
+                            gourmet kitchens,
+                            and luxurious master suites. There is also plenty of space for entertaining,
+                            with private gardens and swimming pools.</p>
+                    </div>
+                    <div class="col-lg-4 content-image"><figure class="image image-1 paroller"><img src="{{asset('web-assets/images/resource/653x685-EN (3).jpg')}}" alt=""></figure>
+                       </div>
+                        <div class="col-lg-3 content-image">
+                            <div class="property-sidebar profile-icon">
+                                <div class="author-widget sidebar-widget">
+                                    <div class="author-box">
+                                        <figure class="author-thumb"><img
+                                                src="{{asset('web-assets/images/resource/author-1.jpg')}}" alt=""
+                                                width="70"></figure>
+                                        <div class="inner">
+                                            <h4>Get More About Property <br>From Property expert  </h4>
+                                            <div class="btn-box"><a href="property-details.html"
+                                                class="theme-btn btn-two">View Profile</a></div>
+                                            <div class="main-propertybtn">
+                                               
+                                                <div class="what-btn"><a href="property-details.html"
+                                                        class="theme-btn btn-two whatcall-btn"><i
+                                                            class="bi bi-whatsapp"></i></a></div>
+                                                <div class="call-btn"><a href="property-details.html"
+                                                        class="theme-btn btn-two directcall-btn"><i
+                                                            class="bi bi-telephone-inbound"></i></a></div>
+                                                <div class="email-btn"><a href="property-details.html"
+                                                        class="theme-btn btn-two mailinquiry-btn"><i
+                                                            class="bi bi-envelope-check"></i></a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            
+        </section>
+       
+        <section class="property-details property-details-two gallery-style-one sec-pad  centred property-galler">
+            <div class="container">
+            <div class="floor-title">
+                <div class="floorplan-heading">
+                    {{-- <h5>Style 3</h5> --}}
+                    <h2>Floor Plans of DAMAC The Farmhouses Villas</h2>
+                </div>
+                <div class="sortable-masonry">
+                    <div class="filters">
+                        <ul class="filter-tabs filter-btns clearfix life-style">
+                            <li class="active filter interior-btn">5 Bedroom</li>
+                            <li class="filter exterior-btn">6 Bedroom</li>
+                            {{-- <li class="filter" data-role="button" data-filter=".interior">Interior</li> --}}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="floorplan interior">
+                <div class="floorplan-image">
+                    <img src="{{asset('web-assets/images/resource/5br.jpg')}}" alt="">
+                </div>
+                <div class="floorplan-bedroom">
+                    <h3>5-Bedroom Villa</h3>
+                    <p><i class="icon-1">&nbsp;</i><b>Total:</b> 5040 sqft</p>
+                    <div class="flor-btn">
+                        <a href="index-5.html" class="freefloorplan">Open All Floor Plans</a>
+                        <a href="index-5.html" class="freebrochure"><i
+                            class="bi bi-cloud-arrow-down">&nbsp;
+        
+                        </i>Download Brochure</a>
+                </div>
+            </div>
+        </div>
+            <div class="floorplan exterior">
+                <div class="floorplan-image">
+                    <img src="{{asset('web-assets/images/resource/6br.jpg')}}" alt="">
+                </div>
+                <div class="floorplan-bedroom">
+                    <h3>6-Bedroom Villa</h3>
+                    <p><i class="icon-1">&nbsp;</i><b>Total:</b> 8387 sqft</p>
+                    <div class="flor-btn">
+                        <a href="index-5.html" class="freefloorplan">Open All Floor Plans</a>
+                        <a href="index-5.html" class="freebrochure"><i
+                            class="bi bi-cloud-arrow-down">&nbsp;
+        
+                        </i>Download Brochure</a>
+                </div>
+            </div>
+        </div>
+        </section>
           
                 <!-- category-section -->
      
@@ -410,7 +742,7 @@
 
             <section class="section about-location">
                     <div class="row">
-                        <div class="col-6 property-content property-location">
+                        <div class="col-lg-6 property-content property-location">
                             <h2>About Location</h2>
                             <p>Jumeirah Village Circle (JVC), Damac Hills, Downtown Dubai, and Business Bay are strategically situated close by, ensuring convenient connectivity for residents to various destinations. Community schools and hospitality centers are also within quick reach. Embrace a lifestyle of elevated living standards in a location that maximizes life's pleasures.Jumeirah Village Circle (JVC), Damac Hills, Downtown Dubai, and Business Bay are strategically situated close by, ensuring convenient connectivity for residents to various destinations. Community schools and hospitality centers are also within quick reach. Embrace a lifestyle of elevated living standards in a location that maximizes life's pleasures.</p>
                             <div class="download-brochure"><a href="index-5.html" class="freebrochure"><i
@@ -420,7 +752,7 @@
                         </div>
 
 
-                        <div class="col-6 content-image location-name"><h2>DAMAC Hills 2
+                        <div class="col-lg-6 content-image location-name"><h2>DAMAC Hills 2
                             in Dubai</h2><img
                                 src="{{asset('web-assets/images/resource/Damac-Hills-2-location.jpg')}}"
                                 alt=""></div>
@@ -464,7 +796,7 @@
             <!-- gallery-style-one -->
             <section class="section about-location about-developer">
                 <div class="row">
-                    <div class="col-5 property-content property-location developer">
+                    <div class="col-lg-5 property-content property-location developer">
                         <h2>About Developer</h2>
                         <h3>Damac Properties</h3>
                         <p>Damac Property Developers are renowned creators of luxurious real estate, shaping Dubai's skyline with innovative designs and exceptional craftsmanship. With a portfolio spanning residential, commercial, and leisure properties, Damac is a trusted name synonymous with elegance, quality, and visionary developments that redefine modern living. By establishing a connection with Damac developers, you can become a proud owner of a magnificent new residence within various Damac Properties, strategically situated throughout Dubai. Delve into an array of real estate options at DAMAC Lagoons, DAMAC Hills, and DAMAC Hills 2, and take advantage of enduring prospects for investment.</p>
@@ -472,342 +804,16 @@
                     </div>
 
 
-                    <div class="col-3 content-image location-name developer-name"><img
+                    <div class="col-lg-3 content-image location-name developer-name"><img
                             src="{{asset('web-assets/images/resource/damac-developer.png')}}"
                             alt=""></div>
-                            <div class="col-4 content-image location-name developer-name"><img
+                            <div class="col-lg-4 content-image location-name developer-name"><img
                                 src="{{asset('web-assets/images/resource/damac-1.jpg')}}"
                                 alt=""></div>
                 </div>
         </section>
-<section class="property-details property-details-two gallery-style-one sec-pad  centred property-galler">
-        <div class="sec-title">
-            <div class="gallery-heading">
-                {{-- <h5>Style 3</h5> --}}
-                <h2>Photo Gallery</h2>
-            </div>
-            <div class="sortable-masonry">
-                <div class="filters">
-                    <ul class="filter-tabs filter-btns clearfix life-style">
-                        <li class="active filter interior-btn">Interior</li>
-                        <li class="filter exterior-btn">Exterior</li>
-                        {{-- <li class="filter" data-role="button" data-filter=".interior">Interior</li> --}}
-                    </ul>
-                </div>
-            </div>
-        </div>
-        
-        <div class="carousel-inner interior">
-            <div class="bxslider">
-                <div class="slider-content">
-                    <div class="product-image">
-                        <figure class="image-box"><img src="{{asset('web-assets/images/resource/slider-1.webp')}}" alt=""></figure>
-                    </div>
-                    <div class="slider-pager">
-                        <ul class="thumb-box clearfix">
-                            <li>
-                                <a class="active" data-slide-index="0" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-2.webp')}}" alt=""></figure></a>
-                            </li>
-                            <li>
-                                <a data-slide-index="1" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-3.webp')}}" alt=""></figure></a>
-                            </li>
-                            <li>
-                                <a data-slide-index="2" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-4.webp')}}" alt=""></figure></a>
-                            </li>
-                            <li>
-                                <a data-slide-index="3" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-5.webp')}}" alt=""></figure></a>
-                            </li>
-                            <li>
-                                <a data-slide-index="4" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-6.webp')}}" alt=""></figure></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="slider-content">
-                    <div class="product-image">
-                        <figure class="image-box"><img src="{{asset('web-assets/images/resource/slider-2.webp')}}" alt=""></figure>
-                    </div>
-                    <div class="slider-pager">
-                        <ul class="thumb-box clearfix">
-                            <li>
-                                <a class="active" data-slide-index="0" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-3.webp')}}" alt=""></figure></a>
-                            </li>
-                            <li>
-                                <a data-slide-index="1" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-4.webp')}}" alt=""></figure></a>
-                            </li>
-                            <li>
-                                <a data-slide-index="2" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-5.webp')}}" alt=""></figure></a>
-                            </li>
-                            <li>
-                                <a data-slide-index="3" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-6.webp')}}" alt=""></figure></a>
-                            </li>
-                            <li>
-                                <a data-slide-index="4" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-1.webp')}}" alt=""></figure></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="slider-content">
-                    <div class="product-image">
-                        <figure class="image-box"><img src="{{asset('web-assets/images/resource/slider-3.webp')}}" alt=""></figure>
-                    </div>
-                    <div class="slider-pager">
-                        <ul class="thumb-box clearfix">
-                            <li>
-                                <a class="active" data-slide-index="0" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-1.webp')}}" alt=""></figure></a>
-                            </li>
-                            <li>
-                                <a data-slide-index="1" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-1.webp')}}" alt=""></figure></a>
-                            </li>
-                            <li>
-                                <a data-slide-index="2" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-3.webp')}}" alt=""></figure></a>
-                            </li>
-                            <li>
-                                <a data-slide-index="3" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-1.webp')}}" alt=""></figure></a>
-                            </li>
-                            <li>
-                                <a data-slide-index="4" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-6.webp')}}" alt=""></figure></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="slider-content">
-                    <div class="product-image">
-                        <figure class="image-box"><img src="{{asset('web-assets/images/resource/property-details-5.jpg')}}" alt=""></figure>
-                    </div>
-                    <div class="slider-pager">
-                        <ul class="thumb-box clearfix">
-                            <li>
-                                <a class="active" data-slide-index="0" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-1.webp')}}" alt=""></figure></a>
-                            </li>
-                            <li>
-                                <a data-slide-index="1" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-1.webp')}}" alt=""></figure></a>
-                            </li>
-                            <li>
-                                <a data-slide-index="2" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-3.webp')}}" alt=""></figure></a>
-                            </li>
-                            <li>
-                                <a data-slide-index="3" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-1.webp')}}" alt=""></figure></a>
-                            </li>
-                            <li>
-                                <a data-slide-index="4" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-6.webp')}}" alt=""></figure></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="slider-content">
-                    <div class="product-image">
-                        <figure class="image-box"><img src="{{asset('web-assets/images/resource/property-details-6.jpg')}}" alt=""></figure>
-                    </div>
-                    <div class="slider-pager">
-                        <ul class="thumb-box clearfix">
-                            <li>
-                                <a class="active" data-slide-index="0" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-1.webp')}}" alt=""></figure></a>
-                            </li>
-                            <li>
-                                <a data-slide-index="1" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-1.webp')}}" alt=""></figure></a>
-                            </li>
-                            <li>
-                                <a data-slide-index="2" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-3.webp')}}" alt=""></figure></a>
-                            </li>
-                            <li>
-                                <a data-slide-index="3" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-1.webp')}}" alt=""></figure></a>
-                            </li>
-                            <li>
-                                <a data-slide-index="4" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-6.webp')}}" alt=""></figure></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="carousel-inner exterior">
-            <div class="bxslider">
-                <div class="slider-content">
-                    <div class="product-image">
-                        <figure class="image-box"><img src="{{asset('web-assets/images/resource/slider-1.webp')}}" alt=""></figure>
-                    </div>
-                    <div class="slider-pager">
-                        <ul class="thumb-box clearfix">
-                            <li>
-                                <a class="active" data-slide-index="0" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-1.webp')}}" alt=""></figure></a>
-                            </li>
-                            <li>
-                                <a data-slide-index="1" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-2.webp')}}" alt=""></figure></a>
-                            </li>
-                            <li>
-                                <a data-slide-index="2" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-3.webp')}}" alt=""></figure></a>
-                            </li>
-                            <li>
-                                <a data-slide-index="3" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-4.webp')}}" alt=""></figure></a>
-                            </li>
-                            <li>
-                                <a data-slide-index="4" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-6.webp')}}" alt=""></figure></a>
-                            </li>
-                            {{-- <li>
-                                <a data-slide-index="5" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-6.webp')}}" alt=""></figure></a>
-                            </li> --}}
-                        </ul>
-                    </div>
-                </div>
-                <div class="slider-content">
-                    <div class="product-image">
-                        <figure class="image-box"><img src="{{asset('web-assets/images/resource/slider-1.webp')}}" alt=""></figure>
-                    </div>
-                    <div class="slider-pager">
-                        <ul class="thumb-box clearfix">
-                            <li>
-                                <a class="active" data-slide-index="0" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-1.webp')}}" alt=""></figure></a>
-                            </li>
-                            <li>
-                                <a data-slide-index="1" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-1.webp')}}" alt=""></figure></a>
-                            </li>
-                            <li>
-                                <a data-slide-index="2" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-3.webp')}}" alt=""></figure></a>
-                            </li>
-                            <li>
-                                <a data-slide-index="3" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-1.webp')}}" alt=""></figure></a>
-                            </li>
-                            <li>
-                                <a data-slide-index="4" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-6.webp')}}" alt=""></figure></a>
-                            </li>
-                            {{-- <li>
-                                <a data-slide-index="5" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-6.webp')}}" alt=""></figure></a>
-                            </li> --}}
-                        </ul>
-                    </div>
-                </div>
-                <div class="slider-content">
-                    <div class="product-image">
-                        <figure class="image-box"><img src="{{asset('web-assets/images/resource/slider-1.webp')}}" alt=""></figure>
-                    </div>
-                    <div class="slider-pager">
-                        <ul class="thumb-box clearfix">
-                            <li>
-                                <a class="active" data-slide-index="0" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-1.webp')}}" alt=""></figure></a>
-                            </li>
-                            <li>
-                                <a data-slide-index="1" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-1.webp')}}" alt=""></figure></a>
-                            </li>
-                            <li>
-                                <a data-slide-index="2" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-3.webp')}}" alt=""></figure></a>
-                            </li>
-                            <li>
-                                <a data-slide-index="3" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-1.webp')}}" alt=""></figure></a>
-                            </li>
-                            <li>
-                                <a data-slide-index="4" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-6.webp')}}" alt=""></figure></a>
-                            </li>
-                            {{-- <li>
-                                <a data-slide-index="5" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-6.webp')}}" alt=""></figure></a>
-                            </li> --}}
-                        </ul>
-                    </div>
-                </div>
-                <div class="slider-content">
-                    <div class="product-image">
-                        <figure class="image-box"><img src="{{asset('web-assets/images/resource/slider-1.webp')}}" alt=""></figure>
-                    </div>
-                    <div class="slider-pager">
-                        <ul class="thumb-box clearfix">
-                            <li>
-                                <a class="active" data-slide-index="0" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-1.webp')}}" alt=""></figure></a>
-                            </li>
-                            <li>
-                                <a data-slide-index="1" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-1.webp')}}" alt=""></figure></a>
-                            </li>
-                            <li>
-                                <a data-slide-index="2" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-3.webp')}}" alt=""></figure></a>
-                            </li>
-                            <li>
-                                <a data-slide-index="3" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-1.webp')}}" alt=""></figure></a>
-                            </li>
-                            <li>
-                                <a data-slide-index="4" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-6.webp')}}" alt=""></figure></a>
-                            </li>
-                            {{-- <li>
-                                <a data-slide-index="5" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-6.webp')}}" alt=""></figure></a>
-                            </li> --}}
-                        </ul>
-                    </div>
-                </div>
-                <div class="slider-content">
-                    <div class="product-image">
-                        <figure class="image-box"><img src="{{asset('web-assets/images/resource/slider-1.webp')}}" alt=""></figure>
-                    </div>
-                    <div class="slider-pager">
-                        <ul class="thumb-box clearfix">
-                            <li>
-                                <a class="active" data-slide-index="0" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-1.webp')}}" alt=""></figure></a>
-                            </li>
-                            <li>
-                                <a data-slide-index="1" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-1.webp')}}" alt=""></figure></a>
-                            </li>
-                            <li>
-                                <a data-slide-index="2" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-3.webp')}}" alt=""></figure></a>
-                            </li>
-                            <li>
-                                <a data-slide-index="3" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-1.webp')}}" alt=""></figure></a>
-                            </li>
-                            <li>
-                                <a data-slide-index="4" href="#"><figure><img src="{{asset('web-assets/images/resource/slider-6.webp')}}" alt=""></figure></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-</section>
-<section class="property-details property-details-two gallery-style-one sec-pad  centred property-galler">
-    <div class="container">
-    <div class="floor-title">
-        <div class="floorplan-heading">
-            {{-- <h5>Style 3</h5> --}}
-            <h2>Floor Plans of DAMAC The Farmhouses Villas</h2>
-        </div>
-        <div class="sortable-masonry">
-            <div class="filters">
-                <ul class="filter-tabs filter-btns clearfix life-style">
-                    <li class="active filter interior-btn">5 Bedroom</li>
-                    <li class="filter exterior-btn">6 Bedroom</li>
-                    {{-- <li class="filter" data-role="button" data-filter=".interior">Interior</li> --}}
-                </ul>
-            </div>
-        </div>
-    </div>
-    <div class="floorplan interior">
-        <div class="floorplan-image">
-            <img src="{{asset('web-assets/images/resource/5br.jpg')}}" alt="">
-        </div>
-        <div class="floorplan-bedroom">
-            <h3>5-Bedroom Villa</h3>
-            <p><i class="icon-1">&nbsp;</i><b>Total:</b> 5040 sqft</p>
-            <div class="flor-btn">
-                <a href="index-5.html" class="freefloorplan">Open All Floor Plans</a>
-                <a href="index-5.html" class="freebrochure"><i
-                    class="bi bi-cloud-arrow-down">&nbsp;
 
-                </i>Download Brochure</a>
-        </div>
-    </div>
-</div>
-    <div class="floorplan exterior">
-        <div class="floorplan-image">
-            <img src="{{asset('web-assets/images/resource/6br.jpg')}}" alt="">
-        </div>
-        <div class="floorplan-bedroom">
-            <h3>6-Bedroom Villa</h3>
-            <p><i class="icon-1">&nbsp;</i><b>Total:</b> 8387 sqft</p>
-            <div class="flor-btn">
-                <a href="index-5.html" class="freefloorplan">Open All Floor Plans</a>
-                <a href="index-5.html" class="freebrochure"><i
-                    class="bi bi-cloud-arrow-down">&nbsp;
 
-                </i>Download Brochure</a>
-        </div>
-    </div>
-</div>
-</section>
 <section class="place-section sec-pad">
     {{-- <div class="auto-container"> --}}
     <div class="sec-title centred">
@@ -1015,296 +1021,7 @@
     </div>
 </section>
 <!-- faq-page-section end -->
-<!-- top view property section start -->
-<section class="gallery-style-two  centred top-view ">
-    <div class="auto-container">
-        <div class="sec-title">
-            <h2>Top Views Properties</h2>
-        </div>
-        <div class="three-item-carousel owl-carousel owl-theme owl-nav-none dots-style-one">
-            <div class="gallery-block-two">
-                <div class="inner-box">
-                    <figure class="image-box">
-                        <a href=""><img src="{{asset('web-assets/images/trending/image-2.jpg')}}" alt=""></a>
-                        <div class="property-card">
-                            <h3 class="text-left invest-price">Propery One</h3>
-                            <h5><span class="price1 top-price">Starting Price</span> <span
-                                    class="start1 responsive top-num">40,000</span>
-                            </h5>
-                            <div class="top-property">
-                                <div class="what-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two whatcall-btn"><i
-                                            class="bi bi-whatsapp"></i></a>
-                                </div>
-                                <div class="call-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two directcall-btn"><i
-                                            class="bi bi-telephone-inbound"></i></a>
-                                </div>
-                                <div class="email-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two mailinquiry-btn"><i
-                                            class="bi bi-envelope-check"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </figure>
-                </div>
-            </div>
-            <div class="gallery-block-two">
-                <div class="inner-box">
-                    <figure class="image-box">
-                        <a href=""><img src="{{asset('web-assets/images/trending/image-1.jpg')}}" alt=""></a>
-                        <div class="property-card">
-                            <h3 class="text-left invest-price">Propery One</h3>
-                            <h5><span class="price1 top-price">Starting Price</span> <span
-                                    class="start1 responsive top-num">40,000</span>
-                            </h5>
-                            <div class="top-property">
-                                <div class="what-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two whatcall-btn"><i
-                                            class="bi bi-whatsapp"></i></a>
-                                </div>
-                                <div class="call-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two directcall-btn"><i
-                                            class="bi bi-telephone-inbound"></i></a>
-                                </div>
-                                <div class="email-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two mailinquiry-btn"><i
-                                            class="bi bi-envelope-check"></i></a>
-                                </div>
-                            </div>
-                        </div>
 
-                    </figure>
-                </div>
-            </div>
-            <div class="gallery-block-two">
-                <div class="inner-box">
-                    <figure class="image-box">
-                        <a href=""><img src="{{asset('web-assets/images/trending/image-3.jpg')}}" alt=""></a>
-                        <div class="property-card">
-                            <h3 class="text-left invest-price">Propery One</h3>
-                            <h5><span class="price1 top-price">Starting Price</span> <span
-                                    class="start1 responsive top-num">40,000</span>
-                            </h5>
-                            <div class="top-property">
-                                <div class="what-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two whatcall-btn"><i
-                                            class="bi bi-whatsapp"></i></a>
-                                </div>
-                                <div class="call-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two directcall-btn"><i
-                                            class="bi bi-telephone-inbound"></i></a>
-                                </div>
-                                <div class="email-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two mailinquiry-btn"><i
-                                            class="bi bi-envelope-check"></i></a>
-                                </div>
-                            </div>
-                        </div>
-
-                    </figure>
-                </div>
-            </div>
-            <div class="gallery-block-two">
-                <div class="inner-box">
-                    <figure class="image-box">
-                        <a href=""><img src="{{asset('web-assets/images/trending/image-2.jpg')}}" alt=""></a>
-                        <div class="property-card">
-                            <h3 class="text-left invest-price">Propery One</h3>
-                            <h5><span class="price1 top-price">Starting Price</span> <span
-                                    class="start1 responsive top-num">40,000</span>
-                            </h5>
-                            <div class="top-property">
-                                <div class="what-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two whatcall-btn"><i
-                                            class="bi bi-whatsapp"></i></a>
-                                </div>
-                                <div class="call-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two directcall-btn"><i
-                                            class="bi bi-telephone-inbound"></i></a>
-                                </div>
-                                <div class="email-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two mailinquiry-btn"><i
-                                            class="bi bi-envelope-check"></i></a>
-                                </div>
-                            </div>
-                        </div>
-
-                    </figure>
-                </div>
-            </div>
-            <div class="gallery-block-two">
-                <div class="inner-box">
-                    <figure class="image-box">
-                        <a href=""><img src="{{asset('web-assets/images/trending/image-3.jpg')}}" alt=""></a>
-                        <div class="property-card">
-                            <h3 class="text-left invest-price">Propery One</h3>
-                            <h5><span class="price1 top-price">Starting Price</span> <span
-                                    class="start1 responsive top-num">40,000</span>
-                            </h5>
-                            <div class="top-property">
-                                <div class="what-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two whatcall-btn"><i
-                                            class="bi bi-whatsapp"></i></a>
-                                </div>
-                                <div class="call-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two directcall-btn"><i
-                                            class="bi bi-telephone-inbound"></i></a>
-                                </div>
-                                <div class="email-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two mailinquiry-btn"><i
-                                            class="bi bi-envelope-check"></i></a>
-                                </div>
-                            </div>
-                        </div>
-
-                    </figure>
-                </div>
-            </div>
-            <div class="gallery-block-two">
-                <div class="inner-box">
-                    <figure class="image-box">
-                        <a href=""><img src="{{asset('web-assets/images/trending/image-1.jpg')}}" alt=""></a>
-                        <div class="property-card">
-                            <h3 class="text-left invest-price">Propery One</h3>
-                            <h5><span class="price1 top-price">Starting Price</span> <span
-                                    class="start1 responsive top-num">40,000</span>
-                            </h5>
-                            <div class="top-property">
-                                <div class="what-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two whatcall-btn"><i
-                                            class="bi bi-whatsapp"></i></a>
-                                </div>
-                                <div class="call-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two directcall-btn"><i
-                                            class="bi bi-telephone-inbound"></i></a>
-                                </div>
-                                <div class="email-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two mailinquiry-btn"><i
-                                            class="bi bi-envelope-check"></i></a>
-                                </div>
-                            </div>
-                        </div>
-
-                    </figure>
-                </div>
-            </div>
-            <div class="gallery-block-two">
-                <div class="inner-box">
-                    <figure class="image-box">
-                        <a href=""><img src="{{asset('web-assets/images/trending/image-2.jpg')}}" alt=""></a>
-                        <div class="property-card">
-                            <h3 class="text-left invest-price">Propery One</h3>
-                            <h5><span class="price1 top-price">Starting Price</span> <span
-                                    class="start1 responsive top-num">40,000</span>
-                            </h5>
-                            <div class="top-property">
-                                <div class="what-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two whatcall-btn"><i
-                                            class="bi bi-whatsapp"></i></a>
-                                </div>
-                                <div class="call-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two directcall-btn"><i
-                                            class="bi bi-telephone-inbound"></i></a>
-                                </div>
-                                <div class="email-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two mailinquiry-btn"><i
-                                            class="bi bi-envelope-check"></i></a>
-                                </div>
-                            </div>
-                        </div>
-
-                    </figure>
-                </div>
-            </div>
-            <div class="gallery-block-two">
-                <div class="inner-box">
-                    <figure class="image-box">
-                        <a href=""><img src="{{asset('web-assets/images/trending/image-3.jpg')}}" alt=""></a>
-                        <div class="property-card">
-                            <h3 class="text-left invest-price">Propery One</h3>
-                            <h5><span class="price1 top-price">Starting Price</span> <span
-                                    class="start1 responsive top-num">40,000</span>
-                            </h5>
-                            <div class="top-property">
-                                <div class="what-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two whatcall-btn"><i
-                                            class="bi bi-whatsapp"></i></a>
-                                </div>
-                                <div class="call-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two directcall-btn"><i
-                                            class="bi bi-telephone-inbound"></i></a>
-                                </div>
-                                <div class="email-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two mailinquiry-btn"><i
-                                            class="bi bi-envelope-check"></i></a>
-                                </div>
-                            </div>
-                        </div>
-
-                    </figure>
-                </div>
-            </div>
-            <div class="gallery-block-two">
-                <div class="inner-box">
-                    <figure class="image-box">
-                        <a href=""><img src="{{asset('web-assets/images/trending/image-2.jpg')}}" alt=""></a>
-                        <div class="property-card">
-                            <h3 class="text-left invest-price">Propery One</h3>
-                            <h5><span class="price1 top-price">Starting Price</span> <span
-                                    class="start1 responsive top-num">40,000</span>
-                            </h5>
-                            <div class="top-property">
-                                <div class="what-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two whatcall-btn"><i
-                                            class="bi bi-whatsapp"></i></a>
-                                </div>
-                                <div class="call-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two directcall-btn"><i
-                                            class="bi bi-telephone-inbound"></i></a>
-                                </div>
-                                <div class="email-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two mailinquiry-btn"><i
-                                            class="bi bi-envelope-check"></i></a>
-                                </div>
-                            </div>
-                        </div>
-
-                    </figure>
-                </div>
-            </div>
-            <div class="gallery-block-two">
-                <div class="inner-box">
-                    <figure class="image-box">
-                        <a href=""><img src="{{asset('web-assets/images/trending/image-1.jpg')}}" alt=""></a>
-                        <div class="property-card">
-                            <h3 class="text-left invest-price">Propery One</h3>
-                            <h5><span class="price1 top-price">Starting Price</span> <span
-                                    class="start1 responsive top-num">40,000</span>
-                            </h5>
-                            <div class="top-property">
-                                <div class="what-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two whatcall-btn"><i
-                                            class="bi bi-whatsapp"></i></a>
-                                </div>
-                                <div class="call-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two directcall-btn"><i
-                                            class="bi bi-telephone-inbound"></i></a>
-                                </div>
-                                <div class="email-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two mailinquiry-btn"><i
-                                            class="bi bi-envelope-check"></i></a>
-                                </div>
-                            </div>
-                        </div>
-
-                    </figure>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- top view property section end -->
 <!-- trending-section -->
 <section class="trending-section trending-project ">
     <div class="auto-container">
@@ -1573,196 +1290,7 @@
     </div>
 </section>
 <!-- trending-section end -->
-<!-- similar-listing-section -->
-<section class="feature-section sec-pad similar-listing">
-    <div class="auto-container">
-        <div class="sec-title">
-            <h2><span>Similar Properties</span></h2>
-            <div class="line"></div>
-        </div>
-        <div></div>
-        <div class="row clearfix">
-            <div class="col-lg-4 col-md-6 col-sm-12 feature-block">
-                <div class="feature-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
-                    <div class="inner-box">
-                        <div class="image-box">
-                            <figure class="image"><img class="feature-img"
-                                    src="{{asset('web-assets/images/feature/feature-1.png')}}" alt=""></figure>
-                            <div class="batch"><i class="icon-11"></i></div>
-                            <a href="/"> <span class="category">Projects</span></a>
-                        </div>
-                        <div class="lower-content">
-                            <div class="author-info clearfix">
-                                <div class="author pull-left">
-                                    <figure class="author-thumb"><img
-                                            src="{{asset('web-assets/images/feature/author-2.jpg')}}" alt=""></figure>
-                                    <h6>Emaar</h6>
-                                </div>
-                                <div class="buy-btn pull-right"><a href="property-details.html">Off plan</a></div>
-                            </div>
-                            <div class="title-text">
-                                <h4><a href="/propertyDetails">Villa on Grand Avenue</a></h4>
-                            </div>
-                            <div class="price-box clearfix">
-                                <div class="price-info pull-left">
-                                    <h6>Start From</h6>
-                                    <h4>AED 30,000.00</h4>
-                                </div>
-                                <ul class="other-option pull-right clearfix">
-                                    <li><a href="property-details.html"><i class="icon-12"></i></a></li>
-                                    <li><a href="property-details.html"><i class="icon-13"></i></a></li>
-                                </ul>
-                            </div>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing sed.</p>
-                            <ul class="more-details clearfix">
-                                <li><i class="icon-14"></i>3 Beds</li>
-                                <li><i class="icon-15"></i>2 Baths</li>
-                                <li><i class="icon-16"></i>600 Sq Ft</li>
-                            </ul>
-                            <div class="main-propertybtn">
-                                <div class="btn-box">
-                                    <a href="property-details.html" class="theme-btn btn-two">See
-                                        Details</a>
-                                </div>
-                                <div class="what-btn">
-                                    <a href="property-details.html" class="theme-btn btn-two whatcall-btn"><i
-                                            class="bi bi-whatsapp"></i></a>
-                                </div>
-                                <div class="call-btn">
-                                    <a href="property-details.html" class="theme-btn btn-two directcall-btn"><i
-                                            class="bi bi-telephone-inbound"></i></a>
-                                </div>
-                                <div class="email-btn">
-                                    <a href="property-details.html" class="theme-btn btn-two mailinquiry-btn"><i
-                                            class="bi bi-envelope-check"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 feature-block">
-                <div class="feature-block-one wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
-                    <div class="inner-box">
-                        <div class="image-box">
-                            <figure class="image"><img class="feature-img"
-                                    src="{{asset('web-assets/images/feature/feature-2.png')}}" alt=""></figure>
-                            <div class="batch"><i class="icon-11"></i></div>
-                            <a href="/"> <span class="category">Projects</span></a>
-                        </div>
-                        <div class="lower-content">
-                            <div class="author-info clearfix">
-                                <div class="author pull-left">
-                                    <figure class="author-thumb"><img
-                                            src="{{asset('web-assets/images/feature/author-2.jpg')}}" alt=""></figure>
-                                    <h6>Emaar</h6>
-                                </div>
-                                <div class="buy-btn pull-right"><a href="property-details.html">Off plan</a></div>
-                            </div>
-                            <div class="title-text">
-                                <h4><a href="/propertyDetails">Contemporary Apartment</a></h4>
-                            </div>
-                            <div class="price-box clearfix">
-                                <div class="price-info pull-left">
-                                    <h6>Start From</h6>
-                                    <h4>AED 45,000.00</h4>
-                                </div>
-                                <ul class="other-option pull-right clearfix">
-                                    <li><a href="property-details.html"><i class="icon-12"></i></a></li>
-                                    <li><a href="property-details.html"><i class="icon-13"></i></a></li>
-                                </ul>
-                            </div>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing sed.</p>
-                            <ul class="more-details clearfix">
-                                <li><i class="icon-14"></i>3 Beds</li>
-                                <li><i class="icon-15"></i>2 Baths</li>
-                                <li><i class="icon-16"></i>600 Sq Ft</li>
-                            </ul>
-                            <div class="main-propertybtn">
-                                <div class="btn-box">
-                                    <a href="property-details.html" class="theme-btn btn-two">See
-                                        Details</a>
-                                </div>
-                                <div class="what-btn">
-                                    <a href="property-details.html" class="theme-btn btn-two whatcall-btn"><i
-                                            class="bi bi-whatsapp"></i></a>
-                                </div>
-                                <div class="call-btn">
-                                    <a href="property-details.html" class="theme-btn btn-two directcall-btn"><i
-                                            class="bi bi-telephone-inbound"></i></a>
-                                </div>
-                                <div class="email-btn">
-                                    <a href="property-details.html" class="theme-btn btn-two mailinquiry-btn"><i
-                                            class="bi bi-envelope-check"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 feature-block">
-                <div class="feature-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
-                    <div class="inner-box">
-                        <div class="image-box">
-                            <figure class="image"><img class="feature-img"
-                                    src="{{asset('web-assets/images/feature/feature-3.png')}}" alt=""></figure>
-                            <div class="batch"><i class="icon-11"></i></div>
-                            <a href="/"> <span class="category">Projects</span></a>
-                        </div>
-                        <div class="lower-content">
-                            <div class="author-info clearfix">
-                                <div class="author pull-left">
-                                    <figure class="author-thumb"><img
-                                            src="{{asset('web-assets/images/feature/author-3.jpg')}}" alt=""></figure>
-                                    <h6>Emaar</h6>
-                                </div>
-                                <div class="buy-btn pull-right"><a href="property-details.html">Off plan</a></div>
-                            </div>
-                            <div class="title-text">
-                                <h4><a href="/propertyDetails">Luxury Villa With Pool</a></h4>
-                            </div>
-                            <div class="price-box clearfix">
-                                <div class="price-info pull-left">
-                                    <h6>Start From</h6>
-                                    <h4>AED 63,000.00</h4>
-                                </div>
-                                <ul class="other-option pull-right clearfix">
-                                    <li><a href="property-details.html"><i class="icon-12"></i></a></li>
-                                    <li><a href="property-details.html"><i class="icon-13"></i></a></li>
-                                </ul>
-                            </div>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing sed.</p>
-                            <ul class="more-details clearfix">
-                                <li><i class="icon-14"></i>3 Beds</li>
-                                <li><i class="icon-15"></i>2 Baths</li>
-                                <li><i class="icon-16"></i>600 Sq Ft</li>
-                            </ul>
-                            <div class="main-propertybtn">
-                                <div class="btn-box">
-                                    <a href="property-details.html" class="theme-btn btn-two">See
-                                        Details</a>
-                                </div>
-                                <div class="what-btn">
-                                    <a href="property-details.html" class="theme-btn btn-two whatcall-btn"><i
-                                            class="bi bi-whatsapp"></i></a>
-                                </div>
-                                <div class="call-btn">
-                                    <a href="property-details.html" class="theme-btn btn-two directcall-btn"><i
-                                            class="bi bi-telephone-inbound"></i></a>
-                                </div>
-                                <div class="email-btn">
-                                    <a href="property-details.html" class="theme-btn btn-two mailinquiry-btn"><i
-                                            class="bi bi-envelope-check"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- similar-listing-section end -->
+
                     <section class="subscribe-section bg-color-3">
                         <div class="pattern-layer" style="background-image: url(assets/images/shape/shape-2.png);">
                         </div>

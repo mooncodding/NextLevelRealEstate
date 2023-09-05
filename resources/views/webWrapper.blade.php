@@ -821,7 +821,7 @@
     <script  src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
     <!-- map script -->
-    <script  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA-CE0deH3Jhj6GN4YvdCFZS7DpbXexzGU"></script>
+    <script  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBq5MuvFcYjhNfkw-v81FR2H6pGwGMDVxg"></script>
     <script  src="{{asset('web-assets/js/gmaps.js')}}"></script>
     <script  src="{{asset('web-assets/js/map-helper.js')}}"></script>
     <script>
@@ -837,6 +837,6 @@
           $(".exterior").css("display", "none");
         });
         </script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    {{-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script> --}}
 </body>
 </html>
