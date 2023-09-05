@@ -60,7 +60,7 @@ class Blog extends Model
     }
 
     public function secondaryImages(){
-        return $this->hasMany(AreaSecondaryImage::class,'blog_id');  
+        return $this->hasMany(BlogSecondaryImage::class,'blog_id');  
     }
     
     public function createdBy(){

@@ -50,6 +50,7 @@ return array(
     'App\\Models\\Blog' => $baseDir . '/app/Models/Blog.php',
     'App\\Models\\BlogCategory' => $baseDir . '/app/Models/BlogCategory.php',
     'App\\Models\\BlogSecondaryImage' => $baseDir . '/app/Models/BlogSecondaryImage.php',
+    'App\\Models\\BlogTag' => $baseDir . '/app/Models/BlogTag.php',
     'App\\Models\\CategoryBlog' => $baseDir . '/app/Models/CategoryBlog.php',
     'App\\Models\\Country' => $baseDir . '/app/Models/Country.php',
     'App\\Models\\Developer' => $baseDir . '/app/Models/Developer.php',

@@ -48,7 +48,6 @@ class BlogController extends Controller
 
     public function store(Request $request)
     {
-        // return $request->all();
         //
         if(auth()->user()->can('create_blog')){
             $this->validate($request, [
@@ -144,11 +143,13 @@ class BlogController extends Controller
             }else{
                 $name= $blogs->featured_image;
             }
+            if($request->date_time!=$blogs->date_time){
+                $request->merge(['date_time'=>Carbon::parse($request['date_time'])->toDateTimeString()]);
+            }
             $blogs->title=$request->title;
             $blogs->featured_image=$name;
-            $blogs->tag_id=$request->tag_id;
             $blogs->description = $request->description;
-            $blogs->date_time = $request->date_time;
+            $blogs->date_time = Carbon::parse($request->date_time)->toDateTimeString();
             $blogs->updated_by = Auth::user()->id;
             $blogs->updated_at = Carbon::now();
             $blogs->save();
@@ -206,8 +207,8 @@ class BlogController extends Controller
         if(auth()->user()->can('delete_blog')){
             $blogs = Blog::findOrfail($id);
             //Delete the blog
-            if((file_exists(public_path('images/blogs/'.$blogs->image)))&&($blogs->image!="profile.png")){
-                @unlink(public_path('images/blogs/'.$blogs->image));
+            if((file_exists(public_path('images/blogs/'.$blogs->featured_image)))&&($blogs->featured_image!="profile.png")){
+                @unlink(public_path('images/blogs/'.$blogs->featured_image));
             }
             $blogs->deleteCategoryBlogs()->delete();
             $blogs->deleteBlogTags()->delete();

@@ -590,6 +590,7 @@ class ComposerStaticInitb837d494324b2d866d826490c03b64fe
         'App\\Models\\Blog' => __DIR__ . '/../..' . '/app/Models/Blog.php',
         'App\\Models\\BlogCategory' => __DIR__ . '/../..' . '/app/Models/BlogCategory.php',
         'App\\Models\\BlogSecondaryImage' => __DIR__ . '/../..' . '/app/Models/BlogSecondaryImage.php',
+        'App\\Models\\BlogTag' => __DIR__ . '/../..' . '/app/Models/BlogTag.php',
         'App\\Models\\CategoryBlog' => __DIR__ . '/../..' . '/app/Models/CategoryBlog.php',
         'App\\Models\\Country' => __DIR__ . '/../..' . '/app/Models/Country.php',
         'App\\Models\\Developer' => __DIR__ . '/../..' . '/app/Models/Developer.php',

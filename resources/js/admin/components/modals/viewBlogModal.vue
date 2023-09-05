@@ -9,7 +9,7 @@
       aria-hidden="true"
     >
       <div
-        class="modal-dialog modal-dialog-centered modalLarge"
+        class="modal-dialog modal-dialog-centered modal-xl"
         role="document"
       >
         <div class="modal-content">
@@ -45,23 +45,27 @@
                     </tr>
                     <tr>
                         <th>{{ $t("message.DATE_TIME") }}</th>
-                        <td>{{blogData.date_time}}</td>
+                        <td>{{blogData.date_time | formatDateTime}}</td>
                     </tr>
                     <tr>
-                        <th>{{ $t("message.TAG") }}</th>
-                        <td v-if="blogData.tag">{{blogData.tag.name}}</td>
+                        <th>{{ $t("message.TAGS") }}</th>
+                        <td>
+                          <span v-for="data,index in blogData.blog_tags" :key="index" class="badge badge-success">
+                            {{data.name}}
+                          </span>
+                        </td>
                     </tr>
                     <tr>
                         <th>{{ $t("message.BLOG_CATEGORIES") }}</th>
                         <td>
-                          <span v-for="data,index in blogData.blog_categories" :key="index" class="badge badge-success">
+                          <span v-for="data,index in blogData.category_blogs" :key="index" class="badge badge-success">
                             {{data.name}}
                           </span>
                         </td>
                     </tr>
                     <tr>
                         <th>{{ $t("message.DESCRIPTION") }}</th>
-                        <td>{{blogData.description}}</td>
+                        <td><div v-html="blogData.description" class="vhtml"></div></td>
                     </tr>
                     <tr>
                         <th>{{ $t("message.FEATURED_IMAGE") }}</th>

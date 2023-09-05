@@ -1,6 +1,5 @@
 require('./bootstrap');
 
-//window.Vue = require('vue');
 import Vue from 'vue'
 import VueRouter from 'vue-router';
 import Vuetify from 'vuetify';
@@ -207,19 +206,3 @@ const app = new Vue({
       }),
     router
 });
-
-// const app2 = new Vue({
-//     el: '#app2',
-//     i18n,
-//     store,
-//     vuetify: new Vuetify({
-//         icons: {
-//           iconfont: 'mdi', // default - only for display purposes
-//         },
-//         lang: {
-//             locales: {fr, en},
-//             current: lang
-//         }
-//       }),
-//     router
-// });

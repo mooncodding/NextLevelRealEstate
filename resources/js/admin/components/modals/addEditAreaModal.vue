@@ -443,14 +443,14 @@ export default {
           showCancelButton: true,
           confirmButtonColor: "#3085D6",
           cancelButtonColor: "#d33",
-          cancelButtonText: this.$t("message.CANCEL"),
+          cancelButtonText: "Cancel",
           confirmButtonText: this.$t("message.DELETE_BUTTON_TEXT")
         }).then(result => {
           if (result.value) {
             // Send request to the server
             if(id!=""){
               this.form
-              .delete("api/removeEventSecondaryImages/" + id)
+              .delete("api/removeBlogSecondaryImages/" + id)
               .then(() => {
                 this.form.secondary_image.splice(i, 1);
                 swal.fire(

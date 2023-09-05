@@ -116,7 +116,7 @@
               </div>
               <div class="form-group">
                 <label>{{ $t("message.FEATURED_IMAGE") }}*</label>
-                <span v-if="editMode === true"><img v-bind:src="'images/areas/'+form.featured_image" width="5%" alt=""></span>
+                <span v-if="editMode === true"><img v-bind:src="'images/blogs/'+form.featured_image" width="5%" alt=""></span>
                 <input
                   @change="addPhoto"
                   type="file"
@@ -144,7 +144,7 @@
               </div>
               <div class="form-group">
                 <label>{{ $t("message.SECONDARY_IMAGES") }}</label>
-                <span v-if="editMode"><span v-for="(data, i) in secondary_images" :key="i"><img  v-bind:src="'images/areas/'+data.image" width="10%" alt="">
+                <span v-if="editMode"><span v-for="(data, i) in secondary_images" :key="i"><img  v-bind:src="'images/blogs/'+data.image" width="10%" alt="">
                 <a class="btn-cross-icon btn-danger-2 mr-10 mb-40" href='#' v-on:click.stop="deleteSecondaryImages(i, data.id);">
                 <i class="fas fa-times-circle"></i>
                 </a>
@@ -211,6 +211,7 @@
   </div>
 </template>
 <script>
+import moment, { isDate } from 'moment';
 import {
   // necessary extensions
   Doc,
@@ -278,7 +279,7 @@ export default {
         date_time: new Date().toISOString(),
         blog_category_id:[],
         tag_id:[],
-        description: [],
+        description: "",
         featured_image: "",
         secondary_images:[],
         secondary_images_copy:[],
@@ -290,6 +291,7 @@ export default {
       if (this.is("Super Admin") || this.can("create_blog")) {
         if (!this.fileError) {
           this.$Progress.start();
+          this.form.date_time = moment.utc(this.form.date_time).local().format();
           this.form
             .post("api/adminBlogs")
             .then(() => {
@@ -326,6 +328,7 @@ export default {
       if (this.is("Super Admin") || this.can("edit_blog")) {
         if (!this.fileError) {
           this.$Progress.start();
+          this.form.date_time = moment.utc(this.form.date_time).local().format();
           this.form
             .put("api/adminBlogs/" + this.form.id)
             .then(() => {
@@ -396,14 +399,14 @@ export default {
           showCancelButton: true,
           confirmButtonColor: "#3085D6",
           cancelButtonColor: "#d33",
-          cancelButtonText: this.$t("message.CANCEL"),
+          cancelButtonText: "Cancel",
           confirmButtonText: this.$t("message.DELETE_BUTTON_TEXT")
         }).then(result => {
           if (result.value) {
             // Send request to the server
             if(id!=""){
               this.form
-              .delete("api/removeEventSecondaryImages/" + id)
+              .delete("api/removeBlogSecondaryImages/" + id)
               .then(() => {
                 this.form.secondary_image.splice(i, 1);
                 swal.fire(
@@ -464,6 +467,9 @@ export default {
           tags.push(item)
         }));
         form.tag_id = tags;
+
+        const date_time = new Date(e.relatedTarget.date_time);
+        form.date_time = date_time.toISOString();
 
       } else {
         form.secondary_images_copy = [];
