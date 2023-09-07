@@ -71,6 +71,14 @@ Route::get('/areaDetails', function () {
    return view('web.areaDetails');
 });
 
+Route::get('/agencies', function () {
+   return view('web.agencies');
+});
+
+Route::get('/agencyDetails', function () {
+   return view('web.agencyDetails');
+});
+
 Auth::routes(['verify' => true, 'register' => true]);
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
