@@ -17,8 +17,8 @@ class CreateProjectTypesTable extends Migration
             $table->id();
             $table->unsignedBigInteger('project_id');
             $table->foreign('project_id')->references('id')->on('projects');
-            $table->unsignedBigInteger('project_type_id');
-            $table->foreign('project_type_id')->references('id')->on('property_type');
+            $table->unsignedBigInteger('property_type_id');
+            $table->foreign('property_type_id')->references('id')->on('property_types');
             $table->timestamps();
         });
     }
