@@ -1,14 +1,28 @@
 @extends('webWrapper')
 @section('content')
 <!--Page Title-->
-<section class="page-title centred" style="background-image: url({{asset('web-asset/images/background/page-title.jpg')}});">
+<section class="page-title areas agency-title centred" style="background-image: url({{asset('web-assets/images/background/areas-bg.jpg')}});">
     <div class="auto-container">
         <div class="content-box clearfix">
-            <h1>Agency List View</h1>
-            <ul class="bread-crumb clearfix">
-                <li><a href="index.html">Home</a></li>
-                <li>Agency List View</li>
-            </ul>
+            <h1>Real Estate Developers <br>in Dubai & The UAE
+            </h1>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6 mb-5 offset-3 mt-5">
+            <div class="blog-sidebar">
+                <div class="sidebar-widget search-widget">
+                    <div class="widget-title">
+                        
+                    </div>
+                    <div class="search-inner">
+                        <form action="blog-1.html" method="post">
+                            <div class="form-group">
+                                <input type="search" name="search_field" placeholder="Search Developers" required="">
+                                <button type="submit"><i class="fas fa-search"></i></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>
@@ -75,7 +89,7 @@
                             <div class="feature-block-one">
                                 <div class="inner-box">
                                     <div class="image-box">
-                                        <figure class="image"><img src="{{asset('web-asset/images/feature/feature-1.jpg')}}" alt=""></figure>
+                                        <figure class="image"><img src="{{asset('web-assets/images/feature/feature-1.jpg')}}" alt=""></figure>
                                         <div class="batch"><i class="icon-11"></i></div>
                                         <span class="category">Featured</span>
                                     </div>
@@ -95,7 +109,7 @@
                             <div class="feature-block-one">
                                 <div class="inner-box">
                                     <div class="image-box">
-                                        <figure class="image"><img src="{{asset('web-asset/images/feature/feature-2.jpg')}}" alt=""></figure>
+                                        <figure class="image"><img src="{{asset('web-assets/images/feature/feature-2.jpg')}}" alt=""></figure>
                                         <div class="batch"><i class="icon-11"></i></div>
                                         <span class="category">Featured</span>
                                     </div>
@@ -115,7 +129,7 @@
                             <div class="feature-block-one">
                                 <div class="inner-box">
                                     <div class="image-box">
-                                        <figure class="image"><img src="{{asset('web-asset/images/feature/feature-3.jpg')}}" alt=""></figure>
+                                        <figure class="image"><img src="{{asset('web-assets/images/feature/feature-3.jpg')}}" alt=""></figure>
                                         <div class="batch"><i class="icon-11"></i></div>
                                         <span class="category">Featured</span>
                                     </div>
@@ -164,11 +178,11 @@
                         <div class="agents-list-content list-item">
                             <div class="agents-block-one">
                                 <div class="inner-box">
-                                    <figure class="image-box"><img src="{{asset('web-asset/images/resource/agency-1.jpg')}}" alt=""></figure>
+                                    <figure class="image-box"><img src="{{asset('web-assets/images/developers/damac.png')}}" alt=""></figure>
                                     <div class="content-box">
                                         <div class="upper clearfix">
                                             <div class="title-inner pull-left">
-                                                <h4><a href="agency-details.html">Realhome Estate</a></h4>
+                                                <h4><a href="agency-details.html">DAMAC DEVELOPERS</a></h4>
                                                 <span class="designation">Modern House Real Estate Agent</span>
                                             </div>
                                             <ul class="social-list pull-right clearfix">
@@ -180,23 +194,34 @@
                                         <div class="text">
                                             <p>Get the oars in the water and start rowing. Execution is the single biggest factor...</p>
                                         </div>
-                                        <ul class="info clearfix">
-                                            <li><i class="fab fa fa-envelope"></i><a href="mailto:info@realhome.com">info@realhome.com</a></li>
-                                            <li><i class="fab fa fa-phone"></i><a href="tel:03030571965">030 3057 1965</a></li>
-                                        </ul>
-                                        <div class="btn-box">
-                                            <a href="profile.html" class="theme-btn btn-two">View Profile</a>
+                                        
+                                        <div class="main-propertybtn">
+                                            <div class="btn-box">
+                                                <a href="property-details.html" class="theme-btn btn-two">View Profile</a>
+                                            </div>
+                                            <div class="what-btn">
+                                                <a href="property-details.html" class="theme-btn btn-two whatcall-btn"><i
+                                                        class="bi bi-whatsapp"></i></a>
+                                            </div>
+                                            <div class="call-btn">
+                                                <a href="property-details.html" class="theme-btn btn-two directcall-btn"><i
+                                                        class="bi bi-telephone-inbound"></i></a>
+                                            </div>
+                                            <div class="email-btn">
+                                                <a href="property-details.html" class="theme-btn btn-two mailinquiry-btn"><i
+                                                        class="bi bi-envelope-check"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="agents-block-one">
                                 <div class="inner-box">
-                                    <figure class="image-box"><img src="{{asset('web-asset/images/resource/agency-2.jpg')}}" alt=""></figure>
+                                    <figure class="image-box"><img src="{{asset('web-assets/images/developers/emaar.png')}}" alt=""></figure>
                                     <div class="content-box">
                                         <div class="upper clearfix">
                                             <div class="title-inner pull-left">
-                                                <h4><a href="agency-details.html">Housetlk Property</a></h4>
+                                                <h4><a href="agency-details.html">Emaar Developer</a></h4>
                                                 <span class="designation">Modern House Real Estate Agent</span>
                                             </div>
                                             <ul class="social-list pull-right clearfix">
@@ -208,19 +233,29 @@
                                         <div class="text">
                                             <p>Get the oars in the water and start rowing. Execution is the single biggest factor...</p>
                                         </div>
-                                        <ul class="info clearfix">
-                                            <li><i class="fab fa fa-envelope"></i><a href="mailto:info@housetlk.com">info@housetlk.com</a></li>
-                                            <li><i class="fab fa fa-phone"></i><a href="tel:03030571965">030 3057 1965</a></li>
-                                        </ul>
-                                        <div class="btn-box">
-                                            <a href="profile.html" class="theme-btn btn-two">View Profile</a>
+                                        <div class="main-propertybtn">
+                                            <div class="btn-box">
+                                                <a href="property-details.html" class="theme-btn btn-two">View Profile</a>
+                                            </div>
+                                            <div class="what-btn">
+                                                <a href="property-details.html" class="theme-btn btn-two whatcall-btn"><i
+                                                        class="bi bi-whatsapp"></i></a>
+                                            </div>
+                                            <div class="call-btn">
+                                                <a href="property-details.html" class="theme-btn btn-two directcall-btn"><i
+                                                        class="bi bi-telephone-inbound"></i></a>
+                                            </div>
+                                            <div class="email-btn">
+                                                <a href="property-details.html" class="theme-btn btn-two mailinquiry-btn"><i
+                                                        class="bi bi-envelope-check"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="agents-block-one">
                                 <div class="inner-box">
-                                    <figure class="image-box"><img src="{{asset('web-asset/images/resource/agency-3.jpg')}}" alt=""></figure>
+                                    <figure class="image-box"><img src="{{asset('web-assets/images/resource/agency-3.jpg')}}" alt=""></figure>
                                     <div class="content-box">
                                         <div class="upper clearfix">
                                             <div class="title-inner pull-left">
@@ -248,7 +283,7 @@
                             </div>
                             <div class="agents-block-one">
                                 <div class="inner-box">
-                                    <figure class="image-box"><img src="{{asset('web-asset/images/resource/agency-4.jpg')}}" alt=""></figure>
+                                    <figure class="image-box"><img src="{{asset('web-assets/images/resource/agency-4.jpg')}}" alt=""></figure>
                                     <div class="content-box">
                                         <div class="upper clearfix">
                                             <div class="title-inner pull-left">
@@ -276,7 +311,7 @@
                             </div>
                             <div class="agents-block-one">
                                 <div class="inner-box">
-                                    <figure class="image-box"><img src="{{asset('web-asset/images/resource/agency-5.jpg')}}" alt=""></figure>
+                                    <figure class="image-box"><img src="{{asset('web-assets/images/resource/agency-5.jpg')}}" alt=""></figure>
                                     <div class="content-box">
                                         <div class="upper clearfix">
                                             <div class="title-inner pull-left">
@@ -304,7 +339,7 @@
                             </div>
                             <div class="agents-block-one">
                                 <div class="inner-box">
-                                    <figure class="image-box"><img src="{{asset('web-asset/images/resource/agency-6.jpg')}}" alt=""></figure>
+                                    <figure class="image-box"><img src="{{asset('web-assets/images/resource/agency-6.jpg')}}" alt=""></figure>
                                     <div class="content-box">
                                         <div class="upper clearfix">
                                             <div class="title-inner pull-left">
@@ -336,7 +371,7 @@
                                 <div class="col-lg-6 col-md-6 col-sm-12 agents-block">
                                     <div class="agents-block-two">
                                         <div class="inner-box">
-                                            <figure class="image-box"><img src="{{asset('web-asset/images/resource/agency-1.png')}}" alt=""></figure>
+                                            <figure class="image-box"><img src="{{asset('web-assets/images/resource/agency-1.png')}}" alt=""></figure>
                                             <div class="content-box">
                                                 <div class="title-inner">
                                                     <h4><a href="agency-details.html">Realhome Estate</a></h4>
@@ -359,7 +394,7 @@
                                 <div class="col-lg-6 col-md-6 col-sm-12 agents-block">
                                     <div class="agents-block-two">
                                         <div class="inner-box">
-                                            <figure class="image-box"><img src="{{asset('web-asset/images/resource/agency-2.png')}}" alt=""></figure>
+                                            <figure class="image-box"><img src="{{asset('web-assets/images/resource/agency-2.png')}}" alt=""></figure>
                                             <div class="content-box">
                                                 <div class="title-inner">
                                                     <h4><a href="agency-details.html">Housetlk Property</a></h4>
@@ -382,7 +417,7 @@
                                 <div class="col-lg-6 col-md-6 col-sm-12 agents-block">
                                     <div class="agents-block-two">
                                         <div class="inner-box">
-                                            <figure class="image-box"><img src="{{asset('web-asset/images/resource/agency-3.png')}}" alt=""></figure>
+                                            <figure class="image-box"><img src="{{asset('web-assets/images/resource/agency-3.png')}}" alt=""></figure>
                                             <div class="content-box">
                                                 <div class="title-inner">
                                                     <h4><a href="agency-details.html">Home & Garden</a></h4>
@@ -405,7 +440,7 @@
                                 <div class="col-lg-6 col-md-6 col-sm-12 agents-block">
                                     <div class="agents-block-two">
                                         <div class="inner-box">
-                                            <figure class="image-box"><img src="{{asset('web-asset/images/resource/agency-4.png')}}" alt=""></figure>
+                                            <figure class="image-box"><img src="{{asset('web-assets/images/resource/agency-4.png')}}" alt=""></figure>
                                             <div class="content-box">
                                                 <div class="title-inner">
                                                     <h4><a href="agency-details.html">Property Company</a></h4>
@@ -428,7 +463,7 @@
                                 <div class="col-lg-6 col-md-6 col-sm-12 agents-block">
                                     <div class="agents-block-two">
                                         <div class="inner-box">
-                                            <figure class="image-box"><img src="{{asset('web-asset/images/resource/agency-5.png')}}" alt=""></figure>
+                                            <figure class="image-box"><img src="{{asset('web-assets/images/resource/agency-5.png')}}" alt=""></figure>
                                             <div class="content-box">
                                                 <div class="title-inner">
                                                     <h4><a href="agency-details.html">Realty Investment</a></h4>
@@ -451,7 +486,7 @@
                                 <div class="col-lg-6 col-md-6 col-sm-12 agents-block">
                                     <div class="agents-block-two">
                                         <div class="inner-box">
-                                            <figure class="image-box"><img src="{{asset('web-asset/images/resource/agency-6.png')}}" alt=""></figure>
+                                            <figure class="image-box"><img src="{{asset('web-assets/images/resource/agency-6.png')}}" alt=""></figure>
                                             <div class="content-box">
                                                 <div class="title-inner">
                                                     <h4><a href="agency-details.html">Propertydeal</a></h4>
@@ -492,7 +527,7 @@
 
 <!-- subscribe-section -->
 <section class="subscribe-section bg-color-3">
-    < class="pattern-layer" style="background-image: url({{asset('web-asset/images/shape/shape-2.png);"></')}}div>
+    < class="pattern-layer" style="background-image: url({{asset('web-assets/images/shape/shape-2.png);"></')}}div>
     <div class="auto-container">
         <div class="row clearfix">
             <div class="col-lg-6 col-md-6 col-sm-12 text-column">

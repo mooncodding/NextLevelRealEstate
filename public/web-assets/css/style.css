@@ -5115,10 +5115,24 @@ section.about-agentdetail p {
 .area-items  .area-tick p {
     width: unset !important;
 }
-
+.agency-title h1 {
+  font-size: 45px;
+  line-height: 50px;
+  font-weight: 600;
+  letter-spacing: 3.5px;
+}
 .area-items {
     padding: 150px 0px 150px 0px !important;
 }
+.agency-title:before {
+  position: absolute !important;
+  content: '' !important;
+  background-color: #004274 !important;
+  width: 100% !important;
+  height: 100% !important;
+  left: 0px !important;
+  top: 0px !important;
+  opacity: 0.8 !important; }
 .auto-container.area-tick:after {
   background-color: #004274 !important;
   position: absolute;
@@ -11071,7 +11085,7 @@ section.cta-section.sec-pad.bg-color-2 {
 ***/
 
 .agency-content-side .agents-block-one .inner-box .image-box{
-  border: 1px solid #e5e7ec;
+  border: 1px solid #004274;
   border-radius: 10px;
 }
 
@@ -11124,13 +11138,40 @@ section.cta-section.sec-pad.bg-color-2 {
 .blog-sidebar .sidebar-widget:last-child{
   margin-bottom: 0px;
 }
-
+.project-list{
+  height: 300px;
+}
+.project-search .top-search {
+  background-color: unset !important;
+}
 .blog-sidebar .sidebar-widget .widget-title{
   position: relative;
   display: block;
   margin-bottom: 22px;
 }
+.project-search .nice-select.wide {
+  background-color: white;
+}
+.project-detailbanner {
+  height: 450px !important;
+  background-position: center !important;
+}
 
+.project-detailbanner .overlay3 {
+  height: 450px !important;
+  background-color: #0042744a !important;
+}
+.project-search{
+margin-top: 40px;
+}
+.project-search .top-search .search-btn button{
+top: 25px !important;
+border: 1px solid white;
+}
+
+.project-search button.nav-btn.nav-toggler.navSidebar-button.clearfix.search__toggler {
+  color: white;
+}
 .blog-sidebar .sidebar-widget .widget-title h4{
   font-size: 20px;
   line-height: 30px;
