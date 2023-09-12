@@ -45,6 +45,9 @@ const routes = [
     {
         name: 'blogCategories', path: '/blogCategories', component: require('./admin/components/blogCategories.vue').default
     },
+    {
+        name: 'projects', path: '/projects', component: require('./admin/components/projects.vue').default
+    },
     //  Web Routs
     {
         name: '/blogs', path: '/blogs', component: require('./web/components/blogs.vue').default

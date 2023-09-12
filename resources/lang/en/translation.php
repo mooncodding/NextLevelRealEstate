@@ -20,5 +20,6 @@ return [
     "Areas" => "Areas",
     "Blogs" => "Blogs",
     "Blog Categories" => "Blog Categories",
+    "Projects" => "Projects",
 ];
 ?>

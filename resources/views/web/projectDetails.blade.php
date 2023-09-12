@@ -1507,43 +1507,9 @@
         </div>
     </div>
 </section>
-<section class="main-paymentplan">
-    <h2 class="paymentplan-h2">Morocco at Damac Lagoons <br>Payment plans.</h2>
-    <div class="paymentplan">
-        <div class="paymentplan-box">
-            <i class="bi bi-tags"></i>
-            <h3>5%</h3>
-            <h4>First Installment</h4>
-        </div>
-        <div class="paymentplan-box">
-            <i class="bi bi-cone-striped"></i>
-            <h3>35%</h3>
-            <h4>Under Construction</h4>
-        </div>
-        <div class="paymentplan-box">
-            <i class="bi bi-key"></i>
-            <h3>60%</h3>
-            <h4>On Handover</h4>
-        </div>
-    </div>
-    <div class="paymentplan-2">
-        <div class="paymentplan-box-2">
-            <h4>No Commission</h4>
-            <i class="bi bi-terminal-x"></i>
-        </div>
-        <div class="paymentplan-box-2">
-            <h4>Direct Sales</h4>
-            <i class="bi bi-universal-access"></i>
-        </div>
-        <div class="paymentplan-box-2">
-            <h4>Trusted & Simple</h4>
-            <i class="bi bi-bookmark-heart-fill"></i>
-        </div>
-    </div>
-</section>
-<!-- feature-section end -->
-<section class="category-section centred property-overview sec-pad project-overview">
-    <h2>About Morocco at Damac Lagoons</h2>
+
+<section class="category-section centred property-overview">
+    <h2>Property Overview</h2>
     <div class="inner-container wow slideInLeft animated" data-wow-delay="00ms" data-wow-duration="1500ms">
         <ul class="category-list clearfix over">
             <li>
@@ -1551,7 +1517,7 @@
                     <div class="inner-box">
                         <div class="icon-box"><i class="icon-1"></i></div>
                         <h5><a href="property-details.html">Type</a></h5>
-                        <h6>Apartment</h6>
+                        <h6>Farm House</h6>
                         <div class="inqure-btn mt-5">
                             <a href="" class="theme-btn btn-two">Inqure Now</a>
                         </div>
@@ -1624,7 +1590,41 @@
                 </div>
             </li>
         </ul>
-</div>
+    </div>
+</section>
+<section class="main-paymentplan">
+    <h2 class="paymentplan-h2">Morocco at Damac Lagoons <br>Payment plans.</h2>
+    <div class="paymentplan">
+        <div class="paymentplan-box">
+            <i class="bi bi-tags"></i>
+            <h3>5%</h3>
+            <h4>First Installment</h4>
+        </div>
+        <div class="paymentplan-box">
+            <i class="bi bi-cone-striped"></i>
+            <h3>35%</h3>
+            <h4>Under Construction</h4>
+        </div>
+        <div class="paymentplan-box">
+            <i class="bi bi-key"></i>
+            <h3>60%</h3>
+            <h4>On Handover</h4>
+        </div>
+    </div>
+    <div class="paymentplan-2">
+        <div class="paymentplan-box-2">
+            <h4>No Commission</h4>
+            <i class="bi bi-terminal-x"></i>
+        </div>
+        <div class="paymentplan-box-2">
+            <h4>Direct Sales</h4>
+            <i class="bi bi-universal-access"></i>
+        </div>
+        <div class="paymentplan-box-2">
+            <h4>Trusted & Simple</h4>
+            <i class="bi bi-bookmark-heart-fill"></i>
+        </div>
+    </div>
 </section>
 
 <section class="property-details property-details-two gallery-style-one sec-pad  centred property-galler">
@@ -1904,7 +1904,8 @@
             </div>
         </div>
     </div>
-</section>  
+</section>
+  
 <section class="section about-property choose-area sec-pad">
     <div class="row">
         
@@ -1948,6 +1949,239 @@
             </div>
     </div>
 
+</section>
+
+<section class="gallery-style-two  centred amenities ">
+    <div class="auto-container">
+        
+        <div class="amenity-title">
+            <div class="amenityname">
+            <h2>The Farmhouses Amenities</h2>
+            </div>
+            <div class="amenitybtn">
+                <a href="index-5.html" class="freerequest"><i class="bi bi-check2-circle"></i>&nbsp;
+                Request More</a>
+            </div>
+        </div>
+        <div class="five-item-carousel owl-carousel owl-theme owl-nav-none dots-style-one aminities-slider">
+           
+            <div class="gallery-block-two">
+                <div class="inner-box">
+                    <figure class="image-box">
+                        <a href=""><img src="{{asset('web-assets/images/amenities/swimming-pool.jpg')}}" alt=""></a>
+                        <div class="property-card">
+                            <h3 class="text-left invest-price">Swimming Pool</h3>
+                        </div>
+                    </figure>
+                </div>
+            </div>
+            <div class="gallery-block-two">
+                <div class="inner-box">
+                    <figure class="image-box">
+                        <a href=""><img src="{{asset('web-assets/images/amenities/farm-animal-barnyard.jpg')}}" alt=""></a>
+                        <div class="property-card">
+                            <h3 class="text-left invest-price">Farm Animal Barnyard
+                            </h3>
+                            
+                        </div>
+
+                    </figure>
+                </div>
+            </div>
+            <div class="gallery-block-two">
+                <div class="inner-box">
+                    <figure class="image-box">
+                        <a href=""><img src="{{asset('web-assets/images/amenities/flower-garden.jpg')}}" alt=""></a>
+                        <div class="property-card">
+                            <h3 class="text-left invest-price">Flower Garden
+                            </h3>
+                            
+                        </div>
+
+                    </figure>
+                </div>
+            </div>
+            <div class="gallery-block-two">
+                <div class="inner-box">
+                    <figure class="image-box">
+                        <a href=""><img src="{{asset('web-assets/images/amenities/glamping-tent-area.jpg')}}" alt=""></a>
+                        <div class="property-card">
+                            <h3 class="text-left invest-price">Glamping Tent Area
+                            </h3>
+                            
+                        </div>
+
+                    </figure>
+                </div>
+            </div>
+            <div class="gallery-block-two">
+                <div class="inner-box">
+                    <figure class="image-box">
+                        <a href=""><img src="{{asset('web-assets/images/amenities/outdoor-vip-cinema.jpg')}}" alt=""></a>
+                        <div class="property-card">
+                            <h3 class="text-left invest-price">Outdoor VIP Cinema
+                            </h3>
+                            
+                        </div>
+
+                    </figure>
+                </div>
+            </div>
+            <div class="gallery-block-two">
+                <div class="inner-box">
+                    <figure class="image-box">
+                        <a href=""><img src="{{asset('web-assets/images/amenities/hydroponic-farm.jpg')}}" alt=""></a>
+                        <div class="property-card">
+                            <h3 class="text-left invest-price">Hydroponic Farm
+                            </h3>
+                            
+                        </div>
+
+                    </figure>
+                </div>
+            </div>
+            <div class="gallery-block-two">
+                <div class="inner-box">
+                    <figure class="image-box">
+                        <a href=""><img src="{{asset('web-assets/images/amenities/open-green-spaces.jpg')}}" alt=""></a>
+                        <div class="property-card">
+                            <h3 class="text-left invest-price">Open Green Spaces
+                            </h3>
+                            
+                        </div>
+
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="property-details property-details-two gallery-style-one sec-pad  centred property-galler">
+    <div class="container">
+    <div class="floor-title">
+        <div class="floorplan-heading">
+            {{-- <h5>Style 3</h5> --}}
+            <h2>Floor Plans of DAMAC The Farmhouses Villas</h2>
+        </div>
+        <div class="sortable-masonry">
+            <div class="filters">
+                <ul class="filter-tabs filter-btns clearfix life-style">
+                    <li class="active filter interior-btn">5 Bedroom</li>
+                    <li class="filter exterior-btn">6 Bedroom</li>
+                    {{-- <li class="filter" data-role="button" data-filter=".interior">Interior</li> --}}
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="floorplan interior">
+        <div class="floorplan-image">
+            <img src="{{asset('web-assets/images/resource/5br.jpg')}}" alt="">
+        </div>
+        <div class="floorplan-bedroom">
+            <h3>5-Bedroom Villa</h3>
+            <p><i class="icon-1">&nbsp;</i><b>Total:</b> 5040 sqft</p>
+            <div class="flor-btn">
+                <a href="index-5.html" class="freefloorplan">Open All Floor Plans</a>
+                <a href="index-5.html" class="freebrochure"><i
+                    class="bi bi-cloud-arrow-down">&nbsp;
+
+                </i>Download Brochure</a>
+        </div>
+    </div>
+</div>
+    <div class="floorplan exterior">
+        <div class="floorplan-image">
+            <img src="{{asset('web-assets/images/resource/6br.jpg')}}" alt="">
+        </div>
+        <div class="floorplan-bedroom">
+            <h3>6-Bedroom Villa</h3>
+            <p><i class="icon-1">&nbsp;</i><b>Total:</b> 8387 sqft</p>
+            <div class="flor-btn">
+                <a href="index-5.html" class="freefloorplan">Open All Floor Plans</a>
+                <a href="index-5.html" class="freebrochure"><i
+                    class="bi bi-cloud-arrow-down">&nbsp;
+
+                </i>Download Brochure</a>
+        </div>
+    </div>
+</div>
+</section>
+  
+        <!-- category-section -->
+
+   
+
+    <section class="section about-location">
+            <div class="row">
+                <div class="col-lg-6 property-content property-location">
+                    <h2>About Location</h2>
+                    <p>Jumeirah Village Circle (JVC), Damac Hills, Downtown Dubai, and Business Bay are strategically situated close by, ensuring convenient connectivity for residents to various destinations. Community schools and hospitality centers are also within quick reach. Embrace a lifestyle of elevated living standards in a location that maximizes life's pleasures.Jumeirah Village Circle (JVC), Damac Hills, Downtown Dubai, and Business Bay are strategically situated close by, ensuring convenient connectivity for residents to various destinations. Community schools and hospitality centers are also within quick reach. Embrace a lifestyle of elevated living standards in a location that maximizes life's pleasures.</p>
+                    <div class="download-brochure"><a href="index-5.html" class="freebrochure"><i
+                        class="bi bi-cloud-arrow-down">&nbsp;
+
+                    </i>Download Free PDF Brochure</a></div>
+                </div>
+
+
+                <div class="col-lg-6 content-image location-name"><h2>DAMAC Hills 2
+                    in Dubai</h2><img
+                        src="{{asset('web-assets/images/resource/Damac-Hills-2-location.jpg')}}"
+                        alt=""></div>
+            </div>
+    </section>
+            
+    <section class="section nearby-location cta-section advantgaes alternate-2 centred " style="background-image: url({{asset('web-assets/images/background/footer-bg-1.jpg')}});">
+        <div class="overlay">
+        <div class="container">
+            <h2>Nearby Locations</h2>
+            <div class="parent-type nearby">
+                <div class="property-type nearby-name"> 
+                
+                    
+
+                    <i class="bi bi-airplane"></i>
+                    <h4><b> 35 Minutes</b> <br>Dubai International Airport</h4>
+                </div>
+                <div class="property-type nearby-name"><i class="bi bi-building-slash"></i>
+                    <h4><b>15 Minutes</b><br>Jumeirah Village Circle </h4>
+                </div>
+                <div class="property-type nearby-name"><i class="bi bi-p-circle"></i>
+                    <h4><b>25 Minutes</b><br>Dubai Investment Park</h4>
+                </div>
+            </div>
+            <div class="parent-type nearby">
+                <div class="property-type nearby-name"><i class="bi bi-house-down"></i>
+                    <h4><b>30 Minutes</b><br>Madinat Jumeirah</h4>
+                </div>
+                <div class="property-type nearby-name"><i class="bi bi-building-slash"></i>
+                    <h4><b>37 Minutes</b><br>Mall of the Emirates</h4>
+                </div>
+                <div class="property-type nearby-name"><i class="fas fa-ship    "></i></i>
+                    <h4><b>30 Minutes</b><br>to Dubai Marina</h4>
+                    
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- gallery-style-one -->
+    <section class="section about-location about-developer">
+        <div class="row">
+            <div class="col-lg-5 property-content property-location developer">
+                <h2>About Developer</h2>
+                <h3>Damac Properties</h3>
+                <p>Damac Property Developers are renowned creators of luxurious real estate, shaping Dubai's skyline with innovative designs and exceptional craftsmanship. With a portfolio spanning residential, commercial, and leisure properties, Damac is a trusted name synonymous with elegance, quality, and visionary developments that redefine modern living. By establishing a connection with Damac developers, you can become a proud owner of a magnificent new residence within various Damac Properties, strategically situated throughout Dubai. Delve into an array of real estate options at DAMAC Lagoons, DAMAC Hills, and DAMAC Hills 2, and take advantage of enduring prospects for investment.</p>
+                
+            </div>
+
+
+            <div class="col-lg-3 content-image location-name developer-name"><img
+                    src="{{asset('web-assets/images/resource/damac-developer.png')}}"
+                    alt=""></div>
+                    <div class="col-lg-4 content-image location-name developer-name"><img
+                        src="{{asset('web-assets/images/resource/damac-1.jpg')}}"
+                        alt=""></div>
+        </div>
 </section>
 <section class="category-section centred property-overview area-nearby">
     <div class="inner-container wow slideInLeft animated" data-wow-delay="00ms" data-wow-duration="1500ms">
@@ -2006,86 +2240,8 @@
                 </div>
             </li>
         </ul>
-</div>
+    </div>
 </section>
-{{-- <section class="deals-section sec-pad areas-land">
-    
-        <div class="sec-title">
-            <h2><span>Landmarks in Downtown Dubai
-            </span></h2>
-            <div class="line mt-3"></div>
-            <p class="area-text">There are main historical and architectural sightseeing spots situated in Downtown Dubai district. They attract millions of tourists from all over the world coming there to enjoy the hot climate and to get to know the local color.
-
-            </p>
-        </div>
-        <div class="deals-carousel owl-carousel owl-theme owl-dots-none nav-style-one">
-            <div class="single-item">
-                <div class="row clearfix">
-                    <div class="col-lg-6 col-md-6 col-sm-12 deals-block">
-                        <div class="deals-block-one">
-                            <div class="inner-box">
-                                <div class="lower-content">
-                                    <div class="title-text">
-                                        <h4>Burj Khalifa</h4>
-                                        <p>Stalagmite alike skyscraper tower with 828 metres high became the tallest building in the world. The total area is 31 hectares.
-                                           <br><br>
-                                            The lower part is 585 metres high with the floors where offices and residential apartments are situated.
-                                            <br><br>
-                                            The upper part is the metal spire with 243 metres high. The project development and the construction were held by Emaar Properties.
-                                            
-                                            </P>
-                                            <div class="download-brochure"><a href="index-5.html" class="freebrochure">Get Free Consultation</a></div>
-                                    </div>
-                                
-                                   
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 deals-block">
-                        <div class="image-box">
-                            <figure class="image"><img class="deals-img"
-                                    src="{{asset('web-assets/images/resource/burjarea.jpg')}}" alt=""></figure>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="single-item">
-                <div class="row clearfix">
-                    <div class="col-lg-6 col-md-7 col-sm-12 deals-block">
-                        <div class="deals-block-one">
-                            <div class="inner-box">
-                                <div class="lower-content">
-                                    <div class="title-text">
-                                        <h4>Dubai Fountain</h4>
-                                        <p>The centre of Downtown Dubai district is occupied by artificial lake Burj Khalifa with the total area of 12 hectares.
-                                          <br><br>
-                                            The main feature of this spot is dancing and singing fountains.
-                                            <br><br>
-                                            Since 2009 the tourists can watch the magnificent free show embodied with the help of 6 000 light sources and approximately 100 different multicolored search-lights.
-                                            
-                                            
-                                            
-                                            </P>
-                                            <div class="download-brochure"><a href="index-5.html" class="freebrochure">Get Free Consultation</a></div>
-                                    </div>
-                                
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 deals-block">
-                        <div class="image-box">
-                            <figure class="image"><img class="deals-img"
-                                    src="{{asset('web-assets/images/resource/DubaiFountain.jpg')}}" alt=""></figure>
-                        </div>
-                    </div>
-                </div>
-            </div>
-           
-        </div>
-  
-</section> --}}
 <section class="areas-slider">
 <div class="carousel-inner">
     <div class="single-item-carousel owl-carousel owl-theme owl-dots-none">

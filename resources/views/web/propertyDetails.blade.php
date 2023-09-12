@@ -206,9 +206,8 @@
                             </div>
                         </li>
                     </ul>
-            </div>
-            
-        </section>
+                </div>
+            </section>
 
         <section class="property-details property-details-two gallery-style-one sec-pad  centred property-galler">
             <div class="sec-title">

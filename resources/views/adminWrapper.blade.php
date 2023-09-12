@@ -204,6 +204,14 @@
               </router-link>
             </li>
             @endcan
+            @can('projects')
+            <li class="nav-item">
+              <router-link to="/projects" class="nav-link">
+                <i class="fa fa-circle nav-icon"></i>
+                <p>{{ __('translation.Projects') }}</p>
+              </router-link>
+            </li>
+            @endcan
             @canany(['countries','tags','property_types', 'property_status','developers'])
             <li class="nav-item menu-close">
               <a href="#" class="nav-link">
