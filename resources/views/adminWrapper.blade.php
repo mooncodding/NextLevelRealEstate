@@ -206,7 +206,7 @@
             @endcan
             @can('projects')
             <li class="nav-item">
-              <router-link to="/projects" class="nav-link">
+              <router-link to="/adminProjects" class="nav-link">
                 <i class="fa fa-circle nav-icon"></i>
                 <p>{{ __('translation.Projects') }}</p>
               </router-link>

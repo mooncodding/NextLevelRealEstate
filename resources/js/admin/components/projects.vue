@@ -1,18 +1,18 @@
 <template>
   <v-app>
     <div class="content-wrapper">
-      <div v-if="is('Super Admin') || can('blogs')">
+      <div v-if="is('Super Admin') || can('projects')">
         <!-- Content Header (Page header) -->
         <div class="content-header">
           <div class="container-fluid">
             <div class="row">
               <div class="col-6">
-                <h1 class="m-0 text-dark">{{ $t("message.BLOGS") }}</h1>
+                <h1 class="m-0 text-dark">{{ $t("message.PROJECTS") }}</h1>
               </div>
               <!-- /.col -->
               <div class="col-6">
-                <button class="btn btn-success float-right" @click="addBlog" v-if="(is('Super Admin') || can('create_blog'))">
-                  {{ $t("message.CREATE_BLOG") }}
+                <button class="btn btn-success float-right" @click="addProject" v-if="(is('Super Admin') || can('create_project'))">
+                  {{ $t("message.CREATE_PROJECT") }}
                   <i class="fas fa-plus fa-fw"></i>
                 </button>
               </div>
@@ -48,8 +48,8 @@
                   <div class="card-body table-responsive p-0">
                     <v-data-table
                       :headers="headers"
-                      :items="blogs.data ? blogs.data : blogs"
-                      :server-items-length="blogs.total"
+                      :items="projects.data ? projects.data : projects"
+                      :server-items-length="projects.total"
                       class="elevation-1"
                       :loading="loading"
                       :options.sync="options"
@@ -64,7 +64,7 @@
                           color="green"
                           class="edit-icon mr-2"
                           small
-                          @click="viewBlog(item)"
+                          @click="viewProject(item)"
                         >
                           mdi-eye
                         </v-icon>
@@ -73,8 +73,8 @@
                           color="blue"
                           class="edit-icon mr-2"
                           small
-                          @click="editBlog(item)"
-                          v-if="(is('Super Admin') || can('edit_blog'))"
+                          @click="editProject(item)"
+                          v-if="(is('Super Admin') || can('edit_project'))"
                         >
                           mdi-pencil
                         </v-icon>
@@ -83,8 +83,8 @@
                           color="red"
                           class="delete-icon"
                           small
-                          @click="deleteBlog(item.id)"
-                          v-if="(is('Super Admin') || can('delete_blog'))"
+                          @click="deleteProject(item.id)"
+                          v-if="(is('Super Admin') || can('delete_project'))"
                         >
                           mdi-delete
                         </v-icon>
@@ -99,8 +99,8 @@
           </div>
         </div>
         <!-- /.content -->
-        <addEditBlogModal></addEditBlogModal>
-        <viewBlogModal :blogData="blogDataInfo"></viewBlogModal>
+        <addEditProjectModal></addEditProjectModal>
+        <viewProjectModal :projectData="projectDataInfo"></viewProjectModal>
       </div>
       <div class="unathorized-text" v-else>
         <div class="container-fluid">
@@ -121,13 +121,13 @@
 </template>
 
 <script>
-import addEditBlogModal from "./modals/addEditBlogModal.vue";
-import viewBlogModal from "./modals/viewBlogModal.vue";
+import addEditProjectModal from "./modals/addEditProjectModal.vue";
+import viewProjectModal from "./modals/viewProjectModal.vue";
 export default {
   data() {
     return {
       form: new form(),
-      blogs: [],
+      projects: [],
       curpage: 1,
       search: "",
       itemsPerPage: 10,
@@ -135,7 +135,7 @@ export default {
       options: {},
       sortBy: "",
       sortDesc: "",
-      blogDataInfo: {},
+      projectDataInfo: {},
       headers: [
         { text: this.$t("message.TITLE"), value: "title" },
         { text: this.$t("message.CREATED_BY"), value: "created_by.name" },
@@ -148,8 +148,8 @@ export default {
     };
   },
   components: {
-    addEditBlogModal,
-    viewBlogModal
+    addEditProjectModal,
+    viewProjectModal
   },
   watch: {
     //DataTable watcher!
@@ -168,7 +168,7 @@ export default {
   },
   methods: {
     getResults(page = 1, rows = 10, sortBy = null, sortDesc = null) {
-      if (this.is('Super Admin') || this.can('blogs')) {
+      if (this.is('Super Admin') || this.can('projects')) {
         this.$Progress.start();
         this.loading = true;
         this.curpage = page;
@@ -184,7 +184,7 @@ export default {
         }
         axios
           .get(
-            "api/adminBlogs?page=" +
+            "api/adminProjects?page=" +
               page +
               "&search=" +
               this.search +
@@ -196,7 +196,7 @@ export default {
               this.sortDesc
           )
           .then((response) => {
-            this.blogs = response.data;
+            this.projects = response.data;
             this.$Progress.finish();
             this.loading = false;
           })
@@ -217,8 +217,8 @@ export default {
         this.loading = false;
       }
     },
-    deleteBlog(id) {
-      if (this.is('Super Admin') || this.can('delete_blog')) {
+    deleteProject(id) {
+      if (this.is('Super Admin') || this.can('delete_project')) {
         swal
           .fire({
             title: this.$t("message.CONFIRM"),
@@ -234,10 +234,10 @@ export default {
             if (result.value) {
               // Send request to the server
               this.form
-                .delete("api/adminBlogs/" + id)
+                .delete("api/adminProjects/" + id)
                 .then(() => {
-                  this.blogs.total -= 1;
-                  Fire.$emit("reloadBlogs");
+                  this.projects.total -= 1;
+                  Fire.$emit("reloadProjects");
                   this.$Progress.finish();
                   swal.fire(
                     this.$t("message.DELETED"),
@@ -262,9 +262,9 @@ export default {
         });
       }
     },
-    addBlog() {
-      if (this.is('Super Admin') || this.can('create_blog')) {
-        $("#addEditBlogModal").modal("show");
+    addProject() {
+      if (this.is('Super Admin') || this.can('create_project')) {
+        $("#addEditProjectModal").modal("show");
       }else{
         toast.fire({
           icon: "error",
@@ -272,10 +272,10 @@ export default {
         });
       }
     },
-    editBlog(blogData) {
-      if (this.is('Super Admin') || this.can('edit_blog')) {
-        this.blogDataInfo = blogData;
-        $("#addEditBlogModal").modal("show", blogData);
+    editProject(projectData) {
+      if (this.is('Super Admin') || this.can('edit_project')) {
+        this.projectDataInfo = projectData;
+        $("#addEditProjectModal").modal("show", projectData);
       }else{
         toast.fire({
           icon: "error",
@@ -283,13 +283,13 @@ export default {
         });
       }
     },
-    viewBlog(blogData) {
-      this.blogDataInfo = blogData;
-      $("#viewBlogModal").modal("show", blogData);
+    viewProject(projectData) {
+      this.projectDataInfo = projectData;
+      $("#viewProjectModal").modal("show", projectData);
     },
   },
   created() {
-    Fire.$on("reloadBlogs", () => {
+    Fire.$on("reloadProjects", () => {
       this.getResults(this.curpage);
     });
   },

@@ -15,6 +15,7 @@ use App\Http\Controllers\API\PermissionController;
 use App\Http\Controllers\API\SettingController;
 use App\Http\Controllers\API\GeneralController;
 use App\Http\Controllers\API\ProfileController;
+use App\Http\Controllers\API\ProjectController;
 use App\Http\Controllers\API\PropertyStatusController;
 use App\Http\Controllers\API\PropertyTypeController;
 use App\Http\Controllers\API\StatusController;
@@ -48,6 +49,7 @@ Route::group(['middleware'=>['auth:sanctum']], function () {
     Route::apiResources(['adminAreas' => AreaController::class]);
     Route::apiResources(['adminBlogs' => BlogController::class]);
     Route::apiResources(['blogCategories' => BlogCategoryController::class]);
+    Route::apiResources(['adminProjects' => ProjectController::class]);
 
     // GENERAL CONTROLLER ROUTES
     // Get All Permissions
