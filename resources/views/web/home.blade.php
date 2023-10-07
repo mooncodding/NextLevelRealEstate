@@ -1,35 +1,46 @@
 @extends('webWrapper')
 @section('content')
 <!-- banner-style-two -->
-<section class="banner-style-two centred">
+
+<section class = "banner-style-two centred" >
     <div class="banner-carousel owl-theme owl-carousel owl-nav-none">
         <div class="slide-item">
-            <div class="image-layer" style="background-image:url({{asset('web-assets/images/banner/banner-1.jpg')}}) ">
-            </div>
+            <div
+                class="image-layer"
+                style="background-image:url({{asset('web-assets/images/banner/banner-1.jpg')}}) "></div>
 
             <div class="auto-container">
                 <div class="row">
                     <div class="col-md-10">
                         <div class="content-box text-left">
-                            <h2>Coral Reef is a luxury residential </h2>
+                            <h2>Coral Reef is a luxury residential
+                            </h2>
                             <h2 class="home-banerheading">development in Dubai Maritime City</h2>
                             <div class="main-pattern">
                                 <div class="banner-style">
-                                    <p><i class="bi bi-wallet2"></i></p>
                                     <p>
-                                        <b>Starting Price</b> <br> On Request</p>
+                                        <i class="bi bi-wallet2"></i>
+                                    </p>
+                                    <p>
+                                        <b>Starting Price</b>
+                                        <br>
+                                            On Request</p>
                                 </div>
                                 <div class="banner-pattern">
-                                    <p> <i class="bi bi-tags"></i></p>
                                     <p>
-                                        <b>Payment Plan </b><br> On Request</p>
+                                        <i class="bi bi-tags"></i>
+                                    </p>
+                                    <p>
+                                        <b>Payment Plan
+                                        </b>
+                                        <br>
+                                            On Request</p>
 
                                 </div>
                             </div>
                             <div class="banner-btn">
                                 <div class="banner-inquiry">
-                                    <a href="index-5.html" class="theme-btn btn-three banner-btn">Request A Property
-                                        Appraisal</a>
+                                    <a href="index-5.html" class="theme-btn btn-three banner-btn">Request A Property Appraisal</a>
                                 </div>
                                 <div class="property-view">
                                     <a href="contact.html" class="theme-btn btn-one">Contact With Me</a>
@@ -39,144 +50,121 @@
                     </div>
                     <div class="col-md-2">
                         {{-- <div class="form-inner banner-form">
-                            <h3>Get a free Consultaion</h3>
-                            <h4>Book your Dream in palm Jebel Ali</h4>
-                            <form action="property-details.html" method="post" class="default-form">
-                                <div class="form-group">
-                                    <input type="text" name="name" placeholder="Your name" required="">
-                                </div>
-                                <div class="form-group">
-                                    <input type="email" name="email" placeholder="Your Email" required="">
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" name="phone" placeholder="Phone" required="">
-                                </div>
-                                <div class="form-group message-btn">
-                                    <button type="submit" class="theme-btn btn-one">Send Message</button>
-                                </div>
-                            </form>
-                              </div> --}}
+                        <h3>Get a free Consultaion</h3>
+                        <h4>Book your Dream in palm Jebel Ali</h4>
+                        <form action="property-details.html" method="post" class="default-form">
+                            <div class="form-group">
+                                <input type="text" name="name" placeholder="Your name" required="">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" name="email" placeholder="Your Email" required="">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="phone" placeholder="Phone" required="">
+                            </div>
+                            <div class="form-group message-btn">
+                                <button type="submit" class="theme-btn btn-one">Send Message</button>
+                            </div>
+                        </form>
+                            </div> --}}
                     </div>
-             </div>
                 </div>
             </div>
-            <div class="slide-item">
-                <div class="image-layer"
-                    style="background-image:url({{asset('web-assets/images/banner/banner-2.jpg')}})">
-                </div>
-                <div class="auto-container">
-                    <div class="row">
-                        <div class="col-md-10">
-                            <div class="content-box text-left">
-                                <h2>Rixos Dubai Islands - embodies </h2>
-                                <h2 class="home-banerheading">contemporary waterfront living</h2>
-                                <div class="main-pattern">
-                                    <div class="banner-style">
-                                        <p>
-                                            <i class="bi bi-wallet2"></i>
-                                        </p>
-                                        <p>
+        </div>
+        <div class="slide-item">
+            <div
+                class="image-layer"
+                style="background-image:url({{asset('web-assets/images/banner/banner-2.jpg')}})"></div>
+            <div class="auto-container">
+                <div class="row">
+                    <div class="col-md-10">
+                        <div class="content-box text-left">
+                            <h2>Rixos Dubai Islands - embodies
+                            </h2>
+                            <h2 class="home-banerheading">contemporary waterfront living</h2>
+                            <div class="main-pattern">
+                                <div class="banner-style">
+                                    <p>
+                                        <i class="bi bi-wallet2"></i>
+                                    </p>
+                                    <p>
 
-                                            <b>Starting Price</b><br> On Request</p>
-                                    </div>
-                                    <div class="banner-pattern">
-                                        <p><i class="bi bi-tags"></i></p>
-                                        <p>
-                                            <b>Payment Plan</b> <br> On Request</p>
-                                    </div>
+                                        <b>Starting Price</b>
+                                        <br>
+                                            On Request</p>
                                 </div>
-                                <div class="banner-btn">
-                                    <div class="banner-inquiry">
-                                        <a href="index-5.html" class="theme-btn btn-three banner-btn">Request A Property
-                                            Appraisal</a>
-                                    </div>
-                                    <div class="property-view">
-                                        <a href="contact.html" class="theme-btn btn-one">Contact With Me</a>
-                                    </div>
+                                <div class="banner-pattern">
+                                    <p>
+                                        <i class="bi bi-tags"></i>
+                                    </p>
+                                    <p>
+                                        <b>Payment Plan</b>
+                                        <br>
+                                            On Request</p>
+                                </div>
+                            </div>
+                            <div class="banner-btn">
+                                <div class="banner-inquiry">
+                                    <a href="index-5.html" class="theme-btn btn-three banner-btn">Request A Property Appraisal</a>
+                                </div>
+                                <div class="property-view">
+                                    <a href="contact.html" class="theme-btn btn-one">Contact With Me</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-2">
-                            {{-- <div class="form-inner banner-form">
-                            <h3>Get a free Consultaion</h3>
-                            <h4>Book your Dream in palm Jebel Ali</h4>
-                            <form action="property-details.html" method="post" class="default-form">
-                                <div class="form-group">
-                                    <input type="text" name="name" placeholder="Your name" required="">
-                                </div>
-                                <div class="form-group">
-                                    <input type="email" name="email" placeholder="Your Email" required="">
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" name="phone" placeholder="Phone" required="">
-                                </div>
-                                <div class="form-group message-btn">
-                                    <button type="submit" class="theme-btn btn-one">Send Message</button>
-                                </div>
-                            </form>
-                              </div> --}}
-                        </div>
+                    </div>
+                    <div class="col-md-2">
                     </div>
                 </div>
             </div>
-            <div class="slide-item">
-                <div class="image-layer"
-                    style="background-image:url({{asset('web-assets/images/banner/banner-3.jpg')}})">
-                </div>
-                <div class="auto-container">
-                    <div class="row">
-                        <div class="col-md-10">
-                            <div class="content-box text-left">
-                                <h2>New Seaside Luxury Apartments</h2>
-                                <h2 class="home-banerheading"> Located in Dubai Maritime City</h2>
-                                <div class="main-pattern">
-                                    <div class="banner-style">
-                                        <p>
-                                            <i class="bi bi-wallet2"></i></p>
-                                        <p>
-                                            <b>Starting Price</b> <br> On Request</p>
-                                    </div>
-                                    <div class="banner-pattern">
-
-                                        <p><i class="bi bi-tags"></i></p>
-                                        <p>
-                                            <b>Payment Plan</b> <br> On Request</p>
-                                    </div>
+        </div>
+        <div class="slide-item">
+            <div
+                class="image-layer"
+                style="background-image:url({{asset('web-assets/images/banner/banner-3.jpg')}})"></div>
+            <div class="auto-container">
+                <div class="row">
+                    <div class="col-md-10">
+                        <div class="content-box text-left">
+                            <h2>New Seaside Luxury Apartments</h2>
+                            <h2 class="home-banerheading">
+                                Located in Dubai Maritime City</h2>
+                            <div class="main-pattern">
+                                <div class="banner-style">
+                                    <p>
+                                        <i class="bi bi-wallet2"></i>
+                                    </p>
+                                    <p>
+                                        <b>Starting Price</b>
+                                        <br>
+                                            On Request</p>
                                 </div>
-                                <div class="banner-btn">
-                                    <div class="banner-inquiry">
-                                        <a href="index-5.html" class="theme-btn btn-three banner-btn">Request A Property
-                                            Appraisal</a>
-                                    </div>
-                                    <div class="property-view">
-                                        <a href="contact.html" class="theme-btn btn-one">Contact With Me</a>
-                                    </div>
+                                <div class="banner-pattern">
+
+                                    <p>
+                                        <i class="bi bi-tags"></i>
+                                    </p>
+                                    <p>
+                                        <b>Payment Plan</b>
+                                        <br>
+                                            On Request</p>
+                                </div>
+                            </div>
+                            <div class="banner-btn">
+                                <div class="banner-inquiry">
+                                    <a href="index-5.html" class="theme-btn btn-three banner-btn">Request A Property Appraisal</a>
+                                </div>
+                                <div class="property-view">
+                                    <a href="contact.html" class="theme-btn btn-one">Contact With Me</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-2">
-                            {{-- <div class="form-inner banner-form">
-                            <h3>Get a free Consultaion</h3>
-                            <h4>Book your Dream in palm Jebel Ali</h4>
-                            <form action="property-details.html" method="post" class="default-form">
-                                <div class="form-group">
-                                    <input type="text" name="name" placeholder="Your name" required="">
-                                </div>
-                                <div class="form-group">
-                                    <input type="email" name="email" placeholder="Your Email" required="">
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" name="phone" placeholder="Phone" required="">
-                                </div>
-                                <div class="form-group message-btn">
-                                    <button type="submit" class="theme-btn btn-one">Send Message</button>
-                                </div>
-                            {{-- </form> --}}
-                            {{-- </div> --}}
-                        </div>
+                    </div>
+                    <div class="col-md-2">
                     </div>
                 </div>
             </div>
+        </div>
     </div>
 </section>
 <!-- banner-style-two end -->
@@ -185,556 +173,8 @@
 <section class="search-field-section">
     <div class="auto-container">
         <div class="inner-container">
-            {{-- <div class="search-field">
-                <div class="tabs-box">
-                    <div class="tab-btn-box">
-                        <ul class="tab-btns tab-buttons centred clearfix">
-                            <li class="tab-btn active-btn" data-tab="#tab-1">BUY</li>
-                            <li class="tab-btn" data-tab="#tab-2">RENT</li>
-                            <li class="tab-btn" data-tab="#tab-3">Sale</li>
-                        </ul>
-                    </div>
-                    <div class="tabs-content info-group">
-                        <div class="tab active-tab" id="tab-1">
-                            <div class="inner-box">
-                                <div class="top-search">
-                                    <form action="index.html" method="post" class="search-form">
-                                        <div class="row clearfix">
-                                            <div class="col-lg-4 col-md-12 col-sm-12 column">
-                                                <div class="form-group">
-                                                    <label>Search Property</label>
-                                                    <div class="field-input">
-                                                        <i class="fas fa-search"></i>
-                                                        <input type="search" name="search-field"
-                                                            placeholder="Search by Property, Location or Landmark..."
-                                                            required="">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-4 col-md-6 col-sm-12 column">
-                                                <div class="form-group">
-                                                    <label>Location</label>
-                                                    <div class="select-box">
-                                                        <i class="far fa-compass"></i>
-                                                        <select class="wide">
-                                                            <option data-display="Input location">Input location
-                                                            </option>
-                                                            <option value="1">New York</option>
-                                                            <option value="2">California</option>
-                                                            <option value="3">London</option>
-                                                            <option value="4">Maxico</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-4 col-md-6 col-sm-12 column">
-                                                <div class="form-group">
-                                                    <label>Property Type</label>
-                                                    <div class="select-box">
-                                                        <select class="wide">
-                                                            <option data-display="All Type">All Type</option>
-                                                            <option value="1">Laxury</option>
-                                                            <option value="2">Classic</option>
-                                                            <option value="3">Modern</option>
-                                                            <option value="4">New</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="search-btn">
-                                            <button type="submit"><i class="fas fa-search"></i>Search</button>
-                                        </div>
-                                    </form>
-                                </div>
-                                <div class="switch_btn_one ">
-                                    <button
-                                        class="nav-btn nav-toggler navSidebar-button clearfix search__toggler">Advanced
-                                        Search<i class="fas fa-angle-down"></i></button>
-                                    <div class="advanced-search">
-                                        <div class="close-btn">
-                                            <a href="#" class="close-side-widget"><i class="far fa-times"></i></a>
-                                        </div>
-                                        <div class="row clearfix">
-                                            <div class="col-lg-4 col-md-6 col-sm-12 column">
-                                                <div class="form-group">
-                                                    <label>Distance from Location</label>
-                                                    <div class="select-box">
-                                                        <select class="wide">
-                                                            <option data-display="Distance from Location">Distance from
-                                                                Location</option>
-                                                            <option value="1">Max Bath</option>
-                                                            <option value="2">Within 1 Mile</option>
-                                                            <option value="3">Within 2 Mile</option>
-                                                            <option value="4">Within 3 Mile</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-4 col-md-6 col-sm-12 column">
-                                                <div class="form-group">
-                                                    <label>Bedrooms</label>
-                                                    <div class="select-box">
-                                                        <select class="wide">
-                                                            <option data-display="Max Rooms">Max Rooms</option>
-                                                            <option value="1">One Rooms</option>
-                                                            <option value="2">Two Rooms</option>
-                                                            <option value="3">Three Rooms</option>
-                                                            <option value="4">Four Rooms</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-4 col-md-6 col-sm-12 column">
-                                                <div class="form-group">
-                                                    <label>Sort by</label>
-                                                    <div class="select-box">
-                                                        <select class="wide">
-                                                            <option data-display="Most Popular">Most Popular</option>
-                                                            <option value="1">Top Rating</option>
-                                                            <option value="2">New Rooms</option>
-                                                            <option value="3">Classic Rooms</option>
-                                                            <option value="4">Luxry Rooms</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-4 col-md-6 col-sm-12 column">
-                                                <div class="form-group">
-                                                    <label>Floor</label>
-                                                    <div class="select-box">
-                                                        <select class="wide">
-                                                            <option data-display="Select Floor">Select Floor</option>
-                                                            <option value="1">One Floor</option>
-                                                            <option value="2">Two Floor</option>
-                                                            <option value="3">Three Floor</option>
-                                                            <option value="4">Four Floor</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-4 col-md-6 col-sm-12 column">
-                                                <div class="form-group">
-                                                    <label>Bath</label>
-                                                    <div class="select-box">
-                                                        <select class="wide">
-                                                            <option data-display="Max Bath">Max Bath</option>
-                                                            <option value="1">Max Bath</option>
-                                                            <option value="2">Max Bath</option>
-                                                            <option value="3">Max Bath</option>
-                                                            <option value="4">Max Bath</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-4 col-md-6 col-sm-12 column">
-                                                <div class="form-group">
-                                                    <label>Agencies</label>
-                                                    <div class="select-box">
-                                                        <select class="wide">
-                                                            <option data-display="Any Agency">Any Agency</option>
-                                                            <option value="1">Any Agency</option>
-                                                            <option value="2">Agency 01</option>
-                                                            <option value="3">Agency 02</option>
-                                                            <option value="4">Agency 03</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="range-box">
-                                            <div class="row clearfix">
-                                                <div class="col-lg-6 col-md-6 col-sm-12 column">
-                                                    <div class="price-range">
-                                                        <h6>Select Price Range</h6>
-                                                        <div class="range-input">
-                                                            <div class="input"><input type="text"
-                                                                    class="property-amount" name="field-name"
-                                                                    readonly=""></div>
-                                                        </div>
-                                                        <div class="price-range-slider"></div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-6 col-md-6 col-sm-12 column">
-                                                    <div class="area-range">
-                                                        <h6>Select Area</h6>
-                                                        <div class="range-input">
-                                                            <div class="input"><input type="text" class="area-range"
-                                                                    name="field-name" readonly=""></div>
-                                                        </div>
-                                                        <div class="area-range-slider"></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab" id="tab-2">
-                            <div class="inner-box">
-                                <div class="top-search">
-                                    <form action="index.html" method="post" class="search-form">
-                                        <div class="row clearfix">
-                                            <div class="col-lg-4 col-md-12 col-sm-12 column">
-                                                <div class="form-group">
-                                                    <label>Search Property</label>
-                                                    <div class="field-input">
-                                                        <i class="fas fa-search"></i>
-                                                        <input type="search" name="search-field"
-                                                            placeholder="Search by Property, Location or Landmark..."
-                                                            required="">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-4 col-md-6 col-sm-12 column">
-                                                <div class="form-group">
-                                                    <label>Location</label>
-                                                    <div class="select-box">
-                                                        <i class="far fa-compass"></i>
-                                                        <select class="wide">
-                                                            <option data-display="Input location">Input location
-                                                            </option>
-                                                            <option value="1">New York</option>
-                                                            <option value="2">California</option>
-                                                            <option value="3">London</option>
-                                                            <option value="4">Maxico</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-4 col-md-6 col-sm-12 column">
-                                                <div class="form-group">
-                                                    <label>Property Type</label>
-                                                    <div class="select-box">
-                                                        <select class="wide">
-                                                            <option data-display="All Type">All Type</option>
-                                                            <option value="1">Laxury</option>
-                                                            <option value="2">Classic</option>
-                                                            <option value="3">Modern</option>
-                                                            <option value="4">New</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="search-btn">
-                                            <button type="submit"><i class="fas fa-search"></i>Search</button>
-                                        </div>
-                                    </form>
-                                </div>
-                                <div class="switch_btn_one">
-                                    <button
-                                        class="nav-btn nav-toggler navSidebar-button clearfix search__toggler">Advanced
-                                        Search<i class="fas fa-angle-down"></i></button>
-                                    <div class="advanced-search">
-                                        <div class="close-btn">
-                                            <a href="#" class="close-side-widget"><i class="far fa-times"></i></a>
-                                        </div>
-                                        <div class="row clearfix">
-                                            <div class="col-lg-4 col-md-6 col-sm-12 column">
-                                                <div class="form-group">
-                                                    <label>Distance from Location</label>
-                                                    <div class="select-box">
-                                                        <select class="wide">
-                                                            <option data-display="Distance from Location">Distance from
-                                                                Location</option>
-                                                            <option value="1">Max Bath</option>
-                                                            <option value="2">Within 1 Mile</option>
-                                                            <option value="3">Within 2 Mile</option>
-                                                            <option value="4">Within 3 Mile</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-4 col-md-6 col-sm-12 column">
-                                                <div class="form-group">
-                                                    <label>Bedrooms</label>
-                                                    <div class="select-box">
-                                                        <select class="wide">
-                                                            <option data-display="Max Rooms">Max Rooms</option>
-                                                            <option value="1">One Rooms</option>
-                                                            <option value="2">Two Rooms</option>
-                                                            <option value="3">Three Rooms</option>
-                                                            <option value="4">Four Rooms</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-4 col-md-6 col-sm-12 column">
-                                                <div class="form-group">
-                                                    <label>Sort by</label>
-                                                    <div class="select-box">
-                                                        <select class="wide">
-                                                            <option data-display="Most Popular">Most Popular</option>
-                                                            <option value="1">Top Rating</option>
-                                                            <option value="2">New Rooms</option>
-                                                            <option value="3">Classic Rooms</option>
-                                                            <option value="4">Luxry Rooms</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-4 col-md-6 col-sm-12 column">
-                                                <div class="form-group">
-                                                    <label>Floor</label>
-                                                    <div class="select-box">
-                                                        <select class="wide">
-                                                            <option data-display="Select Floor">Select Floor</option>
-                                                            <option value="1">One Floor</option>
-                                                            <option value="2">Two Floor</option>
-                                                            <option value="3">Three Floor</option>
-                                                            <option value="4">Four Floor</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-4 col-md-6 col-sm-12 column">
-                                                <div class="form-group">
-                                                    <label>Bath</label>
-                                                    <div class="select-box">
-                                                        <select class="wide">
-                                                            <option data-display="Max Bath">Max Bath</option>
-                                                            <option value="1">Max Bath</option>
-                                                            <option value="2">Max Bath</option>
-                                                            <option value="3">Max Bath</option>
-                                                            <option value="4">Max Bath</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-4 col-md-6 col-sm-12 column">
-                                                <div class="form-group">
-                                                    <label>Agencies</label>
-                                                    <div class="select-box">
-                                                        <select class="wide">
-                                                            <option data-display="Any Agency">Any Agency</option>
-                                                            <option value="1">Any Agency</option>
-                                                            <option value="2">Agency 01</option>
-                                                            <option value="3">Agency 02</option>
-                                                            <option value="4">Agency 03</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="range-box">
-                                            <div class="row clearfix">
-                                                <div class="col-lg-6 col-md-6 col-sm-12 column">
-                                                    <div class="price-range">
-                                                        <h6>Select Price Range</h6>
-                                                        <div class="range-input">
-                                                            <div class="input"><input type="text"
-                                                                    class="property-amount" name="field-name"
-                                                                    readonly=""></div>
-                                                        </div>
-                                                        <div class="price-range-slider"></div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-6 col-md-6 col-sm-12 column">
-                                                    <div class="area-range">
-                                                        <h6>Select Area</h6>
-                                                        <div class="range-input">
-                                                            <div class="input"><input type="text" class="area-range"
-                                                                    name="field-name" readonly=""></div>
-                                                        </div>
-                                                        <div class="area-range-slider"></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab" id="tab-3">
-                            <div class="inner-box">
-                                <div class="top-search">
-                                    <form action="index.html" method="post" class="search-form">
-                                        <div class="row clearfix">
-                                            <div class="col-lg-4 col-md-12 col-sm-12 column">
-                                                <div class="form-group">
-                                                    <label>Search Property</label>
-                                                    <div class="field-input">
-                                                        <i class="fas fa-search"></i>
-                                                        <input type="search" name="search-field"
-                                                            placeholder="Search by Property, Location or Landmark..."
-                                                            required="">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-4 col-md-6 col-sm-12 column">
-                                                <div class="form-group">
-                                                    <label>Location</label>
-                                                    <div class="select-box">
-                                                        <i class="far fa-compass"></i>
-                                                        <select class="wide">
-                                                            <option data-display="Input location">Input location
-                                                            </option>
-                                                            <option value="1">New York</option>
-                                                            <option value="2">California</option>
-                                                            <option value="3">London</option>
-                                                            <option value="4">Maxico</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-4 col-md-6 col-sm-12 column">
-                                                <div class="form-group">
-                                                    <label>Property Type</label>
-                                                    <div class="select-box">
-                                                        <select class="wide">
-                                                            <option data-display="All Type">All Type</option>
-                                                            <option value="1">Laxury</option>
-                                                            <option value="2">Classic</option>
-                                                            <option value="3">Modern</option>
-                                                            <option value="4">New</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="search-btn">
-                                            <button type="submit"><i class="fas fa-search"></i>Search</button>
-                                        </div>
-                                    </form>
-                                </div>
-                                <div class="switch_btn_one ">
-                                    <button
-                                        class="nav-btn nav-toggler navSidebar-button clearfix search__toggler">Advanced
-                                        Search<i class="fas fa-angle-down"></i></button>
-                                    <div class="advanced-search">
-                                        <div class="close-btn">
-                                            <a href="#" class="close-side-widget"><i class="far fa-times"></i></a>
-                                        </div>
-                                        <div class="row clearfix">
-                                            <div class="col-lg-4 col-md-6 col-sm-12 column">
-                                                <div class="form-group">
-                                                    <label>Distance from Location</label>
-                                                    <div class="select-box">
-                                                        <select class="wide">
-                                                            <option data-display="Distance from Location">Distance from
-                                                                Location</option>
-                                                            <option value="1">Max Bath</option>
-                                                            <option value="2">Within 1 Mile</option>
-                                                            <option value="3">Within 2 Mile</option>
-                                                            <option value="4">Within 3 Mile</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-4 col-md-6 col-sm-12 column">
-                                                <div class="form-group">
-                                                    <label>Bedrooms</label>
-                                                    <div class="select-box">
-                                                        <select class="wide">
-                                                            <option data-display="Max Rooms">Max Rooms</option>
-                                                            <option value="1">One Rooms</option>
-                                                            <option value="2">Two Rooms</option>
-                                                            <option value="3">Three Rooms</option>
-                                                            <option value="4">Four Rooms</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-4 col-md-6 col-sm-12 column">
-                                                <div class="form-group">
-                                                    <label>Sort by</label>
-                                                    <div class="select-box">
-                                                        <select class="wide">
-                                                            <option data-display="Most Popular">Most Popular</option>
-                                                            <option value="1">Top Rating</option>
-                                                            <option value="2">New Rooms</option>
-                                                            <option value="3">Classic Rooms</option>
-                                                            <option value="4">Luxry Rooms</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-4 col-md-6 col-sm-12 column">
-                                                <div class="form-group">
-                                                    <label>Floor</label>
-                                                    <div class="select-box">
-                                                        <select class="wide">
-                                                            <option data-display="Select Floor">Select Floor</option>
-                                                            <option value="1">One Floor</option>
-                                                            <option value="2">Two Floor</option>
-                                                            <option value="3">Three Floor</option>
-                                                            <option value="4">Four Floor</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-4 col-md-6 col-sm-12 column">
-                                                <div class="form-group">
-                                                    <label>Bath</label>
-                                                    <div class="select-box">
-                                                        <select class="wide">
-                                                            <option data-display="Max Bath">Max Bath</option>
-                                                            <option value="1">Max Bath</option>
-                                                            <option value="2">Max Bath</option>
-                                                            <option value="3">Max Bath</option>
-                                                            <option value="4">Max Bath</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-4 col-md-6 col-sm-12 column">
-                                                <div class="form-group">
-                                                    <label>Agencies</label>
-                                                    <div class="select-box">
-                                                        <select class="wide">
-                                                            <option data-display="Any Agency">Any Agency</option>
-                                                            <option value="1">Any Agency</option>
-                                                            <option value="2">Agency 01</option>
-                                                            <option value="3">Agency 02</option>
-                                                            <option value="4">Agency 03</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="range-box">
-                                            <div class="row clearfix">
-                                                <div class="col-lg-6 col-md-6 col-sm-12 column">
-                                                    <div class="price-range">
-                                                        <h6>Select Price Range</h6>
-                                                        <div class="range-input">
-                                                            <div class="input"><input type="text"
-                                                                    class="property-amount" name="field-name"
-                                                                    readonly=""></div>
-                                                        </div>
-                                                        <div class="price-range-slider"></div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-6 col-md-6 col-sm-12 column">
-                                                    <div class="area-range">
-                                                        <h6>Select Area</h6>
-                                                        <div class="range-input">
-                                                            <div class="input"><input type="text" class="area-range"
-                                                                    name="field-name" readonly=""></div>
-                                                        </div>
-                                                        <div class="area-range-slider"></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> --}}
             <div class="search-field">
                 <div class="tabs-box">
-                    <!-- <div class="tab-btn-box">
-                        <ul class="tab-btns tab-buttons centred clearfix">
-                            <li class="tab-btn active-btn" data-tab="#tab-1">BUY</li>
-                            <li class="tab-btn" data-tab="#tab-2">RENT</li>
-                            <li class="tab-btn" data-tab="#tab-3">Sale</li>
-                        </ul>
-                    </div> -->
                     <div class="tabs-content info-group">
                         <div class="tab active-tab" id="tab-1">
                             <div class="inner-box">
@@ -1281,341 +721,13 @@
                 <img src="{{asset('web-assets/images/icons/google-image.png')}}" alt=""></a>
             </div>
             <div class="review-trust">
-<h3>IT MATTERS</h3>
-<h4> WHICH AGENCY YOU TRUST</h4>
+                <h3>IT MATTERS</h3>
+                <h4> WHICH AGENCY YOU TRUST</h4>
             </div>
         </div>
     </div>
 </section>
 <!-- {{-- reviews Section start --}} -->
-<!-- <section class="our-service our-trust trust-pad">
-    <div class="auto-container">
-        <div
-            class="single-item-carousel service owl-carousel owl-theme owl-dots-none nav-style-one owl-loaded owl-drag owl-nav-none">
-            <div class="row clearfix">
-                <div class="col-md-4">
-                    <div class="service-cards trusted ">
-                        <div class="text">
-                            <h3>Explore the next level of real estate with us</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia rerum doloremque
-                                neque. Voluptates animi eum aliquam necessitatibus, </P>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="service-cards trusted">
-                        <div class="text">
-                            <img src="{{asset('web-assets/images/logo.png')}}" alt="">
-                            <img src="{{asset('web-assets/images/icons/google-image.png')}}" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="service-cards trusted">
-                        <div class="text">
-                            <h3>It matter which agency you </h3>
-                            <h6>TRUST</h6>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row clearfix">
-                <div class="col-md-4">
-                    <div class="service-cards trusted">
-                        <div class="text">
-                            <h3>Why Next Level?</h3>
-                            <h5>O1</h5>
-                            <p>Lorem ipsum, dolor sit amet consectetur dolor sit amet consectetur dolor sit amet
-                                consectetur Lorem ipsum, dolor sit amet consectetur dolor sit amet consectetur dolor sit
-                                amet consectetur</P>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="service-cards trusted">
-                        <div class="text">
-                            <h3>It matter which agency you </h3>
-                            <h6>TRUST</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="service-cards trusted">
-                        <div class="text">
-                            <img src="{{asset('web-assets/images/logo.png')}}" alt="">
-                            <img src="{{asset('web-assets/images/icons/google-image.png')}}" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section> -->
-
-<!-- {{-- reviews Section end --}}
-{{-- Trust Built Section --}} -->
-{{-- <section class="our-service sec-pad">
-    <div class="auto-container">
-        <div class="sec-title">
-            <h2>Our Service</h2>
-            <div class="line"></div>
-        </div>
-        <div
-            class="single-item-carousel service owl-carousel owl-theme owl-dots-none nav-style-one owl-loaded owl-drag">
-            <div class="row clearfix">
-                <div class="col-md-4">
-                    <div class="service-cards">
-                        <div class="icon-box"><i class="fas fa-tools"></i></div>
-                        <div class="text">
-                            <h3>Assist In Property Handover And Snagging Process</h3>
-                            <p>Lorem ipsum, dolor sit amet consectetur</P>
-                            <a href="" class="theme-btn btn-one">Inquire Now</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="service-cards">
-                        <div class="icon-box"><i class="fas fa-tools"></i></div>
-                        <div class="text">
-                            <h3>Evaluate Your Property’S Justified Current Market Rental</h3>
-                            <p>Lorem ipsum, dolor sit amet consectetur</P>
-                            <a href="" class="theme-btn btn-one">Inquire Now</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="service-cards">
-                        <div class="icon-box"><i class="fas fa-tools"></i></div>
-                        <div class="text">
-                            <h3>Effectively Market Your Property For Rent</h3>
-                            <p>Lorem ipsum, dolor sit amet consectetur</P>
-                            <a href="" class="theme-btn btn-one">Inquire Now</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mt-5">
-                    <div class="service-cards">
-                        <div class="icon-box"><i class="fas fa-tools"></i></div>
-                        <div class="text">
-                            <h3>Find And Screen Tenants</h3>
-                            <p>Lorem ipsum, dolor sit amet consectetur</P>
-                            <a href="" class="theme-btn btn-one">Inquire Now</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mt-5">
-                    <div class="service-cards">
-                        <div class="icon-box"><i class="fas fa-tools"></i></div>
-                        <div class="text">
-                            <h3>Prepare Tenancy And Relevant Documentation</h3>
-                            <p>Lorem ipsum, dolor sit amet consectetur</P>
-                            <a href="" class="theme-btn btn-one">Inquire Now</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mt-5">
-                    <div class="service-cards">
-                        <div class="icon-box"><i class="fas fa-tools"></i></div>
-                        <div class="text">
-                            <h3>Tenancy Agreement / Ejari Registration</h3>
-                            <p>Lorem ipsum, dolor sit amet consectetur</P>
-                            <a href="" class="theme-btn btn-one">Inquire Now</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row clearfix">
-                <div class="col-md-4">
-                    <div class="service-cards">
-                        <div class="icon-box"><i class="fas fa-tools"></i></div>
-                        <div class="text">
-                            <h3>Rent Collection</h3>
-                            <p>Lorem ipsum, dolor sit amet consectetur</P>
-                            <a href="" class="theme-btn btn-one">Inquire Now</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="service-cards">
-                        <div class="icon-box"><i class="fas fa-tools"></i></div>
-                        <div class="text">
-                            <h3>Prepare Legal Documents Required By Law Under The Residential Tenancy Act By Rera</h3>
-                            <p>Lorem ipsum, dolor sit amet consectetur</P>
-                            <a href="" class="theme-btn btn-one">Inquire Now</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="service-cards">
-                        <div class="icon-box"><i class="fas fa-tools"></i></div>
-                        <div class="text">
-                            <h3>Arrange Insurance For Your Property (As Per Your Requirement)</h3>
-                            <p>Lorem ipsum, dolor sit amet consectetur</P>
-                            <a href="" class="theme-btn btn-one">Inquire Now</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mt-5">
-                    <div class="service-cards">
-                        <div class="icon-box"><i class="fas fa-tools"></i></div>
-                        <div class="text">
-                            <h3>Electrical Wiring</h3>
-                            <p>Lorem ipsum, dolor sit amet consectetur</P>
-                            <a href="" class="theme-btn btn-one">Inquire Now</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mt-5">
-                    <div class="service-cards">
-                        <div class="icon-box"><i class="fas fa-tools"></i></div>
-                        <div class="text">
-                            <h3>Plumbing</h3>
-                            <p>Lorem ipsum, dolor sit amet consectetur</P>
-                            <a href="" class="theme-btn btn-one">Inquire Now</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mt-5">
-                    <div class="service-cards">
-                        <div class="icon-box"><i class="fas fa-tools"></i></div>
-                        <div class="text">
-                            <h3>Window Treatments (Screening Off The Balcony)</h3>
-                            <p>Lorem ipsum, dolor sit amet consectetur</P>
-                            <a href="" class="theme-btn btn-one">Inquire Now</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row clearfix">
-                <div class="col-md-4">
-                    <div class="service-cards">
-                        <div class="icon-box"><i class="fas fa-tools"></i></div>
-                        <div class="text">
-                            <h3>Ceilings And Walls</h3>
-                            <p>Lorem ipsum, dolor sit amet consectetur</P>
-                            <a href="" class="theme-btn btn-one">Inquire Now</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="service-cards">
-                        <div class="icon-box"><i class="fas fa-tools"></i></div>
-                        <div class="text">
-                            <h3>Stairs And Floors</h3>
-                            <p>Lorem ipsum, dolor sit amet consectetur</P>
-                            <a href="" class="theme-btn btn-one">Inquire Now</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="service-cards">
-                        <div class="icon-box"><i class="fas fa-tools"></i></div>
-                        <div class="text">
-                            <h3>Final Inspection & End Of Tenancy Matters</h3>
-                            <p>Lorem ipsum, dolor sit amet consectetur</P>
-                            <a href="" class="theme-btn btn-one">Inquire Now</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mt-5">
-                    <div class="service-cards">
-                        <div class="icon-box"><i class="fas fa-tools"></i></div>
-                        <div class="text">
-                            <h3>Lease Renewals And Rent Reviews</h3>
-                            <p>Lorem ipsum, dolor sit amet consectetur</P>
-                            <a href="" class="theme-btn btn-one">Inquire Now</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mt-5">
-                    <div class="service-cards">
-                        <div class="icon-box"><i class="fas fa-tools"></i></div>
-                        <div class="text">
-                            <h3>Prepare Financial Statements</h3>
-                            <p>Lorem ipsum, dolor sit amet consectetur</P>
-                            <a href="" class="theme-btn btn-one">Inquire Now</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mt-5">
-                    <div class="service-cards">
-                        <div class="icon-box"><i class="fas fa-tools"></i></div>
-                        <div class="text">
-                            <h3>Deliver Monthly Payment & Statement To You Including Copies Of Paid Invoices</h3>
-                            <p>Lorem ipsum, dolor sit amet consectetur</P>
-                            <a href="" class="theme-btn btn-one">Inquire Now</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row clearfix">
-                <div class="col-md-4">
-                    <div class="service-cards">
-                        <div class="icon-box"><i class="fas fa-tools"></i></div>
-                        <div class="text">
-                            <h3>Arrange Repairs & Maintenance Works</h3>
-                            <p>Lorem ipsum, dolor sit amet consectetur</P>
-                            <a href="" class="theme-btn btn-one">Inquire Now</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="service-cards">
-                        <div class="icon-box"><i class="fas fa-tools"></i></div>
-                        <div class="text">
-                            <h3>Ensure With The Tenant Regarding Timely Payment Of Utility Bills</h3>
-                            <p>Lorem ipsum, dolor sit amet consectetur</P>
-                            <a href="" class="theme-btn btn-one">Inquire Now</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="service-cards">
-                        <div class="icon-box"><i class="fas fa-tools"></i></div>
-                        <div class="text">
-                            <h3>Attend Tenant’S Complaint</h3>
-                            <p>Lorem ipsum, dolor sit amet consectetur</P>
-                            <a href="" class="theme-btn btn-one">Inquire Now</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mt-5">
-                    <div class="service-cards">
-                        <div class="icon-box"><i class="fas fa-tools"></i></div>
-                        <div class="text">
-                            <h3>Routine Inspection & Reports</h3>
-                            <p>Lorem ipsum, dolor sit amet consectetur</P>
-                            <a href="" class="theme-btn btn-one">Inquire Now</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mt-5">
-                    <div class="service-cards">
-                        <div class="icon-box"><i class="fas fa-tools"></i></div>
-                        <div class="text">
-                            <h3>Smoke Detectors, Sprinklers, And Fire Alarms</h3>
-                            <p>Lorem ipsum, dolor sit amet consectetur</P>
-                            <a href="" class="theme-btn btn-one">Inquire Now</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mt-5">
-                    <div class="service-cards">
-                        <div class="icon-box"><i class="fas fa-tools"></i></div>
-                        <div class="text">
-                            <h3>Legislation</h3>
-                            <p>Lorem ipsum, dolor sit amet consectetur</P>
-                            <a href="" class="theme-btn btn-one">Inquire Now</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section> --}}
-
-{{-- Trust Built Section EnD--}}
-
 
 <!-- feature-section -->
 <section class="feature-section sec-pad ">
@@ -1814,7 +926,6 @@
 <!-- feature-section end -->
 <!-- areas-section start -->
 <section class="place-section">
-    {{-- <div class="auto-container"> --}}
     <div class="sec-title centred">
         <h5>Top Areas</h5>
         <h2>Most Popular Area</h2>
@@ -1889,111 +1000,8 @@
             </div>
         </div>
     </div>
-    {{-- </div> --}}
 </section>
 <!-- areas-section end -->
-{{-- About Us --}}
-{{-- <section class="aboutSection">
-    <div class="container about-nextlevel">
-        <div class="aboutHeading left">
-            <h2>About Us</h2>
-            <div class="middleSlash"></div>
-        </div>
-        <div class="aboutDes">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque omnis voluptatibus inventore. Aut neque quas reprehenderit, consequuntur exercitationem, fugiat reiciendis officiis cumque, beatae sequi eligendi fugit laboriosam corporis sapiente accusamus.</p>
-        </div>
-        <div class="row aboutRow about">
-            <div class="col-md-6">
-                <div class="aboutRow-cell lazyloaded">
-                    <div class="aboutRow-cell-content">
-                        <i class="fa fa-users" aria-hidden="true"></i>
-                        <p class="aboutH1">
-                            <span>120,000</span>
-                            customers</p>
-                        <p class="abtcont">private clients and the Real Estate market professionals</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="aboutRow-cell lazyloaded">
-                    <div class="aboutRow-cell-content">
-                        <i class="fa fa-users" aria-hidden="true"></i>
-                        <p class="aboutH1">
-                            <span>120,000</span>
-                            customers</p>
-                        <p class="abtcont">private clients and the Real Estate market professionals</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="aboutRow-cell lazyloaded">
-                    <div class="aboutRow-cell-content">
-                        <i class="fa fa-users" aria-hidden="true"></i>
-                        <p class="aboutH1">
-                            <span>120,000</span>
-                            customers</p>
-                        <p class="abtcont">private clients and the Real Estate market professionals</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="aboutRow-cell lazyloaded">
-                    <div class="aboutRow-cell-content">
-                        <i class="fa fa-users" aria-hidden="true"></i>
-                        <p class="aboutH1">
-                            <span>120,000</span>
-                            customers</p>
-                        <p class="abtcont">private clients and the Real Estate market professionals</p>
-                    </div>
-                </div>
-            </div>
-            {{-- <div class="col-md-6">
-                <div class="aboutRow-cell lazyloaded">
-                    <div class="aboutRow-cell-content">
-                        <i class="fa fa-users" aria-hidden="true"></i>
-                        <p class="aboutH1">
-                            <span>120,000</span>
-                            customers</p>
-                        <p class="abtcont">private clients and the Real Estate market professionals</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="aboutRow-cell lazyloaded">
-                    <div class="aboutRow-cell-content">
-                        <i class="fa fa-users" aria-hidden="true"></i>
-                        <p class="aboutH1">
-                            <span>120,000</span>
-                            customers</p>
-                        <p class="abtcont">private clients and the Real Estate market professionals</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="aboutRow-cell lazyloaded">
-                    <div class="aboutRow-cell-content">
-                        <i class="fa fa-users" aria-hidden="true"></i>
-                        <p class="aboutH1">
-                            <span>120,000</span>
-                            customers</p>
-                        <p class="abtcont">private clients and the Real Estate market professionals</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="aboutRow-cell lazyloaded">
-                    <div class="aboutRow-cell-content">
-                        <i class="fa fa-users" aria-hidden="true"></i>
-                        <p class="aboutH1">
-                            <span>120,000</span>
-                            customers</p>
-                        <p class="abtcont">private clients and the Real Estate market professionals</p>
-                    </div>
-                </div>
-            </div> --}}
-        </div>
-    </div>
-{{-- </section>  --}}
 
 {{-- about us section end --}}
 <section class="about-section about-page sec-pad">
@@ -2012,51 +1020,51 @@
                     <div class="content_block_3">
                         <div class="content-box">
                             <div class="sec-title">
-                                <h5>REAL ESTATE EXPERTS                                </h5>
+                                <h5>REAL ESTATE EXPERTS</h5>
                                 <h3>ABOUT US</h3>
                                
                             </div>
                             <div class="text">
-                                <p>Next Level Real Estate was established in 2013 and has been the driving force behind some of the greatest: <br><br>corporate, institutional, private residential land, commercial sectors across Dubai. Our company provides incredible solutions to property-related concerns. If you are looking to buy or rent property, our ideal property-related services will give you all the answers to your problems. Our up-to-date skills, marketing experience, and dedicated team make maximum efforts to let your property be known to all. We understand the value of connections between people and their properties. <br><br>This propels us to go the extra mile and provide highly suitable places with sufficient security for our valued clients.
-<br><br>
-<a href="" class="theme-btn btn-one">ENQUIRE NOW</a>
-<hr>
-<div class="row aboutRow about">
-    <div class="col-md-6">
-        <div class="aboutRow-cell lazyloaded">
-            <div class="about-row">
-                <i class="fa fa-users" aria-hidden="true"></i>
-                <p class="aboutH1">
-                    <span>30+
-                    </span>
-                <p >LANGUAGES</p>
-            </div>
-        </div>
-    </div>
-    <div class="col-md-6">
-        <div class="aboutRow-cell lazyloaded">
-            <div class="about-row">
-                <i class="fa fa-users" aria-hidden="true"></i>
-                <p class="aboutH1">
-                    <span>500+
-                    </span>
-                    </p>
-                <p >SPECIALISTS</p>
-            </div>
-        </div>
-    </div>
-    <div class="col-md-6">
-        <div class="aboutRow-cell lazyloaded">
-            <div class="about-row">
-                <i class="fa fa-users" aria-hidden="true"></i>
-                <p class="aboutH1">
-                    <span>120,000+</span>
-                    </p>
-                <p >CUSTOMERS</p>
-            </div>
-        </div>
-    </div>
-</div>
+                                <p>Next Level Real Estate was established in 2013 and has been the driving force behind some of the greatest: <br><br>corporate, institutional, private residential land, commercial sectors across Dubai. Our company provides incredible solutions to property-related concerns. If you are looking to buy or rent property, our ideal property-related services will give you all the answers to your problems. Our up-to-date skills, marketing experience, and dedicated team make maximum efforts to let your property be known to all. We understand the value of connections between people and their properties. <br><br>This propels us to go the extra mile and provide highly suitable places with sufficient security for our valued clients.</p>
+                                <br><br>
+                                <a href="" class="theme-btn btn-one">ENQUIRE NOW</a>
+                                <hr>
+                            </div>
+                            <div class="row aboutRow about">
+                                <div class="col-md-6">
+                                    <div class="aboutRow-cell lazyloaded">
+                                        <div class="about-row">
+                                            <i class="fa fa-users" aria-hidden="true"></i>
+                                            <p class="aboutH1">
+                                                <span>30+
+                                                </span>
+                                            <p >LANGUAGES</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="aboutRow-cell lazyloaded">
+                                        <div class="about-row">
+                                            <i class="fa fa-users" aria-hidden="true"></i>
+                                            <p class="aboutH1">
+                                                <span>500+
+                                                </span>
+                                                </p>
+                                            <p >SPECIALISTS</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="aboutRow-cell lazyloaded">
+                                        <div class="about-row">
+                                            <i class="fa fa-users" aria-hidden="true"></i>
+                                            <p class="aboutH1">
+                                                <span>120,000+</span>
+                                                </p>
+                                            <p >CUSTOMERS</p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -2069,14 +1077,14 @@
     <div class="container consult-width">
         <div class="row">
             <div class="col-lg-4 col-md-12 col-sm-12 consult-details">
-<h4>Contact Us</h4>
-<h5>Next Level Real Estate</h5>
-<br><br>
-<a href="mailto:media@nextlevelrealestate.ae"> <i class="bi bi-envelope-check">&nbsp;</i>media@nextlevelrealestate.ae </a><br><br>
-<a href="tel:%20+971%204%20454%202828"><i
-    class="bi bi-telephone-inbound">&nbsp;
-</i> +971 4 454 2828 </a><br><br>
-<a href="#"> <i class="bi bi-envelope-check">&nbsp;</i>1505, Opal Tower Burj Khalifa Boulevard – Business Bay – Dubai. </a>
+            <h4>Contact Us</h4>
+            <h5>Next Level Real Estate</h5>
+            <br><br>
+            <a href="mailto:media@nextlevelrealestate.ae"> <i class="bi bi-envelope-check">&nbsp;</i>media@nextlevelrealestate.ae </a><br><br>
+            <a href="tel:%20+971%204%20454%202828"><i
+                class="bi bi-telephone-inbound">&nbsp;
+            </i> +971 4 454 2828 </a><br><br>
+            <a href="#"> <i class="bi bi-envelope-check">&nbsp;</i>1505, Opal Tower Burj Khalifa Boulevard – Business Bay – Dubai. </a>
             </div>
             <div class="col-lg-8 col-md-12 col-sm-12 consult-form">
                 <h3>Get a free consultation</h3>
@@ -2275,8 +1283,8 @@
 </section>
 <!-- gallery-style-one end -->
 <!-- video-section -->
- <section class="video-section centred"
-    style="background-image: url({{asset('web-assets/images/background/video-1.jpg')}});">
+<section class="video-section centred"
+style="background-image: url({{asset('web-assets/images/background/video-1.jpg')}});">
 <div class="auto-container">
     <div class="video-inner">
         <div class="video-btn">
