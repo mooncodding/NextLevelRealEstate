@@ -5,10 +5,6 @@
             <div class="auto-container">
                 <div class="content-box clearfix">
                     <h1>Blog Details</h1>
-                    <ul class="bread-crumb clearfix">
-                        <li><a href="index.html">Home</a></li>
-                        <li>Blog Details</li>
-                    </ul>
                 </div>
             </div>
         </section>
@@ -138,19 +134,6 @@
                     </div>
                     <div class="col-lg-4 col-md-12 col-sm-12 sidebar-side">
                         <div class="blog-sidebar">
-                            <div class="sidebar-widget search-widget">
-                                <div class="widget-title">
-                                    <h4>Search</h4>
-                                </div>
-                                <div class="search-inner">
-                                    <form action="blog-1.html" method="post">
-                                        <div class="form-group">
-                                            <input type="search" name="search_field" placeholder="Search" required="">
-                                            <button type="submit"><i class="fas fa-search"></i></button>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
                             <div class="sidebar-widget social-widget">
                                 <div class="widget-title">
                                     <h4>Follow Us On</h4>
@@ -199,18 +182,71 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="sidebar-widget category-widget">
+                            <div class="featured-widget sidebar-widget">
                                 <div class="widget-title">
-                                    <h4>Archives</h4>
+                                    <h5>Featured Properties</h5>
                                 </div>
-                                <div class="widget-content">
-                                    <ul class="category-list clearfix">
-                                        <li><a href="blog-details.html">November 2016<span>(9)</span></a></li>
-                                        <li><a href="blog-details.html">November 2017<span>(5)</span></a></li>
-                                        <li><a href="blog-details.html">November 2018<span>(2)</span></a></li>
-                                        <li><a href="blog-details.html">November 2019<span>(7)</span></a></li>
-                                        <li><a href="blog-details.html">November 2020<span>(3)</span></a></li>
-                                    </ul>
+                                <div class="single-item-carousel owl-carousel owl-theme owl-nav-none dots-style-one">
+                                    <div class="feature-block-one">
+                                        <div class="inner-box">
+                                            <div class="image-box">
+                                                <figure class="image"><img src="{{asset('web-assets/images/feature/feature-1.png')}}" alt=""></figure>
+                                                <div class="batch"><i class="icon-11"></i></div>
+                                                <span class="category">Featured</span>
+                                            </div>
+                                            <div class="lower-content">
+                                                <div class="title-text"><h4><a href="property-details.html">Villa on Grand Avenue</a></h4></div>
+                                                <div class="price-box clearfix">
+                                                    <div class="price-info">
+                                                        <h6>Start From</h6>
+                                                        <h4>$30,000.00</h4>
+                                                    </div>
+                                                </div>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing sed.</p>
+                                                <div class="btn-box"><a href="property-details.html" class="theme-btn btn-two">See Details</a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="feature-block-one">
+                                        <div class="inner-box">
+                                            <div class="image-box">
+                                                <figure class="image"><img src="{{asset('web-assets/images/feature/feature-2.png')}}" alt=""></figure>
+                                                <div class="batch"><i class="icon-11"></i></div>
+                                                <span class="category">Featured</span>
+                                            </div>
+                                            <div class="lower-content">
+                                                <div class="title-text"><h4><a href="property-details.html">Contemporary Apartment</a></h4></div>
+                                                <div class="price-box clearfix">
+                                                    <div class="price-info">
+                                                        <h6>Start From</h6>
+                                                        <h4>$30,000.00</h4>
+                                                    </div>
+                                                </div>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing sed.</p>
+                                                <div class="btn-box"><a href="property-details.html" class="theme-btn btn-two">See Details</a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="feature-block-one">
+                                        <div class="inner-box">
+                                            <div class="image-box">
+                                                <figure class="image"><img src="{{asset('web-assets/images/feature/feature-3.png')}}" alt=""></figure>
+                                                <div class="batch"><i class="icon-11"></i></div>
+                                                <span class="category">Featured</span>
+                                            </div>
+                                            <div class="lower-content">
+                                                <div class="title-text"><h4><a href="property-details.html">Luxury Villa With Pool</a></h4></div>
+                                                <div class="price-box clearfix">
+                                                    <div class="price-info">
+                                                        <h6>Start From</h6>
+                                                        <h4>$30,000.00</h4>
+                                                    </div>
+                                                </div>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing sed.</p>
+                                                <div class="btn-box"><a href="property-details.html" class="theme-btn btn-two">See Details</a></div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="sidebar-widget tags-widget">

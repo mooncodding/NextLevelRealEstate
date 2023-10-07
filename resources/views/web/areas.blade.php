@@ -1902,8 +1902,170 @@
     </div>
 </section>
 <!-- feature-section end -->
+<!--Blogs-->
+<section class="blog-section sec-pad">
+    <div class="auto-container">
+        <div class="sec-title">
+            <h2>Your one-stop Resource Guide!</h2>
+            <div class="line mt-3"></div>
+        </div>
+        <div class="parent-categories mb-5">
+            <div class="category-btn blogs">
+                <a href="" class="theme-btn btn-one">All Projects</a>
+                <a href="" class="theme-btn btn-one">Monthly Property Report</a>
+                <a href="" class="theme-btn btn-one">General</a>
+                <a href="" class="theme-btn btn-one">Appartment</a>
+                <a href="" class="theme-btn btn-one">Property</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="team-block-one">
+                <div class="inner-box">
+                    <div class="box">
+                        <div class="ribbon-2">Buyers Guid</div>
+                    </div>
+                    <figure class="image-box"><img src="{{asset('web-assets/images/trending/image-1.jpg')}}" alt="">
+                    </figure>
+                    <div class="blog-inner">
+                        <div class="lower-content">
+                            <div class="author-info clearfix">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="author">
+                                            <h6>How Investing in Emaar Properties will give you Amazing Profits in 2023
+                                            </h6>
+                                            <p>Emaar Properties reported a profit after expenses worth Dh6.8 billion in
+                                                2022 for the financial</p>
+                                            <div class="btn-box pt-2">
+                                                <a href="" class="theme-btn btn-one">Continue Reading &nbsp; &nbsp;<i
+                                                        aria-hidden="true" class="fas fa-arrow-right"></i></a>
+                                            </div>
+                                            <hr class="solid" style="background-color: white">
+                                            <p>By Next Level</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="team-block-one">
+                <div class="inner-box">
+                    <div class="box">
+                        <div class="ribbon-2">Buyers Guid</div>
+                    </div>
+                    <figure class="image-box"><img src="{{asset('web-assets/images/trending/image-2.jpg')}}" alt="">
+                    </figure>
+                    <div class="blog-inner">
+                        <div class="lower-content">
+                            <div class="author-info clearfix">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="author">
+                                            <h6>Dubai’s Top 10 Schools for Academic Excellence and Future Leaders</h6>
+                                            <p>In case you want a list of top schools in Dubai that are offering high
+                                                quality of education and</p>
+                                            <div class="btn-box pt-2">
+                                                <a href="" class="theme-btn btn-one">Continue Reading &nbsp; &nbsp;<i
+                                                        aria-hidden="true" class="fas fa-arrow-right"></i></a>
+                                            </div>
+                                            <hr class="solid" style="background-color: white">
+                                            <p>By Next Level</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="team-block-one">
+                <div class="inner-box">
+                    <div class="box">
+                        <div class="ribbon-2">Buyers Guid</div>
+                    </div>
+                    <figure class="image-box"><img src="{{asset('web-assets/images/trending/image-3.jpg')}}" alt="">
+                    </figure>
+                    <div class="blog-inner">
+                        <div class="lower-content">
+                            <div class="author-info clearfix">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="author">
+                                            <h6>Why 2-bedroom apartments are high demand in Dubai?</h6>
+                                            <p>The requirement for apartments significantly increased. As residents
+                                                looked for more independent</p>
+
+                                            <div class="btn-box pt-2">
+                                                <a href="" class="theme-btn btn-one">Continue Reading &nbsp; &nbsp;<i
+                                                        aria-hidden="true" class="fas fa-arrow-right"></i></a>
+                                            </div>
+                                            <hr class="solid" style="background-color: white">
+                                            <p>By Next Level</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="category-btn text-center">
+            <a href="" class="theme-btn btn-one">All Blogs &nbsp; &nbsp;<i aria-hidden="true"
+                    class="fas fa-arrow-right"></i></a>
+        </div>
+    </div>
+</section>
+<!--End Blogs-->
+<!-- popular videos -->
+<section class="videos-popular">
+    <div class="container">
+    <div class="sec-title">
+            <h2>Popular Videos</h2>
+            <div class="line mt-3"></div>
+        </div>
+        <div class="row">
+       <div class="col-lg-6 col-md-12 col-sm-12">
+    <iframe width="554" height="310" src="https://www.youtube.com/embed/pL08bOm-KgE" title="Overview of DAMAC Lagoons in Dubai" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<div class="video-overi">
+    <h4>Damac Lagoons</h4>
+    <a href="" class="theme-btn btn-one">Video Overview &nbsp; &nbsp;<i aria-hidden="true"
+                    class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+<div class="col-lg-6 col-md-12 col-sm-12">
+        <iframe width="554" height="310" src="https://www.youtube.com/embed/J0Pe-V-gFAI" title="Madinat Jumeirah Living Apartments for Sale: New Phase Coming Soon 🇦🇪" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<div class="video-overi">
+    <h4>Damac Lagoons</h4>
+    <a href="" class="theme-btn btn-one">Video Overview &nbsp; &nbsp;<i aria-hidden="true"
+                    class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+<div class="col-lg-6 col-md-12 col-sm-12 pt-5">
+        <iframe width="554" height="310" src="https://www.youtube.com/embed/g6FeCW0GXng" title="Overview of Green Acres Villas in DAMAC Hills, Dubai" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<div class="video-overi">
+    <h4>Damac Lagoons</h4>
+    <a href="" class="theme-btn btn-one">Video Overview &nbsp; &nbsp;<i aria-hidden="true"
+                    class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+<div class="col-lg-6 col-md-12 col-sm-12 pt-5">
+    <iframe width="554" height="310" src="https://www.youtube.com/embed/pL08bOm-KgE" title="Overview of DAMAC Lagoons in Dubai" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<div class="video-overi">
+    <h4>Damac Lagoons</h4>
+    <a href="" class="theme-btn btn-one">Video Overview &nbsp; &nbsp;<i aria-hidden="true"
+                    class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+        
+    </div>
+ </div>
+</section>
+<!-- popular videos End -->
 <!-- team-section -->
-<section class="team-section  centred area-team ">
+<!-- <section class="team-section  centred area-team ">
     <div class="auto-container">
         <div class="sec-title">
             <h5>Our Agents</h5>
@@ -1992,10 +2154,10 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 <!-- team-section end -->
 <!-- areas-section start -->
-<section class="place-section areas-details area-listing">
+<!-- <section class="place-section areas-details area-listing">
     {{-- <div class="auto-container"> --}}
     <div class="sec-title centred">
         <h5>Top Areas</h5>
@@ -2072,7 +2234,7 @@
         </div>
     </div>
     {{-- </div> --}}
-</section>
+</section> -->
 <!-- areas-section end -->
 <!-- faq-page-section -->
 <section class="faq-page-section property-faq area-faq">
@@ -2195,7 +2357,7 @@
 </section>
 <!-- faq-page-section end -->
 <!-- trending-section -->
-<section class="trending-section area-trending ">
+<!-- <section class="trending-section area-trending ">
     <div class="auto-container">
         <div class="sec-title">
             <h2>Most Trending Projects in Dubai.</h2>
@@ -2460,7 +2622,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 <!-- trending-section end -->
 
 <!-- sidebar-page-container -->

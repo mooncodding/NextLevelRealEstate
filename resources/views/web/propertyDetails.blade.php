@@ -120,8 +120,12 @@
 
                                 </i>Download Free PDF Brochure</a></div>
                     </div>
-                    <div class="col-6 brochure-img"><img src="{{asset('web-assets/images/banner/brochure.png')}}"
-                            alt=""></div>
+                    <div class="col-6 brochure-img"><<video width="620" height="440" controls autoplay>
+                        <source src="{{asset('web-assets/images/resource/VID-20230907-WA0001.MP4 ')}}" type="video/mp4">
+                            
+                        <source src="movie.ogg" type="video/ogg">
+                        Your browser does not support the video tag.
+                      </video></div>
                 </div>
             </section>
             <section class="category-section centred property-overview">
@@ -208,7 +212,20 @@
                     </ul>
                 </div>
             </section>
+<!-- video-section -->
+ <section class="video-section centred"
+    style="background-image: url({{asset('web-assets/images/background/video-1.jpg')}});">
+<div class="auto-container">
+    <div class="video-inner">
+        <div class="video-btn">
+            <a href="https://www.youtube.com/watch?v=Kn615acNlTw" class="lightbox-image" data-caption=""><i
+                    class="icon-17"></i></a>
+        </div>
+    </div>
+</div>
+</section>
 
+<!-- video-section end -->
         <section class="property-details property-details-two gallery-style-one sec-pad  centred property-galler">
             <div class="sec-title">
                 <div class="gallery-heading">
@@ -488,40 +505,7 @@
             </div>
     </section>  
          
-            <section class="main-paymentplan">
-                <h2 class="paymentplan-h2">The Farmhouses at Damac Hills 2 <br>Payment plans.</h2>
-                <div class="paymentplan">
-                    <div class="paymentplan-box">
-                        <i class="bi bi-tags"></i>
-                        <h3>5%</h3>
-                        <h4>First Installment</h4>
-                    </div>
-                    <div class="paymentplan-box">
-                        <i class="bi bi-cone-striped"></i>
-                        <h3>35%</h3>
-                        <h4>Under Construction</h4>
-                    </div>
-                    <div class="paymentplan-box">
-                        <i class="bi bi-key"></i>
-                        <h3>60%</h3>
-                        <h4>On Handover</h4>
-                    </div>
-                </div>
-                <div class="paymentplan-2">
-                    <div class="paymentplan-box-2">
-                        <h4>No Commission</h4>
-                        <i class="bi bi-terminal-x"></i>
-                    </div>
-                    <div class="paymentplan-box-2">
-                        <h4>Direct Sales</h4>
-                        <i class="bi bi-universal-access"></i>
-                    </div>
-                    <div class="paymentplan-box-2">
-                        <h4>Trusted & Simple</h4>
-                        <i class="bi bi-bookmark-heart-fill"></i>
-                    </div>
-                </div>
-            </section>
+         
             <section class="gallery-style-two  centred amenities ">
                 <div class="auto-container">
                     
@@ -531,7 +515,7 @@
                         </div>
                         <div class="amenitybtn">
                             <a href="index-5.html" class="freerequest"><i class="bi bi-check2-circle"></i>&nbsp;
-                            Request More</a>
+                            Read More</a>
                         </div>
                     </div>
                     <div class="five-item-carousel owl-carousel owl-theme owl-nav-none dots-style-one aminities-slider">
@@ -627,118 +611,6 @@
                     </div>
                 </div>
             </section>
-            <section class="section about-property">
-                <div class="row">
-                    
-                    <div class="col-lg-5 property-content">
-                        <h2>About The Farmhouses Villas in DAMAC Hills 2</h2>
-                        <p>The Farmhouses at Damac Hills 2 is a new development of 5 and 6-bedroom farmhouses
-                            located in the heart of Damac Hills 2,
-                            Dubai. The community offers a unique blend of luxury living and country charm,
-                            with spacious homes,
-                            world-class amenities,
-                            and stunning views of the surrounding landscape. The Farmhouses are available in two
-                            styles: European and North American. European-style farmhouses are inspired by the
-                            tranquil meadows of the Netherlands or Belgium,
-                            with traditional features such as thatched roofs and exposed beams. North American-style
-                            farmhouses are more spacious and suited to the frontier style,
-                            with large porches and plenty of room for entertaining. No matter which style you
-                            choose,
-                            you can be sure to enjoy a luxurious and comfortable lifestyle at The Farmhouses. The
-                            homes feature spacious living and dining areas,
-                            gourmet kitchens,
-                            and luxurious master suites. There is also plenty of space for entertaining,
-                            with private gardens and swimming pools.</p>
-                    </div>
-                    <div class="col-lg-4 content-image"><figure class="image image-1 paroller"><img src="{{asset('web-assets/images/resource/653x685-EN (3).jpg')}}" alt=""></figure>
-                       </div>
-                        <div class="col-lg-3 content-image">
-                            <div class="property-sidebar profile-icon">
-                                <div class="author-widget sidebar-widget">
-                                    <div class="author-box">
-                                        <figure class="author-thumb"><img
-                                                src="{{asset('web-assets/images/resource/author-1.jpg')}}" alt=""
-                                                width="70"></figure>
-                                        <div class="inner">
-                                            <h4>Get More About Property <br>From Property expert  </h4>
-                                            <div class="btn-box"><a href="property-details.html"
-                                                class="theme-btn btn-two">View Profile</a></div>
-                                            <div class="main-propertybtn">
-                                               
-                                                <div class="what-btn"><a href="property-details.html"
-                                                        class="theme-btn btn-two whatcall-btn"><i
-                                                            class="bi bi-whatsapp"></i></a></div>
-                                                <div class="call-btn"><a href="property-details.html"
-                                                        class="theme-btn btn-two directcall-btn"><i
-                                                            class="bi bi-telephone-inbound"></i></a></div>
-                                                <div class="email-btn"><a href="property-details.html"
-                                                        class="theme-btn btn-two mailinquiry-btn"><i
-                                                            class="bi bi-envelope-check"></i></a></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                </div>
-            
-        </section>
-       
-        <section class="property-details property-details-two gallery-style-one sec-pad  centred property-galler">
-            <div class="container">
-            <div class="floor-title">
-                <div class="floorplan-heading">
-                    {{-- <h5>Style 3</h5> --}}
-                    <h2>Floor Plans of DAMAC The Farmhouses Villas</h2>
-                </div>
-                <div class="sortable-masonry">
-                    <div class="filters">
-                        <ul class="filter-tabs filter-btns clearfix life-style">
-                            <li class="active filter interior-btn">5 Bedroom</li>
-                            <li class="filter exterior-btn">6 Bedroom</li>
-                            {{-- <li class="filter" data-role="button" data-filter=".interior">Interior</li> --}}
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="floorplan interior">
-                <div class="floorplan-image">
-                    <img src="{{asset('web-assets/images/resource/5br.jpg')}}" alt="">
-                </div>
-                <div class="floorplan-bedroom">
-                    <h3>5-Bedroom Villa</h3>
-                    <p><i class="icon-1">&nbsp;</i><b>Total:</b> 5040 sqft</p>
-                    <div class="flor-btn">
-                        <a href="index-5.html" class="freefloorplan">Open All Floor Plans</a>
-                        <a href="index-5.html" class="freebrochure"><i
-                            class="bi bi-cloud-arrow-down">&nbsp;
-        
-                        </i>Download Brochure</a>
-                </div>
-            </div>
-        </div>
-            <div class="floorplan exterior">
-                <div class="floorplan-image">
-                    <img src="{{asset('web-assets/images/resource/6br.jpg')}}" alt="">
-                </div>
-                <div class="floorplan-bedroom">
-                    <h3>6-Bedroom Villa</h3>
-                    <p><i class="icon-1">&nbsp;</i><b>Total:</b> 8387 sqft</p>
-                    <div class="flor-btn">
-                        <a href="index-5.html" class="freefloorplan">Open All Floor Plans</a>
-                        <a href="index-5.html" class="freebrochure"><i
-                            class="bi bi-cloud-arrow-down">&nbsp;
-        
-                        </i>Download Brochure</a>
-                </div>
-            </div>
-        </div>
-        </section>
-          
-                <!-- category-section -->
-     
-           
-
             <section class="section about-location">
                     <div class="row">
                         <div class="col-lg-6 property-content property-location">
@@ -792,8 +664,170 @@
                 </div>
                 </div>
             </section>
+            <section class="main-paymentplan sec-pad">
+            <div class="amenity-title">
+                        <div class="paymentname">
+                        <h2 class="paymentplan-h2">The Farmhouses at Damac Hills 2  <br>Payment plans.</h2>
+                        </div>
+                        <div class="amenitybtn freebtn">
+                            <a href="index-5.html" class="freerequest  "><i class="bi bi-check2-circle"></i>&nbsp;
+                            Read More</a>
+                        </div>
+                    </div>
+                <div class="paymentplan">
+                    <div class="paymentplan-box">
+                        <i class="bi bi-tags"></i>
+                        <h3>5%</h3>
+                        <h4>First Installment</h4>
+                    </div>
+                    <div class="paymentplan-box">
+                        <i class="bi bi-cone-striped"></i>
+                        <h3>35%</h3>
+                        <h4>Under Construction</h4>
+                    </div>
+                    <div class="paymentplan-box">
+                        <i class="bi bi-key"></i>
+                        <h3>60%</h3>
+                        <h4>On Handover</h4>
+                    </div>
+                </div>
+                <div class="paymentplan-2">
+                    <div class="paymentplan-box-2">
+                        <h4>No Commission</h4>
+                        <i class="bi bi-terminal-x"></i>
+                    </div>
+                    <div class="paymentplan-box-2">
+                        <h4>Direct Sales</h4>
+                        <i class="bi bi-universal-access"></i>
+                    </div>
+                    <div class="paymentplan-box-2">
+                        <h4>Trusted & Simple</h4>
+                        <i class="bi bi-bookmark-heart-fill"></i>
+                    </div>
+                </div>
+            </section>
+            <section class="property-details property-details-two gallery-style-one   centred property-galler">
+            <div class="container">
+            <div class="floor-title">
+            <div class="amenity-title">
+                        <div class="floorname">
+                        <h2>Floor Plans of DAMAC The Farmhouses Villas
+</h2>
+                        </div>
+                        <div class="amenitybtn freebtn">
+                            <a href="index-5.html" class="freerequest"><i class="bi bi-check2-circle"></i>&nbsp;
+                            Read More</a>
+                        </div>
+                    </div>
+                <div class="sortable-masonry">
+                    <div class="filters">
+                        <ul class="filter-tabs filter-btns clearfix life-style">
+                            <li class="active filter interior-btn">5 Bedroom</li>
+                            <li class="filter exterior-btn">6 Bedroom</li>
+                            {{-- <li class="filter" data-role="button" data-filter=".interior">Interior</li> --}}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="floorplan interior">
+                <div class="floorplan-image">
+                    <img src="{{asset('web-assets/images/resource/5br.jpg')}}" alt="">
+                </div>
+                <div class="floorplan-bedroom">
+                    <h3>5-Bedroom Villa</h3>
+                    <p><i class="icon-1">&nbsp;</i><b>Total:</b> 5040 sqft</p>
+                    <div class="flor-btn">
+                        <a href="index-5.html" class="freefloorplan">Open All Floor Plans</a>
+                        <a href="index-5.html" class="freebrochure"><i
+                            class="bi bi-cloud-arrow-down">&nbsp;
+        
+                        </i>Download Brochure</a>
+                </div>
+            </div>
+        </div>
+            <div class="floorplan exterior">
+                <div class="floorplan-image">
+                    <img src="{{asset('web-assets/images/resource/6br.jpg')}}" alt="">
+                </div>
+                <div class="floorplan-bedroom">
+                    <h3>6-Bedroom Villa</h3>
+                    <p><i class="icon-1">&nbsp;</i><b>Total:</b> 8387 sqft</p>
+                    <div class="flor-btn">
+                        <a href="index-5.html" class="freefloorplan">Open All Floor Plans</a>
+                        <a href="index-5.html" class="freebrochure"><i
+                            class="bi bi-cloud-arrow-down">&nbsp;
+        
+                        </i>Download Brochure</a>
+                </div>
+            </div>
+        </div>
+        </section>
+          
+            <section class="section about-property">
+                <div class="row">
+                    
+                    <div class="col-lg-5 property-content">
+                        <h2>Why choose this project?</h2>
+                        <p>The Farmhouses at Damac Hills 2 is a new development of 5 and 6-bedroom farmhouses
+                            located in the heart of Damac Hills 2,
+                            Dubai. The community offers a unique blend of luxury living and country charm,
+                            with spacious homes,
+                            world-class amenities,
+                            and stunning views of the surrounding landscape. The Farmhouses are available in two
+                            styles: European and North American. European-style farmhouses are inspired by the
+                            tranquil meadows of the Netherlands or Belgium,
+                            with traditional features such as thatched roofs and exposed beams. North American-style
+                            farmhouses are more spacious and suited to the frontier style,
+                            with large porches and plenty of room for entertaining. No matter which style you
+                            choose,
+                            you can be sure to enjoy a luxurious and comfortable lifestyle at The Farmhouses. The
+                            homes feature spacious living and dining areas,
+                            gourmet kitchens,
+                            and luxurious master suites. There is also plenty of space for entertaining,
+                            with private gardens and swimming pools.</p>
+                    </div>
+                    <div class="col-lg-4 content-image"><figure class="image image-1 paroller"><img src="{{asset('web-assets/images/resource/653x685-EN (3).jpg')}}" alt=""></figure>
+                       </div>
+                        <div class="col-lg-3 content-image">
+                            <div class="property-sidebar profile-icon">
+                                <div class="author-widget sidebar-widget">
+                                    <div class="author-box">
+                                        <figure class="author-thumb"><img
+                                                src="{{asset('web-assets/images/resource/author-1.jpg')}}" alt=""
+                                                width="70"></figure>
+                                        <div class="inner">
+                                            <h4>Get More About Property <br>From Property expert  </h4>
+                                            <div class="btn-box"><a href="property-details.html"
+                                                class="theme-btn btn-two">View Profile</a></div>
+                                            <div class="main-propertybtn">
+                                               
+                                                <div class="what-btn"><a href="property-details.html"
+                                                        class="theme-btn btn-two whatcall-btn"><i
+                                                            class="bi bi-whatsapp"></i></a></div>
+                                                <div class="call-btn"><a href="property-details.html"
+                                                        class="theme-btn btn-two directcall-btn"><i
+                                                            class="bi bi-telephone-inbound"></i></a></div>
+                                                <div class="email-btn"><a href="property-details.html"
+                                                        class="theme-btn btn-two mailinquiry-btn"><i
+                                                            class="bi bi-envelope-check"></i></a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            
+        </section>
+       
+        
+                <!-- category-section -->
+     
+           
+
+          
             <!-- gallery-style-one -->
-            <section class="section about-location about-developer">
+            <section class="section about-location about-developer sec-pad">
                 <div class="row">
                     <div class="col-lg-5 property-content property-location developer">
                         <h2>About Developer</h2>
@@ -813,7 +847,7 @@
         </section>
 
 
-<section class="place-section sec-pad">
+<!-- <section class="place-section sec-pad">
     {{-- <div class="auto-container"> --}}
     <div class="sec-title centred">
         
@@ -899,7 +933,7 @@
         </div>
     </div>
     {{-- </div> --}}
-</section>
+</section> -->
 <!-- faq-page-section -->
 <section class="faq-page-section property-faq">
     <div class="auto-container">
@@ -1020,12 +1054,107 @@
     </div>
 </section>
 <!-- faq-page-section end -->
-
-<!-- trending-section -->
-<section class="trending-section trending-project ">
+<!-- team-section -->
+<section class="team-section  centred sec-pad">
+    {{-- <div class="pattern-layer" style="background-image: url({{asset('web-assets/images/shape/shape-1.jpg')}});
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;"></div> --}}
     <div class="auto-container">
         <div class="sec-title">
-            <h2>Most Trending Projects in Dubai.</h2>
+            <h5>Our Agents</h5>
+            <h2>Meet Our Excellent Agents</h2>
+        </div>
+        <div class="single-item-carousel owl-carousel owl-theme owl-dots-none nav-style-one">
+            <div class="team-block-one">
+                <div class="inner-box">
+                    <figure class="image-box"><img src="{{asset('web-assets/images/team/team-1.jpg')}}" alt=""></figure>
+                    <div class="lower-content">
+                        <div class="inner">
+                            <h4><a href="agents-details.html">Abdul Ahad Siddiq</a></h4>
+                            <span class="designation">Managing Director</span>
+                            <ul class="social-links clearfix">
+                                <li><a href="index.html"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="index.html"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="index.html"><i class="fab fa-google-plus-g"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="team-block-one">
+                <div class="inner-box">
+                    <figure class="image-box"><img src="{{asset('web-assets/images/team/team-2.jpg')}}" alt=""></figure>
+                    <div class="lower-content">
+                        <div class="inner">
+                            <h4><a href="agents-details.html">Salwa Arfaoui</a></h4>
+                            <span class="designation">Sales Director</span>
+                            <ul class="social-links clearfix">
+                                <li><a href="index.html"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="index.html"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="index.html"><i class="fab fa-google-plus-g"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="team-block-one">
+                <div class="inner-box">
+                    <figure class="image-box"><img src="{{asset('web-assets/images/team/team-3.jpg')}}" alt=""></figure>
+                    <div class="lower-content">
+                        <div class="inner">
+                            <h4><a href="agents-details.html">Houssam eddine Salmi</a></h4>
+                            <span class="designation">Client Manager at Next Level Real Estate</span>
+                            <ul class="social-links clearfix">
+                                <li><a href="index.html"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="index.html"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="index.html"><i class="fab fa-google-plus-g"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="team-block-one">
+                <div class="inner-box">
+                    <figure class="image-box"><img src="{{asset('web-assets/images/team/team-4.jpg')}}" alt=""></figure>
+                    <div class="lower-content">
+                        <div class="inner">
+                            <h4><a href="agents-details.html">Muhammad Ali Khan</a></h4>
+                            <span class="designation">Media Co-ordinator</span>
+                            <ul class="social-links clearfix">
+                                <li><a href="index.html"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="index.html"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="index.html"><i class="fab fa-google-plus-g"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="team-block-one">
+                <div class="inner-box">
+                    <figure class="image-box"><img src="{{asset('web-assets/images/team/team-5.jpg')}}" alt=""></figure>
+                    <div class="lower-content">
+                        <div class="inner">
+                            <h4><a href="agents-details.html">Abdullah Farooq</a></h4>
+                            <span class="designation">Property Consultant</span>
+                            <ul class="social-links clearfix">
+                                <li><a href="index.html"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="index.html"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="index.html"><i class="fab fa-google-plus-g"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- team-section end -->
+<!-- trending-section -->
+<section class="trending-section ">
+    <div class="auto-container">
+        <div class="sec-title">
+            <h2>Explore Similar projects</h2>
         </div>
         <div class="parent-categories mb-5 responsive">
             <div class="category-btn">

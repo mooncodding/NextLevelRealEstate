@@ -86,7 +86,15 @@ Route::get('/projects', function () {
 Route::get('/projectDetails', function () {
    return view('web.projectDetails');
 });
-
+Route::get('/career', function () {
+   return view('web.career');
+});
+Route::get('/community', function () {
+   return view('web.community');
+});
+Route::get('/communityDetail', function () {
+   return view('web.communityDetail');
+});
 Auth::routes(['verify' => true, 'register' => true]);
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

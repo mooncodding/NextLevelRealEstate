@@ -782,9 +782,33 @@
         {{-- <button class="message-button" data-target="html">
             <i class='fa fa-comment' style='font-size:37px;color:white'></i>
         </button> --}}
-        <a href="https://api.whatsapp.com/send?phone=910000000000&text=Hello" target="_blank" class="whatsapp-button" data-target="html">
-            <i class='fab fa-whatsapp' style='font-size:42px;color:white'></i>
-        </a>
+        <a href="https://api.whatsapp.com/send?phone=910000000000&text=Hello"
+target="_blank" class="whatsapp-button" data-target="html"> <i class='fab
+fa-whatsapp' style='font-size:42px;color:white'></i> </a> 
+        {{-- <div class="whatsapp-button">
+            <div class="chat-btn">
+            <div class="form-inner">
+                                <form action="property-details.html" method="post" class="default-form">
+                                    <div class="form-group">
+                                        <input type="text" name="name" placeholder="Your name" required="">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="email" name="email" placeholder="Your Email" required="">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" name="phone" placeholder="Phone" required="">
+                                    </div>
+                                    <div class="form-group">
+                                        <textarea name="message" placeholder="Message"></textarea>
+                                    </div>
+                                    <div class="form-group message-btn">
+                                        <button type="submit" class="theme-btn btn-one">Send Message</button>
+                                    </div>
+                                </form>
+                            </div>
+        </div>
+        </div>
+        </div> --}}
         <button class="scroll-top scroll-to-target" data-target="html">
             <i class='fab fa-accusoft' style='font-size:30px;color:white'></i>
         </button>
@@ -838,5 +862,7 @@
         });
         </script>
     {{-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script> --}}
+    
+    
 </body>
 </html>

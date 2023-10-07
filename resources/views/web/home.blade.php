@@ -728,13 +728,13 @@
             </div> --}}
             <div class="search-field">
                 <div class="tabs-box">
-                    <div class="tab-btn-box">
+                    <!-- <div class="tab-btn-box">
                         <ul class="tab-btns tab-buttons centred clearfix">
                             <li class="tab-btn active-btn" data-tab="#tab-1">BUY</li>
                             <li class="tab-btn" data-tab="#tab-2">RENT</li>
                             <li class="tab-btn" data-tab="#tab-3">Sale</li>
                         </ul>
-                    </div>
+                    </div> -->
                     <div class="tabs-content info-group">
                         <div class="tab active-tab" id="tab-1">
                             <div class="inner-box">
@@ -1271,9 +1271,24 @@
     </div>
 </section>
 <!-- search-field-section end -->
-
-{{-- reviews Section start --}}
-<section class="our-service our-trust trust-pad">
+<section class="reviews-home">
+    <div class="container">
+        <div class="reviewsmain">
+            <div class="review-logo">
+                <img src="{{asset('web-assets/images/footer-logo.png')}}" alt="" style="width: 250px"></a>
+            </div>
+            <div class="review-googlelogo">
+                <img src="{{asset('web-assets/images/icons/google-image.png')}}" alt=""></a>
+            </div>
+            <div class="review-trust">
+<h3>IT MATTERS</h3>
+<h4> WHICH AGENCY YOU TRUST</h4>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- {{-- reviews Section start --}} -->
+<!-- <section class="our-service our-trust trust-pad">
     <div class="auto-container">
         <div
             class="single-item-carousel service owl-carousel owl-theme owl-dots-none nav-style-one owl-loaded owl-drag owl-nav-none">
@@ -1335,11 +1350,11 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
-{{-- reviews Section end --}}
-{{-- Trust Built Section --}}
-<section class="our-service sec-pad">
+<!-- {{-- reviews Section end --}}
+{{-- Trust Built Section --}} -->
+{{-- <section class="our-service sec-pad">
     <div class="auto-container">
         <div class="sec-title">
             <h2>Our Service</h2>
@@ -1597,114 +1612,11 @@
             </div>
         </div>
     </div>
-</section>
+</section> --}}
 
 {{-- Trust Built Section EnD--}}
 
-{{-- About Us --}}
-{{-- <section class="aboutSection">
-    <div class="container about-nextlevel">
-        <div class="aboutHeading left">
-            <h2>About Us</h2>
-            <div class="middleSlash"></div>
-        </div>
-        <div class="aboutDes">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque omnis voluptatibus inventore. Aut neque quas reprehenderit, consequuntur exercitationem, fugiat reiciendis officiis cumque, beatae sequi eligendi fugit laboriosam corporis sapiente accusamus.</p>
-        </div>
-        <div class="row aboutRow about">
-            <div class="col-md-6">
-                <div class="aboutRow-cell lazyloaded">
-                    <div class="aboutRow-cell-content">
-                        <i class="fa fa-users" aria-hidden="true"></i>
-                        <p class="aboutH1">
-                            <span>120,000</span>
-                            customers</p>
-                        <p class="abtcont">private clients and the Real Estate market professionals</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="aboutRow-cell lazyloaded">
-                    <div class="aboutRow-cell-content">
-                        <i class="fa fa-users" aria-hidden="true"></i>
-                        <p class="aboutH1">
-                            <span>120,000</span>
-                            customers</p>
-                        <p class="abtcont">private clients and the Real Estate market professionals</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="aboutRow-cell lazyloaded">
-                    <div class="aboutRow-cell-content">
-                        <i class="fa fa-users" aria-hidden="true"></i>
-                        <p class="aboutH1">
-                            <span>120,000</span>
-                            customers</p>
-                        <p class="abtcont">private clients and the Real Estate market professionals</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="aboutRow-cell lazyloaded">
-                    <div class="aboutRow-cell-content">
-                        <i class="fa fa-users" aria-hidden="true"></i>
-                        <p class="aboutH1">
-                            <span>120,000</span>
-                            customers</p>
-                        <p class="abtcont">private clients and the Real Estate market professionals</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="aboutRow-cell lazyloaded">
-                    <div class="aboutRow-cell-content">
-                        <i class="fa fa-users" aria-hidden="true"></i>
-                        <p class="aboutH1">
-                            <span>120,000</span>
-                            customers</p>
-                        <p class="abtcont">private clients and the Real Estate market professionals</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="aboutRow-cell lazyloaded">
-                    <div class="aboutRow-cell-content">
-                        <i class="fa fa-users" aria-hidden="true"></i>
-                        <p class="aboutH1">
-                            <span>120,000</span>
-                            customers</p>
-                        <p class="abtcont">private clients and the Real Estate market professionals</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="aboutRow-cell lazyloaded">
-                    <div class="aboutRow-cell-content">
-                        <i class="fa fa-users" aria-hidden="true"></i>
-                        <p class="aboutH1">
-                            <span>120,000</span>
-                            customers</p>
-                        <p class="abtcont">private clients and the Real Estate market professionals</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="aboutRow-cell lazyloaded">
-                    <div class="aboutRow-cell-content">
-                        <i class="fa fa-users" aria-hidden="true"></i>
-                        <p class="aboutH1">
-                            <span>120,000</span>
-                            customers</p>
-                        <p class="abtcont">private clients and the Real Estate market professionals</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section> --}}
 
-{{-- about us section end --}}
 <!-- feature-section -->
 <section class="feature-section sec-pad ">
     <div class="auto-container">
@@ -1773,6 +1685,7 @@
                     </div>
                 </div>
             </div>
+            
             <div class="col-lg-4 col-md-6 col-sm-12 feature-block">
                 <div class="feature-block-one wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                     <div class="inner-box">
@@ -1899,8 +1812,484 @@
     </div>
 </section>
 <!-- feature-section end -->
+<!-- areas-section start -->
+<section class="place-section">
+    {{-- <div class="auto-container"> --}}
+    <div class="sec-title centred">
+        <h5>Top Areas</h5>
+        <h2>Most Popular Area</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing sed do eiusmod tempor incididunt <br />labore dolore
+            magna aliqua enim.</p>
+    </div>
+    <div class="row areas-parent">
+        <div class="col-6">
+            <div class="promo-box">
+                <div class="area-one"
+                    style=" background-image: url({{asset('web-assets/images/areas/Palm-Jebel-Ali.webp')}})">
+
+                    <h4 class="area-name">Palm Jebel Ali</h4>
+                    <h5 class="area-price">Price from 50,000,000 AED</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="promo-box">
+                <div class="area-one"
+                    style=" background-image: url({{asset('web-assets/images/areas/dubai-hills-estate.jpg')}})">
+                    <h4 class="area-name">Palm Jebel Ali</h4>
+                    <h5 class="area-price">Price from 50,000,000 AED</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="promo-box">
+                <div class="area-one"
+                    style=" background-image: url({{asset('web-assets/images/areas/downtown-dubai.jpg')}})">
+                    <h4 class="area-name">Palm Jebel Ali</h4>
+                    <h5 class="area-price">Price from 50,000,000 AED</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row areas-parent next-row">
+        <div class="col-3">
+            <div class="promo-box">
+                <div class="area-one"
+                    style=" background-image: url({{asset('web-assets/images/areas/dubai-harbour-3.jpg')}})">
+                    <h4 class="area-name">Palm Jebel Ali</h4>
+                    <h5 class="area-price">Price from 50,000,000 AED</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="promo-box">
+                <div class="area-one"
+                    style=" background-image: url({{asset('web-assets/images/areas/jumeirah-village-circle-scaled-1.jpg')}})">
+                    <h4 class="area-name">Palm Jebel Ali</h4>
+                    <h5 class="area-price">Price from 50,000,000 AED</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="promo-box">
+                <div class="area-one"
+                    style=" background-image: url({{asset('web-assets/images/areas/business-bay_-scaled-1.jpg')}})">
+                    <h4 class="area-name">Palm Jebel Ali</h4>
+                    <h5 class="area-price">Price from 50,000,000 AED</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="promo-box">
+                <div class="area-one"
+                    style=" background-image: url({{asset('web-assets/images/areas/dubai-land.jpg')}})">
+                    <h4 class="area-name">Palm Jebel Ali</h4>
+                    <h5 class="area-price">Price from 50,000,000 AED</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{-- </div> --}}
+</section>
+<!-- areas-section end -->
+{{-- About Us --}}
+{{-- <section class="aboutSection">
+    <div class="container about-nextlevel">
+        <div class="aboutHeading left">
+            <h2>About Us</h2>
+            <div class="middleSlash"></div>
+        </div>
+        <div class="aboutDes">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque omnis voluptatibus inventore. Aut neque quas reprehenderit, consequuntur exercitationem, fugiat reiciendis officiis cumque, beatae sequi eligendi fugit laboriosam corporis sapiente accusamus.</p>
+        </div>
+        <div class="row aboutRow about">
+            <div class="col-md-6">
+                <div class="aboutRow-cell lazyloaded">
+                    <div class="aboutRow-cell-content">
+                        <i class="fa fa-users" aria-hidden="true"></i>
+                        <p class="aboutH1">
+                            <span>120,000</span>
+                            customers</p>
+                        <p class="abtcont">private clients and the Real Estate market professionals</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="aboutRow-cell lazyloaded">
+                    <div class="aboutRow-cell-content">
+                        <i class="fa fa-users" aria-hidden="true"></i>
+                        <p class="aboutH1">
+                            <span>120,000</span>
+                            customers</p>
+                        <p class="abtcont">private clients and the Real Estate market professionals</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="aboutRow-cell lazyloaded">
+                    <div class="aboutRow-cell-content">
+                        <i class="fa fa-users" aria-hidden="true"></i>
+                        <p class="aboutH1">
+                            <span>120,000</span>
+                            customers</p>
+                        <p class="abtcont">private clients and the Real Estate market professionals</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="aboutRow-cell lazyloaded">
+                    <div class="aboutRow-cell-content">
+                        <i class="fa fa-users" aria-hidden="true"></i>
+                        <p class="aboutH1">
+                            <span>120,000</span>
+                            customers</p>
+                        <p class="abtcont">private clients and the Real Estate market professionals</p>
+                    </div>
+                </div>
+            </div>
+            {{-- <div class="col-md-6">
+                <div class="aboutRow-cell lazyloaded">
+                    <div class="aboutRow-cell-content">
+                        <i class="fa fa-users" aria-hidden="true"></i>
+                        <p class="aboutH1">
+                            <span>120,000</span>
+                            customers</p>
+                        <p class="abtcont">private clients and the Real Estate market professionals</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="aboutRow-cell lazyloaded">
+                    <div class="aboutRow-cell-content">
+                        <i class="fa fa-users" aria-hidden="true"></i>
+                        <p class="aboutH1">
+                            <span>120,000</span>
+                            customers</p>
+                        <p class="abtcont">private clients and the Real Estate market professionals</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="aboutRow-cell lazyloaded">
+                    <div class="aboutRow-cell-content">
+                        <i class="fa fa-users" aria-hidden="true"></i>
+                        <p class="aboutH1">
+                            <span>120,000</span>
+                            customers</p>
+                        <p class="abtcont">private clients and the Real Estate market professionals</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="aboutRow-cell lazyloaded">
+                    <div class="aboutRow-cell-content">
+                        <i class="fa fa-users" aria-hidden="true"></i>
+                        <p class="aboutH1">
+                            <span>120,000</span>
+                            customers</p>
+                        <p class="abtcont">private clients and the Real Estate market professionals</p>
+                    </div>
+                </div>
+            </div> --}}
+        </div>
+    </div>
+{{-- </section>  --}}
+
+{{-- about us section end --}}
+<section class="about-section about-page sec-pad">
+    <div class="auto-container">
+        <div class="inner-container">
+            <div class="row align-items-center clearfix">
+                <div class="col-lg-5 col-md-12 col-sm-12 image-column company-image">
+                    <div class="image_block_1">
+                        <div class="image-box">
+                            <figure class="image"><img src="{{asset('web-assets/images/resource/real-estate-experts.webp')}}" alt=""></figure>
+                         
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-12 col-sm-12 content-column ">
+                    <div class="content_block_3">
+                        <div class="content-box">
+                            <div class="sec-title">
+                                <h5>REAL ESTATE EXPERTS                                </h5>
+                                <h3>ABOUT US</h3>
+                               
+                            </div>
+                            <div class="text">
+                                <p>Next Level Real Estate was established in 2013 and has been the driving force behind some of the greatest: <br><br>corporate, institutional, private residential land, commercial sectors across Dubai. Our company provides incredible solutions to property-related concerns. If you are looking to buy or rent property, our ideal property-related services will give you all the answers to your problems. Our up-to-date skills, marketing experience, and dedicated team make maximum efforts to let your property be known to all. We understand the value of connections between people and their properties. <br><br>This propels us to go the extra mile and provide highly suitable places with sufficient security for our valued clients.
+<br><br>
+<a href="" class="theme-btn btn-one">ENQUIRE NOW</a>
+<hr>
+<div class="row aboutRow about">
+    <div class="col-md-6">
+        <div class="aboutRow-cell lazyloaded">
+            <div class="about-row">
+                <i class="fa fa-users" aria-hidden="true"></i>
+                <p class="aboutH1">
+                    <span>30+
+                    </span>
+                <p >LANGUAGES</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="aboutRow-cell lazyloaded">
+            <div class="about-row">
+                <i class="fa fa-users" aria-hidden="true"></i>
+                <p class="aboutH1">
+                    <span>500+
+                    </span>
+                    </p>
+                <p >SPECIALISTS</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="aboutRow-cell lazyloaded">
+            <div class="about-row">
+                <i class="fa fa-users" aria-hidden="true"></i>
+                <p class="aboutH1">
+                    <span>120,000+</span>
+                    </p>
+                <p >CUSTOMERS</p>
+            </div>
+        </div>
+    </div>
+</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="consultation-free ">
+    <div class="container consult-width">
+        <div class="row">
+            <div class="col-lg-4 col-md-12 col-sm-12 consult-details">
+<h4>Contact Us</h4>
+<h5>Next Level Real Estate</h5>
+<br><br>
+<a href="mailto:media@nextlevelrealestate.ae"> <i class="bi bi-envelope-check">&nbsp;</i>media@nextlevelrealestate.ae </a><br><br>
+<a href="tel:%20+971%204%20454%202828"><i
+    class="bi bi-telephone-inbound">&nbsp;
+</i> +971 4 454 2828 </a><br><br>
+<a href="#"> <i class="bi bi-envelope-check">&nbsp;</i>1505, Opal Tower Burj Khalifa Boulevard – Business Bay – Dubai. </a>
+            </div>
+            <div class="col-lg-8 col-md-12 col-sm-12 consult-form">
+                <h3>Get a free consultation</h3>
+                <h4>I am interested to!</h4>
+                <div class="form-inner">
+                    <form action="property-details.html" method="post" class="default-form">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Your name" required="">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Your Email" required="">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="phone" placeholder="Phone" required="">
+                        </div>
+                        <div class="form-group message-btn">
+                            <button type="submit" class="theme-btn btn-one">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+<!-- gallery-style-one -->
+<section class="gallery-style-one centred sec-pad">
+    <div class="auto-container">
+        <div class="sec-title">
+            {{-- <h5>Style 3</h5> --}}
+            <h2>Life Style In Dubai</h2>
+        </div>
+        <div class="sortable-masonry">
+            <div class="filters">
+                <ul class="filter-tabs filter-btns clearfix life-style">
+                    <li class="active filter" data-role="button" data-filter=".all">Villas</li>
+                    <li class="filter" data-role="button" data-filter=".real_estate">Appartments</li>
+                    <li class="filter" data-role="button" data-filter=".architechture">Town Houses</li>
+                    {{-- <li class="filter" data-role="button" data-filter=".interior">Interior</li> --}}
+                </ul>
+            </div>
+            <div class="items-container row clearfix">
+                <div class="col-lg-4 col-md-6 col-sm-12 masonry-item small-column all real_estate architechture">
+                    <div class="gallery-block-one">
+                        <div class="inner-box">
+                            <div class="image-box">
+                                <figure class="image"><img src="{{asset('web-assets/images/resource/place-2.jpg')}}"
+                                        alt=""></figure>
+                                <a href="{{asset('web-assets/images/resource/place-2.jpg')}}" class="lightbox-image"
+                                    data-fancybox="gallery"><i class="icon-31"></i></a>
+                                <div class="gallary-box">
+                                    <div class="gallary-card">
+                                        <div class="author-info clearfix">
+                                            <div class="author">
+                                                <h5><span class="price1">Starting Price</span> <span
+                                                        class="start1 responsive">40,000</span></h5>
+                                            </div>
+                                        </div>
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i><span>&nbsp; PECHS Block 6
+                                            Karachi, Pakistan</span><br>
+                                        <i class="fa fa-cogs" aria-hidden="true"> </i><span>&nbsp;Meeras</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 masonry-item small-column all real_estate interior">
+                    <div class="gallery-block-one">
+                        <div class="inner-box">
+                            <div class="image-box">
+                                <figure class="image"><img src="{{asset('web-assets/images/resource/place-3.jpg')}}"
+                                        alt=""></figure>
+                                <a href="{{asset('web-assets/images/resource/place-3.jpg')}}" class="lightbox-image"
+                                    data-fancybox="gallery"><i class="icon-31"></i></a>
+                                <div class="gallary-box">
+                                    <div class="gallary-card">
+                                        <div class="author-info clearfix">
+                                            <div class="author">
+                                                <h5><span class="price1">Starting Price</span> <span
+                                                        class="start1 responsive">40,000</span></h5>
+                                            </div>
+                                        </div>
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i><span>&nbsp; PECHS Block 6
+                                            Karachi, Pakistan</span><br>
+                                        <i class="fa fa-cogs" aria-hidden="true"> </i><span>&nbsp;Meeras</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 masonry-item small-column all interior architechture">
+                    <div class="gallery-block-one">
+                        <div class="inner-box">
+                            <div class="image-box">
+                                <figure class="image"><img src="{{asset('web-assets/images/resource/place-2.jpg')}}"
+                                        alt=""></figure>
+                                <a href="{{asset('web-assets/images/resource/place-2.jpg')}}" class="lightbox-image"
+                                    data-fancybox="gallery"><i class="icon-31"></i></a>
+                                <div class="gallary-box">
+                                    <div class="gallary-card">
+                                        <div class="author-info clearfix">
+                                            <div class="author">
+                                                <h5><span class="price1">Starting Price</span> <span
+                                                        class="start1 responsive">40,000</span></h5>
+                                            </div>
+                                        </div>
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i><span>&nbsp; PECHS Block 6
+                                            Karachi, Pakistan</span><br>
+                                        <i class="fa fa-cogs" aria-hidden="true"> </i><span>&nbsp;Meeras</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 masonry-item small-column all real_estate architechture">
+                    <div class="gallery-block-one">
+                        <div class="inner-box">
+                            <div class="image-box">
+                                <figure class="image"><img src="{{asset('web-assets/images/resource/place-3.jpg')}}"
+                                        alt=""></figure>
+                                <a href="{{asset('web-assets/images/resource/place-3.jpg')}}" class="lightbox-image"
+                                    data-fancybox="gallery"><i class="icon-31"></i></a>
+                                <div class="gallary-box">
+                                    <div class="gallary-card">
+                                        <div class="author-info clearfix">
+                                            <div class="author">
+                                                <h5><span class="price1">Starting Price</span> <span
+                                                        class="start1 responsive">40,000</span></h5>
+                                            </div>
+                                        </div>
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i><span>&nbsp; PECHS Block 6
+                                            Karachi, Pakistan</span><br>
+                                        <i class="fa fa-cogs" aria-hidden="true"> </i><span>&nbsp;Meeras</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 masonry-item small-column all interior architechture">
+                    <div class="gallery-block-one">
+                        <div class="inner-box">
+                            <div class="image-box">
+                                <figure class="image"><img src="{{asset('web-assets/images/resource/place-2.jpg')}}"
+                                        alt=""></figure>
+                                <a href="{{asset('web-assets/images/resource/place-2.jpg')}}" class="lightbox-image"
+                                    data-fancybox="gallery"><i class="icon-31"></i></a>
+                                <div class="gallary-box">
+                                    <div class="gallary-card">
+                                        <div class="author-info clearfix">
+                                            <div class="author">
+                                                <h5><span class="price1">Starting Price</span> <span
+                                                        class="start1 responsive">40,000</span></h5>
+                                            </div>
+                                        </div>
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i><span>&nbsp; PECHS Block 6
+                                            Karachi, Pakistan</span><br>
+                                        <i class="fa fa-cogs" aria-hidden="true"> </i><span>&nbsp;Meeras</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 masonry-item small-column all real_estate architechture">
+                    <div class="gallery-block-one">
+                        <div class="inner-box">
+                            <div class="image-box">
+                                <figure class="image"><img src="{{asset('web-assets/images/resource/place-3.jpg')}}"
+                                        alt=""></figure>
+                                <a href="{{asset('web-assets/images/resource/place-3.jpg')}}" class="lightbox-image"
+                                    data-fancybox="gallery"><i class="icon-31"></i></a>
+                                <div class="gallary-box">
+                                    <div class="gallary-card">
+                                        <div class="author-info clearfix">
+                                            <div class="author">
+                                                <h5><span class="price1">Starting Price</span> <span
+                                                        class="start1 responsive">40,000</span></h5>
+                                            </div>
+                                        </div>
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i><span>&nbsp; PECHS Block 6
+                                            Karachi, Pakistan</span><br>
+                                        <i class="fa fa-cogs" aria-hidden="true"> </i><span>&nbsp;Meeras</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- gallery-style-one end -->
+<!-- video-section -->
+ <section class="video-section centred"
+    style="background-image: url({{asset('web-assets/images/background/video-1.jpg')}});">
+<div class="auto-container">
+    <div class="video-inner">
+        <div class="video-btn">
+            <a href="https://www.youtube.com/watch?v=Kn615acNlTw" class="lightbox-image" data-caption=""><i
+                    class="icon-17"></i></a>
+        </div>
+    </div>
+</div>
+</section> 
+
+<!-- video-section end -->
 <!-- gallery-style-two -->
-<section class="gallery-style-two  centred ">
+<section class="gallery-style-two sec-pad centred">
     <div class="auto-container">
         <div class="sec-title">
             <h2>Top Properties For Investing</h2>
@@ -2190,169 +2579,153 @@
 </section>
 <!-- gallery-style-two end -->
 
-<!-- gallery-style-one -->
-<section class="gallery-style-one sec-pad  centred">
+<!-- gallery-style-two -->
+<section class="gallery-style-two centred awards sec-pad">
     <div class="auto-container">
         <div class="sec-title">
-            {{-- <h5>Style 3</h5> --}}
-            <h2>Life Style In Dubai</h2>
+            <h2>Our Winning Awards</h2>
         </div>
-        <div class="sortable-masonry">
-            <div class="filters">
-                <ul class="filter-tabs filter-btns clearfix life-style">
-                    <li class="active filter" data-role="button" data-filter=".all">Villas</li>
-                    <li class="filter" data-role="button" data-filter=".real_estate">Appartments</li>
-                    <li class="filter" data-role="button" data-filter=".architechture">Town Houses</li>
-                    {{-- <li class="filter" data-role="button" data-filter=".interior">Interior</li> --}}
-                </ul>
+        <div class="three-item-carousel owl-carousel owl-theme owl-nav-none dots-style-one">
+            <div class="gallery-block-two">
+                <div class="inner-box">
+                    <figure class="image-box our-awards">
+                        <a href=""><img src="{{asset('web-assets/images/trending/awards1.webp')}}" alt=""></a>
+                    </figure>
+                </div>
             </div>
-            <div class="items-container row clearfix">
-                <div class="col-lg-4 col-md-6 col-sm-12 masonry-item small-column all real_estate architechture">
-                    <div class="gallery-block-one">
-                        <div class="inner-box">
-                            <div class="image-box">
-                                <figure class="image"><img src="{{asset('web-assets/images/resource/place-2.jpg')}}"
-                                        alt=""></figure>
-                                <a href="{{asset('web-assets/images/resource/place-2.jpg')}}" class="lightbox-image"
-                                    data-fancybox="gallery"><i class="icon-31"></i></a>
-                                <div class="gallary-box">
-                                    <div class="gallary-card">
-                                        <div class="author-info clearfix">
-                                            <div class="author">
-                                                <h5><span class="price1">Starting Price</span> <span
-                                                        class="start1 responsive">40,000</span></h5>
-                                            </div>
-                                        </div>
-                                        <i class="fa fa-map-marker" aria-hidden="true"></i><span>&nbsp; PECHS Block 6
-                                            Karachi, Pakistan</span><br>
-                                        <i class="fa fa-cogs" aria-hidden="true"> </i><span>&nbsp;Meeras</span>
-                                    </div>
-                                </div>
+            <div class="gallery-block-two">
+                <div class="inner-box">
+                    <figure class="image-box our-awards">
+                        <a href=""><img src="{{asset('web-assets/images/trending/awards2.webp')}}" alt=""></a>
+                    </figure>
+                </div>
+            </div>
+            <div class="gallery-block-two">
+                <div class="inner-box">
+                    <figure class="image-box our-awards">
+                        <a href=""><img src="{{asset('web-assets/images/trending/awards3.webp')}}" alt=""></a>
+                    </figure>
+                </div>
+            </div>
+            <div class="gallery-block-two">
+                <div class="inner-box">
+                    <figure class="image-box our-awards">
+                        <a href=""><img src="{{asset('web-assets/images/trending/awards4.webp')}}" alt=""></a>
+                    </figure>
+                </div>
+            </div>
+            <div class="gallery-block-two">
+                <div class="inner-box">
+                    <figure class="image-box our-awards">
+                        <a href=""><img src="{{asset('web-assets/images/trending/awards5.webp')}}" alt=""></a>
+                    </figure>
+                </div>
+            </div>
+            <div class="gallery-block-two">
+                <div class="inner-box">
+                    <figure class="image-box our-awards">
+                        <a href=""><img src="{{asset('web-assets/images/trending/awards6.webp')}}" alt=""></a>
+                    </figure>
+                </div>
+            </div>
+            <div class="gallery-block-two">
+                <div class="inner-box">
+                    <figure class="image-box our-awards">
+                        <a href=""><img src="{{asset('web-assets/images/trending/awards7.webp')}}" alt=""></a>
+                    </figure>
+                </div>
+            </div>
+            <div class="gallery-block-two">
+                <div class="inner-box">
+                    <figure class="image-box our-awards">
+                        <a href=""><img src="{{asset('web-assets/images/trending/awards8.webp')}}" alt=""></a>
+                    </figure>
+                </div>
+            </div>
+            <div class="gallery-block-two">
+                <div class="inner-box">
+                    <figure class="image-box our-awards">
+                        <a href=""><img src="{{asset('web-assets/images/trending/awards9.webp')}}" alt=""></a>
+                    </figure>
+                </div>
+            </div>
+            <div class="gallery-block-two">
+                <div class="inner-box">
+                    <figure class="image-box our-awards">
+                        <a href=""><img src="{{asset('web-assets/images/trending/awards10.webp')}}" alt=""></a>
+                    </figure>
+                </div>
+            </div>
+            <div class="gallery-block-two">
+                <div class="inner-box">
+                    <figure class="image-box our-awards">
+                        <a href=""><img src="{{asset('web-assets/images/trending/awards11.webp')}}" alt=""></a>
+                    </figure>
+                </div>
+            </div>
+            <div class="gallery-block-two">
+                <div class="inner-box">
+                    <figure class="image-box our-awards">
+                        <a href=""><img src="{{asset('web-assets/images/trending/awards12.webp')}}" alt=""></a>
+                    </figure>
+                </div>
+            </div>
+            <div class="gallery-block-two">
+                <div class="inner-box">
+                    <figure class="image-box our-awards">
+                        <a href=""><img src="{{asset('web-assets/images/trending/awards13.webp')}}" alt=""></a>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- gallery-style-two end -->
+<!-- chooseus-section -->
+<section class="chooseus-section sec-pad mt-5">
+    <div class="auto-container">
+        <div class="inner-container bg-color-2">
+            <div class="upper-box clearfix">
+                <div class="sec-title light">
+                    {{-- <h5>Why Choose Us?</h5> --}}
+                    <h2>Why You Choose Next-Level Real Estate?</h2>
+                </div>
+                <div class="btn-box">
+                    <a href="#" class="theme-btn btn-one">Inquire Now</a>
+                </div>
+            </div>
+            <div class="lower-box">
+                <div class="row clearfix">
+                    <div class="col-lg-4 col-md-6 col-sm-12 chooseus-block">
+                        <div class="chooseus-block-one">
+                            <div class="inner-box">
+                                <div class="icon-box"><i class="icon-19"></i></div>
+                                <h4>Unmatched Digital Presence</h4>
+                                <p>We at Next Level have put a lot of effort into maintaining an unmatched digital
+                                    presence, which helps us gain real-time market insights and provide unparalleled
+                                    client service.</p>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 masonry-item small-column all real_estate interior">
-                    <div class="gallery-block-one">
-                        <div class="inner-box">
-                            <div class="image-box">
-                                <figure class="image"><img src="{{asset('web-assets/images/resource/place-3.jpg')}}"
-                                        alt=""></figure>
-                                <a href="{{asset('web-assets/images/resource/place-3.jpg')}}" class="lightbox-image"
-                                    data-fancybox="gallery"><i class="icon-31"></i></a>
-                                <div class="gallary-box">
-                                    <div class="gallary-card">
-                                        <div class="author-info clearfix">
-                                            <div class="author">
-                                                <h5><span class="price1">Starting Price</span> <span
-                                                        class="start1 responsive">40,000</span></h5>
-                                            </div>
-                                        </div>
-                                        <i class="fa fa-map-marker" aria-hidden="true"></i><span>&nbsp; PECHS Block 6
-                                            Karachi, Pakistan</span><br>
-                                        <i class="fa fa-cogs" aria-hidden="true"> </i><span>&nbsp;Meeras</span>
-                                    </div>
-                                </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 chooseus-block">
+                        <div class="chooseus-block-one">
+                            <div class="inner-box">
+                                <div class="icon-box"><i class="icon-26"></i></div>
+                                <h4>Specialised Real Estate Agents</h4>
+                                <p>We have a diverse team of real estate experts who can guide you according to your
+                                    needs and budget We have a diverse team of real estate experts who can guide you
+                                    according to your needs and budget.</p>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 masonry-item small-column all interior architechture">
-                    <div class="gallery-block-one">
-                        <div class="inner-box">
-                            <div class="image-box">
-                                <figure class="image"><img src="{{asset('web-assets/images/resource/place-2.jpg')}}"
-                                        alt=""></figure>
-                                <a href="{{asset('web-assets/images/resource/place-2.jpg')}}" class="lightbox-image"
-                                    data-fancybox="gallery"><i class="icon-31"></i></a>
-                                <div class="gallary-box">
-                                    <div class="gallary-card">
-                                        <div class="author-info clearfix">
-                                            <div class="author">
-                                                <h5><span class="price1">Starting Price</span> <span
-                                                        class="start1 responsive">40,000</span></h5>
-                                            </div>
-                                        </div>
-                                        <i class="fa fa-map-marker" aria-hidden="true"></i><span>&nbsp; PECHS Block 6
-                                            Karachi, Pakistan</span><br>
-                                        <i class="fa fa-cogs" aria-hidden="true"> </i><span>&nbsp;Meeras</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 masonry-item small-column all real_estate architechture">
-                    <div class="gallery-block-one">
-                        <div class="inner-box">
-                            <div class="image-box">
-                                <figure class="image"><img src="{{asset('web-assets/images/resource/place-3.jpg')}}"
-                                        alt=""></figure>
-                                <a href="{{asset('web-assets/images/resource/place-3.jpg')}}" class="lightbox-image"
-                                    data-fancybox="gallery"><i class="icon-31"></i></a>
-                                <div class="gallary-box">
-                                    <div class="gallary-card">
-                                        <div class="author-info clearfix">
-                                            <div class="author">
-                                                <h5><span class="price1">Starting Price</span> <span
-                                                        class="start1 responsive">40,000</span></h5>
-                                            </div>
-                                        </div>
-                                        <i class="fa fa-map-marker" aria-hidden="true"></i><span>&nbsp; PECHS Block 6
-                                            Karachi, Pakistan</span><br>
-                                        <i class="fa fa-cogs" aria-hidden="true"> </i><span>&nbsp;Meeras</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 masonry-item small-column all interior architechture">
-                    <div class="gallery-block-one">
-                        <div class="inner-box">
-                            <div class="image-box">
-                                <figure class="image"><img src="{{asset('web-assets/images/resource/place-2.jpg')}}"
-                                        alt=""></figure>
-                                <a href="{{asset('web-assets/images/resource/place-2.jpg')}}" class="lightbox-image"
-                                    data-fancybox="gallery"><i class="icon-31"></i></a>
-                                <div class="gallary-box">
-                                    <div class="gallary-card">
-                                        <div class="author-info clearfix">
-                                            <div class="author">
-                                                <h5><span class="price1">Starting Price</span> <span
-                                                        class="start1 responsive">40,000</span></h5>
-                                            </div>
-                                        </div>
-                                        <i class="fa fa-map-marker" aria-hidden="true"></i><span>&nbsp; PECHS Block 6
-                                            Karachi, Pakistan</span><br>
-                                        <i class="fa fa-cogs" aria-hidden="true"> </i><span>&nbsp;Meeras</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 masonry-item small-column all real_estate architechture">
-                    <div class="gallery-block-one">
-                        <div class="inner-box">
-                            <div class="image-box">
-                                <figure class="image"><img src="{{asset('web-assets/images/resource/place-3.jpg')}}"
-                                        alt=""></figure>
-                                <a href="{{asset('web-assets/images/resource/place-3.jpg')}}" class="lightbox-image"
-                                    data-fancybox="gallery"><i class="icon-31"></i></a>
-                                <div class="gallary-box">
-                                    <div class="gallary-card">
-                                        <div class="author-info clearfix">
-                                            <div class="author">
-                                                <h5><span class="price1">Starting Price</span> <span
-                                                        class="start1 responsive">40,000</span></h5>
-                                            </div>
-                                        </div>
-                                        <i class="fa fa-map-marker" aria-hidden="true"></i><span>&nbsp; PECHS Block 6
-                                            Karachi, Pakistan</span><br>
-                                        <i class="fa fa-cogs" aria-hidden="true"> </i><span>&nbsp;Meeras</span>
-                                    </div>
-                                </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 chooseus-block">
+                        <div class="chooseus-block-one">
+                            <div class="inner-box">
+                                <div class="icon-box"><i class="icon-21"></i></div>
+                                <h4>Secure Investment</h4>
+                                <p>Next Level Real Estate is one of the most trusted and reliable real estate companies
+                                    in the Middle East when it comes to property investment. Meet your lifelong goals
+                                    with a secure investment at Next Level Properties.</p>
                             </div>
                         </div>
                     </div>
@@ -2361,22 +2734,195 @@
         </div>
     </div>
 </section>
-<!-- gallery-style-one end -->
+<!-- chooseus-section end -->
+    <!-- location-section -->
+    {{-- <section class="location-section">
+        <div class="map-column">
+        <div class="google-map-area">
+            <div 
+                class="google-map" 
+                id="contact-google-map" 
+                data-map-lat="40.712776" 
+                data-map-lng="-74.005974" 
+                data-map-zoom="12">
 
-<!-- video-section -->
-{{-- <section class="video-section centred"
-    style="background-image: url({{asset('web-assets/images/background/video-1.jpg')}});">
-<div class="auto-container">
-    <div class="video-inner">
-        <div class="video-btn">
-            <a href="https://www.youtube.com/watch?v=Kn615acNlTw" class="lightbox-image" data-caption=""><i
-                    class="icon-17"></i></a>
+            </div>
+        </div>
+        <div class="location-inner clearfix">
+            <div class="single-location-box">
+                <div class="inner">
+                    <div class="marker-box">
+                        <img src="assets/images/icons/map-marker-2.png" alt="">
+                        <span>1</span>
+                    </div>
+                    <div class="feature-block-one">
+                        <div class="inner-box">
+                            <div class="image-box">
+                                <figure class="image"><img src="assets/images/feature/feature-1.jpg" alt=""></figure>
+                            </div>
+                            <div class="lower-content">
+                                <div class="author-info clearfix">
+                                    <div class="author pull-left">
+                                        <figure class="author-thumb"><img src="assets/images/feature/author-1.jpg" alt=""></figure>
+                                        <h6>Michael Bean</h6>
+                                    </div>
+                                </div>
+                                <div class="title-text"><h4><a href="property-details.html">Villa on Grand Avenue</a></h4></div>
+                                <div class="price-box clearfix">
+                                    <div class="price-info pull-left">
+                                        <h6>Start From</h6>
+                                        <h4>$30,000.00</h4>
+                                    </div>
+                                    <ul class="other-option pull-right clearfix">
+                                        <li><a href="property-details.html"><i class="icon-12"></i></a></li>
+                                        <li><a href="property-details.html"><i class="icon-13"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="single-location-box">
+                <div class="inner">
+                    <div class="marker-box">
+                        <img src="assets/images/icons/map-marker-2.png" alt="">
+                        <span>2</span>
+                    </div>
+                    <div class="feature-block-one">
+                        <div class="inner-box">
+                            <div class="image-box">
+                                <figure class="image"><img src="assets/images/feature/feature-2.jpg" alt=""></figure>
+                            </div>
+                            <div class="lower-content">
+                                <div class="author-info clearfix">
+                                    <div class="author pull-left">
+                                        <figure class="author-thumb"><img src="assets/images/feature/author-1.jpg" alt=""></figure>
+                                        <h6>Michael Bean</h6>
+                                    </div>
+                                </div>
+                                <div class="title-text"><h4><a href="property-details.html">Contemporary Apartment</a></h4></div>
+                                <div class="price-box clearfix">
+                                    <div class="price-info pull-left">
+                                        <h6>Start From</h6>
+                                        <h4>$30,000.00</h4>
+                                    </div>
+                                    <ul class="other-option pull-right clearfix">
+                                        <li><a href="property-details.html"><i class="icon-12"></i></a></li>
+                                        <li><a href="property-details.html"><i class="icon-13"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="single-location-box active">
+                <div class="inner">
+                    <div class="marker-box">
+                        <img src="assets/images/icons/map-marker-2.png" alt="">
+                        <span>3</span>
+                    </div>
+                    <div class="feature-block-one">
+                        <div class="inner-box">
+                            <div class="image-box">
+                                <figure class="image"><img src="assets/images/feature/feature-3.jpg" alt=""></figure>
+                            </div>
+                            <div class="lower-content">
+                                <div class="author-info clearfix">
+                                    <div class="author pull-left">
+                                        <figure class="author-thumb"><img src="assets/images/feature/author-1.jpg" alt=""></figure>
+                                        <h6>Michael Bean</h6>
+                                    </div>
+                                </div>
+                                <div class="title-text"><h4><a href="property-details.html">Luxury Villa With Pool</a></h4></div>
+                                <div class="price-box clearfix">
+                                    <div class="price-info pull-left">
+                                        <h6>Start From</h6>
+                                        <h4>$30,000.00</h4>
+                                    </div>
+                                    <ul class="other-option pull-right clearfix">
+                                        <li><a href="property-details.html"><i class="icon-12"></i></a></li>
+                                        <li><a href="property-details.html"><i class="icon-13"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="single-location-box">
+                <div class="inner">
+                    <div class="marker-box">
+                        <img src="assets/images/icons/map-marker-2.png" alt="">
+                        <span>4</span>
+                    </div>
+                    <div class="feature-block-one">
+                        <div class="inner-box">
+                            <div class="image-box">
+                                <figure class="image"><img src="assets/images/feature/feature-1.jpg" alt=""></figure>
+                            </div>
+                            <div class="lower-content">
+                                <div class="author-info clearfix">
+                                    <div class="author pull-left">
+                                        <figure class="author-thumb"><img src="assets/images/feature/author-1.jpg" alt=""></figure>
+                                        <h6>Michael Bean</h6>
+                                    </div>
+                                </div>
+                                <div class="title-text"><h4><a href="property-details.html">Home in Merrick Way</a></h4></div>
+                                <div class="price-box clearfix">
+                                    <div class="price-info pull-left">
+                                        <h6>Start From</h6>
+                                        <h4>$30,000.00</h4>
+                                    </div>
+                                    <ul class="other-option pull-right clearfix">
+                                        <li><a href="property-details.html"><i class="icon-12"></i></a></li>
+                                        <li><a href="property-details.html"><i class="icon-13"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="single-location-box">
+                <div class="inner">
+                    <div class="marker-box">
+                        <img src="assets/images/icons/map-marker-2.png" alt="">
+                        <span>5</span>
+                    </div>
+                    <div class="feature-block-one">
+                        <div class="inner-box">
+                            <div class="image-box">
+                                <figure class="image"><img src="assets/images/feature/feature-1.jpg" alt=""></figure>
+                            </div>
+                            <div class="lower-content">
+                                <div class="author-info clearfix">
+                                    <div class="author pull-left">
+                                        <figure class="author-thumb"><img src="assets/images/feature/author-1.jpg" alt=""></figure>
+                                        <h6>Michael Bean</h6>
+                                    </div>
+                                </div>
+                                <div class="title-text"><h4><a href="property-details.html">Apartment in Glasgow</a></h4></div>
+                                <div class="price-box clearfix">
+                                    <div class="price-info pull-left">
+                                        <h6>Start From</h6>
+                                        <h4>$30,000.00</h4>
+                                    </div>
+                                    <ul class="other-option pull-right clearfix">
+                                        <li><a href="property-details.html"><i class="icon-12"></i></a></li>
+                                        <li><a href="property-details.html"><i class="icon-13"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-</div>
-</section> --}}
-
-<!-- video-section end -->
+    </section> --}}
+    <!-- location-section end -->
 <!-- place-section -->
 <section class="place-section sec-pad community">
     <div class="auto-container">
@@ -2997,143 +3543,11 @@
 </section>
 <!-- trending-section end -->
 
-<!-- areas-section start -->
-<section class="place-section sec-pad">
-    {{-- <div class="auto-container"> --}}
-    <div class="sec-title centred">
-        <h5>Top Areas</h5>
-        <h2>Most Popular Area</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing sed do eiusmod tempor incididunt <br />labore dolore
-            magna aliqua enim.</p>
-    </div>
-    <div class="row areas-parent">
-        <div class="col-6">
-            <div class="promo-box">
-                <div class="area-one"
-                    style=" background-image: url({{asset('web-assets/images/areas/Palm-Jebel-Ali.webp')}})">
 
-                    <h4 class="area-name">Palm Jebel Ali</h4>
-                    <h5 class="area-price">Price from 50,000,000 AED</h5>
-                </div>
-            </div>
-        </div>
-        <div class="col-3">
-            <div class="promo-box">
-                <div class="area-one"
-                    style=" background-image: url({{asset('web-assets/images/areas/dubai-hills-estate.jpg')}})">
-                    <h4 class="area-name">Palm Jebel Ali</h4>
-                    <h5 class="area-price">Price from 50,000,000 AED</h5>
-                </div>
-            </div>
-        </div>
-        <div class="col-3">
-            <div class="promo-box">
-                <div class="area-one"
-                    style=" background-image: url({{asset('web-assets/images/areas/downtown-dubai.jpg')}})">
-                    <h4 class="area-name">Palm Jebel Ali</h4>
-                    <h5 class="area-price">Price from 50,000,000 AED</h5>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="row areas-parent next-row">
-        <div class="col-3">
-            <div class="promo-box">
-                <div class="area-one"
-                    style=" background-image: url({{asset('web-assets/images/areas/dubai-harbour-3.jpg')}})">
-                    <h4 class="area-name">Palm Jebel Ali</h4>
-                    <h5 class="area-price">Price from 50,000,000 AED</h5>
-                </div>
-            </div>
-        </div>
-        <div class="col-3">
-            <div class="promo-box">
-                <div class="area-one"
-                    style=" background-image: url({{asset('web-assets/images/areas/jumeirah-village-circle-scaled-1.jpg')}})">
-                    <h4 class="area-name">Palm Jebel Ali</h4>
-                    <h5 class="area-price">Price from 50,000,000 AED</h5>
-                </div>
-            </div>
-        </div>
-        <div class="col-3">
-            <div class="promo-box">
-                <div class="area-one"
-                    style=" background-image: url({{asset('web-assets/images/areas/business-bay_-scaled-1.jpg')}})">
-                    <h4 class="area-name">Palm Jebel Ali</h4>
-                    <h5 class="area-price">Price from 50,000,000 AED</h5>
-                </div>
-            </div>
-        </div>
-        <div class="col-3">
-            <div class="promo-box">
-                <div class="area-one"
-                    style=" background-image: url({{asset('web-assets/images/areas/dubai-land.jpg')}})">
-                    <h4 class="area-name">Palm Jebel Ali</h4>
-                    <h5 class="area-price">Price from 50,000,000 AED</h5>
-                </div>
-            </div>
-        </div>
-    </div>
-    {{-- </div> --}}
-</section>
-<!-- areas-section end -->
-<!-- chooseus-section -->
-<section class="chooseus-section sec-pad mt-5">
-    <div class="auto-container">
-        <div class="inner-container bg-color-2">
-            <div class="upper-box clearfix">
-                <div class="sec-title light">
-                    {{-- <h5>Why Choose Us?</h5> --}}
-                    <h2>Why You Choose Next-Level Real Estate?</h2>
-                </div>
-                <div class="btn-box">
-                    <a href="#" class="theme-btn btn-one">Inquire Now</a>
-                </div>
-            </div>
-            <div class="lower-box">
-                <div class="row clearfix">
-                    <div class="col-lg-4 col-md-6 col-sm-12 chooseus-block">
-                        <div class="chooseus-block-one">
-                            <div class="inner-box">
-                                <div class="icon-box"><i class="icon-19"></i></div>
-                                <h4>Unmatched Digital Presence</h4>
-                                <p>We at Next Level have put a lot of effort into maintaining an unmatched digital
-                                    presence, which helps us gain real-time market insights and provide unparalleled
-                                    client service.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 chooseus-block">
-                        <div class="chooseus-block-one">
-                            <div class="inner-box">
-                                <div class="icon-box"><i class="icon-26"></i></div>
-                                <h4>Specialised Real Estate Agents</h4>
-                                <p>We have a diverse team of real estate experts who can guide you according to your
-                                    needs and budget We have a diverse team of real estate experts who can guide you
-                                    according to your needs and budget.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 chooseus-block">
-                        <div class="chooseus-block-one">
-                            <div class="inner-box">
-                                <div class="icon-box"><i class="icon-21"></i></div>
-                                <h4>Secure Investment</h4>
-                                <p>Next Level Real Estate is one of the most trusted and reliable real estate companies
-                                    in the Middle East when it comes to property investment. Meet your lifelong goals
-                                    with a secure investment at Next Level Properties.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- chooseus-section end -->
+
 
 <!-- team-section -->
-<section class="team-section  centred ">
+<section class="team-section  centred sec-pad">
     {{-- <div class="pattern-layer" style="background-image: url({{asset('web-assets/images/shape/shape-1.jpg')}});
     background-repeat: no-repeat;
     background-size: cover;
@@ -3229,9 +3643,253 @@
 </section>
 <!-- team-section end -->
 
+<!-- testimonial-section end -->
+<section class="testimonial-section   centred ">
+    <div class="testimonial-container">
+        <div class="sec-title ">
+            <h5>Guides</h5>
+            <h2><span>Our Top Guide Lines</span></h2>
+            <div class="line2 mt-3 text-center"></div>
+            <div class="row clearfix mt-3">
+                <div class="col-lg-3 col-md-12 col-sm-12 news-block">
+                    <div class="news-block-two wow fadeInLeft animated animated" data-wow-delay="00ms"
+                        data-wow-duration="1500ms">
+                        <div class="inner-box align-items-center">
+                            <div class="content-box">
+                                <i aria-hidden="true" class="fas fa-check-circle pull-left responsive"></i>
+                                <h4><a href="/">Buying Guide</a></h4>
+                                <p>How to Buy Property in Dubai?</p>
+                                <div class="category-btn">
+                                    <a href="" class="theme-btn btn-one">Buying Guid Details &nbsp;<i aria-hidden="true"
+                                            class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-12 col-sm-12 news-block">
+                    <div class="news-block-two wow fadeInLeft animated animated" data-wow-delay="00ms"
+                        data-wow-duration="1500ms">
+                        <div class="inner-box align-items-center">
+                            <div class="content-box">
+                                <i aria-hidden="true" class="fas fa-check-circle pull-left responsive"></i>
+                                <h4><a href="/">Buying Off plan Guide</a></h4>
+                                <p>How to Buy Off Plan Property in Dubai?</p>
+                                <div class="category-btn">
+                                    <a href="" class="theme-btn btn-one">Off Plan Guid Details &nbsp;<i
+                                            aria-hidden="true" class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-12 col-sm-12 news-block">
+                    <div class="news-block-two wow fadeInLeft animated animated" data-wow-delay="00ms"
+                        data-wow-duration="1500ms">
+                        <div class="inner-box align-items-center">
+                            <div class="content-box">
+                                <i aria-hidden="true" class="fas fa-check-circle pull-left responsive"></i>
+                                <h4><a href="/">Renting Guide</a></h4>
+                                <p>How to Rent Property in Dubai?</p>
+                                <div class="category-btn">
+                                    <a href="" class="theme-btn btn-one">Renting Guid Details &nbsp;<i
+                                            aria-hidden="true" class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-12 col-sm-12 news-block">
+                    <div class="news-block-two wow fadeInLeft animated animated" data-wow-delay="00ms"
+                        data-wow-duration="1500ms">
+                        <div class="inner-box align-items-center">
+                            <div class="content-box">
+                                <i aria-hidden="true" class="fas fa-check-circle pull-left responsive"></i>
+                                <h4><a href="/">Selling Guide</a></h4>
+                                <p>How to Sell Property in Dubai?</p>
+                                <div class="category-btn">
+                                    <a href="" class="theme-btn btn-one">Buying Guid Details &nbsp;<i aria-hidden="true"
+                                            class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- testimonial-section end -->
+<!-- team-section -->
+<section class="team-section  centred sec-pad develop-sec">
+    {{-- <div class="pattern-layer" style="background-image: url({{asset('web-assets/images/shape/shape-1.jpg')}});
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;"></div> --}}
+    <div class="auto-container">
+        <div class="sec-title">
+            <h5>Dubai Top Rating Developers</h5>
+            <h2>Explore Developers</h2>
+        </div>
+        <div class="single-item-carousel owl-carousel owl-theme owl-dots-none nav-style-one">
+            <div class="team-block-one">
+                <div class="inner-box">
+                    <figure class="image-box developer-image"><img src="{{asset('web-assets/images/developers/emaar-dev-banner.webp')}}" alt=""></figure>
+                    <div class="lower-content">
+                        <div class="inner view-prop">
+                            <h4><a href="agents-details.html">Emaar Developer</a></h4>
+                            <a href="" class="theme-btn btn-one">View Properties</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="team-block-one">
+                <div class="inner-box">
+                    <figure class="image-box developer-image"><img src="{{asset('web-assets/images/developers/damac-properties-banner.webp')}}" alt=""></figure>
+                    <div class="lower-content">
+                        <div class="inner view-prop" >
+                            <h4><a href="agents-details.html">DAMAC Developer</a></h4>
+                            <a href="" class="theme-btn btn-one">View Properties</a>
+                        </div>
+                    </div>
+                </div>
+            </div>    <div class="team-block-one">
+                <div class="inner-box">
+                    <figure class="image-box developer-image"><img src="{{asset('web-assets/images/developers/dubai-properties-dev-banner.webp')}}" alt=""></figure>
+                    <div class="lower-content">
+                        <div class="inner view-prop">
+                            <h4><a href="agents-details.html">Dubai Properties</a></h4>
+                            <a href="" class="theme-btn btn-one">View Properties</a>
+                        </div>
+                    </div>
+                </div>
+            </div>    <div class="team-block-one">
+                <div class="inner-box">
+                    <figure class="image-box developer-image"><img src="{{asset('web-assets/images/developers/mag-dev-banner.webp')}}" alt=""></figure>
+                    <div class="lower-content">
+                        <div class="inner view-prop">
+                            <h4><a href="agents-details.html">Mag Developer</a></h4>
+                            <a href="" class="theme-btn btn-one">View Properties</a>
+                        </div>
+                    </div>
+                </div>
+            </div>    <div class="team-block-one">
+                <div class="inner-box">
+                    <figure class="image-box developer-image"><img src="{{asset('web-assets/images/developers/emaar-dev-banner.webp')}}" alt=""></figure>
+                    <div class="lower-content">
+                        <div class="inner view-prop">
+                            <h4><a href="agents-details.html">Emaar Developer</a></h4>
+                            <a href="" class="theme-btn btn-one">View Properties</a>
+                        </div>
+                    </div>
+                </div>
+            </div>    <div class="team-block-one">
+                <div class="inner-box">
+                    <figure class="image-box developer-image"><img src="{{asset('web-assets/images/developers/meraas-banner-e1555568966736.webp')}}" alt=""></figure>
+                    <div class="lower-content">
+                        <div class="inner view-prop">
+                            <h4><a href="agents-details.html">Meeras Developer</a></h4>
+                            <a href="" class="theme-btn btn-one">View Properties</a>
+                        </div>
+                    </div>
+                </div>
+            </div>    <div class="team-block-one">
+                <div class="inner-box">
+                    <figure class="image-box developer-image"><img src="{{asset('web-assets/images/developers/emaar-dev-banner.webp')}}" alt=""></figure>
+                    <div class="lower-content">
+                        <div class="inner view-prop">
+                            <h4><a href="agents-details.html">Emaar Developer</a></h4>
+                            <a href="" class="theme-btn btn-one">View Properties</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- team-section end -->
+<!-- deals-section -->
+<!-- deals-section -->
+<section class="deals-section sec-pad video-pad">
+    <div class="auto-container">
+        <div class="sec-title">
+            <h2><span>Popular Videos  </span></h2>
+            <div class="line mt-3"></div>
+        </div>
+        <div class="deals-carousel owl-carousel owl-theme owl-dots-none nav-style-one">
+            <div class="single-item">
+                <div class="row clearfix">
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <iframe width="570" height="310" src="https://www.youtube.com/embed/pL08bOm-KgE" title="Overview of DAMAC Lagoons in Dubai" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div class="video-overi">
+                        <h4>Damac Lagoons</h4>
+                        <a href="" class="theme-btn btn-one">Video Overview &nbsp; &nbsp;<i aria-hidden="true"
+                                        class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-12 col-sm-12">
+                                <iframe width="570" height="310" src="https://www.youtube.com/embed/J0Pe-V-gFAI" title="Madinat Jumeirah Living Apartments for Sale: New Phase Coming Soon 🇦🇪" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                <div class="video-overi">
+                                    <h4>Damac Lagoons</h4>
+                                    <a href="" class="theme-btn btn-one">Video Overview &nbsp; &nbsp;<i aria-hidden="true"
+                                                    class="fas fa-arrow-right"></i></a>
+                            
+                            </div>
+                            
+                                    </div>
+                </div>
+            </div>
+            <div class="single-item">
+                <div class="row clearfix">
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <iframe width="570" height="310" src="https://www.youtube.com/embed/pL08bOm-KgE" title="Overview of DAMAC Lagoons in Dubai" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div class="video-overi">
+                        <h4>Damac Lagoons</h4>
+                        <a href="" class="theme-btn btn-one">Video Overview &nbsp; &nbsp;<i aria-hidden="true"
+                                        class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-12 col-sm-12">
+                                <iframe width="570" height="310" src="https://www.youtube.com/embed/J0Pe-V-gFAI" title="Madinat Jumeirah Living Apartments for Sale: New Phase Coming Soon 🇦🇪" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <div class="video-overi">
+                            <h4>Damac Lagoons</h4>
+                            <a href="" class="theme-btn btn-one">Video Overview &nbsp; &nbsp;<i aria-hidden="true"
+                                            class="fas fa-arrow-right"></i></a>
+                    
+                    </div>
+                      
+                                    </div>
+                </div>
+            </div>
+            <div class="single-item">
+                <div class="row clearfix">
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <iframe width="570" height="310" src="https://www.youtube.com/embed/pL08bOm-KgE" title="Overview of DAMAC Lagoons in Dubai" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div class="video-overi">
+                        <h4>Damac Lagoons</h4>
+                        <a href="" class="theme-btn btn-one">Video Overview &nbsp; &nbsp;<i aria-hidden="true"
+                                        class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-12 col-sm-12">
+                                <iframe width="570" height="310" src="https://www.youtube.com/embed/pL08bOm-KgE" title="Overview of DAMAC Lagoons in Dubai" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <div class="video-overi">
+                                <h4>Damac Lagoons</h4>
+                                <a href="" class="theme-btn btn-one">Video Overview &nbsp; &nbsp;<i aria-hidden="true"
+                                                class="fas fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- deals-section end -->
+<!-- deals-section end -->
+
 
 <!-- cta-section -->
-<section class="cta-section sec-pad bg-color-2">
+<section class="cta-section bg-color-2">
     <div class="pattern-layer" style="background-image: url({{asset('web-assets/images/shape/shape-2.png')}});"></div>
     <div class="auto-container">
         <div class="inner-box clearfix">
@@ -3364,5 +4022,149 @@
     </div>
 </section>
 <!--End Blogs-->
-
+<!-- faq-page-section -->
+<section class="faq-page-section property-faq sec-pad">
+    <div class="auto-container">
+        <div class="row clearfix">
+            <div class="col-lg-8 col-md-12 col-sm-12 content-column">
+                <div class="faq-content-side">
+                    <div class="sec-title">
+                        <h5>FAQ’S</h5>
+                        <h2>Frequently Asked Questions.</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing do eumod tempor.</p>
+                    </div>
+                    <ul class="accordion-box">
+                        <li class="accordion block active-block">
+                            <div class="acc-btn active">
+                                <div class="icon-outer"><i class="fas fa-angle-down"></i></div>
+                                <h5>Do I really need a Realtor when buying a home?</h5>
+                            </div>
+                            <div class="acc-content current">
+                                <div class="content-box">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing do eumod tempor incidunt labore dolore magna aliqua enim minim veniam. quis nostrud exercitation  laboris nis aliquip ex ea comodo consequat duis aute irure.</p>
+                                    <ul class="list-style-one clearfix">
+                                        <li>consectetur elit sed do eius</li>
+                                        <li>consectetur elit sed</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="accordion block">
+                            <div class="acc-btn">
+                                <div class="icon-outer"><i class="fas fa-angle-down"></i></div>
+                                <h5>Can a home depreciate in value?</h5>
+                            </div>
+                            <div class="acc-content">
+                                <div class="content-box">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing do eumod tempor incidunt labore dolore magna aliqua enim minim veniam. quis nostrud exercitation  laboris nis aliquip ex ea comodo consequat duis aute irure.</p>
+                                    <ul class="list-style-one clearfix">
+                                        <li>consectetur elit sed do eius</li>
+                                        <li>consectetur elit sed</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="accordion block">
+                             <div class="acc-btn">
+                                <div class="icon-outer"><i class="fas fa-angle-down"></i></div>
+                                <h5>Is an older home as good a value as a new home?</h5>
+                            </div>
+                            <div class="acc-content">
+                                <div class="content-box">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing do eumod tempor incidunt labore dolore magna aliqua enim minim veniam. quis nostrud exercitation  laboris nis aliquip ex ea comodo consequat duis aute irure.</p>
+                                    <ul class="list-style-one clearfix">
+                                        <li>consectetur elit sed do eius</li>
+                                        <li>consectetur elit sed</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="accordion block">
+                             <div class="acc-btn">
+                                <div class="icon-outer"><i class="fas fa-angle-down"></i></div>
+                                <h5>Who pays the Realtor fees when buying a home?</h5>
+                            </div>
+                            <div class="acc-content">
+                                <div class="content-box">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing do eumod tempor incidunt labore dolore magna aliqua enim minim veniam. quis nostrud exercitation  laboris nis aliquip ex ea comodo consequat duis aute irure.</p>
+                                    <ul class="list-style-one clearfix">
+                                        <li>consectetur elit sed do eius</li>
+                                        <li>consectetur elit sed</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="accordion block">
+                             <div class="acc-btn">
+                                <div class="icon-outer"><i class="fas fa-angle-down"></i></div>
+                                <h5>How much should I offer the sellers?</h5>
+                            </div>
+                            <div class="acc-content">
+                                <div class="content-box">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing do eumod tempor incidunt labore dolore magna aliqua enim minim veniam. quis nostrud exercitation  laboris nis aliquip ex ea comodo consequat duis aute irure.</p>
+                                    <ul class="list-style-one clearfix">
+                                        <li>consectetur elit sed do eius</li>
+                                        <li>consectetur elit sed</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12 sidebar-side">
+                <div class="faq-sidebar">
+                    <div class="question-inner">
+                        <div class="sec-title">
+                            <h5>Submit Question</h5>
+                            <h3>Ask Your Valuable Questions</h3>
+                        </div>
+                        <div class="form-inner">
+                            <form action="faq.html" method="post">
+                                <div class="form-group">
+                                    <input type="text" name="name" placeholder="Your name" required="">
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" name="email" placeholder="Your Email" required="">
+                                </div>
+                                <div class="form-group">
+                                    <textarea name="message" placeholder="Your message"></textarea>
+                                </div>
+                                <div class="form-group message-btn">
+                                    <button type="submit" class="theme-btn btn-one">Send Now</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- faq-page-section end -->
+<!-- subscribe-section -->
+<section class="subscribe-section bg-color-3">
+    <div class="pattern-layer" style="background-image: url({{asset('web-assets/images/shape/shape-2.png')}});"></div>
+    <div class="auto-container">
+        <div class="row clearfix">
+            <div class="col-lg-6 col-md-6 col-sm-12 text-column">
+                <div class="text">
+                    <span>Subscribe</span>
+                    <h2>Sign Up To Our Newsletter To Get The Latest News And Offers.</h2>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 form-column">
+                <div class="form-inner">
+                    <form action="contact.html" method="post" class="subscribe-form">
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Enter your email" required="">
+                            <button type="submit">Subscribe Now</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- subscribe-section end -->
 @endsection

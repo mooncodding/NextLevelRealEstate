@@ -16,9 +16,14 @@
                             <div class="content-box">
                                 <h2>PROPERTY MANAGEMENT EXPERTS IN DUBAI</h2>
                                 <p>Want to rent a property in Dubai? Then, you are at the right place. We provide the most comprehensive and convenient property management services in Dubai.</p>
+                                <div class="prop-managebtn">
                                 <div class="button-box">
-                                    <a href="index-5.html" class="theme-btn btn-three banner-btn">Request A Property Appraisal</a>
+                                    <a href="index-5.html" class="theme-btn btn-one manage-btn">Want Assistance?</a>
                                 </div>
+                                <div class="button-box">
+                                    <a href="index-5.html" class="theme-btn btn-three prop-btn">Call Us</a>
+                                </div>
+</div>
                             </div>
                             <figure class="image-box"><img src="{{asset('web-assets/images/banner/bannerImage1.png')}}" alt=""></figure>
                         </div> 
@@ -36,9 +41,14 @@
                             <div class="content-box">
                                 <h2>PROPERTY MANAGEMENT EXPERTS IN DUBAI</h2>
                                 <p>Want to rent a property in Dubai? Then, you are at the right place. We provide the most comprehensive and convenient property management services in Dubai.</p>
+                                <div class="prop-managebtn">
                                 <div class="button-box">
-                                    <a href="index-5.html" class="theme-btn btn-three banner-btn">Request A Property Appraisal</a>
+                                    <a href="index-5.html" class="theme-btn btn-one manage-btn">Want Assistance?</a>
                                 </div>
+                                <div class="button-box">
+                                    <a href="index-5.html" class="theme-btn btn-three prop-btn">Call Us</a>
+                                </div>
+</div>
                             </div>
                             <figure class="image-box"><img src="{{asset('web-assets/images/banner/banner-image2.png')}}" alt=""></figure>
                         </div> 
@@ -48,7 +58,7 @@
         </section>
         <!-- banner-style-two end -->
         
-        <section class="form-section">
+        <!-- <section class="form-section">
             <div class="auto-container">
                 <div class="row">
                 <div class="col-8">
@@ -106,22 +116,56 @@
 
                 </div>
             </div>
-        </section>
-
+        </section> -->
+<section class="servicestypes sec-pad">
+    <div class="container">
+        <h2>Explore Our services Types
+</h2>
+<div class="line"></div>
+<div class="service-mains">
+    <div class="service-apartment" style="background-image: url({{asset('web-assets/images/resource/resource-apartment.jpg')}});  height: 300px;">
+    <div class="overlay5">
+    <h4>Apartment</h4>
+ <a href="index-5.html" class="theme-btn btn-one manage-btn">Manage Now</a>
+    </div>
+ </div>
+<div class="service-villas"  style="background-image: url({{asset('web-assets/images/resource/resource-villas.jpg')}});  height: 300px;">
+<div class="overlay5">
+<h4>Villas</h4>
+ <a href="index-5.html" class="theme-btn btn-one manage-btn">Manage Now</a>
+    </div>
+    </div>
+<div class="service-buildings"  style="background-image: url({{asset('web-assets/images/resource/resource-building.jpg')}});  height: 300px;">
+<div class="overlay5">
+<h4>Buildings</h4>
+ <a href="index-5.html" class="theme-btn btn-one manage-btn">Manage Now</a>
+    </div>
+</div>
+<div class="service-snagging"  style="background-image: url({{asset('web-assets/images/resource/services-snagging.jpg')}});  height: 300px;">
+<div class="overlay5">
+<h4>Snagging</h4>
+ <a href="index-5.html" class="theme-btn btn-one manage-btn">Manage Now</a>
+    </div>
+    </div>
+</div>
+                                    </div>
+                                    </section>
         <!-- category-section -->
         <section class="category-section centred">
             <div class="auto-container">
                 <div class="inner-container wow slideInLeft animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                    <h2 class="our-head">Who We Are?</h2>
+                    <div class="line"></div>
                     <ul class="category-list clearfix">
                         <li>
                             <div class="category-block-two">
                                 <div class="inner-box">
                                     <div class="icon-box"><i class="icon-1"></i></div>
-                                    <h5><a href="property-details.html">Apartment</a></h5>
-                                    <span>52</span>
-                                    <div class="inqure-btn mt-5">
-                                        <a href="" class="theme-btn btn-two">Inqure Now</a>
-                                    </div>
+                                    <h5>Leading Experts</h5>
+                                    <p>Experienced property management professionals.
+
+                                    </p>
+                                    
                                 </div>
                             </div>
                         </li>
@@ -129,11 +173,9 @@
                             <div class="category-block-two">
                                 <div class="inner-box">
                                     <div class="icon-box"><i class="icon-2"></i></div>
-                                    <h5><a href="property-details.html">Villas</a></h5>
-                                    <span>20</span>
-                                    <div class="inqure-btn mt-5">
-                                        <a href="" class="theme-btn btn-two">Inqure Now</a>
-                                    </div>
+                                    <h5>Comprehensive Services</h5>
+                                    <p>We cover all aspects of property management.</p>
+                                   
                                 </div>
                             </div>
                         </li>
@@ -141,11 +183,8 @@
                             <div class="category-block-two">
                                 <div class="inner-box">
                                     <div class="icon-box"><i class="icon-3"></i></div>
-                                    <h5><a href="property-details.html">Full Building</a></h5>
-                                    <span>35</span>
-                                    <div class="inqure-btn mt-5">
-                                        <a href="" class="theme-btn btn-two">Inqure Now</a>
-                                    </div>
+                                    <h5>Commitment to Excellence</h5>
+                                    <p>Deliver top-notch services, raising the bar in the real estate industry.</p>
                                 </div>
                             </div>
                         </li>
@@ -153,11 +192,8 @@
                             <div class="category-block-two">
                                 <div class="inner-box">
                                     <div class="icon-box"><i class="icon-4"></i></div>
-                                    <h5><a href="property-details.html">Snagging</a></h5>
-                                    <span>10</span>
-                                    <div class="inqure-btn mt-5">
-                                        <a href="" class="theme-btn btn-two">Inqure Now</a>
-                                    </div>
+                                    <h5>Trusted Choice</h5>
+                                    <p>Trusted partner in property management</p>
                                 </div>
                             </div>
                         </li>
@@ -171,45 +207,46 @@
         <section class="about-section">
             <div class="auto-container">
                 <div class="row align-items-center clearfix">
-                    <div class="col-lg-6 col-md-12 col-sm-12 image-column">
-                        <div class="image_block_2">
-                            <div class="image-box">
-                                <figure class="image"><img src="{{asset('web-assets/images/resource/about1.jpg')}}" alt=""></figure>
-                                <div class="text wow fadeInLeft animated" data-wow-delay="00ms" data-wow-duration="1500ms">
-                                    <h2>20</h2>
-                                    <h4>Years of <br />Experience</h4>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-12 col-sm-12 content-column">
+                <div class="col-lg-6 col-md-12 col-sm-12 content-column">
                         <div class="content_block_3">
                             <div class="content-box">
                                 <div class="sec-title">
-                                    <h5>About</h5>
-                                    <h3>BENEFITS OF HIRING A PROPERTY MANAGER</h3>
+                                <i class="bi bi-gem"></i>
+                                    <h3>Leading Property Management Of Dubai </h3>
                                 </div>
                                 <div class="text">
-                                    <p>By employing a property manager, you can avoid having to deal with late-night crises, evictions, collecting unpaid rent, damages, paperwork, finding contractors, and other tiresome and time-consuming activities.</p>
-                                    <p>If you employ a property manager, you won’t have to be concerned about your tenants or the frequent inspections, so you may go wherever you choose. You are free to purchase additional real estate and reside wherever you like.</p>
-                                    <p>Time is money for real estate investors, therefore you’d be better off doing other things than micromanaging a property. If you concentrate on asset management, you will be working to expand your company; if you manage the properties personally, you will be working on it. Not to mention the fact that you will have more free time to spend with your loved ones.</p>
+                                    <p>Next Level real estate has been leading the property management niche in the city for many years now. Our real estate service is highly prompt, efficient, and professional. If unsuccessful in finding a potential tenant for your property, then no worries! Contact Next Level real estate at the earliest. We will market your property to the right people who are genuinely interested in renting a property you own. Next Level real estate takes pride in having a vast marketing network in Dubai’s real estate market. Because of years of experience in Dubai’s property sector, we try our best to give our clients the best possible advantage of our vast networks. So choosing Next Level real estate to rent your house fast is the best step towards renting a property, especially in Dubai.</p>
                                 </div>
-                                {{-- <ul class="list clearfix">
-                                    <li>consectetur elit sed do eius</li>
-                                    <li>consectetur elit sed</li>
-                                </ul> --}}
-                                <div class="btn-box">
-                                    <a href="contact.html" class="theme-btn btn-one">Contact With Me</a>
+                                <hr class="mainline">
+                                <div class="prop-managebtn">
+                                <div class="btna-box">
+                                    <a href="contact.html" class="theme-btn btn-two calbtn" >Call Us</a>
+                                </div>
+                                <div class="btna-box">
+                                <a href="index-5.html" class="theme-btn btn-one app-btn">Schedule an appointment</a>
+                                </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12 image-column">
+                        <div class="image_block_2">
+                            <div class="image-box">
+                                <figure class="image"><img src="{{asset('web-assets/images/resource/lead.jpg')}}" alt=""></figure>
+                                <!-- <div class="text wow fadeInLeft animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                                    <h2>20</h2>
+                                    <h4>Years of <br />Experience</h4>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
         </section>
         <!-- about-section end -->
         
-
+<!-- 
         <section class="cta-section advantgaes alternate-2 centred mt-5" style="background-image: url({{asset('web-assets/images/resource/agency-sec-bg.jpg')}}); position: relative;  height: 300px;">
             <div class="overlay">
                 <div class="auto-container">
@@ -219,66 +256,55 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!--Chossen End-->
-        <section class="choosen-section">
+        <section class="choosen-section sec-pad">
             <div class="auto-container">
                 <div class="sec-title">
                     <h2>Why Landlord Chosse Next Level Real Estate</h2>
+                    <div class="line"></div>
                 </div>
-                <div class="wow slideInLeft animated" data-wow-delay="00ms" data-wow-duration="1500ms" >
+                <div class="wow slideInLeft animated chose" data-wow-delay="00ms" data-wow-duration="1500ms" >
                     <div class="row clearfix">
                         <div class="col-lg-2 col-md-2 col-sm-12">
                             <div class="chosen-box">
-                                <figure>
-                                    <img src="{{asset('web-assets/images/icons/image-icon-1.jpg')}}" alt="">
-                                </figure>
-                                {{-- <i aria-hidden="true" class="fas fa-pen-nib"></i> --}}
+                                
+                            <i class="bi bi-person-check"></i>
                                 <h6>Professionalism</h6>
                             </div>
                         </div>
                         <div class="col-lg-2 col-md-2 col-sm-12">
                             <div class="chosen-box">
-                                <figure>
-                                    <img src="{{asset('web-assets/images/icons/image-icon-2.jpg')}}" alt="">
-                                </figure>
-                                {{-- <i aria-hidden="true" class="fas fa-handshake"></i> --}}
+                               
+                                <i aria-hidden="true" class="fas fa-handshake"></i>
                                 <h6>To Keep Properties In Safe Hands</h6>
                             </div>
                         </div>
                         <div class="col-lg-2 col-md-2 col-sm-12">
                             <div class="chosen-box">
-                                {{-- <i aria-hidden="true" class="fas fa-dollar-sign"></i> --}}
-                                <figure>
-                                    <img src="{{asset('web-assets/images/icons/image-icon-3.jpg')}}" alt="">
-                                </figure>
+                               <i aria-hidden="true" class="fas fa-dollar-sign"></i>
+                               
                                 <h6>To Put The Right Price Of The Property</h6>
                             </div>
                         </div>
                         <div class="col-lg-2 col-md-2 col-sm-12">
                             <div class="chosen-box">
-                                {{-- <i aria-hidden="true" class="far fa-eye"></i> --}}
-                                <figure>
-                                    <img src="{{asset('web-assets/images/icons/image-icon-4.jpg')}}" alt="">
-                                </figure>
+                                 <i aria-hidden="true" class="far fa-eye"></i>
+                               
                                 <h6>Tenant Screening</h6>
                             </div>
                         </div>
                         <div class="col-lg-2 col-md-2 col-sm-12">
                             <div class="chosen-box">
-                                {{-- <i aria-hidden="true" class="fas fa-file-invoice-dollar"></i> --}}
-                                <figure>
-                                    <img src="{{asset('web-assets/images/icons/image-icon-5.jpg')}}" alt="">
-                                </figure>
+                                <i aria-hidden="true" class="fas fa-file-invoice-dollar"></i>
+                               
                                 <h6>Stress-Free Passive Income</h6>
                             </div>
                         </div>
                         <div class="col-lg-2 col-md-2 col-sm-12">
                             <div class="chosen-box">
-                                {{-- <i aria-hidden="true" class="fas fa-home"></i> --}}
-                                <figure>
-                                    <img src="{{asset('web-assets/images/icons/image-icon-6.jpg')}}" alt="">
-                                </figure>
+                                <i aria-hidden="true" class="fas fa-home"></i>
+                                
                                 <h6>Tenant Retention</h6>
                             </div>
                         </div>
@@ -290,7 +316,7 @@
         <!-- Chossen End -->
 
         <!-- place-style-two -->
-        <section class="place-style-two sec-pad">
+        <!-- <section class="place-style-two sec-pad">
             <div class="auto-container">
                 <div class="row clearfix">
                     <div class="col-lg-6 col-md-12 col-sm-12 content-column">
@@ -324,41 +350,196 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- place-style-two end -->
         
         <!--Property Content-->
         <section class="property-image-sec">
             <div class="auto-container">
                 <div class="row clearfix">
-                    <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="col-lg-7 col-md-6 col-sm-12">
                         <div class="property-image-box">
                             <figure>
                                 <img src="{{asset('web-assets/images/resource/property-image-1.jpg')}}" alt="">
                             </figure>
                             <div class="property-title-card text wow fadeInLeft animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                 <div class="text">
-                                    <p>Property Management Packages &nbsp;&nbsp;<i aria-hidden="true" class="fas fa-arrow-right"></i></p>
+                                    <p>Highly Professional Property Management Services You Can Trust
+ &nbsp;&nbsp;<i aria-hidden="true" class="fas fa-arrow-right"></i></p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 property-content-box">
+                    <div class="col-lg-5 col-md-6 col-sm-12 property-content-box">
                         <div class="property-content-box">
                             <div class="text">
-                                <p>Families, companies, and real estate investors—many of whom reside abroad—who want their assets maintained by experts are our clients.</p>
-                                <p>Our objective is to increase the return on your real estate investment and to free you from any burden associated with the ongoing administration of your properties.</p>
-                                <p>By increasing your ROI, offering risk assessment and legal protection, and taking care of the paperwork and upkeep of your properties, we are devoted and ready to provide the maximum profit for your investment possible. This is made possible by our significant investment management experience.</p>
+                                <p>Next Level Real Estate is consistently ranked as one of the best property management companies in the UAE. Several landlords and property owners have placed their trust in Next Level Real Estate’s property management services and have been rewarded with fair rentals and significant changes in the quality and look of their building. Next Level Real Estate Home Management takes pleasure in managing a diverse portfolio of rental properties and in marketing your property in the most efficient manner possible. The greatest advantage of using a property management service is that you, as a landlord, can relax about renting out your property because a professional and expert party has taken on the task of managing the property and finding the suitable renter. As a business and residential property management company, we take on all of our clients’ stress as a result of the daily time-consuming hustle. Even if you live outside of the UAE and want to rent your property here, don’t worry; our skilled team will completely care for your property in the most efficient manner.</p>
                             </div>
+                            <div class="prop-managebtn pt-3">
+                                <div class="btna-box">
+                                    <a href="contact.html" class="theme-btn btn-two calbtn" >Book a Valuation</a>
+                                </div>
+                                <div class="btna-box">
+                                <a href="index-5.html" class="theme-btn btn-one app-btn">Whatsapp</a>
+                                </div>
+                                </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
         <!--End-->
-
+        <!-- gallery-style-one -->
+        <section class="gallery-style-one centred">
+            <div class="auto-container">
+                <div class="sec-title">
+                    <h5>Steps</h5>
+                    <h2>How to find property management in Dubai</h2>
+                </div>
+                <div class="sortable-masonry">
+                    <div class="filters">
+                        <ul class="filter-tabs filter-btns clearfix">
+                            <li class="active filter" data-role="button" data-filter=".interior">Find the Right Tenant</li>
+                            <li class=" filter" data-role="button" data-filter=".real_estate">Complete Property Inspection</li>
+                            <li class="filter" data-role="button" data-filter=".architechture">Peace of Mind</li>
+                            <!-- <li class="filter" data-role="button" data-filter=".interior">Interior</li> -->
+                        </ul>
+                    </div>
+                    <div class="items-container row clearfix ">
+                    <div class="col-lg-12 col-md-6 col-sm-12 masonry-item small-column  interior  ">
+                    <div class="timeline">
+  <div class="timeline-content">
+    <div class="timeline-period">Step 1</div>
+    
+    We’ll make sure the tenants we find for you are experienced, they’re certain to take care of your property, and they have all necessary background checks completed. 
+  </div>
+  
+  <div class="timeline-content">
+    <div class="timeline-period">Step 2</div>
+    
+    You have an investment in your property that you need to protect, and this is one way to do it. It’s a way to get the best tenants for your property and help them succeed.
+  </div>
+  
+  <div class="timeline-content">
+    <div class="timeline-period">Step 3</div>
+ 
+    We offer a complete range of services that go beyond the basics. You’ll have a tenant screening process, with no upfront cost or risk for you. We provide all necessary tools for you to find the tenant for your property. 
+  </div>
+  
+  <div class="timeline-content">
+    <div class="timeline-period">Step 4</div>
+   
+    Find out more about our complete tenant services today! 
+  </div>
+</div>
+                   </div>
+                </div>
+                <div class="items-container row clearfix">
+              <div class="col-lg-12 col-md-6 col-sm-12 masonry-item small-column real_estate ">
+              <div class="timeline">
+  <div class="timeline-content">
+    <div class="timeline-period">Step 1</div>
+    
+    We’ll make sure the tenants we find for you are experienced, they’re certain to take care of your property, and they have all necessary background checks completed. 
+  </div>
+  
+  <div class="timeline-content">
+    <div class="timeline-period">Step 2</div>
+    
+    You have an investment in your property that you need to protect, and this is one way to do it. It’s a way to get the best tenants for your property and help them succeed.
+  </div>
+  
+  <div class="timeline-content">
+    <div class="timeline-period">Step 3</div>
+ 
+    We offer a complete range of services that go beyond the basics. You’ll have a tenant screening process, with no upfront cost or risk for you. We provide all necessary tools for you to find the tenant for your property. 
+  </div>
+  
+  <div class="timeline-content">
+    <div class="timeline-period">Step 4</div>
+   
+    Find out more about our complete tenant services today! 
+  </div>
+</div>
+                   </div>
+                </div>
+                <div class="items-container row clearfix">
+                    <div class="col-lg-12 col-md-6 col-sm-12 masonry-item small-column architechture">
+                    <div class="timeline">
+  <div class="timeline-content">
+    <div class="timeline-period">Step 1</div>
+    
+    We’ll make sure the tenants we find for you are experienced, they’re certain to take care of your property, and they have all necessary background checks completed. 
+  </div>
+  
+  <div class="timeline-content">
+    <div class="timeline-period">Step 2</div>
+    
+    You have an investment in your property that you need to protect, and this is one way to do it. It’s a way to get the best tenants for your property and help them succeed.
+  </div>
+  
+  <div class="timeline-content">
+    <div class="timeline-period">Step 3</div>
+ 
+    We offer a complete range of services that go beyond the basics. You’ll have a tenant screening process, with no upfront cost or risk for you. We provide all necessary tools for you to find the tenant for your property. 
+  </div>
+  
+  <div class="timeline-content">
+    <div class="timeline-period">Step 4</div>
+   
+    Find out more about our complete tenant services today! 
+  </div>
+</div>
+                   </div>
+                </div>
+                   
+            </div>
+        </section>
+        <!-- gallery-style-one end -->
+<section class="expert-section sec-pad">
+    <div class="container own-width">
+        <div class="row">
+            <div class="col-lg-4 expert-ahad">
+<h3>Talk To Our Expert!</h3>
+<figure>
+                                <img src="{{asset('web-assets/images/resource/ahad_bhai.jpg')}}" alt="">
+                            </figure>
+                            <h4>Abdul Ahad Siddiq</h4>
+                            <h5>Managing Director</h5>
+                            <h6>Languages: <b>English,Urdu</b></h6>
+                            <div class="main-propertybtn flow-in">
+                                        <div class="what-btn">
+                                            <a href="property-details.html" class="theme-btn btn-two whatcall-btn"><i
+                                                    class="bi bi-whatsapp"></i></a>
+                                        </div>
+                                        <div class="call-btn">
+                                            <a href="property-details.html" class="theme-btn btn-two directcall-btn"><i
+                                                    class="bi bi-telephone-inbound"></i></a>
+                                        </div>
+                                        <div class="email-btn">
+                                            <a href="property-details.html" class="theme-btn btn-two mailinquiry-btn"><i
+                                                    class="bi bi-envelope-check"></i></a>
+                                        </div>
+                                    </div>
+        </div>
+<div class="col-lg-8 expert-text">
+    <h3>Known for Efficient Property Management
+</h3>
+    <p>As one of the best property management companies in Dubai, we are loaded with a team full of property experts who believe in smart working instead of hard-working. To efficiently generate a source of additional income for you through your rental property, we first analyze the current condition of your property and what repairs it needs to become the best possible version.
+<br><br>
+After examining all of your property’s positives and negatives, our team develops a report outlining all of the work that needs to be done in order to attract a large number of high-quality tenants.
+<br><br>
+We then seek your approval on all necessary maintenance and begin working on the wear and tear of your property, such as painting the interiors and exteriors, repairing ceiling leaks, cleaning the centralized air-conditioning system, and all other urgent repairs.</p>
+<a href="index-5.html" class="theme-btn btn-one expertbtn ">Talk To Our Expert!</a>
+</div>
+</div>
+</div>
+</section>
+<section>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.5357126180793!2d55.270631824291364!3d25.18515032009248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f69d3345b4265%3A0x84561af444b75ead!2sNext%20Level%20Real%20Estate!5e0!3m2!1sen!2sae!4v1695306695441!5m2!1sen!2sae" width="1500" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </section>
         <!--Our Services-->
-        <section class="our-service sec-pad">
+        <!-- <section class="our-service sec-pad">
             <div class="auto-container">
                 <div class="sec-title">
                     <h2>Our Service</h2>
@@ -566,117 +747,134 @@
                         </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!--Our Service End-->
         
 
-        <!-- cta-section -->
-        <section class="cta-section advantgaes alternate-2 centred " style="background-image: url({{asset('web-assets/images/background/footer-bg-1.jpg')}});">
-            <div class="overlay">
-                <div class="auto-container mt-5">
-                    <div class="inner-box clearfix">
-                        <div class="text">
-                            <h2>ADVANTAGES</h2>
+        <section class="property-image-sec sec-pad expert-management">
+            <div class="auto-container">
+                <div class="row clearfix">
+                    <div class="col-lg-5 col-md-6 col-sm-12">
+                        <div class="property-image-box">
+                            <figure>
+                                <img src="{{asset('web-assets/images/resource/st.jpg')}}" alt="">
+                            </figure>
+                            <div class="property-title-card text wow fadeInLeft animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                                <div class="text">
+                                    <p>Experts in Residential & Commercial Property Management Service
+ &nbsp;&nbsp;<i aria-hidden="true" class="fas fa-arrow-right"></i></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-md-6 col-sm-12 property-content-box">
+                        <div class="property-content-box">
+                            <div class="text">
+                                <p>
+Experts in Residential & Commercial Property Management Service
+Whether you own a residential property or a commercial one and wish to rent it out, then visit Next Level real estate. We provide high-quality property management services for a premium annual property management fee.
+<br><br>
+Renting commercial vs residential real estate is not the same. A commercial property that is built to accommodate businesses requires a little more and more thoughtful effort to find the right tenant. Before renting out a commercial property, our team negotiates your property’s business benefits to the tenant. After that, we will reach out to companies that are looking to rent some space, and their business niche has the potential to avail the benefits that you have to offer for that particular business.
+<br><br>
+On the other hand, renting a residential property is easy, but requires improvement before showing them to potential tenants.</p>
+                            </div>
+                            <div class="prop-managebtn pt-3">
+                            <div class="chosen-box">
+                                <i class="bi bi-person-check"></i>
+                                    <h6>Full
+support</h6>
+                                </div>
+                                <div class="chosen-box">
+                                
+                                <i class="bi bi-buildings"></i>
+                                    <h6>Brand New
+Projects</h6>
+                                </div>
+                                <div class="chosen-box">
+                                
+                                <i class="bi bi-bookmarks"></i>
+                                    <h6>Priority
+Booking</h6>
+                                </div>
+                                </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- cta-section end -->
 
         <!-- funfact-section -->
-        <section class="advantage-section centred">
+        <!-- <section class="advantage-section centred">
             <div class="auto-container">
-                <div class="single-item-carousel  owl-carousel owl-theme owl-nav-none dots-style-one owl-loaded owl-drag inner-container wow slideInLeft animated" data-wow-delay="00ms" data-wow-duration="1500ms">
-                    <div class="row clearfix">
-                        <div class="col-lg-3 col-md-6 col-sm-12 funfact-block">
-                            <div class="advantage-block-one">
-                                <div class="inner-box">
-                                    <div class="count-outer count-box">
-                                        <span class="count-text" data-speed="100" data-stop="10">10</span>
-                                    </div>
-                                    <p>40 Years Of Experience In Dubai Property Management.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-12 funfact-block">
-                            <div class="advantage-block-one">
-                                <div class="inner-box">
-                                    <div class="count-outer count-box">
-                                        <span class="count-text" data-speed="200" data-stop="20">20</span>
-                                    </div>
-                                    <p>Help In Searching Reliable Tenants In Dubai.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-12 funfact-block">
-                            <div class="advantage-block-one">
-                                <div class="inner-box">
-                                    <div class="count-outer count-box">
-                                        <span class="count-text" data-speed="300" data-stop="30">30</span>
-                                    </div>
-                                    <p>Keep You Informed With Quarterly Or Time-Specific Reports.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-12 funfact-block">
-                            <div class="advantage-block-one">
-                                <div class="inner-box">
-                                    <div class="count-outer count-box">
-                                        <span class="count-text" data-speed="400" data-stop="40">40</span>
-                                    </div>
-                                    <p>Bring Tenants On Your Property With Occupancy Rates Of 96% On Average.</p>
-                                </div>
-                            </div>
+               
+            </div>
+        </section> -->
+        <!-- funfact-section end -->
+         <section class="form-section sec-pad " style="background-image: url({{asset('web-assets/images/resource/banner-management.webp')}});">
+       
+            <div class="auto-container overlay6">
+             
+                <div class="row">
+                <div class="col-8">
+                    <div class="form-box">
+                        <div class="sec-title">                      
+                            <h3>
+Top-Notch Rental Property Management Experts</h3>
+                            <p class="pt-3">We pride ourselves on our proactive approach, anticipating and addressing potential issues before they arise. From tenant screening and lease agreements to property maintenance and rent collection, we manage every detail with efficiency and attention to detail.</p>
+                            <h3>
+                            Advantages
+</h3>
+                            <p class="pt-3">Help In Examined And Presenting Your Property To Potential Buyers Or Tenants.
+RERA-Certified Team Will Take Care Of Your Home And Protect The Value Of Asset.
+Bring Tenants On Your Property With Occupancy Rates Of 96% On Average</p>
                         </div>
                     </div>
-                    <div class="row clearfix">
-                        <div class="col-lg-3 col-md-6 col-sm-12 funfact-block">
-                            <div class="advantage-block-one">
-                                <div class="inner-box">
-                                    <div class="count-outer count-box">
-                                        <span class="count-text" data-speed="100" data-stop="10">10</span>
+                </div>
+                <div class="col-4">
+                    <div class="property-sidebar management default-sidebar">
+                        <div class="author-widget sidebar-widget">
+                            <!-- <div class="author-box">
+                                <figure class="author-thumb"><img src="{{asset('web-assets/images/team/team-1.jpg')}}" alt=""></figure>
+                                <div class="inner">
+                                    <h4>Abdul Ahad Siddiq</h4>
+                                    <p>Managing Director</p>
+                                    {{-- <ul class="info clearfix">
+                                        <li><i class="fas fa-map-marker-alt"></i>84 St. John Wood High Street, 
+                                        St Johns Wood</li>
+                                        <li><i class="fas fa-phone"></i><a href="tel:03030571965">030 3057 1965</a></li>
+                                    </ul> --}}
+                                    <div class="btn-box mt-5">
+                                        <a href="/agentDetails" class="theme-btn btn-one btn-profile">View Profile</a>
+                                        <a href="/agentDetails" class="theme-btn btn-two btn-from-whatsapp"><i class="fab fa-whatsapp"></i></a>
                                     </div>
-                                    <p>40 Years Of Experience In Dubai Property Management.</p>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-12 funfact-block">
-                            <div class="advantage-block-one">
-                                <div class="inner-box">
-                                    <div class="count-outer count-box">
-                                        <span class="count-text" data-speed="200" data-stop="20">20</span>
+                            </div> -->
+                            <div class="form-inner">
+                                <form action="property-details.html" method="post" class="default-form">
+                                    <div class="form-group">
+                                        <input type="text" name="name" placeholder="Your name" required="">
                                     </div>
-                                    <p>Help In Searching Reliable Tenants In Dubai.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-12 funfact-block">
-                            <div class="advantage-block-one">
-                                <div class="inner-box">
-                                    <div class="count-outer count-box">
-                                        <span class="count-text" data-speed="300" data-stop="30">30</span>
+                                    <div class="form-group">
+                                        <input type="email" name="email" placeholder="Your Email" required="">
                                     </div>
-                                    <p>Keep You Informed With Quarterly Or Time-Specific Reports.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-12 funfact-block">
-                            <div class="advantage-block-one">
-                                <div class="inner-box">
-                                    <div class="count-outer count-box">
-                                        <span class="count-text" data-speed="400" data-stop="40">40</span>
+                                    <div class="form-group">
+                                        <input type="text" name="phone" placeholder="Phone" required="">
                                     </div>
-                                    <p>Bring Tenants On Your Property With Occupancy Rates Of 96% On Average.</p>
-                                </div>
+                                    <div class="form-group">
+                                        <textarea name="message" placeholder="Message"></textarea>
+                                    </div>
+                                    <div class="form-group message-btn">
+                                        <button type="submit" class="theme-btn btn-one">Send Message</button>
+                                    </div>
+                                </form>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+                </div>
+                </div>
+            
         </section>
-        <!-- funfact-section end -->
-        
         <!-- faq-page-section -->
         <section class="faq-page-section sec-pad">
             <div class="auto-container">
@@ -773,66 +971,101 @@
         <!-- faq-page-section end -->
         
         <!-- team-section -->
-        <section class="team-section sec-pad centred">
-            <div class="auto-container">
-                <div class="sec-title">
-                    <h4>WANT TO TALK ABOUT DUBAI PROPERTY MANAGEMENT?</h4>
-                </div>
-                <div class="row clearfix">
-                    <div class="col-lg-4 col-md-6 col-sm-12 team-block">
-                        <div class="team-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
-                            <div class="inner-box">
-                                <figure class="image-box"><img src="{{asset('web-assets/images/agents/agent-1.jpg')}}" alt=""></figure>
-                                <div class="lower-content">
-                                    <div class="inner">
-                                        <h4><a href="agents-details.html">Abdul Ahad Siddiq</a></h4>
-                                        <span class="designation">Managing Director</span>
-                                        <div class="btn-box">
-                                            <a href="/agentDetails" class="theme-btn btn-one btn-profile">View Profile</a>
-                                            <a href="/agentDetails" class="theme-btn btn-two btn-whatsapp management-btn"><i class="fab fa-whatsapp"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 team-block">
-                        <div class="team-block-one wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
-                            <div class="inner-box">
-                                <figure class="image-box"><img src="{{asset('web-assets/images/agents/agent-2.jpg')}}" alt=""></figure>
-                                <div class="lower-content">
-                                    <div class="inner">
-                                        <h4><a href="agents-details.html">Salwa Araoui</a></h4>
-                                        <span class="designation">Sales Director</span>
-                                        <div class="btn-box">
-                                            <a href="/agentDetails" class="theme-btn btn-one btn-profile">View Profile</a>
-                                            <a href="/agentDetails" class="theme-btn btn-two btn-whatsapp management-btn"><i class="fab fa-whatsapp"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 team-block">
-                        <div class="team-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
-                            <div class="inner-box">
-                                <figure class="image-box"><img src="{{asset('web-assets/images/agents/agent-3.jpg')}}" alt=""></figure>
-                                <div class="lower-content">
-                                    <div class="inner">
-                                        <h4><a href="agents-details.html">Houssam Eddine Salmi</a></h4>
-                                        <span class="designation">Client Manager</span>
-                                        <div class="btn-box">
-                                            <a href="/agentDetails" class="theme-btn btn-one btn-profile">View Profile</a>
-                                            <a href="/agentDetails" class="theme-btn btn-two btn-whatsapp management-btn"><i class="fab fa-whatsapp"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+<section class="team-section  centred ">
+    {{-- <div class="pattern-layer" style="background-image: url({{asset('web-assets/images/shape/shape-1.jpg')}});
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;"></div> --}}
+    <div class="auto-container">
+        <div class="sec-title">
+            <h5>Our Agents</h5>
+            <h2>Meet Our Excellent Agents</h2>
+        </div>
+        <div class="single-item-carousel owl-carousel owl-theme owl-dots-none nav-style-one">
+            <div class="team-block-one">
+                <div class="inner-box">
+                    <figure class="image-box"><img src="{{asset('web-assets/images/team/team-1.jpg')}}" alt=""></figure>
+                    <div class="lower-content">
+                        <div class="inner">
+                            <h4><a href="agents-details.html">Abdul Ahad Siddiq</a></h4>
+                            <span class="designation">Managing Director</span>
+                            <ul class="social-links clearfix">
+                                <li><a href="index.html"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="index.html"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="index.html"><i class="fab fa-google-plus-g"></i></a></li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- team-section end -->
+            <div class="team-block-one">
+                <div class="inner-box">
+                    <figure class="image-box"><img src="{{asset('web-assets/images/team/team-2.jpg')}}" alt=""></figure>
+                    <div class="lower-content">
+                        <div class="inner">
+                            <h4><a href="agents-details.html">Salwa Arfaoui</a></h4>
+                            <span class="designation">Sales Director</span>
+                            <ul class="social-links clearfix">
+                                <li><a href="index.html"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="index.html"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="index.html"><i class="fab fa-google-plus-g"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="team-block-one">
+                <div class="inner-box">
+                    <figure class="image-box"><img src="{{asset('web-assets/images/team/team-3.jpg')}}" alt=""></figure>
+                    <div class="lower-content">
+                        <div class="inner">
+                            <h4><a href="agents-details.html">Houssam eddine Salmi</a></h4>
+                            <span class="designation">Client Manager at Next Level Real Estate</span>
+                            <ul class="social-links clearfix">
+                                <li><a href="index.html"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="index.html"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="index.html"><i class="fab fa-google-plus-g"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="team-block-one">
+                <div class="inner-box">
+                    <figure class="image-box"><img src="{{asset('web-assets/images/team/team-4.jpg')}}" alt=""></figure>
+                    <div class="lower-content">
+                        <div class="inner">
+                            <h4><a href="agents-details.html">Muhammad Ali Khan</a></h4>
+                            <span class="designation">Media Co-ordinator</span>
+                            <ul class="social-links clearfix">
+                                <li><a href="index.html"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="index.html"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="index.html"><i class="fab fa-google-plus-g"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="team-block-one">
+                <div class="inner-box">
+                    <figure class="image-box"><img src="{{asset('web-assets/images/team/team-5.jpg')}}" alt=""></figure>
+                    <div class="lower-content">
+                        <div class="inner">
+                            <h4><a href="agents-details.html">Abdullah Farooq</a></h4>
+                            <span class="designation">Property Consultant</span>
+                            <ul class="social-links clearfix">
+                                <li><a href="index.html"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="index.html"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="index.html"><i class="fab fa-google-plus-g"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- team-section end -->
+     
     
 @endsection

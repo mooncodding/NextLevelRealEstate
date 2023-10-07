@@ -245,7 +245,7 @@
     </div>
 </section>
 <!-- search-field-section -->
-<section class="search-field-section">
+<!-- <section class="search-field-section">
     <div class="auto-container">
         <div class="inner-container area-search">
             <div class="search-field">
@@ -791,13 +791,13 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 <!-- search-field-section end -->
 <!-- feature-section -->
 <section class="feature-section sec-pad area-properties ">
     <div class="auto-container area-container">
         <div class="sec-title">
-            <h2><span>Properties for Sale in Downtown Dubai</span></h2>
+            <h2><span>Featured Project of Downtown Dubai </span></h2>
             <div class="line"></div>
         </div>
         <div></div>
@@ -1682,6 +1682,274 @@
     </div>
 </section>
 <!-- feature-section end -->
+<!-- trending-section -->
+<section class="trending-section ">
+    <div class="auto-container">
+        <div class="sec-title">
+            <h2>Explore Properties by your type</h2>
+        </div>
+        <div class="parent-categories mb-5 responsive">
+            <div class="category-btn">
+                <a href="" class="theme-btn btn-one">Ready Properties</a>
+                <a href="" class="theme-btn btn-one">Offplan Properties</a>
+               
+            </div>
+        </div>
+        <div class="single-item-carousel owl-carousel owl-theme owl-dots-none nav-style-one">
+            <div class="team-block-one">
+                <div class="inner-box">
+                    <div class="box">
+                        <div class="ribbon-2">Ready Projects</div>
+                    </div>
+                    <figure class="image-box"><img src="{{asset('web-assets/images/trending/image-1.jpg')}}" alt="">
+                    </figure>
+                    <div class="trending-inner">
+                        <div class="lower-content">
+                            <div class="author-info clearfix">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="author pull-left">
+                                            <figure class="author-thumb"><img
+                                                    src="{{asset('web-assets/images/feature/author.png')}}" alt="">
+                                            </figure>
+                                            <h6>Abdul Ahad Siddiq</h6>
+                                            <p>Managing Director</p>
+                                        </div>
+
+                                        <div class="pull-right">
+                                            <div class="what-btn">
+                                                <a href="property-details.html"
+                                                    class="theme-btn btn-two whatcall-btn"><i
+                                                        class="bi bi-whatsapp"></i></a>
+                                            </div>
+                                            <div class="call-btn">
+                                                <a href="property-details.html"
+                                                    class="theme-btn btn-two directcall-btn"><i
+                                                        class="bi bi-telephone-inbound"></i></a>
+                                            </div>
+                                            <div class="email-btn">
+                                                <a href="property-details.html"
+                                                    class="theme-btn btn-two mailinquiry-btn"><i
+                                                        class="bi bi-envelope-check"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="price col-12 text-left mt-2">
+                                        <h5><span class="price1">Starting</span> <span class="start1">20,000</span></h5>
+                                        <h5 class="price2">Price</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="team-block-one">
+                <div class="inner-box">
+                    <div class="box">
+                        <div class="ribbon-2">Ready Projects</div>
+                    </div>
+                    <figure class="image-box"><img src="{{asset('web-assets/images/trending/image-2.jpg')}}" alt="">
+                    </figure>
+                    <div class="trending-inner">
+                        <div class="lower-content">
+                            <div class="author-info clearfix">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="author pull-left">
+                                            <figure class="author-thumb"><img
+                                                    src="{{asset('web-assets/images/feature/author.png')}}" alt="">
+                                            </figure>
+                                            <h6>Abdul Ahad Siddiq</h6>
+                                            <p>Managing Director</p>
+                                        </div>
+
+                                        <div class="pull-right">
+                                            <div class="what-btn">
+                                                <a href="property-details.html"
+                                                    class="theme-btn btn-two whatcall-btn"><i
+                                                        class="bi bi-whatsapp"></i></a>
+                                            </div>
+                                            <div class="call-btn">
+                                                <a href="property-details.html"
+                                                    class="theme-btn btn-two directcall-btn"><i
+                                                        class="bi bi-telephone-inbound"></i></a>
+                                            </div>
+                                            <div class="email-btn">
+                                                <a href="property-details.html"
+                                                    class="theme-btn btn-two mailinquiry-btn"><i
+                                                        class="bi bi-envelope-check"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="price col-12 text-left mt-2">
+                                        <h5><span class="price1">Starting</span> <span class="start1">20,000</span></h5>
+                                        <h5 class="price2">Price</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="team-block-one">
+                <div class="inner-box">
+                    <div class="box">
+                        <div class="ribbon-2">Ready Projects</div>
+                    </div>
+                    <figure class="image-box"><img src="{{asset('web-assets/images/trending/image-3.jpg')}}" alt="">
+                    </figure>
+                    <div class="trending-inner">
+                        <div class="lower-content">
+                            <div class="author-info clearfix">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="author pull-left">
+                                            <figure class="author-thumb"><img
+                                                    src="{{asset('web-assets/images/feature/author.png')}}" alt="">
+                                            </figure>
+                                            <h6>Abdul Ahad Siddiq</h6>
+                                            <p>Managing Director</p>
+                                        </div>
+
+                                        <div class="pull-right">
+                                            <div class="what-btn">
+                                                <a href="property-details.html"
+                                                    class="theme-btn btn-two whatcall-btn"><i
+                                                        class="bi bi-whatsapp"></i></a>
+                                            </div>
+                                            <div class="call-btn">
+                                                <a href="property-details.html"
+                                                    class="theme-btn btn-two directcall-btn"><i
+                                                        class="bi bi-telephone-inbound"></i></a>
+                                            </div>
+                                            <div class="email-btn">
+                                                <a href="property-details.html"
+                                                    class="theme-btn btn-two mailinquiry-btn"><i
+                                                        class="bi bi-envelope-check"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="price col-12 text-left mt-2">
+                                        <h5><span class="price1">Starting</span> <span class="start1">20,000</span></h5>
+                                        <h5 class="price2">Price</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="team-block-one">
+                <div class="inner-box">
+                    <div class="box">
+                        <div class="ribbon-2">Ready Projects</div>
+                    </div>
+                    <figure class="image-box"><img src="{{asset('web-assets/images/trending/image-1.jpg')}}" alt="">
+                    </figure>
+                    <div class="trending-inner">
+                        <div class="lower-content">
+                            <div class="author-info clearfix">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="author pull-left">
+                                            <figure class="author-thumb"><img
+                                                    src="{{asset('web-assets/images/feature/author.png')}}" alt="">
+                                            </figure>
+                                            <h6>Abdul Ahad Siddiq</h6>
+                                            <p>Managing Director</p>
+                                        </div>
+
+                                        <div class="pull-right">
+                                            <div class="what-btn">
+                                                <a href="property-details.html"
+                                                    class="theme-btn btn-two whatcall-btn"><i
+                                                        class="bi bi-whatsapp"></i></a>
+                                            </div>
+                                            <div class="call-btn">
+                                                <a href="property-details.html"
+                                                    class="theme-btn btn-two directcall-btn"><i
+                                                        class="bi bi-telephone-inbound"></i></a>
+                                            </div>
+                                            <div class="email-btn">
+                                                <a href="property-details.html"
+                                                    class="theme-btn btn-two mailinquiry-btn"><i
+                                                        class="bi bi-envelope-check"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="price col-12 text-left mt-2">
+                                        <h5><span class="price1">Starting</span> <span class="start1">20,000</span></h5>
+                                        <h5 class="price2">Price</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="team-block-one">
+                <div class="inner-box">
+                    <div class="box">
+                        <div class="ribbon-2">Ready Projects</div>
+                    </div>
+                    <figure class="image-box"><img src="{{asset('web-assets/images/trending/image-2.jpg')}}" alt="">
+                    </figure>
+                    <div class="trending-inner">
+                        <div class="lower-content">
+                            <div class="author-info clearfix">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="author pull-left">
+                                            <figure class="author-thumb"><img
+                                                    src="{{asset('web-assets/images/feature/author.png')}}" alt="">
+                                            </figure>
+                                            <h6>Abdul Ahad Siddiq</h6>
+                                            <p>Managing Director</p>
+                                        </div>
+
+                                        <div class="pull-right">
+                                            <div class="what-btn">
+                                                <a href="property-details.html"
+                                                    class="theme-btn btn-two whatcall-btn"><i
+                                                        class="bi bi-whatsapp"></i></a>
+                                            </div>
+                                            <div class="call-btn">
+                                                <a href="property-details.html"
+                                                    class="theme-btn btn-two directcall-btn"><i
+                                                        class="bi bi-telephone-inbound"></i></a>
+                                            </div>
+                                            <div class="email-btn">
+                                                <a href="property-details.html"
+                                                    class="theme-btn btn-two mailinquiry-btn"><i
+                                                        class="bi bi-envelope-check"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="price col-12 text-left mt-2">
+                                        <h5><span class="price1">Starting</span> <span class="start1">20,000</span></h5>
+                                        <h5 class="price2">Price</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- trending-section end -->
 <section class="section about-property choose-area">
     <div class="row">
         
@@ -2111,278 +2379,11 @@
 </section>
 <!-- faq-page-section end -->
 
-<!-- trending-section -->
-<section class="trending-section area-trending ">
-    <div class="auto-container">
-        <div class="sec-title">
-            <h2>Most Trending Projects in Dubai.</h2>
-        </div>
-        <div class="parent-categories mb-5 responsive">
-            <div class="category-btn">
-                <a href="" class="theme-btn btn-one">Vilas</a>
-                <a href="" class="theme-btn btn-one">Appartments</a>
-                <a href="" class="theme-btn btn-one">Flats</a>
-            </div>
-        </div>
-        <div class="single-item-carousel owl-carousel owl-theme owl-dots-none nav-style-one">
-            <div class="team-block-one">
-                <div class="inner-box">
-                    <div class="box">
-                        <div class="ribbon-2">Ready Projects</div>
-                    </div>
-                    <figure class="image-box"><img src="{{asset('web-assets/images/trending/image-1.jpg')}}" alt="">
-                    </figure>
-                    <div class="trending-inner">
-                        <div class="lower-content">
-                            <div class="author-info clearfix">
-                                <div class="row">
-                                    <div class="col-12">
-                                        <div class="author pull-left">
-                                            <figure class="author-thumb"><img
-                                                    src="{{asset('web-assets/images/feature/author.png')}}" alt="">
-                                            </figure>
-                                            <h6>Abdul Ahad Siddiq</h6>
-                                            <p>Managing Director</p>
-                                        </div>
 
-                                        <div class="pull-right">
-                                            <div class="what-btn">
-                                                <a href="property-details.html"
-                                                    class="theme-btn btn-two whatcall-btn"><i
-                                                        class="bi bi-whatsapp"></i></a>
-                                            </div>
-                                            <div class="call-btn">
-                                                <a href="property-details.html"
-                                                    class="theme-btn btn-two directcall-btn"><i
-                                                        class="bi bi-telephone-inbound"></i></a>
-                                            </div>
-                                            <div class="email-btn">
-                                                <a href="property-details.html"
-                                                    class="theme-btn btn-two mailinquiry-btn"><i
-                                                        class="bi bi-envelope-check"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="price col-12 text-left mt-2">
-                                        <h5><span class="price1">Starting</span> <span class="start1">20,000</span></h5>
-                                        <h5 class="price2">Price</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="team-block-one">
-                <div class="inner-box">
-                    <div class="box">
-                        <div class="ribbon-2">Ready Projects</div>
-                    </div>
-                    <figure class="image-box"><img src="{{asset('web-assets/images/trending/image-2.jpg')}}" alt="">
-                    </figure>
-                    <div class="trending-inner">
-                        <div class="lower-content">
-                            <div class="author-info clearfix">
-                                <div class="row">
-                                    <div class="col-12">
-                                        <div class="author pull-left">
-                                            <figure class="author-thumb"><img
-                                                    src="{{asset('web-assets/images/feature/author.png')}}" alt="">
-                                            </figure>
-                                            <h6>Abdul Ahad Siddiq</h6>
-                                            <p>Managing Director</p>
-                                        </div>
-
-                                        <div class="pull-right">
-                                            <div class="what-btn">
-                                                <a href="property-details.html"
-                                                    class="theme-btn btn-two whatcall-btn"><i
-                                                        class="bi bi-whatsapp"></i></a>
-                                            </div>
-                                            <div class="call-btn">
-                                                <a href="property-details.html"
-                                                    class="theme-btn btn-two directcall-btn"><i
-                                                        class="bi bi-telephone-inbound"></i></a>
-                                            </div>
-                                            <div class="email-btn">
-                                                <a href="property-details.html"
-                                                    class="theme-btn btn-two mailinquiry-btn"><i
-                                                        class="bi bi-envelope-check"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="price col-12 text-left mt-2">
-                                        <h5><span class="price1">Starting</span> <span class="start1">20,000</span></h5>
-                                        <h5 class="price2">Price</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="team-block-one">
-                <div class="inner-box">
-                    <div class="box">
-                        <div class="ribbon-2">Ready Projects</div>
-                    </div>
-                    <figure class="image-box"><img src="{{asset('web-assets/images/trending/image-3.jpg')}}" alt="">
-                    </figure>
-                    <div class="trending-inner">
-                        <div class="lower-content">
-                            <div class="author-info clearfix">
-                                <div class="row">
-                                    <div class="col-12">
-                                        <div class="author pull-left">
-                                            <figure class="author-thumb"><img
-                                                    src="{{asset('web-assets/images/feature/author.png')}}" alt="">
-                                            </figure>
-                                            <h6>Abdul Ahad Siddiq</h6>
-                                            <p>Managing Director</p>
-                                        </div>
-
-                                        <div class="pull-right">
-                                            <div class="what-btn">
-                                                <a href="property-details.html"
-                                                    class="theme-btn btn-two whatcall-btn"><i
-                                                        class="bi bi-whatsapp"></i></a>
-                                            </div>
-                                            <div class="call-btn">
-                                                <a href="property-details.html"
-                                                    class="theme-btn btn-two directcall-btn"><i
-                                                        class="bi bi-telephone-inbound"></i></a>
-                                            </div>
-                                            <div class="email-btn">
-                                                <a href="property-details.html"
-                                                    class="theme-btn btn-two mailinquiry-btn"><i
-                                                        class="bi bi-envelope-check"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="price col-12 text-left mt-2">
-                                        <h5><span class="price1">Starting</span> <span class="start1">20,000</span></h5>
-                                        <h5 class="price2">Price</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="team-block-one">
-                <div class="inner-box">
-                    <div class="box">
-                        <div class="ribbon-2">Ready Projects</div>
-                    </div>
-                    <figure class="image-box"><img src="{{asset('web-assets/images/trending/image-1.jpg')}}" alt="">
-                    </figure>
-                    <div class="trending-inner">
-                        <div class="lower-content">
-                            <div class="author-info clearfix">
-                                <div class="row">
-                                    <div class="col-12">
-                                        <div class="author pull-left">
-                                            <figure class="author-thumb"><img
-                                                    src="{{asset('web-assets/images/feature/author.png')}}" alt="">
-                                            </figure>
-                                            <h6>Abdul Ahad Siddiq</h6>
-                                            <p>Managing Director</p>
-                                        </div>
-
-                                        <div class="pull-right">
-                                            <div class="what-btn">
-                                                <a href="property-details.html"
-                                                    class="theme-btn btn-two whatcall-btn"><i
-                                                        class="bi bi-whatsapp"></i></a>
-                                            </div>
-                                            <div class="call-btn">
-                                                <a href="property-details.html"
-                                                    class="theme-btn btn-two directcall-btn"><i
-                                                        class="bi bi-telephone-inbound"></i></a>
-                                            </div>
-                                            <div class="email-btn">
-                                                <a href="property-details.html"
-                                                    class="theme-btn btn-two mailinquiry-btn"><i
-                                                        class="bi bi-envelope-check"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="price col-12 text-left mt-2">
-                                        <h5><span class="price1">Starting</span> <span class="start1">20,000</span></h5>
-                                        <h5 class="price2">Price</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="team-block-one">
-                <div class="inner-box">
-                    <div class="box">
-                        <div class="ribbon-2">Ready Projects</div>
-                    </div>
-                    <figure class="image-box"><img src="{{asset('web-assets/images/trending/image-2.jpg')}}" alt="">
-                    </figure>
-                    <div class="trending-inner">
-                        <div class="lower-content">
-                            <div class="author-info clearfix">
-                                <div class="row">
-                                    <div class="col-12">
-                                        <div class="author pull-left">
-                                            <figure class="author-thumb"><img
-                                                    src="{{asset('web-assets/images/feature/author.png')}}" alt="">
-                                            </figure>
-                                            <h6>Abdul Ahad Siddiq</h6>
-                                            <p>Managing Director</p>
-                                        </div>
-
-                                        <div class="pull-right">
-                                            <div class="what-btn">
-                                                <a href="property-details.html"
-                                                    class="theme-btn btn-two whatcall-btn"><i
-                                                        class="bi bi-whatsapp"></i></a>
-                                            </div>
-                                            <div class="call-btn">
-                                                <a href="property-details.html"
-                                                    class="theme-btn btn-two directcall-btn"><i
-                                                        class="bi bi-telephone-inbound"></i></a>
-                                            </div>
-                                            <div class="email-btn">
-                                                <a href="property-details.html"
-                                                    class="theme-btn btn-two mailinquiry-btn"><i
-                                                        class="bi bi-envelope-check"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="price col-12 text-left mt-2">
-                                        <h5><span class="price1">Starting</span> <span class="start1">20,000</span></h5>
-                                        <h5 class="price2">Price</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- trending-section end -->
 
 
 <!--Developers Section-->
-<section class="clients-section ">
+<!-- <section class="clients-section ">
     <div class="auto-container">
         <div class="sec-title text-center">
             <h2>Developers in Downtown Dubai</h2>
@@ -2397,13 +2398,13 @@
             <div class="slide"><img src="{{asset('web-assets/images/developers/maars.png')}}"></div>
         </div>
     </div>
-</section>
+</section> -->
 <!--Developer Section End-->
 
 
 
 <!-- areas-section start -->
-<section class="place-section areas-details">
+<section class="place-section areas-details sec-pad">
     {{-- <div class="auto-container"> --}}
     <div class="sec-title centred">
         <h5>Top Areas</h5>
@@ -2483,21 +2484,71 @@
 </section>
 <!-- areas-section end -->
 <!-- cta-section -->
-<section class="cta-section bg-color-2 sec-pad">
-    <div class="pattern-layer" style="background-image: url({{asset('web-assets/images/shape/shape-2.png')}});"></div>
-    <div class="auto-container">
-        <div class="inner-box clearfix">
-            <div class="text pull-left">
-                <h2>Our Expert Will Help You</h2>
-                <p>Feel Free to Contact Us at Any Time, We Online 24/7</p>
-            </div>
-            <div class="btn-box pull-right">
-                <a href="property-details.html" class="theme-btn btn-three">Rent Properties</a>
-                <a href="index.html" class="theme-btn btn-one">Buy Properties</a>
-            </div>
-        </div>
-    </div>
-</section>
+<section class="form-section sec-pad " style="background-image: url({{asset('web-assets/images/resource/banner-management.webp')}});">
+       
+       <div class="auto-container overlay6">
+        
+           <div class="row">
+           <div class="col-8">
+               <div class="form-box">
+                   <div class="sec-title">                      
+                       <h3>
+Book Your Dreams In Downtown Dubai Now</h3>
+                       <p class="pt-3">We pride ourselves on our proactive approach, anticipating and addressing potential issues before they arise. From tenant screening and lease agreements to property maintenance and rent collection, we manage every detail with efficiency and attention to detail.</p>
+                       <h3>
+                       Advantages
+</h3>
+                       <p class="pt-3">Help In Examined And Presenting Your Property To Potential Buyers Or Tenants.
+RERA-Certified Team Will Take Care Of Your Home And Protect The Value Of Asset.
+Bring Tenants On Your Property With Occupancy Rates Of 96% On Average</p>
+                   </div>
+               </div>
+           </div>
+           <div class="col-4">
+               <div class="property-sidebar management default-sidebar">
+                   <div class="author-widget sidebar-widget">
+                       <!-- <div class="author-box">
+                           <figure class="author-thumb"><img src="{{asset('web-assets/images/team/team-1.jpg')}}" alt=""></figure>
+                           <div class="inner">
+                               <h4>Abdul Ahad Siddiq</h4>
+                               <p>Managing Director</p>
+                               {{-- <ul class="info clearfix">
+                                   <li><i class="fas fa-map-marker-alt"></i>84 St. John Wood High Street, 
+                                   St Johns Wood</li>
+                                   <li><i class="fas fa-phone"></i><a href="tel:03030571965">030 3057 1965</a></li>
+                               </ul> --}}
+                               <div class="btn-box mt-5">
+                                   <a href="/agentDetails" class="theme-btn btn-one btn-profile">View Profile</a>
+                                   <a href="/agentDetails" class="theme-btn btn-two btn-from-whatsapp"><i class="fab fa-whatsapp"></i></a>
+                               </div>
+                           </div>
+                       </div> -->
+                       <div class="form-inner">
+                           <form action="property-details.html" method="post" class="default-form">
+                               <div class="form-group">
+                                   <input type="text" name="name" placeholder="Your name" required="">
+                               </div>
+                               <div class="form-group">
+                                   <input type="email" name="email" placeholder="Your Email" required="">
+                               </div>
+                               <div class="form-group">
+                                   <input type="text" name="phone" placeholder="Phone" required="">
+                               </div>
+                               <div class="form-group">
+                                   <textarea name="message" placeholder="Message"></textarea>
+                               </div>
+                               <div class="form-group message-btn">
+                                   <button type="submit" class="theme-btn btn-one">Send Message</button>
+                               </div>
+                           </form>
+                       </div>
+                   </div>
+               </div>
+           </div>
+           </div>
+           </div>
+       
+   </section>
 <!-- cta-section end -->
 
 @endsection

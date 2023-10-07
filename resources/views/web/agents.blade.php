@@ -4,11 +4,45 @@
         <section class="page-title centred" style="background-image: url({{asset('web-assets/images/background/agents-banner.jpg')}});">
             <div class="auto-container">
                 <div class="content-box clearfix">
-                    <h1>Agents</h1>
-                    <ul class="bread-crumb clearfix">
-                        <li><a href="index.html">Home</a></li>
-                        <li>Agents</li>
-                    </ul>
+                    <h1>Explore Our Agents</h1>
+                    <div class="row clearfix">
+                    <div class="col-lg-12 col-md-12 col-sm-12 sidebar-side">
+                        <div class="default-sidebar agent-sidebar agentlistform">
+                        <div class="agents-search sidebar-widget">
+                                
+                                <div class="search-inner">
+                                    <form action="agents-list.html">
+                                        <div class="form-group">
+                                            <input type="text" name="name" placeholder="Enter Agent Name" required="">
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="select-box">
+                                                <select class="wide">
+                                                   <option data-display="All Categories">All Categories</option>
+                                                   <option value="1">New Arrival</option>
+                                                   <option value="2">Top Rated</option>
+                                                   <option value="3">Most Search</option>
+                                                   <option value="4">Recent Place</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="select-box">
+                                                <select class="wide">
+                                                   <option data-display="All Cities">All Cities</option>
+                                                   <option value="1">New York</option>
+                                                   <option value="2">California</option>
+                                                   <option value="3">London</option>
+                                                   <option value="4">Maxico</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <button class="theme-btn btn-one">Search Agent</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
                 </div>
             </div>
         </section>
@@ -21,7 +55,7 @@
                 <div class="row clearfix">
                     <div class="col-lg-4 col-md-12 col-sm-12 sidebar-side">
                         <div class="default-sidebar agent-sidebar">
-                            <div class="agents-search sidebar-widget">
+                        <!-- <div class="agents-search sidebar-widget">
                                 <div class="widget-title">
                                     <h5>Find Agent</h5>
                                 </div>
@@ -57,7 +91,7 @@
                                         </div>
                                     </form>
                                 </div>
-                            </div>
+                            </div> -->
                             <div class="category-widget sidebar-widget">
                                 <div class="widget-title">
                                     <h5>Status Of Property</h5>
@@ -476,7 +510,30 @@
             </div>
         </section>
         <!-- agents-page-section end -->
+        <section class="section about-location buy-guide area-off">
+    <div class="row">
+        <div class="col-lg-6 property-content property-location">
+            <h2>About Dubai Agents</h2>
+            <h4>Our Top Agents</h4>
+            <div class="line mt-3"></div>
+            <p>If you want to buy off-plan property by Emaar Properties you should know a few things beforehand. For example, Emaar Properties offers frequently great deals in Dubai market.
+                <br><br>
+                Today, Dubai's best areas by Emaar such as Emaar Beachfront, Downtown Dubai and Dubai Hills Estate are considered to be one of the most popular residential, tourist and business destinations.
+                <br><br>
+                Purchasing an off-plan apartment such as Emaar IL Primo comes with many benefits. For a start, off-plan property is cheaper than ready one providing high returns of investments (ROI) too.
+                <br><br>
+                Moreover, Emaar features many attractive offers including easy payment plan, DLD fees waiver or free of service charge.
+                <br><br>
+                In addition, Emaar's off-plan property is a good investment as well, given that the prices of real estate in Dubai remain stable and favorable for buyers and investors.</p>
+            <div class="download-brochure"><a href="index-5.html" class="freebrochure">Get Free Area Guide</a></div>
+        </div>
 
+
+        <div class="col-lg-6 content-image location-name"><img
+                src="{{asset('web-assets/images/resource/agentss.jpg')}}"
+                alt=""></div>
+    </div>
+</section>
 
         <!-- subscribe-section -->
         <section class="subscribe-section bg-color-3">

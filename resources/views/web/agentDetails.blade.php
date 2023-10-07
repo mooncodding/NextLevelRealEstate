@@ -1,21 +1,40 @@
 @extends('webWrapper')
 @section('content')
-
+{{-- 
         <!--Page Title-->
         <section class="page-title agent-detail" style="background-image: url({{asset('web-assets/images/background/agent-details-banner.jpg')}});">
 
-                <div class="content-box clearfix">
-                    <figure class="image-box"><img src="{{asset('web-assets/images/resource/ahadagent.png')}}" alt=""></figure>
-                    
-                </div>
+             
   
         </section>
-        <!--End Page Title-->
+        <!--End Page Title--> --}}
 
 
         <!-- agent-details -->
-      <section class="agent-detailcontent sec-pad">
-
+      <section class="agent-detailcontent sec-pad ">
+        <div class="agent-maindetail">
+<div class="agent-image">
+    <figure class="image-box"><img src="{{asset('web-assets/images/resource/ahadagent.png')}}" alt=""></figure>
+    <div class="main-propertybtn agentcallto">
+       
+        <div class="what-btn">
+            <a href="property-details.html" class="theme-btn btn-two whatcall-btn"><i
+                    class="bi bi-whatsapp">&nbsp;</i>Whatsapp</a>
+        </div>
+        <div class="call-btn">
+            <a href="property-details.html" class="theme-btn btn-two directcall-btn"><i
+                    class="bi bi-telephone-inbound">&nbsp;</i>Call</a>
+        </div>
+        <div class="email-btn">
+            <a href="property-details.html" class="theme-btn btn-two mailinquiry-btn"><i
+                    class="bi bi-envelope-check">&nbsp;</i>Email</a>
+        </div>
+        <div class="btn-box">
+            <a href="property-details.html" class="theme-btn btn-two"> <i class="fa fa-download" aria-hidden="true">&nbsp;</i>Save contacts</a>
+        </div>
+    </div>
+</div>
+<div class="agent-det">
             <h2>Hi 👋,<br>
                 I am <mark>Abdul Ahad Siddiq</mark>,</h2>
                 <h4>I am Property Advisor , I speak English,Serbo-Croatian,Bosnian.</h4>
@@ -29,24 +48,9 @@
             <h4>My Services</h4>
             <h3>Sale, Rent</h3>
         </div>
-        <div class="main-propertybtn agentcallto">
-           
-            <div class="what-btn">
-                <a href="property-details.html" class="theme-btn btn-two whatcall-btn"><i
-                        class="bi bi-whatsapp">&nbsp;</i>Whatsapp</a>
-            </div>
-            <div class="call-btn">
-                <a href="property-details.html" class="theme-btn btn-two directcall-btn"><i
-                        class="bi bi-telephone-inbound">&nbsp;</i>Call</a>
-            </div>
-            <div class="email-btn">
-                <a href="property-details.html" class="theme-btn btn-two mailinquiry-btn"><i
-                        class="bi bi-envelope-check">&nbsp;</i>Email</a>
-            </div>
-            <div class="btn-box">
-                <a href="property-details.html" class="theme-btn btn-two"> <i class="fa fa-download" aria-hidden="true">&nbsp;</i>Save contacts</a>
-            </div>
-        </div>
+    </div>
+    </div>
+     
       </div>
       </section>
         <!-- agent-details end -->
