@@ -5,7 +5,7 @@
  <section class="page-title centred" style="background-image: url({{asset('web-assets/images/resource/career.jpg')}});">
             <div class="auto-container">
                 <div class="content-box clearfix">
-                    <h1><span class="first">JOIN</span><span class="Second"> "sNEXT LEVEL REAL ESTATE"</h1>
+                    <h1><span class="first">JOIN</span><span class="Second"> "NEXT LEVEL REAL ESTATE"</h1>
                 </div>
             </div>
         </section>
