@@ -32,15 +32,15 @@
                             </h5>
                             <div class="top-property">
                                 <div class="what-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two whatcall-btn"><i
+                                    <a href="/propertyDetails" class="theme-btn btn-two whatcall-btn"><i
                                             class="bi bi-whatsapp"></i></a>
                                 </div>
                                 <div class="call-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two directcall-btn"><i
+                                    <a href="/propertyDetails" class="theme-btn btn-two directcall-btn"><i
                                             class="bi bi-telephone-inbound"></i></a>
                                 </div>
                                 <div class="email-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two mailinquiry-btn"><i
+                                    <a href="/propertyDetails" class="theme-btn btn-two mailinquiry-btn"><i
                                             class="bi bi-envelope-check"></i></a>
                                 </div>
                             </div>
@@ -59,15 +59,15 @@
                             </h5>
                             <div class="top-property">
                                 <div class="what-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two whatcall-btn"><i
+                                    <a href="/propertyDetails" class="theme-btn btn-two whatcall-btn"><i
                                             class="bi bi-whatsapp"></i></a>
                                 </div>
                                 <div class="call-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two directcall-btn"><i
+                                    <a href="/propertyDetails" class="theme-btn btn-two directcall-btn"><i
                                             class="bi bi-telephone-inbound"></i></a>
                                 </div>
                                 <div class="email-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two mailinquiry-btn"><i
+                                    <a href="/propertyDetails" class="theme-btn btn-two mailinquiry-btn"><i
                                             class="bi bi-envelope-check"></i></a>
                                 </div>
                             </div>
@@ -87,15 +87,15 @@
                             </h5>
                             <div class="top-property">
                                 <div class="what-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two whatcall-btn"><i
+                                    <a href="/propertyDetails" class="theme-btn btn-two whatcall-btn"><i
                                             class="bi bi-whatsapp"></i></a>
                                 </div>
                                 <div class="call-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two directcall-btn"><i
+                                    <a href="/propertyDetails" class="theme-btn btn-two directcall-btn"><i
                                             class="bi bi-telephone-inbound"></i></a>
                                 </div>
                                 <div class="email-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two mailinquiry-btn"><i
+                                    <a href="/propertyDetails" class="theme-btn btn-two mailinquiry-btn"><i
                                             class="bi bi-envelope-check"></i></a>
                                 </div>
                             </div>
@@ -115,15 +115,15 @@
                             </h5>
                             <div class="top-property">
                                 <div class="what-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two whatcall-btn"><i
+                                    <a href="/propertyDetails" class="theme-btn btn-two whatcall-btn"><i
                                             class="bi bi-whatsapp"></i></a>
                                 </div>
                                 <div class="call-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two directcall-btn"><i
+                                    <a href="/propertyDetails" class="theme-btn btn-two directcall-btn"><i
                                             class="bi bi-telephone-inbound"></i></a>
                                 </div>
                                 <div class="email-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two mailinquiry-btn"><i
+                                    <a href="/propertyDetails" class="theme-btn btn-two mailinquiry-btn"><i
                                             class="bi bi-envelope-check"></i></a>
                                 </div>
                             </div>
@@ -143,15 +143,15 @@
                             </h5>
                             <div class="top-property">
                                 <div class="what-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two whatcall-btn"><i
+                                    <a href="/propertyDetails" class="theme-btn btn-two whatcall-btn"><i
                                             class="bi bi-whatsapp"></i></a>
                                 </div>
                                 <div class="call-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two directcall-btn"><i
+                                    <a href="/propertyDetails" class="theme-btn btn-two directcall-btn"><i
                                             class="bi bi-telephone-inbound"></i></a>
                                 </div>
                                 <div class="email-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two mailinquiry-btn"><i
+                                    <a href="/propertyDetails" class="theme-btn btn-two mailinquiry-btn"><i
                                             class="bi bi-envelope-check"></i></a>
                                 </div>
                             </div>
@@ -171,15 +171,15 @@
                             </h5>
                             <div class="top-property">
                                 <div class="what-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two whatcall-btn"><i
+                                    <a href="/propertyDetails" class="theme-btn btn-two whatcall-btn"><i
                                             class="bi bi-whatsapp"></i></a>
                                 </div>
                                 <div class="call-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two directcall-btn"><i
+                                    <a href="/propertyDetails" class="theme-btn btn-two directcall-btn"><i
                                             class="bi bi-telephone-inbound"></i></a>
                                 </div>
                                 <div class="email-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two mailinquiry-btn"><i
+                                    <a href="/propertyDetails" class="theme-btn btn-two mailinquiry-btn"><i
                                             class="bi bi-envelope-check"></i></a>
                                 </div>
                             </div>
@@ -199,15 +199,15 @@
                             </h5>
                             <div class="top-property">
                                 <div class="what-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two whatcall-btn"><i
+                                    <a href="/propertyDetails" class="theme-btn btn-two whatcall-btn"><i
                                             class="bi bi-whatsapp"></i></a>
                                 </div>
                                 <div class="call-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two directcall-btn"><i
+                                    <a href="/propertyDetails" class="theme-btn btn-two directcall-btn"><i
                                             class="bi bi-telephone-inbound"></i></a>
                                 </div>
                                 <div class="email-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two mailinquiry-btn"><i
+                                    <a href="/propertyDetails" class="theme-btn btn-two mailinquiry-btn"><i
                                             class="bi bi-envelope-check"></i></a>
                                 </div>
                             </div>
@@ -227,15 +227,15 @@
                             </h5>
                             <div class="top-property">
                                 <div class="what-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two whatcall-btn"><i
+                                    <a href="/propertyDetails" class="theme-btn btn-two whatcall-btn"><i
                                             class="bi bi-whatsapp"></i></a>
                                 </div>
                                 <div class="call-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two directcall-btn"><i
+                                    <a href="/propertyDetails" class="theme-btn btn-two directcall-btn"><i
                                             class="bi bi-telephone-inbound"></i></a>
                                 </div>
                                 <div class="email-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two mailinquiry-btn"><i
+                                    <a href="/propertyDetails" class="theme-btn btn-two mailinquiry-btn"><i
                                             class="bi bi-envelope-check"></i></a>
                                 </div>
                             </div>
@@ -255,15 +255,15 @@
                             </h5>
                             <div class="top-property">
                                 <div class="what-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two whatcall-btn"><i
+                                    <a href="/propertyDetails" class="theme-btn btn-two whatcall-btn"><i
                                             class="bi bi-whatsapp"></i></a>
                                 </div>
                                 <div class="call-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two directcall-btn"><i
+                                    <a href="/propertyDetails" class="theme-btn btn-two directcall-btn"><i
                                             class="bi bi-telephone-inbound"></i></a>
                                 </div>
                                 <div class="email-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two mailinquiry-btn"><i
+                                    <a href="/propertyDetails" class="theme-btn btn-two mailinquiry-btn"><i
                                             class="bi bi-envelope-check"></i></a>
                                 </div>
                             </div>
@@ -283,15 +283,15 @@
                             </h5>
                             <div class="top-property">
                                 <div class="what-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two whatcall-btn"><i
+                                    <a href="/propertyDetails" class="theme-btn btn-two whatcall-btn"><i
                                             class="bi bi-whatsapp"></i></a>
                                 </div>
                                 <div class="call-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two directcall-btn"><i
+                                    <a href="/propertyDetails" class="theme-btn btn-two directcall-btn"><i
                                             class="bi bi-telephone-inbound"></i></a>
                                 </div>
                                 <div class="email-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two mailinquiry-btn"><i
+                                    <a href="/propertyDetails" class="theme-btn btn-two mailinquiry-btn"><i
                                             class="bi bi-envelope-check"></i></a>
                                 </div>
                             </div>
@@ -1479,8 +1479,8 @@
                                 <h5>Status Of Property</h5>
                             </div>
                             <ul class="category-list clearfix">
-                                <li><a href="property-details.html">For Rent <span>(200)</span></a></li>
-                                <li><a href="property-details.html">For Sale <span>(700)</span></a></li>
+                                <li><a href="/propertyDetails">For Rent <span>(200)</span></a></li>
+                                <li><a href="/propertyDetails">For Sale <span>(700)</span></a></li>
                             </ul>
                         </div>
                         <div class="category-widget sidebar-widget">
@@ -1488,16 +1488,16 @@
                                 <h5>Amenities</h5>
                             </div>
                             <ul class="category-list clearfix">
-                                <li><a href="property-details.html">Air Conditioning <span>(17)</span></a></li>
-                                <li><a href="property-details.html">Central Heating <span>(4)</span></a></li>
-                                <li><a href="property-details.html">Cleaning Service <span>(12)</span></a></li>
-                                <li><a href="property-details.html">Dining Room <span>(8)</span></a></li>
-                                <li><a href="property-details.html">Dishwasher <span>(5)</span></a></li>
-                                <li><a href="property-details.html">Dishwasher <span>(2)</span></a></li>
-                                <li><a href="property-details.html">Family Room <span>(19)</span></a></li>
-                                <li><a href="property-details.html">Onsite Parking <span>(11)</span></a></li>
-                                <li><a href="property-details.html">Fireplace <span>(7)</span></a></li>
-                                <li><a href="property-details.html">Hardwood Flows <span>(9)</span></a></li>
+                                <li><a href="/propertyDetails">Air Conditioning <span>(17)</span></a></li>
+                                <li><a href="/propertyDetails">Central Heating <span>(4)</span></a></li>
+                                <li><a href="/propertyDetails">Cleaning Service <span>(12)</span></a></li>
+                                <li><a href="/propertyDetails">Dining Room <span>(8)</span></a></li>
+                                <li><a href="/propertyDetails">Dishwasher <span>(5)</span></a></li>
+                                <li><a href="/propertyDetails">Dishwasher <span>(2)</span></a></li>
+                                <li><a href="/propertyDetails">Family Room <span>(19)</span></a></li>
+                                <li><a href="/propertyDetails">Onsite Parking <span>(11)</span></a></li>
+                                <li><a href="/propertyDetails">Fireplace <span>(7)</span></a></li>
+                                <li><a href="/propertyDetails">Hardwood Flows <span>(9)</span></a></li>
                             </ul>
                         </div>
                     </div> --}}
@@ -1514,7 +1514,7 @@
                                         <span class="category">Featured</span>
                                     </div>
                                     <div class="lower-content">
-                                        <div class="title-text"><h4><a href="property-details.html">Villa on Grand Avenue</a></h4></div>
+                                        <div class="title-text"><h4><a href="/propertyDetails">Villa on Grand Avenue</a></h4></div>
                                         <div class="price-box clearfix">
                                             <div class="price-info">
                                                 <h6>Start From</h6>
@@ -1522,7 +1522,7 @@
                                             </div>
                                         </div>
                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing sed.</p>
-                                        <div class="btn-box"><a href="property-details.html" class="theme-btn btn-two">See Details</a></div>
+                                        <div class="btn-box"><a href="/propertyDetails" class="theme-btn btn-two">See Details</a></div>
                                     </div>
                                 </div>
                             </div>
@@ -1534,7 +1534,7 @@
                                         <span class="category">Featured</span>
                                     </div>
                                     <div class="lower-content">
-                                        <div class="title-text"><h4><a href="property-details.html">Contemporary Apartment</a></h4></div>
+                                        <div class="title-text"><h4><a href="/propertyDetails">Contemporary Apartment</a></h4></div>
                                         <div class="price-box clearfix">
                                             <div class="price-info">
                                                 <h6>Start From</h6>
@@ -1542,7 +1542,7 @@
                                             </div>
                                         </div>
                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing sed.</p>
-                                        <div class="btn-box"><a href="property-details.html" class="theme-btn btn-two">See Details</a></div>
+                                        <div class="btn-box"><a href="/propertyDetails" class="theme-btn btn-two">See Details</a></div>
                                     </div>
                                 </div>
                             </div>
@@ -1554,7 +1554,7 @@
                                         <span class="category">Featured</span>
                                     </div>
                                     <div class="lower-content">
-                                        <div class="title-text"><h4><a href="property-details.html">Luxury Villa With Pool</a></h4></div>
+                                        <div class="title-text"><h4><a href="/propertyDetails">Luxury Villa With Pool</a></h4></div>
                                         <div class="price-box clearfix">
                                             <div class="price-info">
                                                 <h6>Start From</h6>
@@ -1562,7 +1562,7 @@
                                             </div>
                                         </div>
                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing sed.</p>
-                                        <div class="btn-box"><a href="property-details.html" class="theme-btn btn-two">See Details</a></div>
+                                        <div class="btn-box"><a href="/propertyDetails" class="theme-btn btn-two">See Details</a></div>
                                     </div>
                                 </div>
                             </div>
@@ -1601,10 +1601,10 @@
                                             <figure class="image"><img src="{{asset('web-assets/images/resource/image1.jpg')}}" alt=""></figure>
                                             <div class="batch"><i class="icon-11"></i></div>
                                             <span class="category">Featured</span>
-                                            <div class="buy-btn"><a href="property-details.html">For Buy</a></div>
+                                            <div class="buy-btn"><a href="/propertyDetails">For Buy</a></div>
                                         </div>
                                         <div class="lower-content">
-                                            <div class="title-text"><h4><a href="property-details.html">Villa on Grand Avenue</a></h4></div>
+                                            <div class="title-text"><h4><a href="/propertyDetails">Villa on Grand Avenue</a></h4></div>
                                             <div class="price-box clearfix">
                                                 <div class="price-info pull-left">
                                                     <h6>Start From</h6>
@@ -1624,10 +1624,10 @@
                                                 <li><i class="icon-16"></i>600 Sq Ft</li>
                                             </ul>
                                             <div class="other-info-box clearfix">
-                                                <div class="btn-box pull-left"><a href="property-details.html" class="theme-btn btn-two">See Details</a></div>
+                                                <div class="btn-box pull-left"><a href="/propertyDetails" class="theme-btn btn-two">See Details</a></div>
                                                 <ul class="other-option pull-right clearfix">
-                                                    <li><a href="property-details.html"><i class="icon-12"></i></a></li>
-                                                    <li><a href="property-details.html"><i class="icon-13"></i></a></li>
+                                                    <li><a href="/propertyDetails"><i class="icon-12"></i></a></li>
+                                                    <li><a href="/propertyDetails"><i class="icon-13"></i></a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1639,10 +1639,10 @@
                                             <figure class="image"><img src="{{asset('web-assets/images/resource/image2.jpg')}}" alt=""></figure>
                                             <div class="batch"><i class="icon-11"></i></div>
                                             <span class="category">Featured</span>
-                                            <div class="buy-btn"><a href="property-details.html">For Buy</a></div>
+                                            <div class="buy-btn"><a href="/propertyDetails">For Buy</a></div>
                                         </div>
                                         <div class="lower-content">
-                                            <div class="title-text"><h4><a href="property-details.html">Contemporary Apartment</a></h4></div>
+                                            <div class="title-text"><h4><a href="/propertyDetails">Contemporary Apartment</a></h4></div>
                                             <div class="price-box clearfix">
                                                 <div class="price-info pull-left">
                                                     <h6>Start From</h6>
@@ -1662,10 +1662,10 @@
                                                 <li><i class="icon-16"></i>600 Sq Ft</li>
                                             </ul>
                                             <div class="other-info-box clearfix">
-                                                <div class="btn-box pull-left"><a href="property-details.html" class="theme-btn btn-two">See Details</a></div>
+                                                <div class="btn-box pull-left"><a href="/propertyDetails" class="theme-btn btn-two">See Details</a></div>
                                                 <ul class="other-option pull-right clearfix">
-                                                    <li><a href="property-details.html"><i class="icon-12"></i></a></li>
-                                                    <li><a href="property-details.html"><i class="icon-13"></i></a></li>
+                                                    <li><a href="/propertyDetails"><i class="icon-12"></i></a></li>
+                                                    <li><a href="/propertyDetails"><i class="icon-13"></i></a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1677,10 +1677,10 @@
                                             <figure class="image"><img src="{{asset('web-assets/images/resource/image3.jpg')}}" alt=""></figure>
                                             <div class="batch"><i class="icon-11"></i></div>
                                             <span class="category">Featured</span>
-                                            <div class="buy-btn"><a href="property-details.html">For Buy</a></div>
+                                            <div class="buy-btn"><a href="/propertyDetails">For Buy</a></div>
                                         </div>
                                         <div class="lower-content">
-                                            <div class="title-text"><h4><a href="property-details.html">Luxury Villa With Pool</a></h4></div>
+                                            <div class="title-text"><h4><a href="/propertyDetails">Luxury Villa With Pool</a></h4></div>
                                             <div class="price-box clearfix">
                                                 <div class="price-info pull-left">
                                                     <h6>Start From</h6>
@@ -1700,10 +1700,10 @@
                                                 <li><i class="icon-16"></i>600 Sq Ft</li>
                                             </ul>
                                             <div class="other-info-box clearfix">
-                                                <div class="btn-box pull-left"><a href="property-details.html" class="theme-btn btn-two">See Details</a></div>
+                                                <div class="btn-box pull-left"><a href="/propertyDetails" class="theme-btn btn-two">See Details</a></div>
                                                 <ul class="other-option pull-right clearfix">
-                                                    <li><a href="property-details.html"><i class="icon-12"></i></a></li>
-                                                    <li><a href="property-details.html"><i class="icon-13"></i></a></li>
+                                                    <li><a href="/propertyDetails"><i class="icon-12"></i></a></li>
+                                                    <li><a href="/propertyDetails"><i class="icon-13"></i></a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1715,10 +1715,10 @@
                                             <figure class="image"><img src="{{asset('web-assets/images/resource/image4.jpg')}}" alt=""></figure>
                                             <div class="batch"><i class="icon-11"></i></div>
                                             <span class="category">Featured</span>
-                                            <div class="buy-btn"><a href="property-details.html">For Buy</a></div>
+                                            <div class="buy-btn"><a href="/propertyDetails">For Buy</a></div>
                                         </div>
                                         <div class="lower-content">
-                                            <div class="title-text"><h4><a href="property-details.html">Apartment in Glasgow</a></h4></div>
+                                            <div class="title-text"><h4><a href="/propertyDetails">Apartment in Glasgow</a></h4></div>
                                             <div class="price-box clearfix">
                                                 <div class="price-info pull-left">
                                                     <h6>Start From</h6>
@@ -1738,10 +1738,10 @@
                                                 <li><i class="icon-16"></i>600 Sq Ft</li>
                                             </ul>
                                             <div class="other-info-box clearfix">
-                                                <div class="btn-box pull-left"><a href="property-details.html" class="theme-btn btn-two">See Details</a></div>
+                                                <div class="btn-box pull-left"><a href="/propertyDetails" class="theme-btn btn-two">See Details</a></div>
                                                 <ul class="other-option pull-right clearfix">
-                                                    <li><a href="property-details.html"><i class="icon-12"></i></a></li>
-                                                    <li><a href="property-details.html"><i class="icon-13"></i></a></li>
+                                                    <li><a href="/propertyDetails"><i class="icon-12"></i></a></li>
+                                                    <li><a href="/propertyDetails"><i class="icon-13"></i></a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1753,10 +1753,10 @@
                                             <figure class="image"><img src="{{asset('web-assets/images/resource/image5.jpg')}}" alt=""></figure>
                                             <div class="batch"><i class="icon-11"></i></div>
                                             <span class="category">Featured</span>
-                                            <div class="buy-btn"><a href="property-details.html">For Buy</a></div>
+                                            <div class="buy-btn"><a href="/propertyDetails">For Buy</a></div>
                                         </div>
                                         <div class="lower-content">
-                                            <div class="title-text"><h4><a href="property-details.html">Family Home For Sale</a></h4></div>
+                                            <div class="title-text"><h4><a href="/propertyDetails">Family Home For Sale</a></h4></div>
                                             <div class="price-box clearfix">
                                                 <div class="price-info pull-left">
                                                     <h6>Start From</h6>
@@ -1776,10 +1776,10 @@
                                                 <li><i class="icon-16"></i>600 Sq Ft</li>
                                             </ul>
                                             <div class="other-info-box clearfix">
-                                                <div class="btn-box pull-left"><a href="property-details.html" class="theme-btn btn-two">See Details</a></div>
+                                                <div class="btn-box pull-left"><a href="/propertyDetails" class="theme-btn btn-two">See Details</a></div>
                                                 <ul class="other-option pull-right clearfix">
-                                                    <li><a href="property-details.html"><i class="icon-12"></i></a></li>
-                                                    <li><a href="property-details.html"><i class="icon-13"></i></a></li>
+                                                    <li><a href="/propertyDetails"><i class="icon-12"></i></a></li>
+                                                    <li><a href="/propertyDetails"><i class="icon-13"></i></a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1802,17 +1802,17 @@
                                                             <figure class="author-thumb"><img src="{{asset('web-assets/images/feature/author-1.jpg')}}" alt=""></figure>
                                                             <h6>Michael Bean</h6>
                                                         </div>
-                                                        <div class="buy-btn pull-right"><a href="property-details.html">For Buy</a></div>
+                                                        <div class="buy-btn pull-right"><a href="/propertyDetails">For Buy</a></div>
                                                     </div>
-                                                    <div class="title-text"><h4><a href="property-details.html">Villa on Grand Avenue</a></h4></div>
+                                                    <div class="title-text"><h4><a href="/propertyDetails">Villa on Grand Avenue</a></h4></div>
                                                     <div class="price-box clearfix">
                                                         <div class="price-info pull-left">
                                                             <h6>Start From</h6>
                                                             <h4>$30,000.00</h4>
                                                         </div>
                                                         <ul class="other-option pull-right clearfix">
-                                                            <li><a href="property-details.html"><i class="icon-12"></i></a></li>
-                                                            <li><a href="property-details.html"><i class="icon-13"></i></a></li>
+                                                            <li><a href="/propertyDetails"><i class="icon-12"></i></a></li>
+                                                            <li><a href="/propertyDetails"><i class="icon-13"></i></a></li>
                                                         </ul>
                                                     </div>
                                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing sed.</p>
@@ -1821,7 +1821,7 @@
                                                         <li><i class="icon-15"></i>2 Baths</li>
                                                         <li><i class="icon-16"></i>600 Sq Ft</li>
                                                     </ul>
-                                                    <div class="btn-box"><a href="property-details.html" class="theme-btn btn-two">See Details</a></div>
+                                                    <div class="btn-box"><a href="/propertyDetails" class="theme-btn btn-two">See Details</a></div>
                                                 </div>
                                             </div>
                                         </div>
@@ -1840,17 +1840,17 @@
                                                             <figure class="author-thumb"><img src="{{asset('web-assets/images/feature/author-2.jpg')}}" alt=""></figure>
                                                             <h6>Robert Niro</h6>
                                                         </div>
-                                                        <div class="buy-btn pull-right"><a href="property-details.html">For Rent</a></div>
+                                                        <div class="buy-btn pull-right"><a href="/propertyDetails">For Rent</a></div>
                                                     </div>
-                                                    <div class="title-text"><h4><a href="property-details.html">Contemporary Apartment</a></h4></div>
+                                                    <div class="title-text"><h4><a href="/propertyDetails">Contemporary Apartment</a></h4></div>
                                                     <div class="price-box clearfix">
                                                         <div class="price-info pull-left">
                                                             <h6>Start From</h6>
                                                             <h4>$45,000.00</h4>
                                                         </div>
                                                         <ul class="other-option pull-right clearfix">
-                                                            <li><a href="property-details.html"><i class="icon-12"></i></a></li>
-                                                            <li><a href="property-details.html"><i class="icon-13"></i></a></li>
+                                                            <li><a href="/propertyDetails"><i class="icon-12"></i></a></li>
+                                                            <li><a href="/propertyDetails"><i class="icon-13"></i></a></li>
                                                         </ul>
                                                     </div>
                                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing sed.</p>
@@ -1859,7 +1859,7 @@
                                                         <li><i class="icon-15"></i>2 Baths</li>
                                                         <li><i class="icon-16"></i>600 Sq Ft</li>
                                                     </ul>
-                                                    <div class="btn-box"><a href="property-details.html" class="theme-btn btn-two">See Details</a></div>
+                                                    <div class="btn-box"><a href="/propertyDetails" class="theme-btn btn-two">See Details</a></div>
                                                 </div>
                                             </div>
                                         </div>
@@ -1878,17 +1878,17 @@
                                                             <figure class="author-thumb"><img src="{{asset('web-assets/images/feature/author-3.jpg')}}" alt=""></figure>
                                                             <h6>Keira Mel</h6>
                                                         </div>
-                                                        <div class="buy-btn pull-right"><a href="property-details.html">Sold Out</a></div>
+                                                        <div class="buy-btn pull-right"><a href="/propertyDetails">Sold Out</a></div>
                                                     </div>
-                                                    <div class="title-text"><h4><a href="property-details.html">Luxury Villa With Pool</a></h4></div>
+                                                    <div class="title-text"><h4><a href="/propertyDetails">Luxury Villa With Pool</a></h4></div>
                                                     <div class="price-box clearfix">
                                                         <div class="price-info pull-left">
                                                             <h6>Start From</h6>
                                                             <h4>$63,000.00</h4>
                                                         </div>
                                                         <ul class="other-option pull-right clearfix">
-                                                            <li><a href="property-details.html"><i class="icon-12"></i></a></li>
-                                                            <li><a href="property-details.html"><i class="icon-13"></i></a></li>
+                                                            <li><a href="/propertyDetails"><i class="icon-12"></i></a></li>
+                                                            <li><a href="/propertyDetails"><i class="icon-13"></i></a></li>
                                                         </ul>
                                                     </div>
                                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing sed.</p>
@@ -1897,7 +1897,7 @@
                                                         <li><i class="icon-15"></i>2 Baths</li>
                                                         <li><i class="icon-16"></i>600 Sq Ft</li>
                                                     </ul>
-                                                    <div class="btn-box"><a href="property-details.html" class="theme-btn btn-two">See Details</a></div>
+                                                    <div class="btn-box"><a href="/propertyDetails" class="theme-btn btn-two">See Details</a></div>
                                                 </div>
                                             </div>
                                         </div>
@@ -1916,17 +1916,17 @@
                                                             <figure class="author-thumb"><img src="{{asset('web-assets/images/feature/author-1.jpg')}}" alt=""></figure>
                                                             <h6>Michael Bean</h6>
                                                         </div>
-                                                        <div class="buy-btn pull-right"><a href="property-details.html">For Buy</a></div>
+                                                        <div class="buy-btn pull-right"><a href="/propertyDetails">For Buy</a></div>
                                                     </div>
-                                                    <div class="title-text"><h4><a href="property-details.html">Home in Merrick Way</a></h4></div>
+                                                    <div class="title-text"><h4><a href="/propertyDetails">Home in Merrick Way</a></h4></div>
                                                     <div class="price-box clearfix">
                                                         <div class="price-info pull-left">
                                                             <h6>Start From</h6>
                                                             <h4>$30,000.00</h4>
                                                         </div>
                                                         <ul class="other-option pull-right clearfix">
-                                                            <li><a href="property-details.html"><i class="icon-12"></i></a></li>
-                                                            <li><a href="property-details.html"><i class="icon-13"></i></a></li>
+                                                            <li><a href="/propertyDetails"><i class="icon-12"></i></a></li>
+                                                            <li><a href="/propertyDetails"><i class="icon-13"></i></a></li>
                                                         </ul>
                                                     </div>
                                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing sed.</p>
@@ -1935,7 +1935,7 @@
                                                         <li><i class="icon-15"></i>2 Baths</li>
                                                         <li><i class="icon-16"></i>600 Sq Ft</li>
                                                     </ul>
-                                                    <div class="btn-box"><a href="property-details.html" class="theme-btn btn-two">See Details</a></div>
+                                                    <div class="btn-box"><a href="/propertyDetails" class="theme-btn btn-two">See Details</a></div>
                                                 </div>
                                             </div>
                                         </div>
@@ -1954,17 +1954,17 @@
                                                             <figure class="author-thumb"><img src="{{asset('web-assets/images/feature/author-2.jpg')}}" alt=""></figure>
                                                             <h6>Robert Niro</h6>
                                                         </div>
-                                                        <div class="buy-btn pull-right"><a href="property-details.html">For Rent</a></div>
+                                                        <div class="buy-btn pull-right"><a href="/propertyDetails">For Rent</a></div>
                                                     </div>
-                                                    <div class="title-text"><h4><a href="property-details.html">Apartment in Glasgow</a></h4></div>
+                                                    <div class="title-text"><h4><a href="/propertyDetails">Apartment in Glasgow</a></h4></div>
                                                     <div class="price-box clearfix">
                                                         <div class="price-info pull-left">
                                                             <h6>Start From</h6>
                                                             <h4>$45,000.00</h4>
                                                         </div>
                                                         <ul class="other-option pull-right clearfix">
-                                                            <li><a href="property-details.html"><i class="icon-12"></i></a></li>
-                                                            <li><a href="property-details.html"><i class="icon-13"></i></a></li>
+                                                            <li><a href="/propertyDetails"><i class="icon-12"></i></a></li>
+                                                            <li><a href="/propertyDetails"><i class="icon-13"></i></a></li>
                                                         </ul>
                                                     </div>
                                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing sed.</p>
@@ -1973,7 +1973,7 @@
                                                         <li><i class="icon-15"></i>2 Baths</li>
                                                         <li><i class="icon-16"></i>600 Sq Ft</li>
                                                     </ul>
-                                                    <div class="btn-box"><a href="property-details.html" class="theme-btn btn-two">See Details</a></div>
+                                                    <div class="btn-box"><a href="/propertyDetails" class="theme-btn btn-two">See Details</a></div>
                                                 </div>
                                             </div>
                                         </div>
@@ -1992,17 +1992,17 @@
                                                             <figure class="author-thumb"><img src="{{asset('web-assets/images/feature/author-3.jpg')}}" alt=""></figure>
                                                             <h6>Keira Mel</h6>
                                                         </div>
-                                                        <div class="buy-btn pull-right"><a href="property-details.html">Sold Out</a></div>
+                                                        <div class="buy-btn pull-right"><a href="/propertyDetails">Sold Out</a></div>
                                                     </div>
-                                                    <div class="title-text"><h4><a href="property-details.html">Family Home For Sale</a></h4></div>
+                                                    <div class="title-text"><h4><a href="/propertyDetails">Family Home For Sale</a></h4></div>
                                                     <div class="price-box clearfix">
                                                         <div class="price-info pull-left">
                                                             <h6>Start From</h6>
                                                             <h4>$63,000.00</h4>
                                                         </div>
                                                         <ul class="other-option pull-right clearfix">
-                                                            <li><a href="property-details.html"><i class="icon-12"></i></a></li>
-                                                            <li><a href="property-details.html"><i class="icon-13"></i></a></li>
+                                                            <li><a href="/propertyDetails"><i class="icon-12"></i></a></li>
+                                                            <li><a href="/propertyDetails"><i class="icon-13"></i></a></li>
                                                         </ul>
                                                     </div>
                                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing sed.</p>
@@ -2011,7 +2011,7 @@
                                                         <li><i class="icon-15"></i>2 Baths</li>
                                                         <li><i class="icon-16"></i>600 Sq Ft</li>
                                                     </ul>
-                                                    <div class="btn-box"><a href="property-details.html" class="theme-btn btn-two">See Details</a></div>
+                                                    <div class="btn-box"><a href="/propertyDetails" class="theme-btn btn-two">See Details</a></div>
                                                 </div>
                                             </div>
                                         </div>
@@ -2137,17 +2137,17 @@
                                     width="70"></figure>
                             <div class="inner">
                                 <h4>Get More About Property <br>From Property expert  </h4>
-                                <div class="btn-box"><a href="property-details.html"
+                                <div class="btn-box"><a href="/propertyDetails"
                                     class="theme-btn btn-two">View Profile</a></div>
                                 <div class="main-propertybtn">
                                    
-                                    <div class="what-btn"><a href="property-details.html"
+                                    <div class="what-btn"><a href="/propertyDetails"
                                             class="theme-btn btn-two whatcall-btn"><i
                                                 class="bi bi-whatsapp"></i></a></div>
-                                    <div class="call-btn"><a href="property-details.html"
+                                    <div class="call-btn"><a href="/propertyDetails"
                                             class="theme-btn btn-two directcall-btn"><i
                                                 class="bi bi-telephone-inbound"></i></a></div>
-                                    <div class="email-btn"><a href="property-details.html"
+                                    <div class="email-btn"><a href="/propertyDetails"
                                             class="theme-btn btn-two mailinquiry-btn"><i
                                                 class="bi bi-envelope-check"></i></a></div>
                                 </div>
@@ -2383,7 +2383,7 @@ Bring Tenants On Your Property With Occupancy Rates Of 96% On Average</p>
                         </div>
                     </div> -->
                     <div class="form-inner">
-                        <form action="property-details.html" method="post" class="default-form">
+                        <form action="/propertyDetails" method="post" class="default-form">
                             <div class="form-group">
                                 <input type="text" name="name" placeholder="Your name" required="">
                             </div>

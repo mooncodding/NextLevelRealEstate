@@ -52,14 +52,14 @@ class ProjectController extends Controller
         if(auth()->user()->can('create_project')){
             $this->validate($request, [
                 'title'=>'required|string|max:64',
-                'starting_price'=>'required',
+                // 'starting_price'=>'required',
                 'featured_image'=>'required',
-                'developer_id'=>'required',
-                'property_status_id'=>'required',
-                'property_document_id'=>'required',
-                'property_type_id'=>'required',
+                // 'developer_id'=>'required',
+                // 'property_status_id'=>'required',
+                // 'property_document_id'=>'required',
+                // 'property_type_id'=>'required',
                 'date_time'=>'required',
-                'address'=>'required',
+                // 'address'=>'required',
                 'latitude'=>'nullable',
                 'longitude'=>'nullable',
                 'description'=>'required',
@@ -74,40 +74,40 @@ class ProjectController extends Controller
 
             $projects = new Project();
             $projects->title=$request->title;
-            $projects->starting_price=$request->starting_price;
+            $projects->starting_price=4;
             $projects->featured_image=$name;
-            $projects->developer_id = $request->developer_id;
-            $projects->property_status_id = $request->property_status_id;
+            $projects->developer_id = 1;
+            $projects->property_status_id = 1;
             $projects->date_time = Carbon::parse($request->date_time)->toDateTimeString();
-            $projects->address = $request->address;
+            $projects->address = 'sdf';
             $projects->latitude = $request->latitude;
             $projects->longitude = $request->longitude;
-            $projects->description = $request->description;
+            $projects->description = 'af';
             $projects->created_by = Auth::user()->id;
             $projects->created_at = Carbon::now();
             $projects->save();
             if ($projects) {
                 // Save Multiple Project Categories
-                if (count($request->project_type_id) > 0) {
-                    foreach ($request->project_type_id as  $value) {
-                        $projectTypes = new ProjectType();
-                        $projectTypes->project_id = $projects->id;
-                        $projectTypes->property_type_id = $value['id'];
-                        $projectTypes->created_at = Carbon::now();
-                        $projectTypes->save();
-                    }
-                }
-                // Save Multiple Project Tags
-                if (count($request->project_document_id) > 0) {
-                    foreach ($request->project_document_id as  $value) {
-                        $projectDocuments = new ProjectDocument();
-                        $projectDocuments->title = $value['title'];
-                        $projectDocuments->file = $value['file'];
-                        $projectDocuments->project_id = $projects->id;
-                        $projectDocuments->created_at = Carbon::now();
-                        $projectDocuments->save();
-                    }
-                }
+                // if (count($request->project_type_id) > 0) {
+                //     foreach ($request->project_type_id as  $value) {
+                //         $projectTypes = new ProjectType();
+                //         $projectTypes->project_id = $projects->id;
+                //         $projectTypes->property_type_id = $value['id'];
+                //         $projectTypes->created_at = Carbon::now();
+                //         $projectTypes->save();
+                //     }
+                // }
+                // // Save Multiple Project Tags
+                // if (count($request->project_document_id) > 0) {
+                //     foreach ($request->project_document_id as  $value) {
+                //         $projectDocuments = new ProjectDocument();
+                //         $projectDocuments->title = $value['title'];
+                //         $projectDocuments->file = $value['file'];
+                //         $projectDocuments->project_id = $projects->id;
+                //         $projectDocuments->created_at = Carbon::now();
+                //         $projectDocuments->save();
+                //     }
+                // }
                 // Save Multiple Images
                 if ($request->secondary_images) {
                     foreach ($request->secondary_images as $value) {

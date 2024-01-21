@@ -43,7 +43,7 @@
                                     <a href="index-5.html" class="theme-btn btn-three banner-btn">Request A Property Appraisal</a>
                                 </div>
                                 <div class="property-view">
-                                    <a href="contact.html" class="theme-btn btn-one">Contact With Me</a>
+                                    <a href="/contact" class="theme-btn btn-one">Contact With Me</a>
                                 </div>
                             </div>
                         </div>
@@ -52,7 +52,7 @@
                         {{-- <div class="form-inner banner-form">
                         <h3>Get a free Consultaion</h3>
                         <h4>Book your Dream in palm Jebel Ali</h4>
-                        <form action="property-details.html" method="post" class="default-form">
+                        <form action="#" method="post" class="default-form">
                             <div class="form-group">
                                 <input type="text" name="name" placeholder="Your name" required="">
                             </div>
@@ -108,7 +108,7 @@
                                     <a href="index-5.html" class="theme-btn btn-three banner-btn">Request A Property Appraisal</a>
                                 </div>
                                 <div class="property-view">
-                                    <a href="contact.html" class="theme-btn btn-one">Contact With Me</a>
+                                    <a href="/contact" class="theme-btn btn-one">Contact With Me</a>
                                 </div>
                             </div>
                         </div>
@@ -155,7 +155,7 @@
                                     <a href="index-5.html" class="theme-btn btn-three banner-btn">Request A Property Appraisal</a>
                                 </div>
                                 <div class="property-view">
-                                    <a href="contact.html" class="theme-btn btn-one">Contact With Me</a>
+                                    <a href="/contact" class="theme-btn btn-one">Contact With Me</a>
                                 </div>
                             </div>
                         </div>
@@ -754,7 +754,7 @@
                                             src="{{asset('web-assets/images/feature/author-2.jpg')}}" alt=""></figure>
                                     <h6>Emaar</h6>
                                 </div>
-                                <div class="buy-btn pull-right"><a href="property-details.html">Off plan</a></div>
+                                <div class="buy-btn pull-right"><a href="#">Off plan</a></div>
                             </div>
                             <div class="title-text">
                                 <h4><a href="/propertyDetails">Villa on Grand Avenue</a></h4>
@@ -765,8 +765,8 @@
                                     <h4>AED 30,000.00</h4>
                                 </div>
                                 <ul class="other-option pull-right clearfix">
-                                    <li><a href="property-details.html"><i class="icon-12"></i></a></li>
-                                    <li><a href="property-details.html"><i class="icon-13"></i></a></li>
+                                    <li><a href="#"><i class="icon-12"></i></a></li>
+                                    <li><a href="#"><i class="icon-13"></i></a></li>
                                 </ul>
                             </div>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing sed.</p>
@@ -777,19 +777,19 @@
                             </ul>
                             <div class="main-propertybtn">
                                 <div class="btn-box">
-                                    <a href="property-details.html" class="theme-btn btn-two">See
+                                    <a href="/propertyDetails" class="theme-btn btn-two">See
                                         Details</a>
                                 </div>
                                 <div class="what-btn">
-                                    <a href="property-details.html" class="theme-btn btn-two whatcall-btn"><i
+                                    <a href="#" class="theme-btn btn-two whatcall-btn"><i
                                             class="bi bi-whatsapp"></i></a>
                                 </div>
                                 <div class="call-btn">
-                                    <a href="property-details.html" class="theme-btn btn-two directcall-btn"><i
+                                    <a href="#" class="theme-btn btn-two directcall-btn"><i
                                             class="bi bi-telephone-inbound"></i></a>
                                 </div>
                                 <div class="email-btn">
-                                    <a href="property-details.html" class="theme-btn btn-two mailinquiry-btn"><i
+                                    <a href="#" class="theme-btn btn-two mailinquiry-btn"><i
                                             class="bi bi-envelope-check"></i></a>
                                 </div>
                             </div>
@@ -814,7 +814,7 @@
                                             src="{{asset('web-assets/images/feature/author-2.jpg')}}" alt=""></figure>
                                     <h6>Emaar</h6>
                                 </div>
-                                <div class="buy-btn pull-right"><a href="property-details.html">Off plan</a></div>
+                                <div class="buy-btn pull-right"><a href="#">Off plan</a></div>
                             </div>
                             <div class="title-text">
                                 <h4><a href="/propertyDetails">Contemporary Apartment</a></h4>
@@ -825,8 +825,8 @@
                                     <h4>AED 45,000.00</h4>
                                 </div>
                                 <ul class="other-option pull-right clearfix">
-                                    <li><a href="property-details.html"><i class="icon-12"></i></a></li>
-                                    <li><a href="property-details.html"><i class="icon-13"></i></a></li>
+                                    <li><a href="#"><i class="icon-12"></i></a></li>
+                                    <li><a href="#"><i class="icon-13"></i></a></li>
                                 </ul>
                             </div>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing sed.</p>
@@ -837,19 +837,19 @@
                             </ul>
                             <div class="main-propertybtn">
                                 <div class="btn-box">
-                                    <a href="property-details.html" class="theme-btn btn-two">See
+                                    <a href="/propertyDetails" class="theme-btn btn-two">See
                                         Details</a>
                                 </div>
                                 <div class="what-btn">
-                                    <a href="property-details.html" class="theme-btn btn-two whatcall-btn"><i
+                                    <a href="#" class="theme-btn btn-two whatcall-btn"><i
                                             class="bi bi-whatsapp"></i></a>
                                 </div>
                                 <div class="call-btn">
-                                    <a href="property-details.html" class="theme-btn btn-two directcall-btn"><i
+                                    <a href="#" class="theme-btn btn-two directcall-btn"><i
                                             class="bi bi-telephone-inbound"></i></a>
                                 </div>
                                 <div class="email-btn">
-                                    <a href="property-details.html" class="theme-btn btn-two mailinquiry-btn"><i
+                                    <a href="#" class="theme-btn btn-two mailinquiry-btn"><i
                                             class="bi bi-envelope-check"></i></a>
                                 </div>
                             </div>
@@ -873,7 +873,7 @@
                                             src="{{asset('web-assets/images/feature/author-3.jpg')}}" alt=""></figure>
                                     <h6>Emaar</h6>
                                 </div>
-                                <div class="buy-btn pull-right"><a href="property-details.html">Off plan</a></div>
+                                <div class="buy-btn pull-right"><a href="#">Off plan</a></div>
                             </div>
                             <div class="title-text">
                                 <h4><a href="/propertyDetails">Luxury Villa With Pool</a></h4>
@@ -884,8 +884,8 @@
                                     <h4>AED 63,000.00</h4>
                                 </div>
                                 <ul class="other-option pull-right clearfix">
-                                    <li><a href="property-details.html"><i class="icon-12"></i></a></li>
-                                    <li><a href="property-details.html"><i class="icon-13"></i></a></li>
+                                    <li><a href="#"><i class="icon-12"></i></a></li>
+                                    <li><a href="#"><i class="icon-13"></i></a></li>
                                 </ul>
                             </div>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing sed.</p>
@@ -896,19 +896,19 @@
                             </ul>
                             <div class="main-propertybtn">
                                 <div class="btn-box">
-                                    <a href="property-details.html" class="theme-btn btn-two">See
+                                    <a href="/propertyDetails" class="theme-btn btn-two">See
                                         Details</a>
                                 </div>
                                 <div class="what-btn">
-                                    <a href="property-details.html" class="theme-btn btn-two whatcall-btn"><i
+                                    <a href="#" class="theme-btn btn-two whatcall-btn"><i
                                             class="bi bi-whatsapp"></i></a>
                                 </div>
                                 <div class="call-btn">
-                                    <a href="property-details.html" class="theme-btn btn-two directcall-btn"><i
+                                    <a href="#" class="theme-btn btn-two directcall-btn"><i
                                             class="bi bi-telephone-inbound"></i></a>
                                 </div>
                                 <div class="email-btn">
-                                    <a href="property-details.html" class="theme-btn btn-two mailinquiry-btn"><i
+                                    <a href="#" class="theme-btn btn-two mailinquiry-btn"><i
                                             class="bi bi-envelope-check"></i></a>
                                 </div>
                             </div>
@@ -1090,7 +1090,7 @@
                 <h3>Get a free consultation</h3>
                 <h4>I am interested to!</h4>
                 <div class="form-inner">
-                    <form action="property-details.html" method="post" class="default-form">
+                    <form action="#" method="post" class="default-form">
                         <div class="form-group">
                             <input type="text" name="name" placeholder="Your name" required="">
                         </div>
@@ -1306,7 +1306,7 @@ style="background-image: url({{asset('web-assets/images/background/video-1.jpg')
             <div class="gallery-block-two">
                 <div class="inner-box">
                     <figure class="image-box">
-                        <a href=""><img src="{{asset('web-assets/images/trending/image-2.jpg')}}" alt=""></a>
+                        <a href="/propertyDetails"><img src="{{asset('web-assets/images/trending/image-2.jpg')}}" alt=""></a>
                         <div class="property-card">
                             <h3 class="text-left invest-price">Propery One</h3>
                             <h5><span class="price1 top-price">Starting Price</span> <span
@@ -1314,15 +1314,15 @@ style="background-image: url({{asset('web-assets/images/background/video-1.jpg')
                             </h5>
                             <div class="top-property">
                                 <div class="what-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two whatcall-btn"><i
+                                    <a href="#" class="theme-btn btn-two whatcall-btn"><i
                                             class="bi bi-whatsapp"></i></a>
                                 </div>
                                 <div class="call-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two directcall-btn"><i
+                                    <a href="#" class="theme-btn btn-two directcall-btn"><i
                                             class="bi bi-telephone-inbound"></i></a>
                                 </div>
                                 <div class="email-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two mailinquiry-btn"><i
+                                    <a href="#" class="theme-btn btn-two mailinquiry-btn"><i
                                             class="bi bi-envelope-check"></i></a>
                                 </div>
                             </div>
@@ -1333,7 +1333,7 @@ style="background-image: url({{asset('web-assets/images/background/video-1.jpg')
             <div class="gallery-block-two">
                 <div class="inner-box">
                     <figure class="image-box">
-                        <a href=""><img src="{{asset('web-assets/images/trending/image-1.jpg')}}" alt=""></a>
+                        <a href="/propertyDetails"><img src="{{asset('web-assets/images/trending/image-1.jpg')}}" alt=""></a>
                         <div class="property-card">
                             <h3 class="text-left invest-price">Propery One</h3>
                             <h5><span class="price1 top-price">Starting Price</span> <span
@@ -1341,43 +1341,15 @@ style="background-image: url({{asset('web-assets/images/background/video-1.jpg')
                             </h5>
                             <div class="top-property">
                                 <div class="what-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two whatcall-btn"><i
+                                    <a href="#" class="theme-btn btn-two whatcall-btn"><i
                                             class="bi bi-whatsapp"></i></a>
                                 </div>
                                 <div class="call-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two directcall-btn"><i
+                                    <a href="#" class="theme-btn btn-two directcall-btn"><i
                                             class="bi bi-telephone-inbound"></i></a>
                                 </div>
                                 <div class="email-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two mailinquiry-btn"><i
-                                            class="bi bi-envelope-check"></i></a>
-                                </div>
-                            </div>
-                        </div>
-
-                    </figure>
-                </div>
-            </div>
-            <div class="gallery-block-two">
-                <div class="inner-box">
-                    <figure class="image-box">
-                        <a href=""><img src="{{asset('web-assets/images/trending/image-3.jpg')}}" alt=""></a>
-                        <div class="property-card">
-                            <h3 class="text-left invest-price">Propery One</h3>
-                            <h5><span class="price1 top-price">Starting Price</span> <span
-                                    class="start1 responsive top-num">40,000</span>
-                            </h5>
-                            <div class="top-property">
-                                <div class="what-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two whatcall-btn"><i
-                                            class="bi bi-whatsapp"></i></a>
-                                </div>
-                                <div class="call-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two directcall-btn"><i
-                                            class="bi bi-telephone-inbound"></i></a>
-                                </div>
-                                <div class="email-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two mailinquiry-btn"><i
+                                    <a href="#" class="theme-btn btn-two mailinquiry-btn"><i
                                             class="bi bi-envelope-check"></i></a>
                                 </div>
                             </div>
@@ -1389,7 +1361,7 @@ style="background-image: url({{asset('web-assets/images/background/video-1.jpg')
             <div class="gallery-block-two">
                 <div class="inner-box">
                     <figure class="image-box">
-                        <a href=""><img src="{{asset('web-assets/images/trending/image-2.jpg')}}" alt=""></a>
+                        <a href="/propertyDetails"><img src="{{asset('web-assets/images/trending/image-3.jpg')}}" alt=""></a>
                         <div class="property-card">
                             <h3 class="text-left invest-price">Propery One</h3>
                             <h5><span class="price1 top-price">Starting Price</span> <span
@@ -1397,15 +1369,15 @@ style="background-image: url({{asset('web-assets/images/background/video-1.jpg')
                             </h5>
                             <div class="top-property">
                                 <div class="what-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two whatcall-btn"><i
+                                    <a href="#" class="theme-btn btn-two whatcall-btn"><i
                                             class="bi bi-whatsapp"></i></a>
                                 </div>
                                 <div class="call-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two directcall-btn"><i
+                                    <a href="#" class="theme-btn btn-two directcall-btn"><i
                                             class="bi bi-telephone-inbound"></i></a>
                                 </div>
                                 <div class="email-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two mailinquiry-btn"><i
+                                    <a href="#" class="theme-btn btn-two mailinquiry-btn"><i
                                             class="bi bi-envelope-check"></i></a>
                                 </div>
                             </div>
@@ -1417,7 +1389,7 @@ style="background-image: url({{asset('web-assets/images/background/video-1.jpg')
             <div class="gallery-block-two">
                 <div class="inner-box">
                     <figure class="image-box">
-                        <a href=""><img src="{{asset('web-assets/images/trending/image-3.jpg')}}" alt=""></a>
+                        <a href="/propertyDetails"><img src="{{asset('web-assets/images/trending/image-2.jpg')}}" alt=""></a>
                         <div class="property-card">
                             <h3 class="text-left invest-price">Propery One</h3>
                             <h5><span class="price1 top-price">Starting Price</span> <span
@@ -1425,15 +1397,15 @@ style="background-image: url({{asset('web-assets/images/background/video-1.jpg')
                             </h5>
                             <div class="top-property">
                                 <div class="what-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two whatcall-btn"><i
+                                    <a href="#" class="theme-btn btn-two whatcall-btn"><i
                                             class="bi bi-whatsapp"></i></a>
                                 </div>
                                 <div class="call-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two directcall-btn"><i
+                                    <a href="#" class="theme-btn btn-two directcall-btn"><i
                                             class="bi bi-telephone-inbound"></i></a>
                                 </div>
                                 <div class="email-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two mailinquiry-btn"><i
+                                    <a href="#" class="theme-btn btn-two mailinquiry-btn"><i
                                             class="bi bi-envelope-check"></i></a>
                                 </div>
                             </div>
@@ -1445,7 +1417,7 @@ style="background-image: url({{asset('web-assets/images/background/video-1.jpg')
             <div class="gallery-block-two">
                 <div class="inner-box">
                     <figure class="image-box">
-                        <a href=""><img src="{{asset('web-assets/images/trending/image-1.jpg')}}" alt=""></a>
+                        <a href="/propertyDetails"><img src="{{asset('web-assets/images/trending/image-3.jpg')}}" alt=""></a>
                         <div class="property-card">
                             <h3 class="text-left invest-price">Propery One</h3>
                             <h5><span class="price1 top-price">Starting Price</span> <span
@@ -1453,15 +1425,15 @@ style="background-image: url({{asset('web-assets/images/background/video-1.jpg')
                             </h5>
                             <div class="top-property">
                                 <div class="what-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two whatcall-btn"><i
+                                    <a href="#" class="theme-btn btn-two whatcall-btn"><i
                                             class="bi bi-whatsapp"></i></a>
                                 </div>
                                 <div class="call-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two directcall-btn"><i
+                                    <a href="#" class="theme-btn btn-two directcall-btn"><i
                                             class="bi bi-telephone-inbound"></i></a>
                                 </div>
                                 <div class="email-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two mailinquiry-btn"><i
+                                    <a href="#" class="theme-btn btn-two mailinquiry-btn"><i
                                             class="bi bi-envelope-check"></i></a>
                                 </div>
                             </div>
@@ -1473,7 +1445,7 @@ style="background-image: url({{asset('web-assets/images/background/video-1.jpg')
             <div class="gallery-block-two">
                 <div class="inner-box">
                     <figure class="image-box">
-                        <a href=""><img src="{{asset('web-assets/images/trending/image-2.jpg')}}" alt=""></a>
+                        <a href="/propertyDetails"><img src="{{asset('web-assets/images/trending/image-1.jpg')}}" alt=""></a>
                         <div class="property-card">
                             <h3 class="text-left invest-price">Propery One</h3>
                             <h5><span class="price1 top-price">Starting Price</span> <span
@@ -1481,15 +1453,15 @@ style="background-image: url({{asset('web-assets/images/background/video-1.jpg')
                             </h5>
                             <div class="top-property">
                                 <div class="what-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two whatcall-btn"><i
+                                    <a href="#" class="theme-btn btn-two whatcall-btn"><i
                                             class="bi bi-whatsapp"></i></a>
                                 </div>
                                 <div class="call-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two directcall-btn"><i
+                                    <a href="#" class="theme-btn btn-two directcall-btn"><i
                                             class="bi bi-telephone-inbound"></i></a>
                                 </div>
                                 <div class="email-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two mailinquiry-btn"><i
+                                    <a href="#" class="theme-btn btn-two mailinquiry-btn"><i
                                             class="bi bi-envelope-check"></i></a>
                                 </div>
                             </div>
@@ -1501,7 +1473,7 @@ style="background-image: url({{asset('web-assets/images/background/video-1.jpg')
             <div class="gallery-block-two">
                 <div class="inner-box">
                     <figure class="image-box">
-                        <a href=""><img src="{{asset('web-assets/images/trending/image-3.jpg')}}" alt=""></a>
+                        <a href="/propertyDetails"><img src="{{asset('web-assets/images/trending/image-2.jpg')}}" alt=""></a>
                         <div class="property-card">
                             <h3 class="text-left invest-price">Propery One</h3>
                             <h5><span class="price1 top-price">Starting Price</span> <span
@@ -1509,15 +1481,15 @@ style="background-image: url({{asset('web-assets/images/background/video-1.jpg')
                             </h5>
                             <div class="top-property">
                                 <div class="what-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two whatcall-btn"><i
+                                    <a href="#" class="theme-btn btn-two whatcall-btn"><i
                                             class="bi bi-whatsapp"></i></a>
                                 </div>
                                 <div class="call-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two directcall-btn"><i
+                                    <a href="#" class="theme-btn btn-two directcall-btn"><i
                                             class="bi bi-telephone-inbound"></i></a>
                                 </div>
                                 <div class="email-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two mailinquiry-btn"><i
+                                    <a href="#" class="theme-btn btn-two mailinquiry-btn"><i
                                             class="bi bi-envelope-check"></i></a>
                                 </div>
                             </div>
@@ -1529,7 +1501,7 @@ style="background-image: url({{asset('web-assets/images/background/video-1.jpg')
             <div class="gallery-block-two">
                 <div class="inner-box">
                     <figure class="image-box">
-                        <a href=""><img src="{{asset('web-assets/images/trending/image-2.jpg')}}" alt=""></a>
+                        <a href="/propertyDetails"><img src="{{asset('web-assets/images/trending/image-3.jpg')}}" alt=""></a>
                         <div class="property-card">
                             <h3 class="text-left invest-price">Propery One</h3>
                             <h5><span class="price1 top-price">Starting Price</span> <span
@@ -1537,15 +1509,15 @@ style="background-image: url({{asset('web-assets/images/background/video-1.jpg')
                             </h5>
                             <div class="top-property">
                                 <div class="what-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two whatcall-btn"><i
+                                    <a href="#" class="theme-btn btn-two whatcall-btn"><i
                                             class="bi bi-whatsapp"></i></a>
                                 </div>
                                 <div class="call-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two directcall-btn"><i
+                                    <a href="#" class="theme-btn btn-two directcall-btn"><i
                                             class="bi bi-telephone-inbound"></i></a>
                                 </div>
                                 <div class="email-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two mailinquiry-btn"><i
+                                    <a href="#" class="theme-btn btn-two mailinquiry-btn"><i
                                             class="bi bi-envelope-check"></i></a>
                                 </div>
                             </div>
@@ -1557,7 +1529,7 @@ style="background-image: url({{asset('web-assets/images/background/video-1.jpg')
             <div class="gallery-block-two">
                 <div class="inner-box">
                     <figure class="image-box">
-                        <a href=""><img src="{{asset('web-assets/images/trending/image-1.jpg')}}" alt=""></a>
+                        <a href="/propertyDetails"><img src="{{asset('web-assets/images/trending/image-2.jpg')}}" alt=""></a>
                         <div class="property-card">
                             <h3 class="text-left invest-price">Propery One</h3>
                             <h5><span class="price1 top-price">Starting Price</span> <span
@@ -1565,15 +1537,43 @@ style="background-image: url({{asset('web-assets/images/background/video-1.jpg')
                             </h5>
                             <div class="top-property">
                                 <div class="what-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two whatcall-btn"><i
+                                    <a href="#" class="theme-btn btn-two whatcall-btn"><i
                                             class="bi bi-whatsapp"></i></a>
                                 </div>
                                 <div class="call-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two directcall-btn"><i
+                                    <a href="#" class="theme-btn btn-two directcall-btn"><i
                                             class="bi bi-telephone-inbound"></i></a>
                                 </div>
                                 <div class="email-btn top">
-                                    <a href="property-details.html" class="theme-btn btn-two mailinquiry-btn"><i
+                                    <a href="#" class="theme-btn btn-two mailinquiry-btn"><i
+                                            class="bi bi-envelope-check"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </figure>
+                </div>
+            </div>
+            <div class="gallery-block-two">
+                <div class="inner-box">
+                    <figure class="image-box">
+                        <a href="/propertyDetails"><img src="{{asset('web-assets/images/trending/image-1.jpg')}}" alt=""></a>
+                        <div class="property-card">
+                            <h3 class="text-left invest-price">Propery One</h3>
+                            <h5><span class="price1 top-price">Starting Price</span> <span
+                                    class="start1 responsive top-num">40,000</span>
+                            </h5>
+                            <div class="top-property">
+                                <div class="what-btn top">
+                                    <a href="#" class="theme-btn btn-two whatcall-btn"><i
+                                            class="bi bi-whatsapp"></i></a>
+                                </div>
+                                <div class="call-btn top">
+                                    <a href="#" class="theme-btn btn-two directcall-btn"><i
+                                            class="bi bi-telephone-inbound"></i></a>
+                                </div>
+                                <div class="email-btn top">
+                                    <a href="#" class="theme-btn btn-two mailinquiry-btn"><i
                                             class="bi bi-envelope-check"></i></a>
                                 </div>
                             </div>
@@ -1775,15 +1775,15 @@ style="background-image: url({{asset('web-assets/images/background/video-1.jpg')
                                         <h6>Michael Bean</h6>
                                     </div>
                                 </div>
-                                <div class="title-text"><h4><a href="property-details.html">Villa on Grand Avenue</a></h4></div>
+                                <div class="title-text"><h4><a href="#">Villa on Grand Avenue</a></h4></div>
                                 <div class="price-box clearfix">
                                     <div class="price-info pull-left">
                                         <h6>Start From</h6>
                                         <h4>$30,000.00</h4>
                                     </div>
                                     <ul class="other-option pull-right clearfix">
-                                        <li><a href="property-details.html"><i class="icon-12"></i></a></li>
-                                        <li><a href="property-details.html"><i class="icon-13"></i></a></li>
+                                        <li><a href="#"><i class="icon-12"></i></a></li>
+                                        <li><a href="#"><i class="icon-13"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -1809,15 +1809,15 @@ style="background-image: url({{asset('web-assets/images/background/video-1.jpg')
                                         <h6>Michael Bean</h6>
                                     </div>
                                 </div>
-                                <div class="title-text"><h4><a href="property-details.html">Contemporary Apartment</a></h4></div>
+                                <div class="title-text"><h4><a href="#">Contemporary Apartment</a></h4></div>
                                 <div class="price-box clearfix">
                                     <div class="price-info pull-left">
                                         <h6>Start From</h6>
                                         <h4>$30,000.00</h4>
                                     </div>
                                     <ul class="other-option pull-right clearfix">
-                                        <li><a href="property-details.html"><i class="icon-12"></i></a></li>
-                                        <li><a href="property-details.html"><i class="icon-13"></i></a></li>
+                                        <li><a href="#"><i class="icon-12"></i></a></li>
+                                        <li><a href="#"><i class="icon-13"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -1843,15 +1843,15 @@ style="background-image: url({{asset('web-assets/images/background/video-1.jpg')
                                         <h6>Michael Bean</h6>
                                     </div>
                                 </div>
-                                <div class="title-text"><h4><a href="property-details.html">Luxury Villa With Pool</a></h4></div>
+                                <div class="title-text"><h4><a href="#">Luxury Villa With Pool</a></h4></div>
                                 <div class="price-box clearfix">
                                     <div class="price-info pull-left">
                                         <h6>Start From</h6>
                                         <h4>$30,000.00</h4>
                                     </div>
                                     <ul class="other-option pull-right clearfix">
-                                        <li><a href="property-details.html"><i class="icon-12"></i></a></li>
-                                        <li><a href="property-details.html"><i class="icon-13"></i></a></li>
+                                        <li><a href="#"><i class="icon-12"></i></a></li>
+                                        <li><a href="#"><i class="icon-13"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -1877,15 +1877,15 @@ style="background-image: url({{asset('web-assets/images/background/video-1.jpg')
                                         <h6>Michael Bean</h6>
                                     </div>
                                 </div>
-                                <div class="title-text"><h4><a href="property-details.html">Home in Merrick Way</a></h4></div>
+                                <div class="title-text"><h4><a href="#">Home in Merrick Way</a></h4></div>
                                 <div class="price-box clearfix">
                                     <div class="price-info pull-left">
                                         <h6>Start From</h6>
                                         <h4>$30,000.00</h4>
                                     </div>
                                     <ul class="other-option pull-right clearfix">
-                                        <li><a href="property-details.html"><i class="icon-12"></i></a></li>
-                                        <li><a href="property-details.html"><i class="icon-13"></i></a></li>
+                                        <li><a href="#"><i class="icon-12"></i></a></li>
+                                        <li><a href="#"><i class="icon-13"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -1911,15 +1911,15 @@ style="background-image: url({{asset('web-assets/images/background/video-1.jpg')
                                         <h6>Michael Bean</h6>
                                     </div>
                                 </div>
-                                <div class="title-text"><h4><a href="property-details.html">Apartment in Glasgow</a></h4></div>
+                                <div class="title-text"><h4><a href="#">Apartment in Glasgow</a></h4></div>
                                 <div class="price-box clearfix">
                                     <div class="price-info pull-left">
                                         <h6>Start From</h6>
                                         <h4>$30,000.00</h4>
                                     </div>
                                     <ul class="other-option pull-right clearfix">
-                                        <li><a href="property-details.html"><i class="icon-12"></i></a></li>
-                                        <li><a href="property-details.html"><i class="icon-13"></i></a></li>
+                                        <li><a href="#"><i class="icon-12"></i></a></li>
+                                        <li><a href="#"><i class="icon-13"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -2031,7 +2031,7 @@ style="background-image: url({{asset('web-assets/images/background/video-1.jpg')
                                 <span class="category">Projects</span>
                                 <div class="lower-content">
                                     <div class="title-text">
-                                        <h4><a href="property-details.html">Villa on Grand Avenue</a></h4>
+                                        <h4><a href="#">Villa on Grand Avenue</a></h4>
                                     </div>
                                     <div class="price-box clearfix">
                                         <div class="price-info pull-left">
@@ -2039,8 +2039,8 @@ style="background-image: url({{asset('web-assets/images/background/video-1.jpg')
                                             <h4>AED 30,000.00</h4>
                                         </div>
                                         <ul class="other-option pull-right clearfix">
-                                            <li><a href="property-details.html"><i class="icon-12"></i></a></li>
-                                            <li><a href="property-details.html"><i class="icon-13"></i></a></li>
+                                            <li><a href="#"><i class="icon-12"></i></a></li>
+                                            <li><a href="#"><i class="icon-13"></i></a></li>
                                         </ul>
                                     </div>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing sed eiusm tempor incididunt
@@ -2052,19 +2052,19 @@ style="background-image: url({{asset('web-assets/images/background/video-1.jpg')
                                     </ul>
                                     <div class="main-propertybtn top-inquiry">
                                         <div class="btn-box">
-                                            <a href="property-details.html" class="theme-btn btn-two">See
+                                            <a href="/propertyDetails" class="theme-btn btn-two">See
                                                 Details</a>
                                         </div>
                                         <div class="what-btn">
-                                            <a href="property-details.html" class="theme-btn btn-two whatcall-btn"><i
+                                            <a href="#" class="theme-btn btn-two whatcall-btn"><i
                                                     class="bi bi-whatsapp"></i></a>
                                         </div>
                                         <div class="call-btn">
-                                            <a href="property-details.html" class="theme-btn btn-two directcall-btn"><i
+                                            <a href="#" class="theme-btn btn-two directcall-btn"><i
                                                     class="bi bi-telephone-inbound"></i></a>
                                         </div>
                                         <div class="email-btn">
-                                            <a href="property-details.html" class="theme-btn btn-two mailinquiry-btn"><i
+                                            <a href="#" class="theme-btn btn-two mailinquiry-btn"><i
                                                     class="bi bi-envelope-check"></i></a>
                                         </div>
                                     </div>
@@ -2089,7 +2089,7 @@ style="background-image: url({{asset('web-assets/images/background/video-1.jpg')
                                 <span class="category">Projects</span>
                                 <div class="lower-content">
                                     <div class="title-text">
-                                        <h4><a href="property-details.html">Contemporary Apartment</a></h4>
+                                        <h4><a href="#">Contemporary Apartment</a></h4>
                                     </div>
                                     <div class="price-box clearfix">
                                         <div class="price-info pull-left">
@@ -2097,8 +2097,8 @@ style="background-image: url({{asset('web-assets/images/background/video-1.jpg')
                                             <h4>AED 45,000.00</h4>
                                         </div>
                                         <ul class="other-option pull-right clearfix">
-                                            <li><a href="property-details.html"><i class="icon-12"></i></a></li>
-                                            <li><a href="property-details.html"><i class="icon-13"></i></a></li>
+                                            <li><a href="#"><i class="icon-12"></i></a></li>
+                                            <li><a href="#"><i class="icon-13"></i></a></li>
                                         </ul>
                                     </div>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing sed eiusm tempor incididunt
@@ -2110,19 +2110,19 @@ style="background-image: url({{asset('web-assets/images/background/video-1.jpg')
                                     </ul>
                                     <div class="main-propertybtn top-inquiry">
                                         <div class="btn-box">
-                                            <a href="property-details.html" class="theme-btn btn-two">See
+                                            <a href="/propertyDetails" class="theme-btn btn-two">See
                                                 Details</a>
                                         </div>
                                         <div class="what-btn">
-                                            <a href="property-details.html" class="theme-btn btn-two whatcall-btn"><i
+                                            <a href="#" class="theme-btn btn-two whatcall-btn"><i
                                                     class="bi bi-whatsapp"></i></a>
                                         </div>
                                         <div class="call-btn">
-                                            <a href="property-details.html" class="theme-btn btn-two directcall-btn"><i
+                                            <a href="#" class="theme-btn btn-two directcall-btn"><i
                                                     class="bi bi-telephone-inbound"></i></a>
                                         </div>
                                         <div class="email-btn">
-                                            <a href="property-details.html" class="theme-btn btn-two mailinquiry-btn"><i
+                                            <a href="#" class="theme-btn btn-two mailinquiry-btn"><i
                                                     class="bi bi-envelope-check"></i></a>
                                         </div>
                                     </div>
@@ -2147,7 +2147,7 @@ style="background-image: url({{asset('web-assets/images/background/video-1.jpg')
                                 <span class="category">Projects</span>
                                 <div class="lower-content">
                                     <div class="title-text">
-                                        <h4><a href="property-details.html">Luxury Villa With Pool</a></h4>
+                                        <h4><a href="#">Luxury Villa With Pool</a></h4>
                                     </div>
                                     <div class="price-box clearfix">
                                         <div class="price-info pull-left">
@@ -2155,8 +2155,8 @@ style="background-image: url({{asset('web-assets/images/background/video-1.jpg')
                                             <h4>AED 63,000.00</h4>
                                         </div>
                                         <ul class="other-option pull-right clearfix">
-                                            <li><a href="property-details.html"><i class="icon-12"></i></a></li>
-                                            <li><a href="property-details.html"><i class="icon-13"></i></a></li>
+                                            <li><a href="#"><i class="icon-12"></i></a></li>
+                                            <li><a href="#"><i class="icon-13"></i></a></li>
                                         </ul>
                                     </div>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing sed eiusm tempor incididunt
@@ -2168,19 +2168,19 @@ style="background-image: url({{asset('web-assets/images/background/video-1.jpg')
                                     </ul>
                                     <div class="main-propertybtn top-inquiry">
                                         <div class="btn-box">
-                                            <a href="property-details.html" class="theme-btn btn-two">See
+                                            <a href="/propertyDetails" class="theme-btn btn-two">See
                                                 Details</a>
                                         </div>
                                         <div class="what-btn">
-                                            <a href="property-details.html" class="theme-btn btn-two whatcall-btn"><i
+                                            <a href="#" class="theme-btn btn-two whatcall-btn"><i
                                                     class="bi bi-whatsapp"></i></a>
                                         </div>
                                         <div class="call-btn">
-                                            <a href="property-details.html" class="theme-btn btn-two directcall-btn"><i
+                                            <a href="#" class="theme-btn btn-two directcall-btn"><i
                                                     class="bi bi-telephone-inbound"></i></a>
                                         </div>
                                         <div class="email-btn">
-                                            <a href="property-details.html" class="theme-btn btn-two mailinquiry-btn"><i
+                                            <a href="#" class="theme-btn btn-two mailinquiry-btn"><i
                                                     class="bi bi-envelope-check"></i></a>
                                         </div>
                                     </div>
@@ -2318,17 +2318,17 @@ style="background-image: url({{asset('web-assets/images/background/video-1.jpg')
 
                                         <div class="pull-right">
                                             <div class="what-btn">
-                                                <a href="property-details.html"
+                                                <a href="#"
                                                     class="theme-btn btn-two whatcall-btn"><i
                                                         class="bi bi-whatsapp"></i></a>
                                             </div>
                                             <div class="call-btn">
-                                                <a href="property-details.html"
+                                                <a href="#"
                                                     class="theme-btn btn-two directcall-btn"><i
                                                         class="bi bi-telephone-inbound"></i></a>
                                             </div>
                                             <div class="email-btn">
-                                                <a href="property-details.html"
+                                                <a href="#"
                                                     class="theme-btn btn-two mailinquiry-btn"><i
                                                         class="bi bi-envelope-check"></i></a>
                                             </div>
@@ -2368,17 +2368,17 @@ style="background-image: url({{asset('web-assets/images/background/video-1.jpg')
 
                                         <div class="pull-right">
                                             <div class="what-btn">
-                                                <a href="property-details.html"
+                                                <a href="#"
                                                     class="theme-btn btn-two whatcall-btn"><i
                                                         class="bi bi-whatsapp"></i></a>
                                             </div>
                                             <div class="call-btn">
-                                                <a href="property-details.html"
+                                                <a href="#"
                                                     class="theme-btn btn-two directcall-btn"><i
                                                         class="bi bi-telephone-inbound"></i></a>
                                             </div>
                                             <div class="email-btn">
-                                                <a href="property-details.html"
+                                                <a href="#"
                                                     class="theme-btn btn-two mailinquiry-btn"><i
                                                         class="bi bi-envelope-check"></i></a>
                                             </div>
@@ -2418,17 +2418,17 @@ style="background-image: url({{asset('web-assets/images/background/video-1.jpg')
 
                                         <div class="pull-right">
                                             <div class="what-btn">
-                                                <a href="property-details.html"
+                                                <a href="#"
                                                     class="theme-btn btn-two whatcall-btn"><i
                                                         class="bi bi-whatsapp"></i></a>
                                             </div>
                                             <div class="call-btn">
-                                                <a href="property-details.html"
+                                                <a href="#"
                                                     class="theme-btn btn-two directcall-btn"><i
                                                         class="bi bi-telephone-inbound"></i></a>
                                             </div>
                                             <div class="email-btn">
-                                                <a href="property-details.html"
+                                                <a href="#"
                                                     class="theme-btn btn-two mailinquiry-btn"><i
                                                         class="bi bi-envelope-check"></i></a>
                                             </div>
@@ -2468,17 +2468,17 @@ style="background-image: url({{asset('web-assets/images/background/video-1.jpg')
 
                                         <div class="pull-right">
                                             <div class="what-btn">
-                                                <a href="property-details.html"
+                                                <a href="#"
                                                     class="theme-btn btn-two whatcall-btn"><i
                                                         class="bi bi-whatsapp"></i></a>
                                             </div>
                                             <div class="call-btn">
-                                                <a href="property-details.html"
+                                                <a href="#"
                                                     class="theme-btn btn-two directcall-btn"><i
                                                         class="bi bi-telephone-inbound"></i></a>
                                             </div>
                                             <div class="email-btn">
-                                                <a href="property-details.html"
+                                                <a href="#"
                                                     class="theme-btn btn-two mailinquiry-btn"><i
                                                         class="bi bi-envelope-check"></i></a>
                                             </div>
@@ -2518,17 +2518,17 @@ style="background-image: url({{asset('web-assets/images/background/video-1.jpg')
 
                                         <div class="pull-right">
                                             <div class="what-btn">
-                                                <a href="property-details.html"
+                                                <a href="#"
                                                     class="theme-btn btn-two whatcall-btn"><i
                                                         class="bi bi-whatsapp"></i></a>
                                             </div>
                                             <div class="call-btn">
-                                                <a href="property-details.html"
+                                                <a href="#"
                                                     class="theme-btn btn-two directcall-btn"><i
                                                         class="bi bi-telephone-inbound"></i></a>
                                             </div>
                                             <div class="email-btn">
-                                                <a href="property-details.html"
+                                                <a href="#"
                                                     class="theme-btn btn-two mailinquiry-btn"><i
                                                         class="bi bi-envelope-check"></i></a>
                                             </div>
@@ -2746,7 +2746,7 @@ style="background-image: url({{asset('web-assets/images/background/video-1.jpg')
                     <div class="lower-content">
                         <div class="inner view-prop">
                             <h4><a href="agents-details.html">Emaar Developer</a></h4>
-                            <a href="" class="theme-btn btn-one">View Properties</a>
+                            <a href="/properties" class="theme-btn btn-one">View Properties</a>
                         </div>
                     </div>
                 </div>
@@ -2757,7 +2757,7 @@ style="background-image: url({{asset('web-assets/images/background/video-1.jpg')
                     <div class="lower-content">
                         <div class="inner view-prop" >
                             <h4><a href="agents-details.html">DAMAC Developer</a></h4>
-                            <a href="" class="theme-btn btn-one">View Properties</a>
+                            <a href="/properties" class="theme-btn btn-one">View Properties</a>
                         </div>
                     </div>
                 </div>
@@ -2767,7 +2767,7 @@ style="background-image: url({{asset('web-assets/images/background/video-1.jpg')
                     <div class="lower-content">
                         <div class="inner view-prop">
                             <h4><a href="agents-details.html">Dubai Properties</a></h4>
-                            <a href="" class="theme-btn btn-one">View Properties</a>
+                            <a href="/properties" class="theme-btn btn-one">View Properties</a>
                         </div>
                     </div>
                 </div>
@@ -2777,7 +2777,7 @@ style="background-image: url({{asset('web-assets/images/background/video-1.jpg')
                     <div class="lower-content">
                         <div class="inner view-prop">
                             <h4><a href="agents-details.html">Mag Developer</a></h4>
-                            <a href="" class="theme-btn btn-one">View Properties</a>
+                            <a href="/properties" class="theme-btn btn-one">View Properties</a>
                         </div>
                     </div>
                 </div>
@@ -2787,7 +2787,7 @@ style="background-image: url({{asset('web-assets/images/background/video-1.jpg')
                     <div class="lower-content">
                         <div class="inner view-prop">
                             <h4><a href="agents-details.html">Emaar Developer</a></h4>
-                            <a href="" class="theme-btn btn-one">View Properties</a>
+                            <a href="/properties" class="theme-btn btn-one">View Properties</a>
                         </div>
                     </div>
                 </div>
@@ -2797,7 +2797,7 @@ style="background-image: url({{asset('web-assets/images/background/video-1.jpg')
                     <div class="lower-content">
                         <div class="inner view-prop">
                             <h4><a href="agents-details.html">Meeras Developer</a></h4>
-                            <a href="" class="theme-btn btn-one">View Properties</a>
+                            <a href="/properties" class="theme-btn btn-one">View Properties</a>
                         </div>
                     </div>
                 </div>
@@ -2807,7 +2807,7 @@ style="background-image: url({{asset('web-assets/images/background/video-1.jpg')
                     <div class="lower-content">
                         <div class="inner view-prop">
                             <h4><a href="agents-details.html">Emaar Developer</a></h4>
-                            <a href="" class="theme-btn btn-one">View Properties</a>
+                            <a href="/properties" class="theme-btn btn-one">View Properties</a>
                         </div>
                     </div>
                 </div>
@@ -2905,7 +2905,7 @@ style="background-image: url({{asset('web-assets/images/background/video-1.jpg')
                 <h2>Looking to Buy a New Property or <br />Sell an Existing One?</h2>
             </div>
             <div class="btn-box pull-right responsive">
-                <a href="property-details.html" class="theme-btn btn-three">Rent Properties</a>
+                <a href="#" class="theme-btn btn-three">Rent Properties</a>
                 <a href="index.html" class="theme-btn btn-one">Buy Properties</a>
             </div>
         </div>
@@ -2948,7 +2948,7 @@ style="background-image: url({{asset('web-assets/images/background/video-1.jpg')
                                             <p>Emaar Properties reported a profit after expenses worth Dh6.8 billion in
                                                 2022 for the financial</p>
                                             <div class="btn-box pt-2">
-                                                <a href="" class="theme-btn btn-one">Continue Reading &nbsp; &nbsp;<i
+                                                <a href="/blogDetails" class="theme-btn btn-one">Continue Reading &nbsp; &nbsp;<i
                                                         aria-hidden="true" class="fas fa-arrow-right"></i></a>
                                             </div>
                                             <hr class="solid" style="background-color: white">
@@ -2978,7 +2978,7 @@ style="background-image: url({{asset('web-assets/images/background/video-1.jpg')
                                             <p>In case you want a list of top schools in Dubai that are offering high
                                                 quality of education and</p>
                                             <div class="btn-box pt-2">
-                                                <a href="" class="theme-btn btn-one">Continue Reading &nbsp; &nbsp;<i
+                                                <a href="/blogDetails" class="theme-btn btn-one">Continue Reading &nbsp; &nbsp;<i
                                                         aria-hidden="true" class="fas fa-arrow-right"></i></a>
                                             </div>
                                             <hr class="solid" style="background-color: white">
@@ -3009,7 +3009,7 @@ style="background-image: url({{asset('web-assets/images/background/video-1.jpg')
                                                 looked for more independent</p>
 
                                             <div class="btn-box pt-2">
-                                                <a href="" class="theme-btn btn-one">Continue Reading &nbsp; &nbsp;<i
+                                                <a href="/blogDetails" class="theme-btn btn-one">Continue Reading &nbsp; &nbsp;<i
                                                         aria-hidden="true" class="fas fa-arrow-right"></i></a>
                                             </div>
                                             <hr class="solid" style="background-color: white">
@@ -3024,7 +3024,7 @@ style="background-image: url({{asset('web-assets/images/background/video-1.jpg')
             </div>
         </div>
         <div class="category-btn text-center">
-            <a href="" class="theme-btn btn-one">All Blogs &nbsp; &nbsp;<i aria-hidden="true"
+            <a href="/blogs" class="theme-btn btn-one">All Blogs &nbsp; &nbsp;<i aria-hidden="true"
                     class="fas fa-arrow-right"></i></a>
         </div>
     </div>
@@ -3163,7 +3163,7 @@ style="background-image: url({{asset('web-assets/images/background/video-1.jpg')
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 form-column">
                 <div class="form-inner">
-                    <form action="contact.html" method="post" class="subscribe-form">
+                    <form action="/contantUct" method="post" class="subscribe-form">
                         <div class="form-group">
                             <input type="email" name="email" placeholder="Enter your email" required="">
                             <button type="submit">Subscribe Now</button>

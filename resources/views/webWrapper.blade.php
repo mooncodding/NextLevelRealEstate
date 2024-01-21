@@ -44,7 +44,7 @@
                             <li><i class="far fa-phone"></i><a href="tel:+971 4 454 2828">+971 4 454 2828</a></li>
                         </ul>
                     </div>
-                    <div class="right-column pull-right">
+                    {{-- <div class="right-column pull-right">
                         <ul class="social-links clearfix">
                             <li><a href="index.html"><i class="fab fa-facebook-f"></i></a></li>
                             <li><a href="index.html"><i class="fab fa-twitter"></i></a></li>
@@ -55,7 +55,7 @@
                         <div class="sign-box">
                             <a href="/login"><i class="fas fa-user"></i>Sign In</a>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
             <!-- header-lower -->
@@ -188,15 +188,17 @@
                                             <div class="megamenu">
                                                 <div class="row">
                                                     <div class="col-3">
-                                                        <div class="image-box image-card">
-                                                            <div class="box">
-                                                                <div class="search-icon">
-                                                                    <i class="fa fa-search" aria-hidden="true"><span class="search-text">Explore</span></i>
+                                                        <a href="/properties">
+                                                            <div class="image-box image-card">
+                                                                <div class="box">
+                                                                    <div class="search-icon">
+                                                                        <i class="fa fa-search" aria-hidden="true"><span class="search-text">Explore</span></i>
+                                                                    </div>
                                                                 </div>
+                                                                <figure class="image"><img width="250" src="{{asset('web-assets/images/feature/feature-1.png')}}" alt=""></figure>
+                                                                <h4>Off Plan Property For Sale In Dubai</h4>
                                                             </div>
-                                                            <figure class="image"><img width="250" src="{{asset('web-assets/images/feature/feature-1.png')}}" alt=""></figure>
-                                                            <h4>Off Plan Property For Sale In Dubai</h4>
-                                                        </div>
+                                                        </a>
                                                     </div>
                                                     <div class="col-2">
                                                         <div class="image-box image-card">
@@ -378,10 +380,10 @@
                             <li><i class="far fa-phone"></i><a href="tel:+971 4 454 2828">+971 4 454 2828</a></li>
                         </ul>
                     </div>
-                    <div class="right-column pull-right">
+                    {{-- <div class="right-column pull-right">
                         <ul class="social-links clearfix">
                             <li><a href="index.html"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="index.html"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href=    "index.html"><i class="fab fa-twitter"></i></a></li>
                             <li><a href="index.html"><i class="fab fa-pinterest-p"></i></a></li>
                             <li><a href="index.html"><i class="fab fa-google-plus-g"></i></a></li>
                             <li><a href="index.html"><i class="fab fa-vimeo-v"></i></a></li>
@@ -389,7 +391,7 @@
                         <div class="sign-box">
                             <a href="/login"><i class="fas fa-user"></i>Sign In</a>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
             <!-- header-lower -->
@@ -523,15 +525,17 @@
                                             <div class="megamenu">
                                                 <div class="row">
                                                     <div class="col-3">
-                                                        <div class="image-box image-card">
-                                                            <div class="box">
-                                                                <div class="search-icon">
-                                                                    <i class="fa fa-search" aria-hidden="true"><span class="search-text">Explore</span></i>
+                                                        <a href="/properties">
+                                                            <div class="image-box image-card">
+                                                                <div class="box">
+                                                                    <div class="search-icon">
+                                                                        <i class="fa fa-search" aria-hidden="true"><span class="search-text">Explore</span></i>
+                                                                    </div>
                                                                 </div>
+                                                                <figure class="image"><img width="250" src="{{asset('web-assets/images/feature/feature-1.png')}}" alt=""></figure>
+                                                                <h4>Off Plan Property For Sale In Dubai</h4>
                                                             </div>
-                                                            <figure class="image"><img width="250" src="{{asset('web-assets/images/feature/feature-1.png')}}" alt=""></figure>
-                                                            <h4>Off Plan Property For Sale In Dubai</h4>
-                                                        </div>
+                                                        </a>
                                                     </div>
                                                     <div class="col-2">
                                                         <div class="image-box image-card">

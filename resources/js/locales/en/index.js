@@ -127,6 +127,12 @@ export default {
         VIEW_BLOG:"View Blog",
         DATE_TIME:"Date Time",
         TAGS:"Tags",
+        // 
+        PROJECTS:"Projects",
+        CREATE_PROJECT:"Create Project",
+        VIEW_PROJECT:"View Project",
+        EDIT_PROJECT:"Edit Project",
+        PROJECT_CATEGORIES:"Project Categories",
 
 
     }
