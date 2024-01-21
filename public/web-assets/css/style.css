@@ -900,6 +900,22 @@ h1,h2,h3,h4,h5,h6{
     height: 8em;
     width: 8em;
   }
+.offset-3{
+  margin-left: unset !important;
+}
+section.sidebar-page-container.blog-grid.p-5 {
+  padding: unset !important;
+  margin-top: 20px !important;
+}
+  .property-card{
+    left: 35px !important;
+  }
+  .main-propertybtn.top-inquiry{
+    width: unset !important;
+  }
+  .col-lg-4.col-md-12.col-sm-12.sidebar-side{
+    padding-right: unset !important;
+  }
 .banner-style i.bi.bi-wallet2 {
     font-size: 20px !important;
 }
@@ -5750,7 +5766,7 @@ span.Second {
   padding: 20px;
 }
 .main-propertybtn.top-inquiry {
-  width: 75% !important;
+  width: 75%;
 }
 .pull-right {
   position: absolute;
@@ -9488,6 +9504,28 @@ p.aboutH1 {
 @media only screen and (max-width: 768px){
   .paymentplan-2{
       width: 100%;
+  }
+  .row.aboutRow.about {
+    gap: 20px;
+}
+  .header-top{
+    padding-bottom: 35px;
+  }
+  .reviewsmain{
+    display:unset !important;
+    text-align: center;
+  }
+  .review-trust h4 {
+    text-align: center;
+}
+  .review-googlelogo{
+    margin-top:unset !important;
+  }
+  .blog-category ul.category-list.clearfix{
+    display: unset !important ; 
+  }
+  .propert-card{
+    left:35px !important;
   }
   .paymentplan{
       width: 100%;

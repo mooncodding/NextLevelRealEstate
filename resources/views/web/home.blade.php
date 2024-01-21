@@ -933,7 +933,7 @@
             magna aliqua enim.</p>
     </div>
     <div class="row areas-parent">
-        <div class="col-6">
+        <div class="col-md-6">
             <div class="promo-box">
                 <div class="area-one"
                     style=" background-image: url({{asset('web-assets/images/areas/Palm-Jebel-Ali.webp')}})">
@@ -943,7 +943,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-3">
+        <div class="col-md-3 ">
             <div class="promo-box">
                 <div class="area-one"
                     style=" background-image: url({{asset('web-assets/images/areas/dubai-hills-estate.jpg')}})">
@@ -952,7 +952,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-3">
+        <div class="col-md-3">
             <div class="promo-box">
                 <div class="area-one"
                     style=" background-image: url({{asset('web-assets/images/areas/downtown-dubai.jpg')}})">
@@ -963,7 +963,7 @@
         </div>
     </div>
     <div class="row areas-parent next-row">
-        <div class="col-3">
+        <div class="col-md-3">
             <div class="promo-box">
                 <div class="area-one"
                     style=" background-image: url({{asset('web-assets/images/areas/dubai-harbour-3.jpg')}})">
@@ -972,7 +972,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-3">
+        <div class="col-md-3" >
             <div class="promo-box">
                 <div class="area-one"
                     style=" background-image: url({{asset('web-assets/images/areas/jumeirah-village-circle-scaled-1.jpg')}})">
@@ -981,7 +981,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-3">
+        <div class="col-md-3">
             <div class="promo-box">
                 <div class="area-one"
                     style=" background-image: url({{asset('web-assets/images/areas/business-bay_-scaled-1.jpg')}})">
@@ -990,7 +990,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-3">
+        <div class="col-md-3">
             <div class="promo-box">
                 <div class="area-one"
                     style=" background-image: url({{asset('web-assets/images/areas/dubai-land.jpg')}})">
