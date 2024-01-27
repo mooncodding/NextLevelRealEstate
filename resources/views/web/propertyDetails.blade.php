@@ -107,7 +107,7 @@
             </section>
                 <section class="property-brochure">
                 <div class="row">
-                    <div class="col-6 brochure-content">
+                    <div class="col-md-6 brochure-content">
                         <h2>Get Free PDF Brochure</h2>
                         <p>The Farmhouses is a new residential development in the family-oriented area of DAMAC Hills 2.
                             It’s an exclusive project,
@@ -120,7 +120,7 @@
 
                                 </i>Download Free PDF Brochure</a></div>
                     </div>
-                    <div class="col-6 brochure-img"><<video width="620" height="440" controls autoplay>
+                    <div class="col-md-6 brochure-img"><<video width="620" height="440" controls autoplay>
                         <source src="{{asset('web-assets/images/resource/VID-20230907-WA0001.MP4 ')}}" type="video/mp4">
                             
                         <source src="movie.ogg" type="video/ogg">

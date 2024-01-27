@@ -903,6 +903,52 @@ h1,h2,h3,h4,h5,h6{
 .offset-3{
   margin-left: unset !important;
 }
+.megamenu {
+  text-align: center;
+}
+.service-mains{
+  display: unset !important;
+}
+.overlay5{
+  margin-top: 50px !important;
+}
+section.category-section.centred {
+  padding-top: 50px !important;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.agentlistform form{
+  display: unset !important;
+}
+.agent-maindetail{
+  display: unset !important;
+}
+.agent-image img{
+  padding-left: unset !important;
+}
+section.agent-detailcontent.sec-pad{
+  padding-left: unset !important;
+}
+.property-title-card{
+  width:unset !important;
+}
+section.property-brochure video {
+  width: 360px;
+  height: 200px;
+  margin-top: 50px;
+}
+section.page-title-two.bg-color-1.centred h1 {
+  font-size: 30px !important;
+}
+.image-box.image-card h4 {
+  color: white !important;
+  padding-bottom: 20px !important;
+}
+
+.image-box.image-card h5 {
+  color: white !important;
+  padding-bottom: 20px !important;
+}
 section.sidebar-page-container.blog-grid.p-5 {
   padding: unset !important;
   margin-top: 20px !important;
@@ -5322,7 +5368,36 @@ section.page-title.agent-detail {
 }
 
 section.agent-detailcontent.sec-pad {
-  padding-left: 100px !important;
+  padding-left: 100px;
+}
+.agent-det {
+  padding-left: 10px;
+}
+
+.agent-det h2 {
+  font-size: 40px !important;
+}
+
+.agent-detailcontent mark {
+  font-size: 40px !important;
+}
+
+.agent-det {
+  padding-top: 20px;
+}
+
+section.about-agentdetail {
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+
+section.about-agentdetail h2 {
+  font-size: 40px;
+}
+
+section.about-agentdetail iframe {
+  width: 369px;
+  height: 250px;
 }
 .agent-detail:before {
   background-color: #004274 !important;

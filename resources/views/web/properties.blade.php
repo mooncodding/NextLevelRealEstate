@@ -2348,7 +2348,7 @@
     <div class="auto-container overlay6">
      
         <div class="row">
-        <div class="col-8">
+        <div class="col-lg-8 col-md-4 col-sm-12">
             <div class="form-box">
                 <div class="sec-title">                      
                     <h3>
@@ -2363,7 +2363,7 @@ Bring Tenants On Your Property With Occupancy Rates Of 96% On Average</p>
                 </div>
             </div>
         </div>
-        <div class="col-4">
+        <div class="col-lg-4 col-md-4 col-sm-12">
             <div class="property-sidebar management default-sidebar">
                 <div class="author-widget sidebar-widget">
                     <!-- <div class="author-box">

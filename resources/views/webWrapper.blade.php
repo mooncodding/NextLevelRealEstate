@@ -80,7 +80,7 @@
                                         <li class="dropdown"><a href=""><span>Ready Properties</span></a>
                                             <div class="megamenu">
                                                 <div class="row">
-                                                    <div class="col-3">
+                                                    <div class="col-lg-3 col-md-4 col-sm-12">
                                                         <div class="image-box image-card">
                                                             <div class="box">
                                                             <a href="/properties">
@@ -92,7 +92,7 @@
                                                             <h4>Property For Sale In Dubai</h4></a>
                                                         </div>
                                                     </div>
-                                                    <div class="col-2">
+                                                    <div class="col-lg-2 col-md-4 col-sm-12">
                                                         <div class="image-box image-card">
                                                             <div class="box">
                                                                 <div class="ribbon-2">Strating Price: 30000</div>
@@ -101,7 +101,7 @@
                                                             <h5>Appartments For Sale</h5>
                                                         </div>
                                                     </div>
-                                                    <div class="col-2">
+                                                    <div class="col-lg-2 col-md-4 col-sm-12">
                                                         <div class="image-box image-card">
                                                             <div class="box">
                                                                 <div class="ribbon-2">Strating Price: 30000</div>
@@ -110,7 +110,7 @@
                                                             <h5>Townhouses For Sale</h5>
                                                         </div>
                                                     </div>
-                                                    <div class="col-2">
+                                                    <div class="col-lg-2 col-md-4 col-sm-12">
                                                         <div class="image-box image-card">
                                                             <div class="box">
                                                                 <div class="ribbon-2">Strating Price: 30000</div>
@@ -119,7 +119,7 @@
                                                             <h5>Villas For Sale</h5>
                                                         </div>
                                                     </div>
-                                                    <div class="col-2">
+                                                    <div class="col-lg-2 col-md-4 col-sm-12">
                                                         <div class="image-box image-card">
                                                             <div class="box">
                                                                 <div class="ribbon-2">Strating Price: 30000</div>
@@ -131,7 +131,7 @@
                                                 </div>
                                                 <hr class="line-2">
                                                 <div class="row mt-4">
-                                                    <div class="col-3">
+                                                    <div class="col-lg-3 col-md-4 col-sm-12">
                                                         <div class="image-box image-card">
                                                             <div class="box">
                                                                 <a href="/properties">
@@ -144,7 +144,7 @@
                                                                 </a>
                                                         </div>
                                                     </div>
-                                                    <div class="col-2">
+                                                    <div class="col-lg-2 col-md-4 col-sm-12">
                                                         <div class="image-box image-card">
                                                             <div class="box">
                                                                 <div class="ribbon-2">Strating Price: 30000</div>
@@ -153,7 +153,7 @@
                                                             <h5>Appartments For Rent</h5>
                                                         </div>
                                                     </div>
-                                                    <div class="col-2">
+                                                    <div class="col-lg-2 col-md-4 col-sm-12">
                                                         <div class="image-box image-card">
                                                             <div class="box">
                                                                 <div class="ribbon-2">Strating Price: 30000</div>
@@ -162,7 +162,7 @@
                                                             <h5>Townhouses For Rent</h5>
                                                         </div>
                                                     </div>
-                                                    <div class="col-2">
+                                                    <div class="col-lg-2 col-md-4 col-sm-12">
                                                         <div class="image-box image-card">
                                                             <div class="box">
                                                                 <div class="ribbon-2">Strating Price: 30000</div>
@@ -171,7 +171,7 @@
                                                             <h5>Villas For Rent</h5>
                                                         </div>
                                                     </div>
-                                                    <div class="col-2">
+                                                    <div class="col-lg-2 col-md-4 col-sm-12">
                                                         <div class="image-box image-card">
                                                             <div class="box">
                                                                 <div class="ribbon-2">Strating Price: 30000</div>
@@ -187,7 +187,7 @@
                                             
                                             <div class="megamenu">
                                                 <div class="row">
-                                                    <div class="col-3">
+                                                    <div class="col-lg-3 col-md-4 col-sm-12">
                                                         <a href="/properties">
                                                             <div class="image-box image-card">
                                                                 <div class="box">
@@ -200,7 +200,7 @@
                                                             </div>
                                                         </a>
                                                     </div>
-                                                    <div class="col-2">
+                                                    <div class="col-lg-2 col-md-4 col-sm-12">
                                                         <div class="image-box image-card">
                                                             <div class="box">
                                                                 <div class="ribbon-2">Strating Price: 30000</div>
@@ -209,7 +209,7 @@
                                                             <h5>Off Plan Appartments</h5>
                                                         </div>
                                                     </div>
-                                                    <div class="col-2">
+                                                    <div class="col-lg-2 col-md-4 col-sm-12">
                                                         <div class="image-box image-card">
                                                             <div class="box">
                                                                 <div class="ribbon-2">Strating Price: 30000</div>
@@ -218,7 +218,7 @@
                                                             <h5>Off Plan Townhouses</h5>
                                                         </div>
                                                     </div>
-                                                    <div class="col-2">
+                                                    <div class="col-lg-2 col-md-4 col-sm-12">
                                                         <div class="image-box image-card">
                                                             <div class="box">
                                                                 <div class="ribbon-2">Strating Price: 30000</div>
@@ -227,7 +227,7 @@
                                                             <h5>Off Plan Villas</h5>
                                                         </div>
                                                     </div>
-                                                    <div class="col-2">
+                                                    <div class="col-lg-2 col-md-4 col-sm-12">
                                                         <div class="image-box image-card">
                                                             <div class="box">
                                                                 <div class="ribbon-2">Strating Price: 30000</div>
@@ -249,7 +249,7 @@
                                         {{-- <li class="dropdown"><a href=""><span>New Projects</span></a>
                                             <div class="megamenu">
                                                 <div class="row">
-                                                    <div class="col-2">
+                                                    <div class="col-lg-2 col-md-4 col-sm-12">
                                                         <div class="image-box image-card">
                                                             <div class="box">
                                                                 <div class="ribbon-2">Starting Price: 75000 AED</div>
@@ -260,7 +260,7 @@
                                                             <h6 class="text-center">By Emaar</h6>
                                                         </div>
                                                     </div>
-                                                    <div class="col-2">
+                                                    <div class="col-lg-2 col-md-4 col-sm-12">
                                                         <div class="image-box image-card">
                                                             <div class="box">
                                                                 <div class="ribbon-2">Starting Price: 75000 AED</div>
@@ -271,7 +271,7 @@
                                                             <h6 class="text-center">By Emaar</h6>
                                                         </div>
                                                     </div>
-                                                    <div class="col-2">
+                                                    <div class="col-lg-2 col-md-4 col-sm-12">
                                                         <div class="image-box image-card">
                                                             <div class="box">
                                                                 <div class="ribbon-2">Starting Price: 75000 AED</div>
@@ -282,7 +282,7 @@
                                                             <h6 class="text-center">By Emaar</h6>
                                                         </div>
                                                     </div>
-                                                    <div class="col-2">
+                                                    <div class="col-lg-2 col-md-4 col-sm-12">
                                                         <div class="image-box image-card">
                                                             <div class="box">
                                                                 <div class="ribbon-2">Starting Price: 75000 AED</div>
@@ -293,7 +293,7 @@
                                                             <h6 class="text-center">By Emaar</h6>
                                                         </div>
                                                     </div>
-                                                    <div class="col-2">
+                                                    <div class="col-lg-2 col-md-4 col-sm-12">
                                                         <div class="image-box image-card">
                                                             <div class="box">
                                                                 <div class="ribbon-2">Starting Price: 75000 AED</div>
@@ -304,7 +304,7 @@
                                                             <h6 class="text-center">By Emaar</h6>
                                                         </div>
                                                     </div>
-                                                    <div class="col-2">
+                                                    <div class="col-lg-2 col-md-4 col-sm-12">
                                                         <div class="image-box image-card">
                                                             <div class="box">
                                                                 <div class="ribbon-2">Starting Price: 75000 AED</div>
@@ -416,7 +416,7 @@
                                         <li class="dropdown"><a href=""><span>Ready Properties</span></a>
                                             <div class="megamenu">
                                                 <div class="row">
-                                                    <div class="col-3">
+                                                    <div class="col-lg-3 col-md-4 col-sm-12">
                                                         <div class="image-box image-card">
                                                             <div class="box">
                                                                 <a href="/properties">
@@ -429,7 +429,7 @@
                                                                 </a>
                                                         </div>
                                                     </div>
-                                                    <div class="col-2">
+                                                    <div class="col-lg-2 col-md-4 col-sm-12">
                                                         <div class="image-box image-card">
                                                             <div class="box">
                                                                 <div class="ribbon-2">Strating Price: 30000</div>
@@ -438,7 +438,7 @@
                                                             <h5>Appartments For Sale</h5>
                                                         </div>
                                                     </div>
-                                                    <div class="col-2">
+                                                    <div class="col-lg-2 col-md-4 col-sm-12">
                                                         <div class="image-box image-card">
                                                             <div class="box">
                                                                 <div class="ribbon-2">Strating Price: 30000</div>
@@ -447,7 +447,7 @@
                                                             <h5>Townhouses For Sale</h5>
                                                         </div>
                                                     </div>
-                                                    <div class="col-2">
+                                                    <div class="col-lg-2 col-md-4 col-sm-12">
                                                         <div class="image-box image-card">
                                                             <div class="box">
                                                                 <div class="ribbon-2">Strating Price: 30000</div>
@@ -456,7 +456,7 @@
                                                             <h5>Villas For Sale</h5>
                                                         </div>
                                                     </div>
-                                                    <div class="col-2">
+                                                    <div class="col-lg-2 col-md-4 col-sm-12">
                                                         <div class="image-box image-card">
                                                             <div class="box">
                                                                 <div class="ribbon-2">Strating Price: 30000</div>
@@ -468,7 +468,7 @@
                                                 </div>
                                                 <hr class="line-2">
                                                 <div class="row mt-4">
-                                                    <div class="col-3">
+                                                    <div class="col-lg-3 col-md-4 col-sm-12">
                                                         <div class="image-box image-card">
                                                             <div class="box">
                                                                 <a href="/properties">
@@ -481,7 +481,7 @@
                                                                 </a>
                                                         </div>
                                                     </div>
-                                                    <div class="col-2">
+                                                    <div class="col-lg-2 col-md-4 col-sm-12">
                                                         <div class="image-box image-card">
                                                             <div class="box">
                                                                 <div class="ribbon-2">Strating Price: 30000</div>
@@ -490,7 +490,7 @@
                                                             <h5>Appartments For Rent</h5>
                                                         </div>
                                                     </div>
-                                                    <div class="col-2">
+                                                    <div class="col-lg-2 col-md-4 col-sm-12">
                                                         <div class="image-box image-card">
                                                             <div class="box">
                                                                 <div class="ribbon-2">Strating Price: 30000</div>
@@ -499,7 +499,7 @@
                                                             <h5>Townhouses For Rent</h5>
                                                         </div>
                                                     </div>
-                                                    <div class="col-2">
+                                                    <div class="col-lg-2 col-md-4 col-sm-12">
                                                         <div class="image-box image-card">
                                                             <div class="box">
                                                                 <div class="ribbon-2">Strating Price: 30000</div>
@@ -508,7 +508,7 @@
                                                             <h5>Villas For Rent</h5>
                                                         </div>
                                                     </div>
-                                                    <div class="col-2">
+                                                    <div class="col-lg-2 col-md-4 col-sm-12">
                                                         <div class="image-box image-card">
                                                             <div class="box">
                                                                 <div class="ribbon-2">Strating Price: 30000</div>
@@ -524,7 +524,7 @@
                                             
                                             <div class="megamenu">
                                                 <div class="row">
-                                                    <div class="col-3">
+                                                    <div class="col-lg-3 col-md-4 col-sm-12">
                                                         <a href="/properties">
                                                             <div class="image-box image-card">
                                                                 <div class="box">
@@ -537,7 +537,7 @@
                                                             </div>
                                                         </a>
                                                     </div>
-                                                    <div class="col-2">
+                                                    <div class="col-lg-2 col-md-4 col-sm-12">
                                                         <div class="image-box image-card">
                                                             <div class="box">
                                                                 <div class="ribbon-2">Strating Price: 30000</div>
@@ -546,7 +546,7 @@
                                                             <h5>Off Plan Appartments</h5>
                                                         </div>
                                                     </div>
-                                                    <div class="col-2">
+                                                    <div class="col-lg-2 col-md-4 col-sm-12">
                                                         <div class="image-box image-card">
                                                             <div class="box">
                                                                 <div class="ribbon-2">Strating Price: 30000</div>
@@ -555,7 +555,7 @@
                                                             <h5>Off Plan Townhouses</h5>
                                                         </div>
                                                     </div>
-                                                    <div class="col-2">
+                                                    <div class="col-lg-2 col-md-4 col-sm-12">
                                                         <div class="image-box image-card">
                                                             <div class="box">
                                                                 <div class="ribbon-2">Strating Price: 30000</div>
@@ -564,7 +564,7 @@
                                                             <h5>Off Plan Villas</h5>
                                                         </div>
                                                     </div>
-                                                    <div class="col-2">
+                                                    <div class="col-lg-2 col-md-4 col-sm-12">
                                                         <div class="image-box image-card">
                                                             <div class="box">
                                                                 <div class="ribbon-2">Strating Price: 30000</div>
