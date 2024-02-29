@@ -930,9 +930,11 @@
 
   .property-details .slider-content .slider-pager{
     position: relative;
-    bottom: 0px;
+    bottom: 65px;
   }
-
+  .slider-content {
+    width: 390px !important;
+}
   .property-details .slider-content .slider-pager .thumb-box li{
     width: 100%;
     margin-top: 15px;
@@ -1395,9 +1397,9 @@ section.property-details.property-details-four {
   font-size: 20px;
 }
 
-section.category-section.centred.property-overview {
+/* section.category-section.centred.property-overview {
   padding-top: unset !important;
-}
+} */
 .col-lg-4.content-image {
   padding-top: 30px !important;
 }
@@ -1487,20 +1489,60 @@ section.gallery-style-one.sec-pad.centred.property-galler .sec-title {
 section.section.nearby-location.cta-section.advantgaes.alternate-2.centred {
   height: 1000px !important;
 }
-.amenity-title {
-  display: unset;
-}
+
 
 .amenityname h2 {
-  font-size: 30px;
+  font-size: 27px;
+  border-bottom: unset !important;
+  text-align: left !important;
+}
+section.main-paymentplan .amenity-title {
+  padding-right: 10px;
+}
+.floorname h2 {
+  font-size: 20px !important;
+  margin-top: 18px;
 }
 
-.amenitybtn {
-  margin-top: 50px !important;
+.floorname {
+  width: 60%;
+  margin-bottom: 40px;
 }
+
+li.filter.exterior-btn.active {
+  font-size: 14px !important;
+  padding: 7px !important;
+}
+
+.floorplan-bedroom h3 {
+  font-size: 34px;
+}
+
+.flor-btn a.freefloorplan {
+  width: 100%;
+  font-size: 20px;
+}
+
+.flor-btn a.freebrochure {
+  font-size: 20px !important;
+  width: 100% !important;
+}
+
+.floorplan.exterior {
+  display: unset !important;
+}
+.amenitybtn.freebtn {
+  margin-top: 25px !important;
+}
+/* .amenitybtn {
+  margin-top: 50px !important;
+} */
 section.property-overview h2 {
   width: unset !important;
   font-size: 35px;
+}
+section.section.about-location {
+  padding-top: 50px !important;
 }
 section.section.about-property {
   padding-left: 10px !important;
@@ -1517,7 +1559,7 @@ section.property-details.property-details-four {
 }
 
 ul.category-list.clearfix.over li {
-  width: 100% !important;
+  width: 50% !important;
   margin-top: 10px !important;
 }
 
@@ -1621,12 +1663,11 @@ ul.category-list.clearfix.over li {
     padding: 0px 10px 0px 10px;
   }
   .property-card{
-    left: 15px !important;
     top: 65% !important;
   }
-  ul.filter-tabs.filter-btns.clearfix.life-style {
+  /* ul.filter-tabs.filter-btns.clearfix.life-style {
     display: flex;
-  }
+  } */
   .sortable-masonry .filters .filter-tabs li{
     padding: 5px 10px;
     font-size: 13px;

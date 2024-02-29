@@ -900,6 +900,77 @@ h1,h2,h3,h4,h5,h6{
     height: 8em;
     width: 8em;
   }
+  section.property-brochure {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+section.category-section.centred.property-overview {
+    padding-top: 50px !important;
+}
+
+ul.category-list.clearfix.over {
+    display: table;
+}
+
+
+section.category-section.centred.property-overview {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+
+.category-block-two .inner-box {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+h2 {}
+
+.gallery-heading h2 {
+    font-size: 49px !important;
+    border-bottom: unset !Important;
+}
+
+
+
+ul.thumb-box.clearfix {
+    display: flex;
+}
+
+.property-details .slider-content .slider-pager .thumb-box li figure {
+    height: unset !important;
+}
+
+.bx-viewport {
+    height: 300px!important;
+}
+
+.amenitybtn a {
+    font-size: 15px;
+    padding: 10px !important;
+}
+
+.amenityname {
+    width: 55% !important;
+}
+
+section.section.about-location {
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px !important;
+}
+
+.col-lg-6.content-image.location-name {
+    padding-top: 50px;
+}
+
+.paymentname {
+    width: 55%;
+}
+
+.paymentplan-box h4 {
+    font-size: 15px;
+}
 .offset-3{
   margin-left: unset !important;
 }
@@ -953,7 +1024,68 @@ section.sidebar-page-container.blog-grid.p-5 {
   padding: unset !important;
   margin-top: 20px !important;
 }
-  .property-card{
+.main-propertybtn .btn-box a {
+  padding-bottom: 10px !important;
+  padding-top: 10px !important;
+}
+.gallery-block-two.awards-inn{
+  left:38px !important;
+  position: relative;
+}
+.community .col-lg-4.col-md-6.col-sm-12.masonry-item.small-column.all.illustration.brand.marketing.software {
+  position: unset !important;
+  left: unset !important;
+  top: unset !important;
+}
+
+.community .col-lg-4.col-md-6.col-sm-12.masonry-item.small-column.all.brand.illustration.print.software.logo {
+  position: unset !important;
+  left: unset !important;
+  top: unset !important;
+  width: 50% !important;
+}
+
+.community .col-lg-4.col-md-6.col-sm-12.masonry-item.small-column.all.illustration.marketing.logo {
+  position: unset !important;
+  left: unset !important;
+  top: unset !important;
+  width: 50% !important;
+}
+
+.community .place-block-one .inner-box .image-box img {
+  height: 200px !important;
+  object-fit: cover;
+}
+
+.community .sortable-masonry .items-container.row.clearfix {
+  height: unset !important;
+  display: flex;
+position:unset !important;
+
+}
+.row.areas-parent .col-md-3 {
+  /* height: 200px; */
+  width: 50% !important;
+}
+
+.row.areas-parent {
+  display: flex !important;
+}
+
+.col-md-3 .area-one {
+  min-height: 210px !important;
+}
+
+.col-md-3 h4.area-name {
+  font-size: 20px !important;
+  left: 5px !important;
+}
+
+.col-md-3 h5.area-price {
+  font-size: 15px !important;
+  padding-left: 5px !important;
+}
+.property-card{
     left: 35px !important;
   }
   .main-propertybtn.top-inquiry{
@@ -994,8 +1126,25 @@ section.sidebar-page-container.blog-grid.p-5 {
     padding: 10px 5px 10px 5px!important;
 }
 
-.row.areas-parent {
-    display: unset !important;
+.area-off img {
+  height: unset !important;
+}
+
+.form-section h3 {
+  font-size: 25px !important;
+}
+
+.place-section, .team-section {
+  padding-top: unset !important;
+}
+
+section.section.about-property {
+  padding-top: unset !important;
+}
+
+.property-page-section .deals-block-one .inner-box .image-box img {
+  height: 250px;
+  object-fit: cover;
 }
 
 section.place-section.sec-pad .col-6 {
@@ -8834,7 +8983,9 @@ p.aboutH1 {
 .agent-details-page .deals-block-one .image-box .buy-btn a:hover{
 
 }
-
+section.feature-section.sec-pad .pull-right {
+  top: unset !important;
+}
 .agent-details-page .deals-block-one .inner-box .batch{
   right: inherit;
   left: 30px;
@@ -9583,15 +9734,47 @@ p.aboutH1 {
   .row.aboutRow.about {
     gap: 20px;
 }
+.company-image img{
+  height: 300px !important;
+  margin-bottom: 30px;
+}
   .header-top{
     padding-bottom: 35px;
   }
+  .fa-users:before {
+    font-size: 30px !important;
+}
+
+p.aboutH1 span {
+    font-size: 25px !important;
+}
+
+.consult-details {
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+}
+
+.consult-form h3 {
+    font-size: 27px !important;
+}
+
+.consult-form h4 {
+    font-size: 20px !important;
+}
   .reviewsmain{
-    display:unset !important;
     text-align: center;
+    gap: 18px;
+  }
+  .review-trust h3{
+    font-size: 18px;
   }
   .review-trust h4 {
     text-align: center;
+    font-size: 10px;
+}
+.reviewsmain {
+  padding-left: unset !important;
+  padding-right: unset;
 }
   .review-googlelogo{
     margin-top:unset !important;
@@ -9606,8 +9789,35 @@ p.aboutH1 {
       width: 100%;
   }
   .paymentplan-box{
-      width: 22%;
+      width: 31% !important;
+      padding-left: 10px !important;
+      padding-right: 10px !important;
   }
+  .paymentplan-box h3 {
+    font-size: 25px !important;
+}
+
+
+.paymentplan-box {
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+
+.paymentplan-box-2 {
+  width: 30% !important;
+  padding: unset !important;
+  text-align: center;
+  display: unset !important;
+}
+
+.paymentplan-box-2 i {
+  font-size: 17px !important;
+  padding: 10px !important;
+
+}
+.paymentplan-box i {
+    font-size: 29px !important;
+}
   .paymentplan-box-2{
       width: 23%;
       padding: 10px 30px;
@@ -9617,7 +9827,8 @@ p.aboutH1 {
       height: 30px;
   }
   .paymentplan-box-2 h4{
-      font-size: 13px;
+      font-size: 14px;
+      margin-bottom: 20px !important;
   }
   .main-paymentplan h2{
       font-size: 40px;
@@ -9635,10 +9846,36 @@ p.aboutH1 {
       margin-bottom: 10px;
   }
   .main-paymentplan h2{
-      font-size: 28px;
+      font-size: 24px;
       color: black;
       padding-inline-start: 10px;
   }
+  section.place-section p {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+section.team-section.centred.sec-pad.develop-sec {
+  padding-top: 50px !important;
+}
+section.category-section.centred.property-overview.area-nearby {
+  padding-left: 15px !important;
+  padding-right: 16px !important;
+}
+.row.areas-parent .col-lg-3{
+  width: 50%;
+}
+.row.areas-parent .col-lg-3 h4.area-name{
+  font-size: 20px !Important;
+  
+}
+.row.aboutRow.about {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.col-lg-4.col-md-12.col-sm-12.consult-details {
+    display: none;
+}
 }
 
 section.gallery-style-two.centred.top-view {

@@ -1594,91 +1594,91 @@ style="background-image: url({{asset('web-assets/images/background/video-1.jpg')
             <h2>Our Winning Awards</h2>
         </div>
         <div class="three-item-carousel owl-carousel owl-theme owl-nav-none dots-style-one">
-            <div class="gallery-block-two">
+            <div class="gallery-block-two awards-inn">
                 <div class="inner-box">
                     <figure class="image-box our-awards">
                         <a href=""><img src="{{asset('web-assets/images/trending/awards1.webp')}}" alt=""></a>
                     </figure>
                 </div>
             </div>
-            <div class="gallery-block-two">
+            <div class="gallery-block-two awards-inn">
                 <div class="inner-box">
                     <figure class="image-box our-awards">
                         <a href=""><img src="{{asset('web-assets/images/trending/awards2.webp')}}" alt=""></a>
                     </figure>
                 </div>
             </div>
-            <div class="gallery-block-two">
+            <div class="gallery-block-two awards-inn">
                 <div class="inner-box">
                     <figure class="image-box our-awards">
                         <a href=""><img src="{{asset('web-assets/images/trending/awards3.webp')}}" alt=""></a>
                     </figure>
                 </div>
             </div>
-            <div class="gallery-block-two">
+            <div class="gallery-block-two awards-inn">
                 <div class="inner-box">
                     <figure class="image-box our-awards">
                         <a href=""><img src="{{asset('web-assets/images/trending/awards4.webp')}}" alt=""></a>
                     </figure>
                 </div>
             </div>
-            <div class="gallery-block-two">
+            <div class="gallery-block-two awards-inn">
                 <div class="inner-box">
                     <figure class="image-box our-awards">
                         <a href=""><img src="{{asset('web-assets/images/trending/awards5.webp')}}" alt=""></a>
                     </figure>
                 </div>
             </div>
-            <div class="gallery-block-two">
+            <div class="gallery-block-two awards-inn">
                 <div class="inner-box">
                     <figure class="image-box our-awards">
                         <a href=""><img src="{{asset('web-assets/images/trending/awards6.webp')}}" alt=""></a>
                     </figure>
                 </div>
             </div>
-            <div class="gallery-block-two">
+            <div class="gallery-block-two awards-inn">
                 <div class="inner-box">
                     <figure class="image-box our-awards">
                         <a href=""><img src="{{asset('web-assets/images/trending/awards7.webp')}}" alt=""></a>
                     </figure>
                 </div>
             </div>
-            <div class="gallery-block-two">
+            <div class="gallery-block-two awards-inn">
                 <div class="inner-box">
                     <figure class="image-box our-awards">
                         <a href=""><img src="{{asset('web-assets/images/trending/awards8.webp')}}" alt=""></a>
                     </figure>
                 </div>
             </div>
-            <div class="gallery-block-two">
+            <div class="gallery-block-two awards-inn">
                 <div class="inner-box">
                     <figure class="image-box our-awards">
                         <a href=""><img src="{{asset('web-assets/images/trending/awards9.webp')}}" alt=""></a>
                     </figure>
                 </div>
             </div>
-            <div class="gallery-block-two">
+            <div class="gallery-block-two awards-inn">
                 <div class="inner-box">
                     <figure class="image-box our-awards">
                         <a href=""><img src="{{asset('web-assets/images/trending/awards10.webp')}}" alt=""></a>
                     </figure>
                 </div>
             </div>
-            <div class="gallery-block-two">
+            <div class="gallery-block-two awards-inn">
                 <div class="inner-box">
                     <figure class="image-box our-awards">
                         <a href=""><img src="{{asset('web-assets/images/trending/awards11.webp')}}" alt=""></a>
                     </figure>
                 </div>
             </div>
-            <div class="gallery-block-two">
+            <div class="gallery-block-two awards-inn">
                 <div class="inner-box">
                     <figure class="image-box our-awards">
                         <a href=""><img src="{{asset('web-assets/images/trending/awards12.webp')}}" alt=""></a>
                     </figure>
                 </div>
             </div>
-            <div class="gallery-block-two">
+            <div class="gallery-block-two awards-inn">
                 <div class="inner-box">
                     <figure class="image-box our-awards">
                         <a href=""><img src="{{asset('web-assets/images/trending/awards13.webp')}}" alt=""></a>
