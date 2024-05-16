@@ -48,6 +48,12 @@ const routes = [
     {
         name: 'adminProjects', path: '/adminProjects', component: require('./admin/components/projects.vue').default
     },
+    {
+        name: 'adminProperties', path: '/adminProperties', component: require('./admin/components/properties.vue').default
+    },
+    {
+        name: 'adminCommunities', path: '/adminCommunities', component: require('./admin/components/communities.vue').default
+    },
     //  Web Routs
     {
         name: '/blogs', path: '/blogs', component: require('./web/components/blogs.vue').default

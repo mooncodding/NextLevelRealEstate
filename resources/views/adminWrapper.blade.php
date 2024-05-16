@@ -188,6 +188,22 @@
                 <p>{{ __('translation.Dashboard') }}</p>
               </router-link>
             </li>
+            @can('communities')
+            <li class="nav-item">
+              <router-link to="/adminCommunities" class="nav-link">
+                <i class="fa fa-circle nav-icon"></i>
+                <p>Communities</p>
+              </router-link>
+            </li>
+            @endcan
+            @can('properties')
+            <li class="nav-item">
+              <router-link to="/adminProperties" class="nav-link">
+                <i class="fa fa-circle nav-icon"></i>
+                <p>Properties</p>
+              </router-link>
+            </li>
+            @endcan
             @can('areas')
             <li class="nav-item">
               <router-link to="/adminAreas" class="nav-link">

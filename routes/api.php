@@ -4,6 +4,7 @@ use App\Http\Controllers\API\AmenityController;
 use App\Http\Controllers\API\AreaController;
 use App\Http\Controllers\API\BlogCategoryController;
 use App\Http\Controllers\API\BlogController;
+use App\Http\Controllers\API\CommunityController;
 use App\Http\Controllers\API\CountryController;
 use App\Http\Controllers\API\DeveloperController;
 use Illuminate\Http\Request;
@@ -16,10 +17,12 @@ use App\Http\Controllers\API\SettingController;
 use App\Http\Controllers\API\GeneralController;
 use App\Http\Controllers\API\ProfileController;
 use App\Http\Controllers\API\ProjectController;
+use App\Http\Controllers\API\PropertyController;
 use App\Http\Controllers\API\PropertyStatusController;
 use App\Http\Controllers\API\PropertyTypeController;
 use App\Http\Controllers\API\StatusController;
 use App\Http\Controllers\API\TagController;
+use App\Models\Community;
 
 /*
 |--------------------------------------------------------------------------
@@ -50,6 +53,8 @@ Route::group(['middleware'=>['auth:sanctum']], function () {
     Route::apiResources(['adminBlogs' => BlogController::class]);
     Route::apiResources(['blogCategories' => BlogCategoryController::class]);
     Route::apiResources(['adminProjects' => ProjectController::class]);
+    Route::apiResources(['adminCommunities' => CommunityController::class]);
+    Route::apiResources(['adminProperties' => PropertyController::class]);
 
     // GENERAL CONTROLLER ROUTES
     // Get All Permissions
