@@ -7,7 +7,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Clicodeal') }}</title>
+    <title>{{ config('app.name', 'Laravel') }}</title>
     {{-- Meta Tags --}}
     <meta property="og:title" content="{{ App\Models\Setting::first()->company_name }}" />
     <meta property="og:type" content="website" />
